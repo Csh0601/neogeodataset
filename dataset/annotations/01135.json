@@ -1,0 +1,38 @@
+{
+  "id": "01135",
+  "text": "在等腰△ABC中，∠ACB=120°，AC=4，点D为直线AB上一点，以线段CD为腰在右侧作等腰△CDE，∠DCE=120°，连接AE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(C, D, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(DE)",
+    "segment(AE)",
+    "line(l, A, B)",
+    "on(D, AB)",
+    "equal(AC, BC)",
+    "equal(CD, CE)",
+    "angle(ACB)=120",
+    "angle(DCE)=120",
+    "length(AC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01135.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles",
+      "rotation",
+      "optimization"
+    ]
+  }
+}

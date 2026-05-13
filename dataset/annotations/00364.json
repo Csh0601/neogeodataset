@@ -1,0 +1,39 @@
+{
+  "id": "00364",
+  "text": "O是△ABC的外接圆，AB=6是⊙O的直径，∠ACB=90°，∠DCA=∠B，DE⊥AB，垂足为E，DE交AC与点F，△DCF是等腰三角形",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(D, C, F)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(CF)",
+    "segment(DF)",
+    "on(D, circle_O)",
+    "midpoint(O, AB)",
+    "foot(E, D, AB)",
+    "intersection(F, DE, AC)",
+    "circumcircle(O, A, B, C)",
+    "equal_angle(DCA, ABC)",
+    "perpendicular(DE, AB)",
+    "equal(DC, DF)",
+    "length(AB)=6",
+    "angle(ACB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00364.png",
+  "meta": {
+    "source": "外接圆与直径",
+    "difficulty": "hard",
+    "tags": [
+      "circumcircle",
+      "diameter",
+      "isosceles_triangle"
+    ]
+  }
+}

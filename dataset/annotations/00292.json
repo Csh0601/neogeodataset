@@ -1,0 +1,37 @@
+{
+  "id": "00292",
+  "text": "在矩形ABCD中，AB=6，BC=8，P在对角线CA上，Q在边AB上，P为CA上靠近C的三等分点，Q为AB的中点，连接PQ，过点P作PE⊥PQ，PE与边BC交于点E，连接QE，延长EP交边AD于点F，AF=CE",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(CA)",
+    "segment(PQ)",
+    "segment(PE)",
+    "segment(QE)",
+    "trisection(P, CA, near=C)",
+    "midpoint(Q, AB)",
+    "on(E, BC)",
+    "intersection(F, EP_extended, AD)",
+    "perpendicular(PE, PQ)",
+    "equal(AF, CE)",
+    "length(AB)=6",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00292.png",
+  "meta": {
+    "source": "矩形动点问题",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "moving_point",
+      "perpendicular"
+    ]
+  }
+}

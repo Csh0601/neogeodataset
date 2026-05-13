@@ -1,0 +1,31 @@
+{
+  "id": "00440",
+  "text": "在平面直角坐标系中，直角三角形ABO的∠OAB=30°，B点坐标为(0,2)，将△ABO沿斜边AB翻折得到△ABC，点C的坐标为(√3,3)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(C)",
+    "point_coord(B, 0, 2)",
+    "point_coord(C, 1.732, 3)",
+    "right_triangle(A, B, O, right_at=O)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "reflect(C, O, AB)",
+    "angle(OAB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00440.png",
+  "meta": {
+    "source": "直角三角形翻折坐标",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "reflect",
+      "coordinate_system"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "00605",
+  "text": "在平行四边形ABCD中，AE平分∠BAD且交BC于点E，∠D=58°，∠AEC=119°",
+  "dsl": [
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "on(E, BC)",
+    "angle_bisector(E, B, A, D)",
+    "angle(ADC)=58",
+    "angle(AEC)=119"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00605.png",
+  "meta": {
+    "source": "平行四边形角平分线",
+    "difficulty": "easy",
+    "tags": [
+      "parallelogram",
+      "angle_bisector"
+    ]
+  }
+}

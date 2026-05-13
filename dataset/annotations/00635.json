@@ -1,0 +1,30 @@
+{
+  "id": "00635",
+  "text": "A、B、C是⊙O上的三点，△OBC是等边三角形，cos∠A=1/2",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(AC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "equilateral(O, B, C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00635.png",
+  "meta": {
+    "source": "圆内接等边三角形",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "equilateral",
+      "inscribed"
+    ]
+  }
+}

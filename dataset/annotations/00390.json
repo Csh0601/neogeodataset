@@ -1,0 +1,35 @@
+{
+  "id": "00390",
+  "text": "在平行四边形ABCD中，AC是对角线，∠CAB=90°，以点A为圆心，以AB的长为半径作⊙A，交BC边于点E，交AC于点F，连接DE，DE与⊙A相切，∠ABC=60°，AB=4，阴影部分的面积为4√3-4π/3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "circle(A, radius=AB)",
+    "segment(AC)",
+    "segment(DE)",
+    "on(E, BC)",
+    "on(E, circle_A)",
+    "on(F, AC)",
+    "on(F, circle_A)",
+    "tangent(E, circle_A)",
+    "angle(CAB)=90",
+    "angle(ABC)=60",
+    "length(AB)=4",
+    "shaded(triangle_DEF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00390.png",
+  "meta": {
+    "source": "平行四边形与圆切线",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "circle",
+      "tangent"
+    ]
+  }
+}

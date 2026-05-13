@@ -1,0 +1,30 @@
+{
+  "id": "01134",
+  "text": "在△ABC中，∠ABC=90°，点M、N分别在射线BA、BC上，MN长度始终保持不变，MN=4，E为MN的中点，点D到BA、BC的距离分别为3和2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "ray(B, A)",
+    "ray(B, C)",
+    "segment(MN)",
+    "segment(DE)",
+    "on(M, BA)",
+    "on(N, BC)",
+    "midpoint(E, MN)",
+    "angle(ABC)=90",
+    "length(MN)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01134.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["right_angle", "midpoint", "optimization", "distance"]
+  }
+}

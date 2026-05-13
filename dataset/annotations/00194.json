@@ -1,0 +1,38 @@
+{
+  "id": "00194",
+  "text": "在正方形ABCD中，AB=3，点E、F分别在边AB、CD上，∠EFD=60°，若将四边形EBCF沿EF折叠，点B恰好落在AD边上的点B'处，点C落在正方形ABCD外的点C'上，BE=2",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(B_prime)",
+    "point(C_prime)",
+    "square(A, B, C, D)",
+    "segment(EF)",
+    "segment(BE)",
+    "segment(EB_prime)",
+    "segment(FC_prime)",
+    "segment(B_primeC_prime)",
+    "quadrilateral(E, B, C, F)",
+    "on(E, AB)",
+    "on(F, CD)",
+    "on(B_prime, AD)",
+    "fold(B, B_prime, EF)",
+    "length(AB)=3",
+    "angle(EFD)=60",
+    "length(BE)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00194.png",
+  "meta": {
+    "source": "正方形折叠",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "fold",
+      "angle"
+    ]
+  }
+}

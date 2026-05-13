@@ -1,0 +1,28 @@
+{
+  "id": "00007",
+  "text": "在Rt△ACB中，∠ACB=90°，斜边AB=30cm，正方形CDEF内接于三角形，D在BC上，E在AB上，F在AC上，AF:AC=1:3",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "right_triangle(A, B, C, right_at=C)",
+    "square(C, D, E, F)",
+    "segment(AF)",
+    "segment(AC)",
+    "on(D, BC)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "ratio(AC, AF)=3",
+    "length(AB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00007.png",
+  "meta": {
+    "source": "直角三角形内接正方形问题",
+    "difficulty": "middle",
+    "tags": ["right_triangle", "inscribed_square"]
+  }
+}

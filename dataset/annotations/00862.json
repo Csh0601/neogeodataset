@@ -1,0 +1,40 @@
+{
+  "id": "00862",
+  "text": "在平面直角坐标系中，抛物线y=x²-(a+1)x+a与x轴交于A、B两点，点A在点B的左侧，与y轴交于点C，△ABC的面积为6，M是抛物线上一点，N是射线CA上的一点，M、N均在第二象限内",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(M)",
+    "point(N)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 3, 0)",
+    "triangle(A, B, C)",
+    "parabola(f, 1, -1, -6)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "ray(C, A)",
+    "axis_intersection(C, f, y)",
+    "on(A, f)",
+    "on(B, f)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(M, f)",
+    "on(N, CA)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00862.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "triangle",
+      "moving_point"
+    ]
+  }
+}

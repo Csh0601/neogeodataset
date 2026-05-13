@@ -1,0 +1,31 @@
+{
+  "id": "00430",
+  "text": "点A、B、C、D共面，BC⊥AD，AD=90，BC=270",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(AB)",
+    "segment(AC)",
+    "perpendicular(BC, AD)",
+    "length(AD)=90",
+    "length(BC)=270"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00430.png",
+  "meta": {
+    "source": "仰角俯角测量楼高",
+    "difficulty": "middle",
+    "tags": [
+      "trigonometry",
+      "application"
+    ]
+  }
+}

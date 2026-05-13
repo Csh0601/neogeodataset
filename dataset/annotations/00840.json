@@ -1,0 +1,31 @@
+{
+  "id": "00840",
+  "text": "在平面直角坐标系中，抛物线y=x²+2x-3交y轴于点A，交x轴于点B(-3,0)和点C(1,0)，P是线段AB下方的抛物线上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(B)",
+    "point(C)",
+    "point(A)",
+    "point(P)",
+    "point_coord(B, -3, 0)",
+    "point_coord(C, 1, 0)",
+    "parabola(f, 1, 2, -3)",
+    "segment(AB)",
+    "segment(AP)",
+    "segment(BP)",
+    "axis_intersection(A, f, y)",
+    "function_point(B, f)",
+    "function_point(C, f)",
+    "function_point(P, f)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00840.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "moving_point"]
+  }
+}

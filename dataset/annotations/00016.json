@@ -1,0 +1,31 @@
+{
+  "id": "00016",
+  "text": "在平面直角坐标系xOy中，原点O为坐标原点。直线l的方程为y=x+1。正方形A₁B₁C₁O的顶点O在原点，顶点A₁在直线l上，且A1坐标为(0 , 1),C1坐标为（1 ，0）顶点C₁在x轴正半轴上。正方形A₂B₂C₂C₁的顶点C₁与第一个正方形共用，顶点A₂在直线l上，顶点C₂在x轴正半轴上。正方形A₃B₃C₃C₂的顶点C₂与第二个正方形共用，顶点A₃在直线l上，顶点C₃在x轴正半轴上。三个正方形按此规律依次排列。",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A1, 0, 1)",
+    "point_coord(C1, 1, 0)",
+    "square(A1, B1, C1, O)",
+    "square(A2, B2, C2, C1)",
+    "square(A3, B3, C3, C2)",
+    "line_function(l, 1, 1)",
+    "function_point(A1, l)",
+    "function_point(A2, l)",
+    "function_point(A3, l)",
+    "on(C1, axis_x)",
+    "on(C2, axis_x)",
+    "on(C3, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00016.png",
+  "meta": {
+    "source": "正方形序列与坐标系问题",
+    "difficulty": "hard",
+    "tags": ["coordinate", "square", "sequence", "pattern"],
+    "note": "C₁、C₂、C₃在x轴上通过共线约束表达"
+  }
+}

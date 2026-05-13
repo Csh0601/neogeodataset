@@ -1,0 +1,39 @@
+{
+  "id": "01396",
+  "text": "点E、F分别在正方形ABCD的边BC、CD上，BE=3，EC=6，CF=2，△ABE∽△ECF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "triangle(A, B, E)",
+    "triangle(E, C, F)",
+    "segment(AE)",
+    "segment(EF)",
+    "on(E, BC)",
+    "on(F, CD)",
+    "similar(ABE, ECF)",
+    "length(BE)=3",
+    "length(EC)=6",
+    "length(CF)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01396.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "square",
+      "similar_triangles",
+      "on_segment"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "相似关系作为结论条件"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

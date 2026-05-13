@@ -1,0 +1,37 @@
+{
+  "id": "00031",
+  "text": "P是⊙O外一点，在⊙O中，半径为5，PA、PB分别与⊙O相切于点A、B，点C在⊙O上，连接PA、PB、AC、BC，∠APB=50°，∠ACB=65°",
+  "dsl": [
+    "point(P)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O, r=5)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "tangent(A, circle_O)",
+    "tangent(B, circle_O)",
+    "angle(APB)=50",
+    "angle(ACB)=65",
+    "outside(P, circle_O)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00031.png",
+  "meta": {
+    "source": "圆的切线与圆周角",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "inscribed_angle"
+    ]
+  }
+}

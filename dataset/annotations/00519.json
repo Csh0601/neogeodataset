@@ -1,0 +1,42 @@
+{
+  "id": "00519",
+  "text": "在矩形ABCD中，AC、BD相交于点O，过点B作BF⊥AC交CD于点F，交AC于点M，过点D作DE∥BF交AB于点E，交AC于点N，连接FN、EM，DN=BM，EM∥FN，AE=FC",
+  "dsl": [
+    "point(F)",
+    "point(M)",
+    "point(E)",
+    "point(N)",
+    "rectangle(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(BF)",
+    "segment(DE)",
+    "segment(FN)",
+    "segment(EM)",
+    "on(F, CD)",
+    "on(M, AC)",
+    "on(E, AB)",
+    "on(N, AC)",
+    "foot(M, B, AC)",
+    "intersection(O, AC, BD)",
+    "perpendicular(BF, AC)",
+    "parallel(DE, BF)",
+    "equal(DN, BM)",
+    "parallel(EM, FN)",
+    "equal(AE, FC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00519.png",
+  "meta": {
+    "source": "矩形对角线与平行线",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "perpendicular",
+      "parallel"
+    ]
+  }
+}

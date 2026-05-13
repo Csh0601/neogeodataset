@@ -1,0 +1,34 @@
+{
+  "id": "00675",
+  "text": "△ABC为等腰直角三角形，AB=AC，∠BAC=90°，点D在线段AB上，连接CD，∠ADC=60°，AD=2，过C作CE⊥CD，且CE=CD，连接DE，DE交BC于F，DF+CF=EF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(CF)",
+    "segment(EF)",
+    "on(D, AB)",
+    "on(F, BC)",
+    "perpendicular(CE, CD)",
+    "equal(AB, AC)",
+    "equal(CE, CD)",
+    "angle(BAC)=90",
+    "angle(ADC)=60",
+    "length(AD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00675.png",
+  "meta": {
+    "source": "等腰直角三角形旋转构造",
+    "difficulty": "hard",
+    "tags": ["isosceles", "right_triangle", "perpendicular", "rotation"]
+  }
+}

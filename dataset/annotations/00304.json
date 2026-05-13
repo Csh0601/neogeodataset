@@ -1,0 +1,32 @@
+{
+  "id": "00304",
+  "text": "多边形ABCDEFGHI为边长为4的正九边形，其中心点为点O，点M、P分别在射线OA、OC上，∠MOP=40°",
+  "dsl": [
+    "point(O)",
+    "point(M)",
+    "point(P)",
+    "regular_polygon(9, A, B, C, D, E, F, G, H, I)",
+    "polygon(A, B, C, D, E, F, G, H, I)",
+    "ray(O, A)",
+    "ray(O, C)",
+    "segment(OM)",
+    "segment(OP)",
+    "on(M, ray_OA)",
+    "on(P, ray_OC)",
+    "angle(MOP)=40",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00304.png",
+  "meta": {
+    "source": "正九边形蛛网",
+    "difficulty": "middle",
+    "tags": [
+      "polygon",
+      "center_angle"
+    ]
+  }
+}

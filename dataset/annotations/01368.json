@@ -1,0 +1,47 @@
+{
+  "id": "01368",
+  "text": "直角三角形DEF的直角边EF落在直角三角形ABC的斜边AC上，边BC与DF交于点O，∠AFB=45°，∠DCE=30°，∠FEB=90°，∠BOD=105°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(DF)",
+    "segment(EF)",
+    "on(E, AC)",
+    "on(F, AC)",
+    "intersection(O, BC, DF)",
+    "right_triangle(A, B, C, right_at=B)",
+    "right_triangle(D, E, F, right_at=E)",
+    "angle(FAB)=45",
+    "angle(DCE)=30",
+    "angle(FEB)=90",
+    "angle(BOD)=105"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01368.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "set_square",
+      "angle",
+      "intersection"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "45°三角板ABC（∠B=90°，∠A=45°），30°三角板DEF（∠E=90°，∠C端为30°），EF在AC上，∠BOD=45°+30°+30°=105°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

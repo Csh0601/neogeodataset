@@ -1,0 +1,33 @@
+{
+  "id": "00659",
+  "text": "在平面直角坐标系中，点A(4,0)，B(0,2)，线段OA=OC且点C在y轴负半轴上，连接AC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 2)",
+    "segment(OA)",
+    "segment(OC)",
+    "segment(AC)",
+    "segment(AB)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_y)",
+    "equal(OA, OC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00659.png",
+  "meta": {
+    "source": "坐标系中等距点与连线",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "equal_length"
+    ]
+  }
+}

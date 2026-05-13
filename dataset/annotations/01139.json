@@ -1,0 +1,37 @@
+{
+  "id": "01139",
+  "text": "等边三角形△ABC的边长为6，等腰三角形△BDC中∠BDC=120°，∠MDN=60°，角的两边分别交AB、AC于点M、N，连接MN",
+  "dsl": [
+    "point(D)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "triangle(B, D, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(DC)",
+    "segment(MN)",
+    "segment(DM)",
+    "segment(DN)",
+    "on(M, AB)",
+    "on(N, AC)",
+    "equal(AB, BC)",
+    "equal(BC, AC)",
+    "equal(BD, DC)",
+    "angle(BDC)=120",
+    "angle(MDN)=60",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01139.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["equilateral", "isosceles", "angle", "perimeter"]
+  }
+}

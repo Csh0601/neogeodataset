@@ -1,0 +1,36 @@
+{
+  "id": "00698",
+  "text": "已知AB=AD，BC=DE，∠CAD=10°，∠B=∠D=25°，∠EAB=120°，∠EGF=120°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(DE)",
+    "segment(AC)",
+    "segment(AE)",
+    "equal(AB, AD)",
+    "equal(BC, DE)",
+    "angle(CAD)=10",
+    "angle(ABC)=25",
+    "angle(ADB)=25",
+    "angle(EAB)=120",
+    "angle(EGF)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00698.png",
+  "meta": {
+    "source": "等腰三角形角度计算",
+    "difficulty": "hard",
+    "tags": ["triangle", "equal", "angle"]
+  }
+}

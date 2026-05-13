@@ -1,0 +1,29 @@
+{
+  "id": "00257",
+  "text": "在平面直角坐标系中，直线y=-x+2经过点P(1,1)，以点P为圆心、1为半径作圆P，连接PO交圆P于点Q",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(P, 1, 1)",
+    "circle(P, r=1)",
+    "line_function(l, -1, 2)",
+    "segment(OP)",
+    "function_point(P, l)",
+    "intersection(Q, OP, circle_P)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00257.png",
+  "meta": {
+    "source": "一次函数不等式",
+    "difficulty": "middle",
+    "tags": [
+      "line_function",
+      "coordinate",
+      "inequality"
+    ]
+  }
+}

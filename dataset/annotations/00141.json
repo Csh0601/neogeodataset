@@ -1,0 +1,34 @@
+{
+  "id": "00141",
+  "text": "在△ABC中，AB=BC=4，AC=5，点E在边AC上，EB=EA，CD垂直于BE的延长线于点D",
+  "dsl": [
+    "point(E)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(BD)",
+    "segment(BE)",
+    "on(E, AC)",
+    "on(D, BE_extended)",
+    "foot(D, C, BE_extended)",
+    "equal(EB, EA)",
+    "length(AB)=4",
+    "length(BC)=4",
+    "length(AC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00141.png",
+  "meta": {
+    "source": "三角形与角度关系",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "equal",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

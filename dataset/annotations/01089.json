@@ -1,0 +1,29 @@
+{
+  "id": "01089",
+  "text": "AB//CD，∠ABE=120°，E在AB与CD之间，连接BE，DE，∠BED+∠D=120°",
+  "dsl": [
+    "point(E)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(BE)",
+    "segment(DE)",
+    "parallel(AB, CD)",
+    "angle(ABE)=120",
+    "angle(BED)=80",
+    "angle(CDE)=40"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01089.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel_lines", "angle"]
+  }
+}

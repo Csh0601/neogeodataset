@@ -1,0 +1,39 @@
+{
+  "id": "00130",
+  "text": "在平面直角坐标系中，点A、B是直线y=x上的两点，坐标分别为（0.5,0.5），（1.5,1.5），过A、B两点分别作x轴的平行线交双曲线y=1/x(x>0)于点C、D,连接OC,OD",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, 0.5, 0.5)",
+    "point_coord(B, 1.5, 1.5)",
+    "point_coord(C, 2, 0.5)",
+    "point_coord(D, 0.667, 1.5)",
+    "coordinate_system(O)",
+    "line_function(l, 1, 0)",
+    "hyperbola(h, 1)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OC)",
+    "segment(OD)",
+    "function_point(A, l)",
+    "function_point(B, l)",
+    "function_point(C, h)",
+    "function_point(D, h)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00130.png",
+  "meta": {
+    "source": "直线与双曲线",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "line",
+      "hyperbola"
+    ]
+  }
+}

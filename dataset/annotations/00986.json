@@ -1,0 +1,40 @@
+{
+  "id": "00986",
+  "text": "在平面直角坐标系中，直线l1交x轴于点A(6√3,0)，交y轴于点B(0,6)，折叠△AOB使BA落在y轴上，折痕所在直线为l2，直线l2与x轴交于C点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point(A_prime)",
+    "point_coord(A, 10.392, 0)",
+    "point_coord(B, 0, 6)",
+    "triangle(A, O, B)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OB)",
+    "line(l1, A, B)",
+    "line(l2, M, C)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)",
+    "on(A_prime, axis_y)",
+    "fold(A, A_prime, MC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00986.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "fold",
+      "linear_function"
+    ]
+  }
+}

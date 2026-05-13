@@ -1,0 +1,36 @@
+{
+  "id": "00024",
+  "text": "点A、D、C、B在同一条直线上，AD=BC=3,AE=BF=5，CE=DF=6，AE∥BF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "segment(AD)",
+    "segment(DC)",
+    "segment(CB)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(CE)",
+    "segment(DF)",
+    "collinear(A, D, C, B)",
+    "parallel(AE, BF)",
+    "equal(AD, BC)",
+    "equal(AE, BF)",
+    "equal(CE, DF)",
+    "length(AD)=3",
+    "length(BC)=3",
+    "length(AE)=5",
+    "length(BF)=5",
+    "length(CE)=6",
+    "length(DF)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00024.png",
+  "meta": {
+    "source": "共线点与平行线",
+    "difficulty": "middle",
+    "tags": ["collinear", "parallel", "equal_segments"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00421",
+  "text": "在正方形ABCD中，G是BC边上任意一点（不与B、C重合），DE⊥AG于点E，BF∥DE，且交AG于点F，AF-BF=EF",
+  "dsl": [
+    "point(G)",
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AG)",
+    "segment(DE)",
+    "segment(BF)",
+    "segment(AF)",
+    "segment(EF)",
+    "on(G, BC)",
+    "on(F, AG)",
+    "foot(E, D, AG)",
+    "perpendicular(DE, AG)",
+    "parallel(BF, DE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00421.png",
+  "meta": {
+    "source": "正方形垂线与平行线",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "perpendicular",
+      "parallel"
+    ]
+  }
+}

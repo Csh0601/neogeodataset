@@ -1,0 +1,41 @@
+{
+  "id": "00949",
+  "text": "在平面直角坐标系中，两个等腰直角三角形OAB和OCD中，点O(0,0)，A(0,4)，将Rt△OCD绕点O顺时针旋转，连接AC、BD，直线AC与BD相交于点P，AP⊥BP，Q为OA的中点",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point(Q)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 0, 4)",
+    "triangle(O, A, B)",
+    "triangle(O, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(PQ)",
+    "intersection(P, AC, BD)",
+    "midpoint(Q, OA)",
+    "on(A, axis_y)",
+    "isosceles_right(O, A, B)",
+    "isosceles_right(O, C, D)",
+    "perpendicular(AP, BP)"
+  ],
+  "image_path": "images/00949.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "等腰直角三角形旋转",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "triangle",
+      "isosceles_right",
+      "rotate"
+    ]
+  }
+}

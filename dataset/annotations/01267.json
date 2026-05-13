@@ -1,0 +1,38 @@
+{
+  "id": "01267",
+  "text": "在等腰直角三角形ABC中，∠ACB=90°，AC=BC，CO⊥AB于点O，中线AE与CO相交于点F",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(CO)",
+    "segment(AE)",
+    "foot(O, C, AB)",
+    "midpoint(E, BC)",
+    "intersection(F, AE, CO)",
+    "isosceles_right(C, A, B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01267.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "isosceles_right_triangle",
+      "midpoint",
+      "perpendicular",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "等腰直角三角形ABC，直角在C",
+      "O是C到AB的垂足，E是BC中点，F是AE与CO的交点"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "01208",
+  "text": "在△ABC中，AD、BE分别是BC、AC边上的中线，且AD⊥BE，垂足为点F，BC=a，AC=b，AB=c，a²+b²=5c²",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BE)",
+    "midpoint(D, BC)",
+    "midpoint(E, AC)",
+    "intersection(F, AD, BE)",
+    "perpendicular(AD, BE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01208.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "perpendicular",
+      "median"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "补充了a²+b²=5c²的结论作为已知条件"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

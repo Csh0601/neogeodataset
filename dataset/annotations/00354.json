@@ -1,0 +1,32 @@
+{
+  "id": "00354", 
+  "text": "在矩形ABCD中，M是AB的中点，P是矩形外一点，Q在CD上，∠MPQ=105°，PM=30，PQ=49",
+  "dsl": [
+    "point(M)",
+    "point(P)",
+    "point(Q)",
+    "rectangle(A, B, C, D)",
+    "segment(PM)",
+    "segment(PQ)",
+    "on(Q, CD)",
+    "midpoint(M, AB)",
+    "length(PM)=30",
+    "length(PQ)=49",
+    "angle(MPQ)=105"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00354.png",
+  "meta": {
+    "source": "矩形广场方位角应用",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "midpoint",
+      "angle",
+      "application"
+    ]
+  }
+}

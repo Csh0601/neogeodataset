@@ -1,0 +1,34 @@
+{
+  "id": "01020",
+  "text": "在平面直角坐标系xOy中，直线y=-√3x+√3与x轴交于点A(1,0)，与y轴交于点B(0,√3)，Q为△AOB内部一点，AQ+OQ+BQ的最小值等于2√3",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(Q)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 0, 1.732)",
+    "line_function(l1, -1.732, 1.732)",
+    "triangle(A, O, B)",
+    "segment(AB)",
+    "segment(AQ)",
+    "segment(OQ)",
+    "segment(BQ)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "inside(Q, AOB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01020.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "optimization",
+      "fermat_point"
+    ]
+  }
+}

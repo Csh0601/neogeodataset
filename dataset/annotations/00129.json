@@ -1,0 +1,36 @@
+{
+  "id": "00129",
+  "text": "在矩形ABCD中，AB=6，BC=10，点E、F在AD边上，BF和CE交于点G，EF=5，AE=3,DF=2",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "rectangle(A, B, C, D)",
+    "segment(BF)",
+    "segment(CE)",
+    "segment(EF)",
+    "on(E, AD)",
+    "on(F, AD)",
+    "intersection(G, BF, CE)",
+    "length(AB)=6",
+    "length(BC)=10",
+    "length(AE)=3",
+    "length(DF)=2",
+    "length(EF)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00129.png",
+  "meta": {
+    "source": "矩形与阴影面积",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "intersection",
+      "shaded",
+      "area"
+    ]
+  }
+}

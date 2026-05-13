@@ -1,0 +1,34 @@
+{
+  "id": "00596",
+  "text": "在菱形ABCD中，∠ABC=60°，AB=2，E是BC边上一点，连接AE，AE的垂直平分线MN交AE于点M，交BD于点N，连接EN、CN，EN=CN",
+  "dsl": [
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "parallelogram(A, B, C, D)",
+    "segment(AE)",
+    "segment(EN)",
+    "segment(CN)",
+    "on(E, BC)",
+    "on(N, BD)",
+    "midpoint(M, AE)",
+    "perpendicular(MN, AE)",
+    "equal(EN, CN)",
+    "equal(AB, BC)",
+    "angle(ABC)=60",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00596.png",
+  "meta": {
+    "source": "菱形垂直平分线",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "perpendicular_bisector"
+    ]
+  }
+}

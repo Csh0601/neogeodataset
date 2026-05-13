@@ -1,0 +1,40 @@
+{
+  "id": "00373",
+  "text": "由边长为1的小正方形构成的网格中，点A(0,3)、B(3,0)、C(2,3)、D(0,2)都在格点上，以AB为直径的⊙O（半径约2.12）经过点C、D，sin∠ADC=2√13/13",
+  "dsl": [
+    "coordinate_system(O1)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, 0, 3)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 2, 3)",
+    "point_coord(D, 0, 2)",
+    "circle(O, r=2.12)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(DC)",
+    "segment(AC)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "midpoint(O, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00373.png",
+  "meta": {
+    "source": "网格圆与直径",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "grid"
+    ]
+  }
+}

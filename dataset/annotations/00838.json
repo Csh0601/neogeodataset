@@ -1,0 +1,32 @@
+{
+  "id": "00838",
+  "text": "在平面直角坐标系中，直线y=2x-2与直线y=-x+4相交于点A(2,2)，与y轴交于点B(0,-2)，直线y=-x+4与y轴交于点D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "point_coord(A, 2, 2)",
+    "point_coord(B, 0, -2)",
+    "point_coord(D, 0, 4)",
+    "line_function(l1, 2, -2)",
+    "line_function(l2, -1, 4)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OD)",
+    "function_intersection(A, l1, l2)",
+    "axis_intersection(B, l1, y)",
+    "axis_intersection(D, l2, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00838.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "linear_function", "angle"]
+  }
+}

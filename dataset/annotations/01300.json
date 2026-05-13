@@ -1,0 +1,42 @@
+{
+  "id": "01300",
+  "text": "在平面直角坐标系中，矩形ABCD的顶点B在坐标原点，点A和C分别在坐标轴上，点D的坐标为(6,4)，E为CD的中点，点P和Q为BC边上的两点，PQ=2，连接AP、QE",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(E)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(B, 0, 0)",
+    "point_coord(D, 6, 4)",
+    "rectangle(A, B, C, D)",
+    "segment(AP)",
+    "segment(QE)",
+    "segment(PQ)",
+    "on(A, axis_y)",
+    "on(C, axis_x)",
+    "midpoint(E, CD)",
+    "on(P, BC)",
+    "on(Q, BC)",
+    "length(PQ)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01300.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "rectangle",
+      "midpoint"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "动点P、Q静态化"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

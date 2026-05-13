@@ -1,0 +1,38 @@
+{
+  "id": "00879",
+  "text": "在平面直角坐标系中，直线y=-x+4与x轴、y轴分别交于A、B两点，直线BC与x轴、y轴分别交于C、B两点，OC=(3/4)OB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 4)",
+    "point_coord(C, -3, 0)",
+    "line_function(l1, -1, 4)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)",
+    "ratio(OC, OB)=0.75"
+  ],
+  "image_path": "images/00879.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系中的直线与交点",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line_function"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "00622",
+  "text": "直线a∥b，∠1=50°，∠2=130°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "line(l1, A, B)",
+    "line(l2, C, D)",
+    "parallel(l1, l2)",
+    "angle(AEC)=50",
+    "angle(ECD)=130"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00622.png",
+  "meta": {
+    "source": "平行线同旁内角",
+    "difficulty": "easy",
+    "tags": ["parallel", "angle"]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "00256",
+  "text": "∠ACD是三角形ABC的外角，D在BC的延长线上，连接AD，AB=6,∠ACD=110°，∠B=50°，∠A=60°",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(AD)",
+    "angle(ACD)=110",
+    "angle(ABC)=50",
+    "angle(BAC)=60",
+    "length(AB)=6",
+    "on_extended(D, BC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00256.png",
+  "meta": {
+    "source": "三角形外角",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "exterior_angle"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "01168",
+  "text": "四边形ABCD为矩形，AB=3，BC=4，点P是线段BC上一点，点M为线段AP上一点，∠ADM=∠BAP",
+  "dsl": [
+    "point(M)",
+    "point(P)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AP)",
+    "segment(DM)",
+    "segment(BM)",
+    "segment(BP)",
+    "on(P, BC)",
+    "on(M, AP)",
+    "equal_angle(ADM, BAP)",
+    "length(AB)=3",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01168.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["rectangle", "angle", "optimization"]
+  }
+}

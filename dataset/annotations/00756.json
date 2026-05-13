@@ -1,0 +1,28 @@
+{
+  "id": "00756",
+  "text": "在△ABC中，AB=8，BC=3，CA=7，以B为圆心、BC为半径画弧交线段AB于点D",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "circle(B, radius=BC)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CA)",
+    "segment(CD)",
+    "on(D, AB)",
+    "on(D, circle_B)",
+    "length(AB)=8",
+    "length(BC)=3",
+    "length(CA)=7"
+  ],
+  "image_path": "images/00756.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "circle", "arc"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00791",
+  "text": "在矩形ABCD中，AB<AD，将矩形ABCD沿BD折叠后，点C落在点E处，BE交AD于点F，AB=5，BC=10，DF=15/4",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(DE)",
+    "segment(DF)",
+    "intersection(F, BE, AD)",
+    "fold(C, E, BD)",
+    "length(AB)=5",
+    "length(BC)=10"
+  ],
+  "image_path": "images/00791.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "intersection"
+    ]
+  }
+}

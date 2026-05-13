@@ -1,0 +1,46 @@
+{
+  "id": "01119",
+  "text": "矩形ABCD中，BC:AB=1:2，F、G分别为AB、DC边上一点，连接GF，沿GF将四边形AFGD翻折至四边形EFGP，点E落在BC上，EP交CD于点H，连接AE，AE交GF于点O，连接CP",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "point(O)",
+    "point(P)",
+    "quadrilateral(A, F, G, D)",
+    "quadrilateral(E, F, G, P)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(GF)",
+    "segment(AE)",
+    "segment(EP)",
+    "segment(CP)",
+    "on(F, AB)",
+    "on(G, DC)",
+    "on(E, BC)",
+    "intersection(H, EP, CD)",
+    "intersection(O, AE, GF)",
+    "fold(A, E, GF)",
+    "fold(D, P, GF)",
+    "ratio(BC, AB)=0.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01119.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "intersection",
+      "ratio"
+    ]
+  }
+}

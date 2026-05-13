@@ -1,0 +1,35 @@
+{
+  "id": "00059",
+  "text": "在平面直角坐标系中，抛物线y=x²-6x+5交x轴于点A、点B，交y轴于点C，点A在点B的左侧，顶点坐标为(3,-4)，连接线段AC、BC、AB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(V)",
+    "point_coord(O, 0, 0)",
+    "point_coord(V, 3, -4)",
+    "parabola(p, 1, -6, 5)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)",
+    "function_point(V, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00059.png",
+  "meta": {
+    "source": "抛物线与顶点坐标",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "vertex"
+    ]
+  }
+}

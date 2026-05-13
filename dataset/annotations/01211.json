@@ -1,0 +1,26 @@
+{
+  "id": "01211",
+  "text": "在四边形ABCD中，AC⊥BD，AB=5√3，AD=5√2，CD=12，BC=13",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "perpendicular(AC, BD)",
+    "length(AB)=8.66",
+    "length(AD)=7.071",
+    "length(CD)=12",
+    "length(BC)=13"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01211.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": ["quadrilateral", "perpendicular", "length"],
+    "annotated_by": "annotator-1",
+    "supplements": ["补充了BC=13的结论，AB=5√3≈8.66，AD=5√2≈7.071"]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "01402",
+  "text": "在▱ABCD中，对角线AC、BD相交于点O，点E为OC的中点，EF∥AB交BC于点F，AB=4，EF=1",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "intersection(O, AC, BD)",
+    "midpoint(E, OC)",
+    "on(F, BC)",
+    "parallel(EF, AB)",
+    "length(AB)=4",
+    "length(EF)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01402.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "parallelogram",
+      "midpoint",
+      "parallel"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "计算出EF=1"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

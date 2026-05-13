@@ -1,0 +1,34 @@
+{
+  "id": "00037",
+  "text": "在平面直角坐标系中，抛物线y=3/4x²-3/2x-9/4的顶点为(1,-3)，与x轴的一个交点为B(3,0)，由对称性另一交点为(-1,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(B)",
+    "point(A)",
+    "point(C)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 1, -3)",
+    "point_coord(A, -1, 0)",
+    "point_coord(O, 0, 0)",
+    "parabola(p, 0.75, -1.5, -2.25)",
+    "function_point(B, p)",
+    "function_point(C, p)",
+    "function_point(A, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00037.png",
+  "meta": {
+    "source": "抛物线与坐标系",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "vertex",
+      "axis_intersection"
+    ],
+    "note": "顶点V的纵坐标n需要通过抛物线对称性计算"
+  }
+}

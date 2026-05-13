@@ -1,0 +1,32 @@
+{
+  "id": "00867",
+  "text": "AD平行于EG平行于BC，EG交DB于点F，已知AD=6，BC=8，AE=6，EF=2",
+  "dsl": [
+    "point(F)",
+    "segment(AD)",
+    "segment(EG)",
+    "segment(BC)",
+    "segment(AB)",
+    "segment(DB)",
+    "segment(AE)",
+    "on(E, AB)",
+    "on(G, DC)",
+    "intersection(F, EG, DB)",
+    "parallel(AD, EG)",
+    "parallel(EG, BC)",
+    "length(AD)=6",
+    "length(BC)=8",
+    "length(AE)=6",
+    "length(EF)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00867.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel", "intersection", "ratio"]
+  }
+}

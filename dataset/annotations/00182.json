@@ -1,0 +1,33 @@
+{
+  "id": "00182",
+  "text": "直线EF分别与直线AB、CD交于点E、F，EM平分∠BEF，FN平分∠CFE，且EM∥FN，AB∥CD",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "line(AB)",
+    "line(CD)",
+    "line(EF)",
+    "ray(E, M)",
+    "ray(F, N)",
+    "intersection(E, EF, AB)",
+    "intersection(F, EF, CD)",
+    "angle_bisector(M, B, E, F)",
+    "angle_bisector(N, C, F, E)",
+    "parallel(EM, FN)",
+    "parallel(AB, CD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00182.png",
+  "meta": {
+    "source": "角平分线与平行线",
+    "difficulty": "middle",
+    "tags": [
+      "bisector",
+      "parallel",
+      "intersection"
+    ]
+  }
+}

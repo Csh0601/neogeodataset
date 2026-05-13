@@ -1,0 +1,32 @@
+{
+  "id": "01154",
+  "text": "两直线AB与CD平行，E、F、G、H是AB与CD之间的折线顶点，∠1+∠2+∠3+∠4+∠5+∠6=720",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "line(AB)",
+    "line(CD)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(HD)",
+    "parallel(AB, CD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01154.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel", "zigzag_angles"]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "00206",
+  "text": "在矩形ABCD中，AB=3，AD=4，E为边AB上靠近B的三等分点，将三角形ADE沿DE折叠，使点A的对应点F落在矩形ABCD外，连接AF交DE于点N，连接BN,EF,FD",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(N)",
+    "rectangle(A, B, C, D)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(FD)",
+    "segment(AF)",
+    "segment(BN)",
+    "triangle(A, D, E)",
+    "trisection(E, AB, near=B)",
+    "on(E, AB)",
+    "intersection(N, AF, DE)",
+    "fold(A, F, DE)",
+    "length(AB)=3",
+    "length(AD)=4",
+    "outside(F, rectangle_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00206.png",
+  "meta": {
+    "source": "矩形折叠问题",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "trigonometry"
+    ]
+  }
+}

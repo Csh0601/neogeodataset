@@ -1,0 +1,29 @@
+{
+  "id": "00737",
+  "text": "在△ABC中，D、E、F分别为BC、AD、CE的中点，阴影部分DEFC的面积为4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(CE)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)",
+    "midpoint(D, BC)",
+    "midpoint(E, AD)",
+    "midpoint(F, CE)",
+    "shaded(DEFC)"
+  ],
+  "image_path": "images/00737.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "midpoint", "area", "shaded"]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "00477",
+  "text": "在矩形ABCD中，AD=10，AB=8，将AB沿AE翻折，使点B落在B'处，AE为折痕；再将EC沿EF翻折，使点C恰好落在线段EB'上的点C'处，EF为折痕，连接AC'，CF=3，tan∠B'AC'=1/4",
+  "dsl": [
+    "point(E)",
+    "point(B_prime)",
+    "point(F)",
+    "point(C_prime)",
+    "rectangle(A, B, C, D)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(AC_prime)",
+    "on(E, BC)",
+    "on(F, CD)",
+    "on(C_prime, EB_prime)",
+    "reflect(B_prime, B, AE)",
+    "reflect(C_prime, C, EF)",
+    "length(AD)=10",
+    "length(AB)=8",
+    "length(CF)=3",
+    "tan(B_primeAC_prime)=0.25"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00477.png",
+  "meta": {
+    "source": "矩形双重折叠",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "reflect"
+    ]
+  }
+}

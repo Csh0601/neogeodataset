@@ -1,0 +1,39 @@
+{
+  "id": "00020",
+  "text": "在△ABC中，D、E为边AB的三等分点，EF平行于DG，且平行于AC，F、G在BC上，H为AF与DG的交点，AC=6，DH=1,EF=2,DG=4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)", 
+    "triangle(A, B, C)",
+    "segment(EF)",
+    "segment(DG)",
+    "segment(AF)",
+    "segment(DH)",
+    "trisection(D, AB, near=A)",
+    "trisection(E, AB, near=B)",
+    "intersection(H, AF, DG)",
+    "on(D, AB)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "on(G, BC)",
+    "parallel(EF, AC)",
+    "parallel(DG, AC)",
+    "length(AC)=6",
+    "length(DH)=1",
+    "length(EF)=2",
+    "length(DG)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00020.png",
+  "meta": {
+    "source": "三角形三等分点与平行线问题",
+    "difficulty": "middle",
+    "tags": ["triangle", "trisection", "parallel"]
+  }
+}

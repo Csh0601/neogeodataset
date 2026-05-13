@@ -1,0 +1,29 @@
+{
+  "id": "00750",
+  "text": "在△ABC中，AD是BC边上的中线，D是BC的中点，E是AD上一点，连接BE并延长交AC于点F，AF=EF，AC=BE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(AF)",
+    "segment(EF)",
+    "midpoint(D, BC)",
+    "on(E, AD)",
+    "intersection(F, BE_extended, AC)",
+    "equal(AF, EF)",
+    "equal(AC, BE)"
+  ],
+  "image_path": "images/00750.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "median", "midpoint", "equal"]
+  }
+}

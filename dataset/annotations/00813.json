@@ -1,0 +1,29 @@
+{
+  "id": "00813",
+  "text": "在平面直角坐标系中，直线y=(4/3)x-4与x轴、y轴分别交于B、C两点，OC与OB的比为4比3，点A是第一象限内直线上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "line_function(l, 1.333, -4)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OB)",
+    "function_point(A, l)",
+    "axis_intersection(B, l, x)",
+    "axis_intersection(C, l, y)",
+    "ratio(OC, OB)=1.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00813.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "linear_function", "moving_point"]
+  }
+}

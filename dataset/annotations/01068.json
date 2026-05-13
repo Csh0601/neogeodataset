@@ -1,0 +1,34 @@
+{
+  "id": "01068",
+  "text": "在边长为1的正方形ABCD中，E在CD边上，F在AD边上，连接BE，BF，EF，且AF+CE=EF",
+  "dsl": [
+    "square(B, A, D, C)",
+    "segment(BA)",
+    "segment(AD)",
+    "segment(DC)",
+    "segment(CB)",
+    "segment(BE)",
+    "segment(BF)",
+    "segment(EF)",
+    "segment(AF)",
+    "segment(CE)",
+    "on(E, CD)",
+    "on(F, AD)",
+    "equal(BA, AD)",
+    "length(BA)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01068.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "triangle",
+      "angle"
+    ]
+  }
+}

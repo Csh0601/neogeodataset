@@ -1,0 +1,39 @@
+{
+  "id": "00125",
+  "text": "在等腰△ABC中，AB=AC=6,点D、E分别是AB、AC边上的中点，BD=CE=3，∠ABE=∠ACD，BE与CD相交于点F",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(BE)",
+    "segment(CD)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "intersection(F, BE, CD)",
+    "equal(BD, CE)",
+    "equal_angle(ABE, ACD)",
+    "equal(AB, AC)",
+    "length(AB)=6",
+    "length(AC)=6",
+    "length(BD)=3",
+    "length(CE)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00125.png",
+  "meta": {
+    "source": "等腰三角形证明",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "equal_angle",
+      "intersection"
+    ]
+  }
+}

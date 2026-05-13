@@ -1,0 +1,35 @@
+{
+  "id": "00633",
+  "text": "AB是⊙O的直径，点C是圆上一点，连结AC和BC，过点C作CD⊥AB于D，CD=4，BD=3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, AB)",
+    "foot(D, C, AB)",
+    "collinear(A, O, B)",
+    "length(CD)=4",
+    "length(BD)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00633.png",
+  "meta": {
+    "source": "圆直径垂线",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "perpendicular"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00087",
+  "text": "矩形ABCD内接于⊙O，⊙O半径为3，A、B、C、D都在圆上，对角线AC为圆的直径，点E在AD上，连接EB、EC，点F、G在AD上",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "circle(O,r=3)",
+    "rectangle(A, B, C, D)",
+    "segment(EB)",
+    "segment(EC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(E, AD)",
+    "intersection(F,AD,EB)",
+    "intersection(G,AD,EC)",
+    "midpoint(O, AC)",
+    "length(AC)=6"
+  ],
+  "image_path": "images/00087.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆的性质",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "rectangle",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "00640",
+  "text": "在Rt△ABC中，∠ACB=90°，∠B=30°，BC=3，D是BC边上一点，过点D作DE⊥BC交AB于点E，将△BDE沿DE翻折，点B落在射线BC上的点F处，连接AF，EF∥BC",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(B, D, E)",
+    "segment(DE)",
+    "segment(AF)",
+    "segment(EF)",
+    "segment(DF)",
+    "on(D, BC)",
+    "on(E, AB)",
+    "foot(E, D, AB)",
+    "on(F, BC)",
+    "reflect(F, B, DE)",
+    "perpendicular(DE, BC)",
+    "parallel(EF, BC)",
+    "angle(ACB)=90",
+    "angle(ABC)=30",
+    "length(BC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00640.png",
+  "meta": {
+    "source": "三角形中的折叠问题",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "fold",
+      "reflect",
+      "perpendicular"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "01161",
+  "text": "P是正三角形ABC内的一点，PA=6，PB=8，PC=10，将△PAC绕点A逆时针旋转60°得到△P_primeAB，连接PP_prime",
+  "dsl": [
+    "point(P)",
+    "point(P_prime)",
+    "triangle(A, B, C)",
+    "triangle(P, A, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(PP_prime)",
+    "segment(AP_prime)",
+    "equilateral(A, B, C)",
+    "rotate(P_prime, source=P, center=A, angle=60)",
+    "length(PA)=6",
+    "length(PB)=8",
+    "length(PC)=10",
+    "inside(P, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01161.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "rotation",
+      "interior_point"
+    ]
+  }
+}

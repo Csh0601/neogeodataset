@@ -1,0 +1,42 @@
+{
+  "id": "01206",
+  "text": "在平面直角坐标系中，二次函数y=x²+bx+c的对称轴为经过点(1,0)的直线，其图象与x轴交于点A(3,0)、B(-1,0)，且过点C(0,-3)，其顶点为D(1,-4)，在y轴上找一点P(P与C不重合)使得∠APD=90°，将△APD沿直线AD翻折得到△AQD，Q的坐标为(2,-3)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, -1, 0)",
+    "point_coord(C, 0, -3)",
+    "point_coord(D, 1, -4)",
+    "point_coord(Q, 2, -3)",
+    "triangle(A, P, D)",
+    "triangle(A, Q, D)",
+    "parabola(p, 1, -2, -3)",
+    "segment(AD)",
+    "segment(AP)",
+    "segment(PD)",
+    "on(P, axis_y)",
+    "fold(P, Q, AD)",
+    "angle(APD)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01206.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "parabola",
+      "right_angle",
+      "fold"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了P和Q的坐标计算结果"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

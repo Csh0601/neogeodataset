@@ -1,0 +1,42 @@
+{
+  "id": "00780",
+  "text": "在平面直角坐标系xOy中，抛物线y=x²+2x-3交x轴于A、B两点，其中A(1,0)，与y轴交于点C(0,-3)，点D为y轴上一点，线段BD与线段BC的夹角为15°，连接AC，点P在抛物线上，∠PAB=2∠ACO",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point_coord(A, 1, 0)",
+    "point_coord(C, 0, -3)",
+    "parabola(p1, 1, 2, -3)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CD)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(P, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(C, p1, y)",
+    "on(D, axis_y)"
+  ],
+  "image_path": "images/00780.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "angle"
+    ]
+  }
+}

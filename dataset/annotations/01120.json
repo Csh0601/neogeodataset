@@ -1,0 +1,39 @@
+{
+  "id": "01120",
+  "text": "在等腰直角三角形ABC中，∠B=90°，AB=BC=4，点M、N分别在边AB、BC上，MN=2，点D、E分别是BC、MN的中点，点P在斜边AC上，连接PE，PD",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(MN)",
+    "segment(PE)",
+    "segment(PD)",
+    "segment(AD)",
+    "segment(BD)",
+    "on(M, AB)",
+    "on(N, BC)",
+    "on(P, AC)",
+    "midpoint(D, BC)",
+    "midpoint(E, MN)",
+    "angle(ABC)=90",
+    "length(AB)=4",
+    "length(BC)=4",
+    "length(MN)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01120.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["right_triangle", "isosceles", "midpoint", "optimization"]
+  }
+}

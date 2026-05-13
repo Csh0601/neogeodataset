@@ -1,0 +1,33 @@
+{
+  "id": "00902",
+  "text": "在平面直角坐标系中，一次函数y1=(5/4)x-3与x轴交于点B，一次函数y2=-(3/4)x-1与y轴交于点C，两函数图象都经过点D(1,-7/4)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(D, 1, -1.75)",
+    "line_function(l1, 1.25, -3)",
+    "line_function(l2, -0.75, -1)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(D, l1)",
+    "function_point(D, l2)",
+    "axis_intersection(B, l1, x)",
+    "axis_intersection(C, l2, y)"
+  ],
+  "image_path": "images/00902.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "两一次函数交点",
+    "difficulty": "middle",
+    "tags": ["coordinate", "line_function"]
+  }
+}

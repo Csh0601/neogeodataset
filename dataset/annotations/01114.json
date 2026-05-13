@@ -1,0 +1,35 @@
+{
+  "id": "01114",
+  "text": "∠MON=90°，在△ABC中，AC=BC=13，AB=10，△ABC的顶点A在边OM上，B在边ON上，连接OA，OB，OC",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(O)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "ray(O, M)",
+    "ray(O, N)",
+    "on(A, ray_OM)",
+    "on(B, ray_ON)",
+    "equal(AC, BC)",
+    "angle(MON)=90",
+    "length(AC)=13",
+    "length(BC)=13",
+    "length(AB)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01114.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["isosceles_triangle", "right_angle", "ray", "optimization"]
+  }
+}

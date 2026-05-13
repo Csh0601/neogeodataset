@@ -1,0 +1,42 @@
+{
+  "id": "01271",
+  "text": "⊙O是△ABC的内切圆，∠C=90°，切点为D、E、F，AF和BE的长是方程x²-13x+30=0的两个根，△ABC的面积S=30",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "circle(O)",
+    "incenter(O, A, B, C)",
+    "on(D, AB)",
+    "on(E, BC)",
+    "on(F, AC)",
+    "tangent(D, circle_O)",
+    "tangent(E, circle_O)",
+    "tangent(F, circle_O)",
+    "angle(ACB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01271.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "incircle",
+      "tangent_point",
+      "right_angle"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "A在左上，B在右下，C在左下，直角在C",
+      "D在AB上，E在BC上，F在AC上为切点",
+      "AF和BE是x²-13x+30=0的两个根，S△ABC=30"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

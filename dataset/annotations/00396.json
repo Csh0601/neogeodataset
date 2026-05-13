@@ -1,0 +1,34 @@
+{
+  "id": "00396",
+  "text": "在Rt△ABC中，∠ACB=90°，AC=2BC，分别以点A和B为圆心，以大于1/2·AB的长为半径作弧，两弧相交于点M和N，连接MN，MN交AC于点E，连接BE，CE=3，BE的长为√10",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(E)",
+    "right_triangle(A, B, C, right_at=C)",
+    "circle(A, r=5)",
+    "circle(B, r=5)",
+    "segment(MN)",
+    "segment(BE)",
+    "segment(CE)",
+    "intersection(M, circle_A, circle_B)",
+    "intersection(N, circle_A, circle_B, index=1)",
+    "intersection(E, MN, AC)",
+    "ratio(AC, BC)=2",
+    "length(CE)=3",
+    "length(BE)=3.162"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00396.png",
+  "meta": {
+    "source": "直角三角形垂直平分线",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "circle_intersection"
+    ]
+  }
+}

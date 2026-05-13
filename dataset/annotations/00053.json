@@ -1,0 +1,44 @@
+{
+  "id": "00053",
+  "text": "以RT△ABC的非直角边AB为直径画⊙O，AB长度为4，BC=3,AC=5,⊙O交AC于点D，半径OE∥BD，连接BE、DE、BD，BE交AC于点F，∠DEB=∠DBC，BC与⊙O相切",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "circle(O, r=2)",
+    "segment(OE)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(DE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "on(D, AC)",
+    "on(E, circle_O)",
+    "midpoint(O, AB)",
+    "intersection(F, BE, AC)",
+    "right_triangle(A, B, C, right_at=B)",
+    "tangent(B, circle_O)",
+    "tangent(BC, circle_O)",
+    "parallel(OE, BD)",
+    "equal_angle(DEB, DBC)",
+    "length(AB)=4",
+    "length(BC)=3",
+    "length(AC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00053.png",
+  "meta": {
+    "source": "圆的直径与切线综合",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "parallel"
+    ]
+  }
+}

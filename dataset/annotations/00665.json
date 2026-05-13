@@ -1,0 +1,36 @@
+{
+  "id": "00665",
+  "text": "在△ABC中，∠ACB=90°，AC=BC，延长AB至点D，使得DB=AB，连接CD，以CD为直角边作等腰三角形CDE，∠DCE=90°，连接BE，△ACD≅△BCE，AB=3",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(C, D, E)",
+    "triangle(A, C, D)",
+    "triangle(B, C, E)",
+    "segment(CD)",
+    "segment(BE)",
+    "segment(CE)",
+    "segment(DE)",
+    "on(D, AB_extended)",
+    "congruent(ACD, BCE)",
+    "equal(AC, BC)",
+    "equal(CD, CE)",
+    "equal(DB, AB)",
+    "perpendicular(AC, BC)",
+    "perpendicular(DC, CE)",
+    "angle(ACB)=90",
+    "angle(DCE)=90",
+    "length(AB)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00665.png",
+  "meta": {
+    "source": "等腰直角三角形延长与旋转",
+    "difficulty": "hard",
+    "tags": ["isosceles", "right_triangle", "congruent", "extension"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "00108",
+  "text": "在五边形ABCDE中，∠ABC=120°，∠BCD=110°，∠CDE=105°，∠A=90°，∠E=115°，连接各边AB、BC、CD、DE、EA",
+  "dsl": [
+    "polygon(A, B, C, D, E)",
+    "angle(ABC)=120",
+    "angle(BCD)=110",
+    "angle(CDE)=105",
+    "angle(EAB)=90",
+    "angle(AED)=115"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00108.png",
+  "meta": {
+    "source": "五边形内角和",
+    "difficulty": "easy",
+    "tags": ["polygon", "pentagon", "angle"]
+  }
+}

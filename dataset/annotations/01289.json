@@ -1,0 +1,37 @@
+{
+  "id": "01289",
+  "text": "O和H分别为△ABC的外心和垂心，O到BC边的距离为2，H到BC边的距离为HE=3，BC边上的高为AE，D为垂足，AE的长为7",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AE)",
+    "segment(HE)",
+    "circumcircle(O, A, B, C)",
+    "orthocenter(H, A, B, C)",
+    "foot(E, A, BC)",
+    "foot(D, O, BC)",
+    "perpendicular(AE, BC)",
+    "length(HE)=3",
+    "length(DE)=2",
+    "length(AE)=7"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01289.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circumcircle",
+      "orthocenter"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "计算了AE=OD+HE+DE中的关系，AE=7利用外心到边距离+垂心到边距离=高的关系"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

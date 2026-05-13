@@ -1,0 +1,34 @@
+{
+  "id": "01052",
+  "text": "OA⊥OB，垂足为O，P在射线OA上，Q在射线OB上，C是线段PQ的中点，PQ=4",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(O)",
+    "ray(O, A)",
+    "ray(O, B)",
+    "segment(PQ)",
+    "segment(PC)",
+    "segment(QC)",
+    "on(P, OA)",
+    "on(Q, OB)",
+    "midpoint(C, PQ)",
+    "perpendicular(OA, OB)",
+    "angle(AOB)=90",
+    "length(PQ)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01052.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "perpendicular",
+      "midpoint",
+      "locus"
+    ]
+  }
+}

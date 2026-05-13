@@ -1,0 +1,32 @@
+{
+  "id": "00893",
+  "text": "在△ABC中，∠ACB=90°，AC=BC，AD垂直于CE，垂足为D，BE垂直于CE，垂足为E，AD=7，BE=3，DE=4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CE)",
+    "segment(DE)",
+    "foot(D, A, CE)",
+    "foot(E, B, CE)",
+    "equal(AC, BC)",
+    "perpendicular(AD, CE)",
+    "perpendicular(BE, CE)",
+    "right_angle(ACB)",
+    "length(AD)=7",
+    "length(BE)=3",
+    "length(DE)=4"
+  ],
+  "image_path": "images/00893.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "等腰直角三角形与垂线",
+    "difficulty": "middle",
+    "tags": ["triangle", "perpendicular", "isosceles_right"]
+  }
+}

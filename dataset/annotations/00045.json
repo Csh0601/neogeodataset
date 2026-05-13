@@ -1,0 +1,38 @@
+{
+  "id": "00045",
+  "text": "在平面直角坐标系中，抛物线y=-x²+4x+5与x轴交于点A、B，其中A在B左侧，且坐标分别为(-1,0)、(5,0)，与y轴交于点C，连接BC，OA=1，对称轴为直线x=2，点D为抛物线的顶点，坐标为(2,9)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 5, 0)",
+    "point_coord(C, 0, 5)",
+    "point_coord(D, 2, 9)",
+    "parabola(p, -1, 4, 5)",
+    "segment(BC)",
+    "segment(OA)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)",
+    "length(OA)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00045.png",
+  "meta": {
+    "source": "抛物线与坐标轴综合",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "vertex",
+      "axis_intersection"
+    ]
+  }
+}

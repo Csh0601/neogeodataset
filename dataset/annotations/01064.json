@@ -1,0 +1,35 @@
+{
+  "id": "01064",
+  "text": "正方形ABCD的边长为1，M在BC边上，N在CD边上，△CMN的周长为2，连接AM，AN",
+  "dsl": [
+    "square(A, B, C, D)",
+    "triangle(C, M, N)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AM)",
+    "segment(AN)",
+    "segment(CM)",
+    "segment(CN)",
+    "segment(MN)",
+    "on(M, BC)",
+    "on(N, CD)",
+    "equal(AB, BC)",
+    "length(AB)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01064.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "triangle",
+      "perimeter"
+    ]
+  }
+}

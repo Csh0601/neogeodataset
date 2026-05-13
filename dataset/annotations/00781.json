@@ -1,0 +1,39 @@
+{
+  "id": "00781",
+  "text": "在平面直角坐标系xOy中，矩形OABC中，O为原点，点A在x轴上，点C在y轴上，点B(1,2)，连接OB，将△OAB沿OB翻折，点A落在点D的位置，cos∠COD=-√5/5",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, 1, 2)",
+    "rectangle(O, A, B, C)",
+    "triangle(O, A, B)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AB)",
+    "segment(OC)",
+    "segment(OD)",
+    "segment(CD)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "fold(A, D, OB)"
+  ],
+  "image_path": "images/00781.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "rectangle",
+      "fold",
+      "trigonometry"
+    ]
+  }
+}

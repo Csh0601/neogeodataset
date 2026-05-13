@@ -1,0 +1,35 @@
+{
+  "id": "01292",
+  "text": "在Rt△ABC中，∠ACB=90°，AC=BC=4，点D和E分别是AB和AC的中点，P是CD上一点，连接PA、PE",
+  "dsl": [
+    "point(P)",
+    "segment(CD)",
+    "segment(PA)",
+    "segment(PE)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "on(P, CD)",
+    "isosceles_right(A, C, B)",
+    "length(AC)=4",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01292.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "isosceles_right",
+      "midpoint"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "动点P静态化，取CD上一合理位置"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

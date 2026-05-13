@@ -1,0 +1,36 @@
+{
+  "id": "01104",
+  "text": "△ABC与△ADE均是等腰直角三角形，B、C、D在同一直线上，AB=AC=2，AD=AE=3，∠BAC=∠DAE=90°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(CD)",
+    "segment(DE)",
+    "collinear(B, C, D)",
+    "equal(AB, AC)",
+    "equal(AD, AE)",
+    "angle(BAC)=90",
+    "angle(DAE)=90",
+    "length(AB)=2",
+    "length(AC)=2",
+    "length(AD)=3",
+    "length(AE)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01104.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["isosceles_right_triangle", "collinear"]
+  }
+}

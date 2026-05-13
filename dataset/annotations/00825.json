@@ -1,0 +1,29 @@
+{
+  "id": "00825",
+  "text": "以直角三角形ABC的斜边BC为一边在三角形ABC的同侧作正方形BCEF，对角线交于点O，连接AO，角BAC=90度，AB=4，AO=4√2",
+  "dsl": [
+    "point(O)",
+    "right_triangle(A, B, C, right_at=A)",
+    "square(B, C, E, F)",
+    "segment(AO)",
+    "segment(CE)",
+    "segment(BF)",
+    "intersection(O, CE, BF)",
+    "length(AB)=4",
+    "length(AO)=5.6569"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00825.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "square",
+      "diagonal"
+    ]
+  }
+}

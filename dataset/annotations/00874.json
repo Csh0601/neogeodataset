@@ -1,0 +1,29 @@
+{
+  "id": "00874",
+  "text": "在梯形ABCD中，CD平行于AB，点F在AB上，CF=BF，CE垂直于BC交AD于E，连接EF，EF垂直于CE",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "trapezoid(A, B, C, D)",
+    "segment(CF)",
+    "segment(BF)",
+    "segment(CE)",
+    "segment(EF)",
+    "on(F, AB)",
+    "intersection(E, CE, AD)",
+    "equal(CF, BF)",
+    "parallel(CD, AB)",
+    "perpendicular(CE, BC)",
+    "perpendicular(EF, CE)"
+  ],
+  "image_path": "images/00874.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "梯形中的垂直与等长",
+    "difficulty": "middle",
+    "tags": ["trapezoid", "perpendicular"]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "00990",
+  "text": "在四边形ABCD中，E是AB的中点，AD平行于EC，∠AED=∠B，△AED≌△EBC，AB=6",
+  "dsl": [
+    "point(E)",
+    "triangle(A, E, D)",
+    "triangle(E, B, C)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AD)",
+    "segment(EC)",
+    "segment(AE)",
+    "segment(EB)",
+    "segment(DE)",
+    "midpoint(E, AB)",
+    "parallel(AD, EC)",
+    "congruent(AED, EBC)",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00990.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["quadrilateral", "midpoint", "parallel", "congruent"]
+  }
+}

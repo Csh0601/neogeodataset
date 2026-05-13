@@ -1,0 +1,40 @@
+{
+  "id": "01118",
+  "text": "在菱形ABCD中，AC=6√2，BD=6，E是BC边的中点，P在AC上，M在AB上，连接PE，PM",
+  "dsl": [
+    "point(E)",
+    "point(M)",
+    "point(O)",
+    "point(P)",
+    "parallelogram(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(PE)",
+    "segment(PM)",
+    "intersection(O, AC, BD)",
+    "midpoint(E, BC)",
+    "on(P, AC)",
+    "on(M, AB)",
+    "equal(AB, BC)",
+    "length(AC)=8.485",
+    "length(BD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01118.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "midpoint",
+      "optimization"
+    ]
+  }
+}

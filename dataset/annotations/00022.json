@@ -1,0 +1,31 @@
+{
+  "id": "00022",
+  "text": "在平行四边形ABCD中，AD=3，CD=6，P是其内部一点，连接PA、PB、PC、PD，构成△PAD和△PBC",
+  "dsl": [
+    "point(P)",
+    "parallelogram(A, B, C, D)",
+    "triangle(P, A, D)",
+    "triangle(P, B, C)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(PD)",
+    "length(AD)=3",
+    "length(CD)=6",
+    "inside(P, parallelogram_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00022.png",
+  "meta": {
+    "source": "平行四边形内点与面积问题",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "area",
+      "internal_point"
+    ]
+  }
+}

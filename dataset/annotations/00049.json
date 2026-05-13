@@ -1,0 +1,48 @@
+{
+  "id": "00049",
+  "text": "∠APO=∠BPO=30°，PA与⊙O相切于点M，连接OM，OM长度为4，OP与⊙O交于点C，过点C作CD⊥OM，垂足为E，CD与⊙O交于点D，连接PD交OM于点F，PB与⊙O相切",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "point(M)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "circle(O)",
+    "segment(PA)",
+    "segment(OM)",
+    "segment(CD)",
+    "segment(PB)",
+    "segment(PD)",
+    "on(M, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "foot(E, C, OM)",
+    "intersection(F, PD, OM)",
+    "tangent(M, circle_O)",
+    "tangent(PB, circle_O)",
+    "equal_angle(APO, BPO)",
+    "collinear(O, P, C)",
+    "perpendicular(CD, OM)",
+    "length(OM)=4",
+    "angle(APO)=30",
+    "angle(BPO)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00049.png",
+  "meta": {
+    "source": "圆的双切线与垂线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00266",
+  "text": "在边长为4的正方形ABCD的外侧，作等边三角形ADE，连接BE、CE，△BAE≌△CDE，∠AEB=15°",
+  "dsl": [
+    "point(E)",
+    "square(A, B, C, D)",
+    "segment(BE)",
+    "segment(CE)",
+    "equilateral(A, D, E)",
+    "triangle(B, A, E)",
+    "triangle(C, D, E)",
+    "congruent(BAE, CDE)",
+    "angle(ADE)=60",
+    "angle(AEB)=15",
+    "length(AB)=4",
+    "length(AD)=4",
+    "outside(E, square_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00266.png",
+  "meta": {
+    "source": "正方形外接等边三角形",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "equilateral_triangle",
+      "congruent"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00096",
+  "text": "在Rt△ABC中，∠ACB=90°，∠CAB=35°，D是斜边AB的中点，连接CD，以点C为圆心、CD为半径作弧，与AB的另一交点为E，连接CE,AB=2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "right_triangle(A, B, C, right_at=C)",
+    "circle(C, radius=CD)",
+    "segment(CD)",
+    "segment(CE)",
+    "on(E, circle_C)",
+    "on(E, AB)",
+    "midpoint(D, AB)",
+    "intersection(E, AB, circle_C)",
+    "angle(CAB)=35",
+    "length(AB)=2"
+  ],
+  "image_path": "images/00096.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆的性质",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "triangle",
+      "midpoint",
+      "angle"
+    ]
+  }
+}

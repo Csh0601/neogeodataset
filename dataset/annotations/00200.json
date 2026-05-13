@@ -1,0 +1,46 @@
+{
+  "id": "00200",
+  "text": "在△ABC中，AB=AC=4，BC=6，点D、E在BC上，BD=CE，连接AD、AE，AD=AE，当∠DAE=∠C=45°时，过点B作BF∥AC，交AD的延长线于点F，△ADE、△BAE、△BDF、△CAD都是顶角为45°的等腰三角形",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "on(D, BC)",
+    "on(E, BC)",
+    "intersection(F, BF, AD_extended)",
+    "isosceles(A, D, E)",
+    "isosceles(B, D, F)",
+    "isosceles(B, A, E)",
+    "isosceles(C, A, D)",
+    "equal(AB, AC)",
+    "equal(BD, CE)",
+    "parallel(BF, AC)",
+    "length(AB)=4",
+    "length(AC)=4",
+    "length(BC)=6",
+    "length(BD)=2",
+    "length(CE)=2",
+    "angle(DAE)=45",
+    "angle(FBD)=45",
+    "angle(ACD)=45",
+    "angle(ABE)=45",
+    "on_extended(F, AD , towards=D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00200.png",
+  "meta": {
+    "source": "等腰三角形",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "parallel",
+      "equal",
+      "angle"
+    ]
+  }
+}

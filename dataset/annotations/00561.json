@@ -1,0 +1,33 @@
+{
+  "id": "00561",
+  "text": "平行四边形ABCD，O为对角线AC的中点，过O的一条直线交AD于点E，交BC于点F，△AOE≅△COF，AE:AD=1:2，△AOE的面积为2，ABCD的面积为16",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "triangle(A, O, E)",
+    "triangle(C, O, F)",
+    "on(E, AD)",
+    "on(F, BC)",
+    "line(l1, E, F)",
+    "midpoint(O, AC)",
+    "on(O, l1)",
+    "congruent(AOE, COF)",
+    "ratio(AE, AD)=0.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00561.png",
+  "meta": {
+    "source": "平行四边形性质",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "midpoint",
+      "congruent"
+    ]
+  }
+}

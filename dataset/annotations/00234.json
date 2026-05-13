@@ -1,0 +1,35 @@
+{
+  "id": "00234",
+  "text": "在平面直角坐标系中，直角三角形AOB中，AO=2，BO=2√3，AB⊥y轴，O为坐标原点，A的坐标为(1,√3)，B的坐标为(-3,√3)，反比例函数y=√3/x的图象过A点，反比例函数y=-√3/x的图象过B点，过A作AH⊥x轴于H",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(H)",
+    "point_coord(A, 1, √3)",
+    "point_coord(B, -3, √3)",
+    "point_coord(H, 1, 0)",
+    "hyperbola(h1, √3)",
+    "hyperbola(h2, -√3)",
+    "segment(AH)",
+    "segment(AO)",
+    "segment(BO)",
+    "segment(AB)",
+    "function_point(A, h1)",
+    "function_point(B, h2)",
+    "right_triangle(A, O, B, right_at=O)",
+    "perpendicular(AH, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00234.png",
+  "meta": {
+    "source": "直角三角形与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "hyperbola",
+      "coordinate"
+    ]
+  }
+}

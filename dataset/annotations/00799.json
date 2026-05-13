@@ -1,0 +1,33 @@
+{
+  "id": "00799",
+  "text": "在平面直角坐标系中，抛物线y=-(1/3)x²+(1/3)x+4经过A(-3,0)和B(4,0)两点，与y轴交于点C，M为线段OB上一点，过M作PM垂直于x轴交抛物线于点P，交BC于点Q",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(M)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, 4)",
+    "parabola(f, -0.333333, 0.333333, 4)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(PM)",
+    "on(M, OB)",
+    "function_point(P, f)",
+    "on(Q, BC)",
+    "perpendicular(PM, OB)",
+    "collinear(P, M, Q)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00799.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "moving_point"]
+  }
+}

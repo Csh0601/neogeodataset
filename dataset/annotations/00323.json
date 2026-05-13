@@ -1,0 +1,34 @@
+{
+  "id": "00323",
+  "text": "四边形ABCD，BC长度为35，角ABC和角DCB均为90°，CD长度为1.5m，DE平行于BC，∠EDA为36°，AB长度为27m",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "quadrilateral(A, B, C, D)",
+    "segment(DE)",
+    "parallel(DE, BC)",
+    "length(BC)=35",
+    "length(CD)=1.5",
+    "angle(ABC)=90",
+    "angle(DCB)=90",
+    "angle(EDA)=36",
+    "length(AB)=27"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00323.png",
+  "meta": {
+    "source": "测量塔高应用题",
+    "difficulty": "middle",
+    "tags": [
+      "trigonometry",
+      "application",
+      "angle_of_elevation"
+    ]
+  }
+}

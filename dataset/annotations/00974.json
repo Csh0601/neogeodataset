@@ -1,0 +1,27 @@
+{
+  "id": "00974",
+  "text": "在平行四边形ABCD中，BC=4，E为AD的中点，F为BE的中点，G为CD的中点，连接FG",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "segment(BE)",
+    "segment(CD)",
+    "segment(FG)",
+    "midpoint(E, AD)",
+    "midpoint(F, BE)",
+    "midpoint(G, CD)",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00974.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallelogram", "midpoint", "median"]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "00184",
+  "text": "AB∥CD，直线EF分别交AB、CD于点E、F，EG平分∠BEF，∠EFG=64°，∠EGD=122°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "line(AB)",
+    "line(CD)",
+    "line(EF)",
+    "ray(E, G)",
+    "on(E, AB)",
+    "on(F, CD)",
+    "intersection(G, EG, CD)",
+    "angle_bisector(G, B, E, F)",
+    "parallel(AB, CD)",
+    "angle(EFG)=64",
+    "angle(EGD)=122"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00184.png",
+  "meta": {
+    "source": "平行线与角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "bisector",
+      "angle"
+    ]
+  }
+}

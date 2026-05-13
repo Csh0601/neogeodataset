@@ -1,0 +1,34 @@
+{
+  "id": "01081",
+  "text": "在Rt△ABC中，AB=6，AC=8，∠BAC=90°，D在AB边上，E在AC边上，DE=6，F为DE中点，连接BF，CF",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(DE)",
+    "segment(BF)",
+    "segment(CF)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "midpoint(F, DE)",
+    "angle(BAC)=90",
+    "length(AB)=6",
+    "length(AC)=8",
+    "length(DE)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01081.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "optimization"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00563",
+  "text": "在菱形ABCD中，AB=4，∠BAD=120°，O是对角线BD的中点，过点O作OE⊥CD于点E，连结OA，四边形AOED的周长为8",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "quadrilateral(A, O, E, D)",
+    "segment(OA)",
+    "segment(OE)",
+    "segment(ED)",
+    "segment(DA)",
+    "on(E, CD)",
+    "midpoint(O, BD)",
+    "foot(E, O, CD)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DA)",
+    "length(AB)=4",
+    "angle(BAD)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00563.png",
+  "meta": {
+    "source": "菱形性质",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "midpoint",
+      "perpendicular"
+    ]
+  }
+}

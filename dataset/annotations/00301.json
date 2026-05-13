@@ -1,0 +1,46 @@
+{
+  "id": "00301",
+  "text": "在平面直角坐标系xOy中，反比例函数y=2/x的图象经过点P（2,1）和Q（1,2），连接OP、OQ，PQ的延长线与x轴、y轴分别交于C、D两点，点M（0.5,4）在该函数图象上，过点M分别作x轴和y轴的垂线，垂足分别为A、B",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point(Q)",
+    "point(C)",
+    "point(D)",
+    "point(M)",
+    "point(A)",
+    "point(B)",
+    "point_coord(P, 2, 1)",
+    "point_coord(Q, 1, 2)",
+    "point_coord(M, 0.5, 4)",
+    "point_coord(A, 0.5, 0)",
+    "point_coord(B, 0, 4)",
+    "hyperbola(h, 2)",
+    "segment(OP)",
+    "segment(OQ)",
+    "segment(PQ)",
+    "segment(MA)",
+    "segment(MB)",
+    "function_point(P, h)",
+    "function_point(Q, h)",
+    "function_point(M, h)",
+    "intersection(C, PQ, axis_x)",
+    "intersection(D, PQ, axis_y)",
+    "perpendicular(MA, axis_x)",
+    "perpendicular(MB, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00301.png",
+  "meta": {
+    "source": "反比例函数与坐标系",
+    "difficulty": "hard",
+    "tags": [
+      "hyperbola",
+      "coordinate_system",
+      "perpendicular"
+    ]
+  }
+}

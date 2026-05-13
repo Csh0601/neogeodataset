@@ -1,0 +1,30 @@
+{
+  "id": "01029",
+  "text": "正方形ABCD的边长为2√3，E为正方形外CD边延长线方向一点，∠AED=45°，P为AB中点，连接PE，AE，DE",
+  "dsl": [
+    "point(E)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(PE)",
+    "segment(AE)",
+    "segment(DE)",
+    "midpoint(P, AB)",
+    "angle(AED)=45",
+    "length(AB)=3.464"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01029.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "midpoint",
+      "angle"
+    ]
+  }
+}

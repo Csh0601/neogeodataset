@@ -1,0 +1,37 @@
+{
+  "id": "00394",
+  "text": "在Rt△ABC中，∠ACB=90°，AC=BC=2√2，CD⊥AB于点D，点P在线段AD上，过点P作PE⊥AC于点E，作PF⊥BC于点F",
+  "dsl": [
+    "point(D)",
+    "point(P)",
+    "point(E)",
+    "point(F)",
+    "right_triangle(A, B, C, right_at=C)",
+    "segment(CD)",
+    "segment(PE)",
+    "segment(PF)",
+    "on(P, AD)",
+    "foot(D, C, AB)",
+    "foot(E, P, AC)",
+    "foot(F, P, BC)",
+    "equal(AC, BC)",
+    "perpendicular(CD, AB)",
+    "perpendicular(PE, AC)",
+    "perpendicular(PF, BC)",
+    "length(AC)=2.828"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00394.png",
+  "meta": {
+    "source": "等腰直角三角形动点",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "moving_point",
+      "perpendicular"
+    ]
+  }
+}

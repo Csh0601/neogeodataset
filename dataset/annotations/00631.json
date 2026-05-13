@@ -1,0 +1,31 @@
+{
+  "id": "00631",
+  "text": "在平行四边形ABCD中，对角线AC与BD相交于点O，过点O作直线EF与BA、DC的延长线分别交于点E、F，AE=CF",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "line(l, E, F)",
+    "segment(AE)",
+    "segment(CF)",
+    "intersection(O, AC, BD)",
+    "on(O, line_l)",
+    "collinear(E, O, F)",
+    "equal(AE, CF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00631.png",
+  "meta": {
+    "source": "平行四边形对角线",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "diagonal",
+      "equal"
+    ]
+  }
+}

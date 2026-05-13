@@ -1,0 +1,34 @@
+{
+  "id": "00019",
+  "text": "直线DE∥直线FG，直线AB与直线DE、FG分别相交于点A、B，过点A作AB的垂线交直线FG于点C，∠ABC=58°，∠BAC=90°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "line(l1, D, E)",
+    "line(l2, F, G)",
+    "line(l3, A, B)",
+    "segment(AC)",
+    "segment(AB)",
+    "collinear(D, A, E)",
+    "collinear(F, B, C, G)",
+    "parallel(DE, FG)",
+    "perpendicular(AC, AB)",
+    "angle(ABC)=58",
+    "angle(BAC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00019.png",
+  "meta": {
+    "source": "平行线与垂线角度问题",
+    "difficulty": "easy",
+    "tags": ["parallel", "perpendicular", "angle"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00864",
+  "text": "在等边△ABC中，AB=6，D是AC的中点，E是BC延长线上的一点，CE=CD，DF垂直于BE，垂足为F，BD=3√3，BF=EF",
+  "dsl": [
+    "point(F)",
+    "segment(BD)",
+    "segment(DF)",
+    "segment(BE)",
+    "segment(CE)",
+    "midpoint(D, AC)",
+    "on(E, BC)",
+    "foot(F, D, BE)",
+    "equilateral(A, B, C)",
+    "perpendicular(DF, BE)",
+    "equal(CE, CD)",
+    "equal(BF, EF)",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00864.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "equilateral",
+      "midpoint",
+      "perpendicular",
+      "extension"
+    ]
+  }
+}

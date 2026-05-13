@@ -1,0 +1,35 @@
+{
+  "id": "00058",
+  "text": "在边长为4的正方形ABCD中，点E是边AD上的中点，G是CD延长线上一点，F是BC的中点，△EFG是等腰三角形，∠FEG=120°，EF=EG=4",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(EF)",
+    "segment(EG)",
+    "segment(FG)",
+    "midpoint(E, AD)",
+    "midpoint(F, BC)",
+    "isosceles(E, F, G)",
+    "equal(EG, EF)",
+    "angle(FEG)=120",
+    "length(EG)=4",
+    "length(EF)=4",
+    "on_extended(G, CD, towards=D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00058.png",
+  "meta": {
+    "source": "正方形与等腰直角三角形",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "isosceles_right_triangle",
+      "moving_point"
+    ]
+  }
+}

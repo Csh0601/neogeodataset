@@ -1,0 +1,39 @@
+{
+  "id": "01239",
+  "text": "正五边形ABCDE内接于⊙O，点F是劣弧DE上一点，点F不与点D、E重合，连接BF、DF，∠BFD=72°",
+  "dsl": [
+    "circle(O)",
+    "regular_polygon(5, A, B, C, D, E)",
+    "segment(BF)",
+    "segment(DF)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "on(F, arc_DE)",
+    "arc(D, E, circle_O)",
+    "angle(BFD)=72"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01239.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "regular_polygon",
+      "circle",
+      "inscribed",
+      "arc"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "补充了∠BFD=72°的计算结果"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

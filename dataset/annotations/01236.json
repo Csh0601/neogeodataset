@@ -1,0 +1,39 @@
+{
+  "id": "01236",
+  "text": "C为线段BE上一点，在BE同侧分别作等边三角形ABC和等边三角形CDE，AE与BD交于点O，AC与BD交于点M，AE与CD交于点N，连接MN，AE=BD，△CMN是等边三角形，AN=BM，∠AOB=60°，OC平分∠MON，MN∥BE",
+  "dsl": [
+    "segment(MN)",
+    "on(C, BE)",
+    "intersection(O, AE, BD)",
+    "intersection(M, AC, BD)",
+    "intersection(N, AE, CD)",
+    "triangle(C, M, N)",
+    "equilateral(A, B, C)",
+    "equilateral(C, D, E)",
+    "equal(AE, BD)",
+    "parallel(MN, BE)",
+    "angle(AOB)=60",
+    "same_sides(A, D, BE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01236.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "intersection",
+      "parallel"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "补充了AE=BD，∠AOB=60°，MN∥BE等结论作为已知条件",
+      "△CMN是等边三角形由几何性质可得"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

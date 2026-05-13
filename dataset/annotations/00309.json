@@ -1,0 +1,37 @@
+{
+  "id": "00309",
+  "text": "△OAB的顶点A在反比例函数y=5/x的图像上，AB交y轴于点C，且点C的纵坐标为8，过点A、B分别作y轴的垂线AE、BF，垂足分别为点E、F，AE=1，△OAB为等腰三角形且OA=OB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(E)",
+    "point(F)",
+    "point_coord(C, 0, 8)",
+    "point_coord(E, 0, 5)",
+    "hyperbola(h, 5)",
+    "segment(AE)",
+    "segment(BF)",
+    "function_point(A, h)",
+    "isosceles(O, A, B)",
+    "collinear(A, B, C)",
+    "perpendicular(AE, axis_y)",
+    "perpendicular(BF, axis_y)",
+    "length(AE)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00309.png",
+  "meta": {
+    "source": "反比例函数与等腰直角三角形",
+    "difficulty": "hard",
+    "tags": [
+      "hyperbola",
+      "isosceles_right_triangle",
+      "coordinate_system"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "00906",
+  "text": "在△ABC中，点P在边AC上，△ABP∽△ACB，∠ABP=∠C",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "triangle(A, B, P)",
+    "segment(BP)",
+    "segment(AP)",
+    "on(P, AC)",
+    "similar(ABP, ACB)",
+    "equal_angle(ABP, ACB)"
+  ],
+  "image_path": "images/00906.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "相似三角形判定",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "similar"
+    ]
+  }
+}

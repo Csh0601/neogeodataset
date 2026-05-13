@@ -1,0 +1,34 @@
+{
+  "id": "01105",
+  "text": "在正方形ABCD中，点E在边CD上，F在边AD上，BE⊥CF于点G，BC=4，AF=1",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CF)",
+    "segment(AF)",
+    "segment(GF)",
+    "on(E, CD)",
+    "on(F, AD)",
+    "intersection(G, BE, CF)",
+    "perpendicular(BE, CF)",
+    "length(BC)=4",
+    "length(AF)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01105.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["square", "perpendicular", "intersection"]
+  }
+}

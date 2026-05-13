@@ -1,0 +1,47 @@
+{
+  "id": "01324",
+  "text": "在平面直角坐标系中，抛物线y=x²+2x-3与x轴交于A、B两点，与y轴交于点C，点P在抛物线的对称轴上，D是BC的中点，E是BP的中点，F是PC的中点，连接DE、DF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "coordinate_system(O)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 1, 0)",
+    "point_coord(C, 0, -3)",
+    "parabola(p, 1, 2, -3)",
+    "segment(BC)",
+    "segment(BP)",
+    "segment(PC)",
+    "segment(DE)",
+    "segment(DF)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)",
+    "midpoint(D, BC)",
+    "midpoint(E, BP)",
+    "midpoint(F, PC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01324.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "parabola",
+      "coordinate_system",
+      "midpoint"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "动点P静态化至对称轴x=-1上，P坐标由对称轴确定",
+      "计算了抛物线与坐标轴的交点坐标"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "00065",
+  "text": "在菱形ABCD中，AB=4，对角线BD=4√3，P是边CD的中点，M是对角线BD上一点，连接PM、CM",
+  "dsl": [
+    "point(P)",
+    "point(M)",
+    "parallelogram(A, B, C, D)",
+    "segment(BD)",
+    "segment(AC)",
+    "segment(PM)",
+    "segment(CM)",
+    "on(M, BD)",
+    "midpoint(P, CD)",
+    "equal(AB, BC)",
+    "length(AB)=4",
+    "length(BD)=4√3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00065.png",
+  "meta": {
+    "source": "菱形与动点最值",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "midpoint",
+      "moving_point"
+    ]
+  }
+}

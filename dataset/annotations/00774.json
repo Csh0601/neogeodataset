@@ -1,0 +1,32 @@
+{
+  "id": "00774",
+  "text": "在△ABC中，∠ABC=3∠C，AD平分∠BAC，BE⊥AD于E，BE=1/2(AC-AB)",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(BE)",
+    "on(D, BC)",
+    "foot(E, B, AD)",
+    "bisect_angle(B, A, C, AD)",
+    "perpendicular(BE, AD)"
+  ],
+  "image_path": "images/00774.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "perpendicular"
+    ]
+  }
+}

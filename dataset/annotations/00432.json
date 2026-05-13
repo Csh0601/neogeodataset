@@ -1,0 +1,32 @@
+{
+  "id": "00432",
+  "text": "中心为O的正六边形ABCDEF的半径为6，点P在AF上，点Q在DC上，连接PB、PE、QB、QE，四边形PBQE为平行四边形",
+  "dsl": [
+    "point(O)",
+    "point(P)",
+    "point(Q)",
+    "regular_polygon(6, A, B, C, D, E, F)",
+    "parallelogram(P, B, Q, E)",
+    "segment(PB)",
+    "segment(PE)",
+    "segment(QB)",
+    "segment(QE)",
+    "on(P, AF)",
+    "on(Q, DC)",
+    "length(OA)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00432.png",
+  "meta": {
+    "source": "正六边形动点问题",
+    "difficulty": "hard",
+    "tags": [
+      "regular_polygon",
+      "moving_point",
+      "parallelogram"
+    ]
+  }
+}

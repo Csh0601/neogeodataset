@@ -1,0 +1,38 @@
+{
+  "id": "00597",
+  "text": "AB是⊙O的直径，⊙O的半径为2，点C在⊙O上，AD平分∠BAC交⊙O于点D，过点D的直线DE⊥AC，交AC的延长线于点E，交AB的延长线于点F，直线EF是⊙O的切线，∠F=30°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "circle(O, r=2)",
+    "line(l1, E, F)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "angle_bisector(D, B, A, C)",
+    "tangent(F, circle_O)",
+    "collinear(A, O, B)",
+    "perpendicular(DE, AC)",
+    "angle(AFE)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00597.png",
+  "meta": {
+    "source": "圆的切线与角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "angle_bisector",
+      "diameter"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "01056",
+  "text": "在五边形ABCDE中，AB∥ED，∠A+∠E=α，∠B+∠C+∠D=β，2β=5α",
+  "dsl": [
+    "polygon(A, B, C, D, E)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(EA)",
+    "parallel(AB, ED)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01056.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "polygon",
+      "parallel",
+      "angle"
+    ]
+  }
+}

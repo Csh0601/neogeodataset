@@ -1,0 +1,33 @@
+{
+  "id": "00661",
+  "text": "在△ABC中，∠BAC=90°，AB=AC，点D是AB的中点，连接CD，过B作BE⊥CD交CD的延长线于点E，连接AE，过A作AF⊥AE交CD于点F，AE=AF，CD=2BE+DE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(BE)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(DE)",
+    "midpoint(D, AB)",
+    "on(E, CD_extended)",
+    "on(F, CD)",
+    "perpendicular(BE, CD)",
+    "perpendicular(AF, AE)",
+    "equal(AB, AC)",
+    "equal(AE, AF)",
+    "angle(BAC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00661.png",
+  "meta": {
+    "source": "等腰直角三角形中点与垂线",
+    "difficulty": "hard",
+    "tags": ["isosceles", "right_triangle", "midpoint", "perpendicular"]
+  }
+}

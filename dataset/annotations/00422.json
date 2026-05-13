@@ -1,0 +1,28 @@
+{
+  "id": "00422",
+  "text": "在△ABC中，AB=38，∠CAB=45°，∠ABC=73°，∠BCA=62°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "length(AB)=38",
+    "angle(CAB)=45",
+    "angle(ABC)=73",
+    "angle(BCA)=62"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00422.png",
+  "meta": {
+    "source": "航海方位角问题",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "angle",
+      "application"
+    ]
+  }
+}

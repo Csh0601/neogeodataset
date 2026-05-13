@@ -1,0 +1,33 @@
+{
+  "id": "01132",
+  "text": "在正方形ABCD中，边长为4，∠DAC的平分线交DC于点E，点P在AD上，Q在AE上，连接DQ，PQ",
+  "dsl": [
+    "point(E)",
+    "point(P)",
+    "point(Q)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(AE)",
+    "segment(DQ)",
+    "segment(PQ)",
+    "segment(DE)",
+    "on(E, DC)",
+    "on(P, AD)",
+    "on(Q, AE)",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01132.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["square", "angle_bisector", "optimization"]
+  }
+}

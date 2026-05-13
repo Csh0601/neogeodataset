@@ -1,0 +1,33 @@
+{
+  "id": "01270",
+  "text": "在Rt△ABC中，∠C=90°，AC=6，BC=8，△ABC的内切圆⊙O的半径r=2",
+  "dsl": [
+    "circle(O, r=2)",
+    "segment(AB)",
+    "incenter(O, A, B, C)",
+    "right_triangle(A, B, C, right_at=C)",
+    "length(AC)=6",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01270.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "right_triangle",
+      "incircle",
+      "incenter"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "直角在C，AC=6，BC=8，AB=10",
+      "内切圆半径r=(6+8-10)/2=2"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

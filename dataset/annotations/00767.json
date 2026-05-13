@@ -1,0 +1,37 @@
+{
+  "id": "00767",
+  "text": "已知AD=AB，AE=AC，AD⊥AB，AE⊥AC，F是BE与CD的交点，G是BE与AD的交点，CD=BE，CD⊥BE",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "segment(AD)",
+    "segment(AB)",
+    "segment(AE)",
+    "segment(AC)",
+    "segment(CD)",
+    "segment(BE)",
+    "intersection(F, BE, CD)",
+    "intersection(G, BE, AD)",
+    "equal(AD, AB)",
+    "equal(AE, AC)",
+    "perpendicular(AD, AB)",
+    "perpendicular(AE, AC)",
+    "equal(CD, BE)",
+    "perpendicular(CD, BE)"
+  ],
+  "image_path": "images/00767.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["perpendicular", "equal_length", "intersection", "rotation"]
+  }
+}

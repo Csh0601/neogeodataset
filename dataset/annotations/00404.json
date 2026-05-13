@@ -1,0 +1,33 @@
+{
+  "id": "00404",
+  "text": "在平面直角坐标系中，直线y=1/2·x+4与坐标轴交于A、B两点，在射线AO上有一点P，当△APB是以AP为腰的等腰三角形时，点P的坐标是(-16,0)或(-4,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "line_function(l, 0.5, 4)",
+    "segment(AB)",
+    "segment(AP)",
+    "segment(BP)",
+    "triangle(A, P, B)",
+    "on(P, axis_x)",
+    "axis_intersection(A, l, x)",
+    "axis_intersection(B, l, y)",
+    "equal(AP, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00404.png",
+  "meta": {
+    "source": "直线与等腰三角形",
+    "difficulty": "middle",
+    "tags": [
+      "line_function",
+      "isosceles_triangle",
+      "coordinate_system"
+    ]
+  }
+}

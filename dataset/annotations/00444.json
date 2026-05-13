@@ -1,0 +1,33 @@
+{
+  "id": "00444",
+  "text": "A、B、C是⊙O上的三个点，∠AOC=110°，∠ABC=125°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O)",
+    "segment(OA)",
+    "segment(OC)",
+    "segment(AB)",
+    "segment(BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "angle(AOC)=110",
+    "angle(ABC)=125"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00444.png",
+  "meta": {
+    "source": "圆心角与圆周角",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "central_angle",
+      "inscribed_angle"
+    ]
+  }
+}

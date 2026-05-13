@@ -1,0 +1,46 @@
+{
+  "id": "00795",
+  "text": "在平面直角坐标系xOy中，直线y=1/2x-2与x轴交于点A(4,0)，与y轴交于点B(0,-2)，直线y=-x+4经过点A，并与y轴交于点C(0,4)，点P在x轴上，过点P作x轴的垂线，分别交直线AC、AB于点D、E",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(P)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, -2)",
+    "point_coord(C, 0, 4)",
+    "line_function(l1, 0.5, -2)",
+    "line_function(l2, -1, 4)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(DE)",
+    "segment(PD)",
+    "segment(PE)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "function_point(A, l2)",
+    "function_point(C, l2)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)",
+    "axis_intersection(C, l2, y)",
+    "on(P, axis_x)"
+  ],
+  "image_path": "images/00795.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "line",
+      "perpendicular",
+      "area"
+    ]
+  }
+}

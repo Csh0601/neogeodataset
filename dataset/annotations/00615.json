@@ -1,0 +1,25 @@
+{
+  "id": "00615",
+  "text": "在等腰三角形ABC中，BD为∠ABC的平分线，∠A=36°，AB=AC=a，BC=b，CD=b-a",
+  "dsl": [
+    "point(D)",
+    "segment(CD)",
+    "on(D, AC)",
+    "isosceles(A, B, C)",
+    "angle_bisector(D, A, B, C)",
+    "angle(BAC)=36"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00615.png",
+  "meta": {
+    "source": "等腰三角形角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles",
+      "angle_bisector"
+    ]
+  }
+}

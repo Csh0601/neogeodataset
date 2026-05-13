@@ -1,0 +1,32 @@
+{
+  "id": "00936",
+  "text": "在△ABC中，D是AB上一点，AD=AC，AE⊥CD，垂足为点E，F是BC的中点，BD=16，EF=8",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(BD)",
+    "segment(AD)",
+    "on(D, AB)",
+    "foot(E, A, CD)",
+    "midpoint(F, BC)",
+    "equal(AD, AC)",
+    "perpendicular(AE, CD)",
+    "length(BD)=16",
+    "length(EF)=8"
+  ],
+  "image_path": "images/00936.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "双中点中位线模型",
+    "difficulty": "middle",
+    "tags": ["triangle", "midpoint", "perpendicular", "equal"]
+  }
+}

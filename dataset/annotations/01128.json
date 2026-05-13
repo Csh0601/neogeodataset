@@ -1,0 +1,32 @@
+{
+  "id": "01128",
+  "text": "在△ABC中，AC=BC=10，∠ACB=4∠A，BD平分∠ABC交AC于D，点E、F分别是线段BD、BC上的点，连接CE，EF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(EF)",
+    "on(D, AC)",
+    "on(E, BD)",
+    "on(F, BC)",
+    "equal(AC, BC)",
+    "length(AC)=10",
+    "length(BC)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01128.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["isosceles", "angle_bisector", "optimization"]
+  }
+}

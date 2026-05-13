@@ -1,0 +1,33 @@
+{
+  "id": "01304",
+  "text": "在平面直角坐标系中，点A的坐标为(0,1)，点B的坐标为(3/2,-2)，直线l: y=-x，点P在直线l上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 0, 1)",
+    "point_coord(B, 1.5, -2)",
+    "line_function(l, -1, 0)",
+    "segment(PA)",
+    "segment(PB)",
+    "on(P, l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01304.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "line_function",
+      "point_coord"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "坐标系中A在(0,1)，B在(3/2,-2)，直线l为y=-x经过原点"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

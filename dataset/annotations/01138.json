@@ -1,0 +1,32 @@
+{
+  "id": "01138",
+  "text": "在正方形ABCD中，AB=2，F是BD上一点，连接AF，过点B作BE⊥AF于E，连接DE",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(AF)",
+    "segment(BE)",
+    "segment(DE)",
+    "segment(EF)",
+    "on(F, BD)",
+    "foot(E, B, AF)",
+    "perpendicular(BE, AF)",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01138.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["square", "perpendicular", "optimization"]
+  }
+}

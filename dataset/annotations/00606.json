@@ -1,0 +1,39 @@
+{
+  "id": "00606",
+  "text": "⊙O的直径AB=8，AM、BN是⊙O的两条切线，DE与⊙O相切于点E，并与AM、BN分别相交于D、C两点，BD、OC相交于点F，CD=10",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(M)",
+    "point(N)",
+    "point(D)",
+    "point(E)",
+    "point(C)",
+    "point(F)",
+    "circle(O)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(E, circle_O)",
+    "intersection(F, BD, OC)",
+    "tangent(A, circle_O)",
+    "tangent(B, circle_O)",
+    "tangent(E, circle_O)",
+    "collinear(A, O, B)",
+    "length(AB)=8",
+    "length(CD)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00606.png",
+  "meta": {
+    "source": "圆的切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "diameter"
+    ]
+  }
+}

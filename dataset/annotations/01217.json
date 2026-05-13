@@ -1,0 +1,38 @@
+{
+  "id": "01217",
+  "text": "在四边形ABCD中，AD//BC，∠ABC=90°，AB=7，AD=4，将△ABC绕点C顺时针方向旋转后得△A'B'C，当A'B'恰好经过点D时，△B'CD为等腰直角三角形，BC=5，AA'=2√185/5",
+  "dsl": [
+    "trapezoid(A, B, C, D)",
+    "triangle(A, B, C)",
+    "segment(A_primeB_prime)",
+    "segment(AA_prime)",
+    "on(D, A_primeB_prime)",
+    "rotate(B_prime, source=B, center=C, angle=-90)",
+    "rotate(A_prime, source=A, center=C, angle=-90)",
+    "parallel(AD, BC)",
+    "angle(ABC)=90",
+    "length(AB)=7",
+    "length(AD)=4",
+    "length(BC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01217.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "trapezoid",
+      "rotation",
+      "isosceles_right"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "补充BC=5和AA'=2√185/5，旋转角度通过等腰直角三角形条件确定"
+    ]
+  },
+  "validated": false,
+  "needs_review": true
+}

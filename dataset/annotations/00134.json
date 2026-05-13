@@ -1,0 +1,30 @@
+{
+  "id": "00134",
+  "text": "在三角形ECD中，A、B分别为EC和ED的中点，,AB∥CD,∠ABE=70°，∠ACD=40°，∠AEB=70°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "triangle(E, C, D)",
+    "segment(AB)",
+    "midpoint(A, EC)",
+    "midpoint(B, ED)",
+    "parallel(AB, CD)",
+    "angle(ABE)=70",
+    "angle(ACD)=40",
+    "angle(AEB)=70"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00134.png",
+  "meta": {
+    "source": "平行线与角度",
+    "difficulty": "easy",
+    "tags": [
+      "parallel",
+      "intersection",
+      "angle"
+    ]
+  }
+}

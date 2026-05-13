@@ -1,0 +1,37 @@
+{
+  "id": "00162",
+  "text": "在平面直角坐标系中，直线y=-0.5x+2交y轴于点A(0,2)，交x轴于点C(4,0)，抛物线y=-0.25x²+0.5x+2经过点A、C，且交x轴于另一点B(-2,0)，连接AB、AC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, 0, 2)",
+    "point_coord(B, -2, 0)",
+    "point_coord(C, 4, 0)",
+    "line_function(l, -0.5, 2)",
+    "parabola(p, -0.25, 0.5, 2)",
+    "segment(AB)",
+    "segment(AC)",
+    "axis_intersection(A, l, y)",
+    "axis_intersection(C, l, x)",
+    "function_point(A, p)",
+    "function_point(B, p)",
+    "function_point(C, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00162.png",
+  "meta": {
+    "source": "直线与抛物线",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "parabola",
+      "intersection"
+    ]
+  }
+}

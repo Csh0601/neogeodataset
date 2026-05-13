@@ -1,0 +1,25 @@
+{
+  "id": "00027",
+  "text": "在菱形ABCD中，对角线AC、BD相交于点O，BD=8，tan∠ABD=3/4，AB=5",
+  "dsl": [
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "intersection(O, AC, BD)",
+    "perpendicular(AC, BD)",
+    "equal(AB, BC)",
+    "length(BD)=8",
+    "length(AB)=5",
+    "tan(ABD)=3/4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00027.png",
+  "meta": {
+    "source": "菱形与对角线",
+    "difficulty": "middle",
+    "tags": ["rhombus", "diagonal", "trigonometry"]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "00082",
+  "text": "在△ABC中，AC=BC=AB=6，以AB为直径作⊙O，与AC相交于点D，连接OC，与⊙O相交于点E，连接DE，∠ADE=135°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "circle(O,r=3)",
+    "segment(OC)",
+    "segment(DE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "on(D, AC)",
+    "on(E, OC)",
+    "midpoint(O, AB)",
+    "equilateral(A, B, C)",
+    "collinear(A, O, B)",
+    "angle(ADE)=135",
+    "length(AC)=6",
+    "length(BC)=6",
+    "length(AB)=6"
+  ],
+  "image_path": "images/00082.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆与直径",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "triangle",
+      "equal",
+      "angle",
+      "collinear"
+    ]
+  }
+}

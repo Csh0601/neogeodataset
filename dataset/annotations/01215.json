@@ -1,0 +1,35 @@
+{
+  "id": "01215",
+  "text": "在边长为2的正方形ABCD中，点E、F分别是边AB、BC的中点，连接EC、FD，点G、H分别是EC、FD的中点，连接GH，GH=√2/2",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(EC)",
+    "segment(FD)",
+    "segment(GH)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, EC)",
+    "midpoint(H, FD)",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01215.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "square",
+      "midpoint",
+      "length"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "补充了GH=√2/2的结论"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00642",
+  "text": "在等腰直角三角形ABC中，∠A=90°，AB=AC，点D是斜边BC上的中点，点E、F分别为AB、AC上的点，DE⊥DF，FM=EM",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)",
+    "segment(DM)",
+    "midpoint(D, BC)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "foot(M, D, EF)",
+    "perpendicular(DE, DF)",
+    "perpendicular(DM, EF)",
+    "equal(AB, AC)",
+    "equal(FM, EM)",
+    "angle(BAC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00642.png",
+  "meta": {
+    "source": "等腰直角三角形中点与垂直",
+    "difficulty": "middle",
+    "tags": ["isosceles", "right_triangle", "midpoint", "perpendicular"]
+  }
+}

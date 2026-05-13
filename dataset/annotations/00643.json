@@ -1,0 +1,33 @@
+{
+  "id": "00643",
+  "text": "在△ABC中，BE、CF分别为边AC、AB上的高，D为BC的中点，DM⊥EF于M，FM=EM",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "triangle(A, B, C)",
+    "segment(BE)",
+    "segment(CF)",
+    "segment(EF)",
+    "segment(DM)",
+    "foot(E, B, AC)",
+    "foot(F, C, AB)",
+    "midpoint(D, BC)",
+    "foot(M, D, EF)",
+    "perpendicular(BE, AC)",
+    "perpendicular(CF, AB)",
+    "perpendicular(DM, EF)",
+    "equal(FM, EM)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00643.png",
+  "meta": {
+    "source": "三角形高线与中点",
+    "difficulty": "hard",
+    "tags": ["triangle", "altitude", "midpoint", "perpendicular"]
+  }
+}

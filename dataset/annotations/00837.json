@@ -1,0 +1,33 @@
+{
+  "id": "00837",
+  "text": "在平面直角坐标系中，O为坐标原点，直线l: y=-1/2 x+m与x轴、y轴的正半轴分别交于点A、B，过点C(-4,-4)画平行于y轴的直线交直线AB于点D，CD=10",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "point_coord(C, -4, -4)",
+    "line_function(l, -0.5, 5)",
+    "segment(AB)",
+    "segment(CD)",
+    "axis_intersection(A, l, x)",
+    "axis_intersection(B, l, y)",
+    "on(D, l)",
+    "perpendicular(CD, OA)",
+    "length(CD)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00837.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "parallel"
+    ]
+  }
+}

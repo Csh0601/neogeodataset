@@ -1,0 +1,46 @@
+{
+  "id": "01017",
+  "text": "在平面直角坐标系xOy中，A(4,0)，B(0,4)，△ABO的中线AC与y轴交于点C，⊙M经过O、A、C三点，M为圆心，直线AD与⊙M相切于A，交y轴于点D，E在x轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(P)",
+    "point(F)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 4)",
+    "triangle(A, B, O)",
+    "circle(M)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "line(l, A, D)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(PE)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_y)",
+    "on(D, axis_y)",
+    "on(E, axis_x)",
+    "midpoint(C, OB)",
+    "on(O, circle_M)",
+    "on(A, circle_M)",
+    "on(C, circle_M)",
+    "tangent(AD, circle_M)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01017.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "circle",
+      "tangent",
+      "midpoint"
+    ]
+  }
+}

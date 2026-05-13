@@ -1,0 +1,40 @@
+{
+  "id": "00181",
+  "text": "点B、E、C、F在一条直线上，AB=DE=6，AC=DF=5，BE=CF=2，△ABC≅△DEF，连接AD，四边形ABED是平行四边形",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(D, E, F)",
+    "parallelogram(A, B, E, D)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(EF)",
+    "segment(DF)",
+    "collinear(B, E, C)",
+    "collinear(E, C, F)",
+    "equal(AB, DE)",
+    "equal(AC, DF)",
+    "equal(BE, CF)",
+    "congruent(ABC, DEF)",
+    "length(AB)=6",
+    "length(DE)=6",
+    "length(AC)=5",
+    "length(DF)=5",
+    "length(BE)=2",
+    "length(CF)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00181.png",
+  "meta": {
+    "source": "全等三角形与平行四边形",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "congruent",
+      "parallelogram",
+      "collinear"
+    ]
+  }
+}

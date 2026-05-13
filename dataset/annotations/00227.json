@@ -1,0 +1,37 @@
+{
+  "id": "00227",
+  "text": "在三角形ABC中，AC=6,AB=10,∠C=90°，D在线段CB上且AD平分∠CAB，DE⊥AB于E，CD=3，BD=5，BE=4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(CD)",
+    "segment(BD)",
+    "segment(BE)",
+    "on(D, BC)",
+    "on(E, AB)",
+    "foot(E, D, AB)",
+    "right_triangle(A, B, C, right_at=C)",
+    "angle_bisector(D, C, A, B)",
+    "length(CD)=3",
+    "length(BD)=5",
+    "length(BE)=4",
+    "length(AC)=6",
+    "length(AB)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00227.png",
+  "meta": {
+    "source": "直角三角形角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "angle_bisector",
+      "perpendicular"
+    ]
+  }
+}

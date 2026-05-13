@@ -1,0 +1,29 @@
+{
+  "id": "00443",
+  "text": "四边形ABCD与四边形EFGH位似，其位似中心为点O，且OE/EA=4/3，FG/BC=4/7",
+  "dsl": [
+    "point(O)",
+    "quadrilateral(A, B, C, D)",
+    "quadrilateral(E, F, G, H)",
+    "collinear(O, E, A)",
+    "collinear(O, F, B)",
+    "collinear(O, G, C)",
+    "collinear(O, H, D)",
+    "ratio(OE, EA)=1.333",
+    "ratio(FG, BC)=0.571"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00443.png",
+  "meta": {
+    "source": "位似四边形",
+    "difficulty": "middle",
+    "tags": [
+      "similar",
+      "quadrilateral",
+      "ratio"
+    ]
+  }
+}

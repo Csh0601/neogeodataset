@@ -1,0 +1,43 @@
+{
+  "id": "00079",
+  "text": "在平面直角坐标系中，一次函数y=x+5的图象与x轴和y轴分别交于点A和点B，与反比例函数y=6/x的图象在第一象限内交于点C，第三象限交于D点，作CE⊥x轴垂足为E，CG⊥y轴垂足为G",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(G)",
+    "point_coord(A, -5, 0)",
+    "point_coord(B, 0, 5)",
+    "line_function(l, 1, 5)",
+    "hyperbola(h, 6)",
+    "segment(CE)",
+    "segment(CG)",
+    "on(E, axis_x)",
+    "on(G, axis_y)",
+    "axis_intersection(A, l, x)",
+    "axis_intersection(B, l, y)",
+    "function_intersection(C, l, h)",
+    "function_intersection(D, l, h)",
+    "perpendicular(CE, axis_x)",
+    "perpendicular(CG, axis_y)"
+  ],
+  "image_path": "images/00079.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系与函数",
+    "difficulty": "middle",
+    "tags": [
+      "perpendicular",
+      "foot",
+      "coordinate",
+      "hyperbola",
+      "linear_function"
+    ]
+  }
+}

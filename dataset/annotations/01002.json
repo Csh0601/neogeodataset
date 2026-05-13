@@ -1,0 +1,37 @@
+{
+  "id": "01002",
+  "text": "在平面直角坐标系中，抛物线y=-(2/3)x^2+(4/3)x+2与坐标轴交点分别为A(-1,0)，B(3,0)，C(0,2)，作直线BC，点P为抛物线上第一象限内一点，过P作PD⊥x轴于点D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(P)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, 2)",
+    "parabola(p1, -0.6667, 1.3333, 2)",
+    "line(l, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(PD)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(D, axis_x)",
+    "perpendicular(PD, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01002.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "area",
+      "similar"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "01137",
+  "text": "点O是等边三角形ABC内一点，OA=2，OB=1，OC=√3，连接OA，OB，OC",
+  "dsl": [
+    "point(O)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "equal(AB, BC)",
+    "equal(BC, AC)",
+    "length(OA)=2",
+    "length(OB)=1",
+    "length(OC)=1.732",
+    "inside(O, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01137.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "equilateral",
+      "interior_point",
+      "length",
+      "area"
+    ]
+  }
+}

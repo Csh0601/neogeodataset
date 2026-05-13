@@ -1,0 +1,36 @@
+{
+  "id": "01326",
+  "text": "在矩形ABCD中，AB=8，AD=4，点M是AB上一点，点N是对角线AC上一点，连接MN、BN",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "rectangle(A, B, C, D)",
+    "segment(AC)",
+    "segment(MN)",
+    "segment(BN)",
+    "on(M, AB)",
+    "on(N, AC)",
+    "length(AB)=8",
+    "length(AD)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01326.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "rectangle",
+      "diagonal"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "多子图题目，选取图3矩形部分标注",
+      "动点M和N静态化"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

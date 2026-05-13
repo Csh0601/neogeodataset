@@ -1,0 +1,44 @@
+{
+  "id": "01373",
+  "text": "在四边形ABCD中，线段AB、CD相交于点M，线段AD、BC相交于点N，DP平分∠ADC，PB平分∠ABC，DP与AB交于点P，∠A=60，∠C=80，∠P=70",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(P)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(DP)",
+    "segment(PB)",
+    "intersection(M, AB, CD)",
+    "intersection(N, AD, BC)",
+    "intersection(P, DP, AB)",
+    "equal_angle(ADP, PDC)",
+    "equal_angle(ABP, PBC)",
+    "angle(DAB)=60",
+    "angle(BCD)=80",
+    "angle(DPB)=70"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01373.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "angle_bisector",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "设定∠A=60，∠C=80，计算出∠P=(∠A+∠C)/2=70"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "01343",
+  "text": "弧AC是劣弧，M是弧AC的中点，B为弧AM上任意一点，自M向BC弦引垂线，垂足为D，AB+BD=DC",
+  "dsl": [
+    "point(D)",
+    "circle(O)",
+    "arc(A, C, circle_O)",
+    "arc(A, M, circle_O)",
+    "segment(BC)",
+    "segment(MD)",
+    "segment(AB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(M, circle_O)",
+    "arc_midpoint(M, AC, circle_O)",
+    "foot(D, M, BC)",
+    "perpendicular(MD, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01343.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "arc_midpoint",
+      "perpendicular"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "结论AB+BD=DC作为已知条件"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

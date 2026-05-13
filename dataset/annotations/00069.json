@@ -1,0 +1,49 @@
+{
+  "id": "00069",
+  "text": "在⊙O中，AB是直径，长度为6，点C在圆O上，连接AC。以AC为边作菱形ACDE，CD交圆O于点F，AB⊥CD垂足为G。连接AD，交圆O于点H，连接EH。AG=12，GF=5，DF=3，EH=13√13/4",
+  "dsl": [
+    "circle(O, r=3)",
+    "parallelogram(A, C, D, E)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(EH)",
+    "segment(DF)",
+    "segment(GF)",
+    "segment(AG)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(F, circle_O)",
+    "on(H, circle_O)",
+    "on(F, CD)",
+    "on(G, AB)",
+    "on(G, CD)",
+    "on(H, AD)",
+    "collinear(A, O, B)",
+    "equal(AC, CD)",
+    "equal(CD, DE)",
+    "equal(DE, EA)",
+    "parallel(AC, DE)",
+    "parallel(CD, EA)",
+    "perpendicular(AB, CD)",
+    "length(AB)=6",
+    "length(GF)=5",
+    "length(DF)=3"
+  ],
+  "image_path": "images/00069.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆与直径",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "parallel",
+      "perpendicular",
+      "equal",
+      "collinear"
+    ]
+  }
+}

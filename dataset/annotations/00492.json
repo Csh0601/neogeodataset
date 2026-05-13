@@ -1,0 +1,30 @@
+{
+  "id": "00492",
+  "text": "在平行四边形ABCD中，E是BC的中点，连接AE并延长，交DC的延长线于点F，且AF=AD，连接BF，四边形ABFC是矩形",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "rectangle(A, B, F, C)",
+    "segment(AE)",
+    "segment(BF)",
+    "on(F, DC_extended)",
+    "midpoint(E, BC)",
+    "collinear(A, E, F)",
+    "equal(AF, AD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00492.png",
+  "meta": {
+    "source": "平行四边形中点延长成矩形",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "midpoint",
+      "rectangle"
+    ]
+  }
+}

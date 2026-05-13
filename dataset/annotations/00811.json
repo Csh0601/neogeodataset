@@ -1,0 +1,33 @@
+{
+  "id": "00811",
+  "text": "在三角形ABC中，BD、CD分别平分角ABC、角ACB，过点D作EF平行于BC交AB、AC于点E、F",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(EF)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "on(D, EF)",
+    "bisector(BD, ABC)",
+    "bisector(CD, ACB)",
+    "parallel(EF, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00811.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "parallel"
+    ]
+  }
+}

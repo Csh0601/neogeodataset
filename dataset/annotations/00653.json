@@ -1,0 +1,36 @@
+{
+  "id": "00653",
+  "text": "在平面直角坐标系中，图形ABCD是由两个二次函数y₁=kx²+m(k<0)与y₂=ax²+b(a>0)的部分图象围成的封闭图形，A(1,0)，B(0,1)，D(0,-3)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 0, 1)",
+    "point_coord(D, 0, -3)",
+    "parabola(p1, -1, 0, 1)",
+    "parabola(p2, 3, 0, -3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(D, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00653.png",
+  "meta": {
+    "source": "两条抛物线围成封闭图形",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola"
+    ]
+  }
+}

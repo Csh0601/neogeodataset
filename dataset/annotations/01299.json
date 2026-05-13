@@ -1,0 +1,35 @@
+{
+  "id": "01299",
+  "text": "正方形ABCD的边长为3，E和F是对角线BD上的两点，EF=√2，连接CE、CF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(CF)",
+    "on(E, BD)",
+    "on(F, BD)",
+    "length(AB)=3",
+    "length(EF)=√2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01299.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "square",
+      "diagonal"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "动点E、F静态化"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

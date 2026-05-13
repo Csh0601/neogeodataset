@@ -1,0 +1,38 @@
+{
+  "id": "01401",
+  "text": "在Rt△ABC中，∠ACB=90，AC=3，BC=4，CD⊥AB，垂足为D，E为BC的中点，AE与CD交于点F",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(CD)",
+    "segment(AE)",
+    "segment(DF)",
+    "foot(D, C, AB)",
+    "midpoint(E, BC)",
+    "intersection(F, AE, CD)",
+    "right_triangle(A, C, B, right_at=C)",
+    "perpendicular(CD, AB)",
+    "length(AC)=3",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01401.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "foot",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

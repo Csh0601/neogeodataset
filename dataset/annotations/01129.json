@@ -1,0 +1,32 @@
+{
+  "id": "01129",
+  "text": "在平面直角坐标系中，矩形ABCD中，AB=2，BC=4，点A在x轴正半轴上，点D在y轴正半轴上，连接AC，BD，AC与BD交于点O",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(BD)",
+    "on(A, axis_x)",
+    "on(D, axis_y)",
+    "length(AB)=2",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01129.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "rectangle", "optimization"]
+  }
+}

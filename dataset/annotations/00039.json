@@ -1,0 +1,30 @@
+{
+  "id": "00039",
+  "text": "在正方形ABCD中，AB=6，M为对角线BD三等分点中靠近D的点，连接CM，过点M作MN⊥CM，MN与AB交于点N",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "square(A, B, C, D)",
+    "segment(BD)",
+    "segment(MN)",
+    "segment(CM)",
+    "trisection(M, BD, near=D)",
+    "on(N, AB)",
+    "perpendicular(MN, CM)",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00039.png",
+  "meta": {
+    "source": "正方形与垂线构造",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "diagonal",
+      "perpendicular"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00173",
+  "text": "△ABC和△ADE都是等腰三角形，∠BAC=∠DAE=90°，BD、CE交于点F，连接AF，BD=CE，BF⊥CF，AF平分∠CAD，∠AFE=45°",
+  "dsl": [
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(AF)",
+    "intersection(F, BD, CE)",
+    "angle_bisector(F, C, A, D)",
+    "equal(AB, AC)",
+    "equal(AD, AE)",
+    "equal(BD, CE)",
+    "perpendicular(BF, CF)",
+    "angle(BAC)=90",
+    "angle(DAE)=90",
+    "angle(AFE)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00173.png",
+  "meta": {
+    "source": "等腰直角三角形",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "right_angle",
+      "intersection"
+    ]
+  }
+}

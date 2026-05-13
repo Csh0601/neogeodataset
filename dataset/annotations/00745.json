@@ -1,0 +1,36 @@
+{
+  "id": "00745",
+  "text": "等边三角形ABC内有两个全等的等边三角形BDE和FGH，D在AB上，E和G在BC上，F在AB上，H在AC附近，五边形DECHF在△ABC内",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "equilateral(A, B, C)",
+    "equilateral(B, D, E)",
+    "equilateral(F, G, H)",
+    "segment(DE)",
+    "segment(FG)",
+    "segment(FH)",
+    "segment(GH)",
+    "on(D, AB)",
+    "on(E, BC)",
+    "on(G, BC)",
+    "congruent(BDE, FGH)"
+  ],
+  "image_path": "images/00745.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "equilateral_triangle",
+      "congruent",
+      "area"
+    ]
+  }
+}

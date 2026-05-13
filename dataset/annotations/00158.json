@@ -1,0 +1,46 @@
+{
+  "id": "00158",
+  "text": "长度为6的AB为⊙O的直径，C、D为⊙O上的两个点，AC=CD=DB，连接AD，过点D作DE⊥AC交AC的延长线于点E，DE是⊙O的切线，直径AB=6，AD=3√3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "circle(O, r=3)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(CD)",
+    "segment(DB)",
+    "segment(AE)",
+    "segment(AD)",
+    "segment(DE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "tangent(DE, circle_O)",
+    "collinear(A, O, B)",
+    "equal(AC, CD)",
+    "equal(CD, DB)",
+    "perpendicular(DE, AC_extended)",
+    "length(AB)=6",
+    "length(AD)=3√3",
+    "on_extended(E, AC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00158.png",
+  "meta": {
+    "source": "圆与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "perpendicular"
+    ]
+  }
+}

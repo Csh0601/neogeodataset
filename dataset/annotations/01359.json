@@ -1,0 +1,41 @@
+{
+  "id": "01359",
+  "text": "A、B、C、D、E、F六个点形成六角星图案，AD、BF、CE三条线段交于点O，∠BOF=120°，∠A+∠B+∠C+∠D+∠E+∠F=120°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "segment(AD)",
+    "segment(BF)",
+    "segment(CE)",
+    "intersection(O, AD, BF)",
+    "collinear(C, O, E)",
+    "collinear(A, O, D)",
+    "collinear(B, O, F)",
+    "angle(BOF)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01359.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "hexagram",
+      "angle_sum",
+      "intersection"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "三条对角线交于一点O，六个顶角之和与∠BOF的关系"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

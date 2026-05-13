@@ -1,0 +1,28 @@
+{
+  "id": "00626",
+  "text": "在矩形ABCD中，BC=10，∠ABD=30°，点M在线段DB上，点N在线段AB上，连接AM、MN",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "rectangle(A, B, C, D)",
+    "segment(AM)",
+    "segment(MN)",
+    "on(M, DB)",
+    "on(N, AB)",
+    "length(BC)=10",
+    "angle(ABD)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00626.png",
+  "meta": {
+    "source": "矩形动点最值",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "minimum"
+    ]
+  }
+}

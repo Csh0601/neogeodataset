@@ -1,0 +1,30 @@
+{
+  "id": "00594",
+  "text": "在△ABC中，∠BCD=30°，∠ACB=80°，CD是边AB上的高，AE是∠CAB的平分线，∠AEB=100°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "on(D, AB)",
+    "on(E, CB)",
+    "foot(D, C, AB)",
+    "angle_bisector(E, C, A, B)",
+    "angle(BCD)=30",
+    "angle(ACB)=80",
+    "angle(AEB)=100"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00594.png",
+  "meta": {
+    "source": "三角形角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "altitude",
+      "angle_bisector"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "01055",
+  "text": "在平面直角坐标系中，抛物线y=-x^2-2x+3与x轴交于A(1,0)和C(-3,0)，与y轴交于B(0,3)，D为抛物线的顶点，连接AB，CD，CB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point_coord(A, 1, 0)",
+    "point_coord(C, -3, 0)",
+    "point_coord(B, 0, 3)",
+    "point_coord(D, -1, 4)",
+    "parabola(p1, -1, -2, 3)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(CB)",
+    "on(A, axis_x)",
+    "on(C, axis_x)",
+    "on(B, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01055.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "vertex"
+    ]
+  }
+}

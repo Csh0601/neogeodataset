@@ -1,0 +1,38 @@
+{
+  "id": "00848",
+  "text": "⊙O半径为2，AB、DE为两条直径，作DC⊥AB于C，且C为AO中点，P为圆上一点，连接PC、PE",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "point(E)",
+    "point(C)",
+    "point(P)",
+    "circle(O, r=2)",
+    "segment(AB)",
+    "segment(DE)",
+    "segment(DC)",
+    "segment(PC)",
+    "segment(PE)",
+    "midpoint(O, AB)",
+    "midpoint(O, DE)",
+    "midpoint(C, AO)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "on(P, circle_O)",
+    "foot(C, D, AB)",
+    "perpendicular(DC, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00848.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["circle", "diameter", "perpendicular", "moving_point"]
+  }
+}

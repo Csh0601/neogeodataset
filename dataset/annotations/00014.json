@@ -1,0 +1,40 @@
+{
+  "id": "00014",
+  "text": "在平面直角坐标系中，一次函数y=-2x+8的图像与x轴交于点B，与y轴交于点A，与反比例函数y=8/x的图像相切于点C(2,4)，M为线段BC的中点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 0, 8)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 2, 4)",
+    "line_function(l, -2, 8)",
+    "hyperbola(h, 8)",
+    "line(l, A, B)",
+    "segment(BC)",
+    "axis_intersection(A, l, y)",
+    "axis_intersection(B, l, x)",
+    "function_point(C, l)",
+    "function_point(C, h)",
+    "tangent_point(C, l, h)",
+    "midpoint(M, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00014.png",
+  "meta": {
+    "source": "一次函数与反比例函数综合题",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "hyperbola",
+      "tangent"
+    ]
+  }
+}

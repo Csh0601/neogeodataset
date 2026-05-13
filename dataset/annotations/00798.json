@@ -1,0 +1,41 @@
+{
+  "id": "00798",
+  "text": "∠AOB=90°，OM平分∠AOB，P在射线OM上，过P点作PC⊥OA于C，PD⊥OB于D，PC=PD，∠CPD=90°",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(M)",
+    "point(P)",
+    "point(C)",
+    "point(D)",
+    "ray(O, A)",
+    "ray(O, B)",
+    "ray(O, M)",
+    "segment(PC)",
+    "segment(PD)",
+    "segment(OC)",
+    "segment(OD)",
+    "on(P, ray_OM)",
+    "on(C, OA)",
+    "on(D, OB)",
+    "bisector(OM, AOB)",
+    "perpendicular(PC, PD)",
+    "equal(PC, PD)",
+    "angle(AOB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00798.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "angle_bisector",
+      "right_angle",
+      "ray"
+    ]
+  }
+}

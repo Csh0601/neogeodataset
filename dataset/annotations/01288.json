@@ -1,0 +1,36 @@
+{
+  "id": "01288",
+  "text": "在平面直角坐标系中，点P为△AOB的重心，点B在x轴的正半轴上，反比例函数y=k/x（k>0）的图象经过点A和点P，且交AB于点C",
+  "dsl": [
+    "coordinate_system(O)",
+    "triangle(A, O, B)",
+    "hyperbola(h, 1)",
+    "segment(AB)",
+    "centroid(P, A, O, B)",
+    "on(B, axis_x)",
+    "function_point(A, h)",
+    "function_point(P, h)",
+    "on(C, AB)",
+    "function_point(C, h)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01288.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "centroid",
+      "hyperbola"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "补充了k=1作为示意，实际k>0为参数"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

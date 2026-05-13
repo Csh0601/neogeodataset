@@ -1,0 +1,45 @@
+{
+  "id": "00183",
+  "text": "在边长为6的正方形ABCD中，点E是边BC上靠近C的三等分点，点F是BA的延长线上一点，且AF=CE=2，△DCE≅△DAF，连接EF，交AD于点K，过点D作DH⊥EF，垂足为H，延长DH交BF于点G，连接HB、HC，HD=HB",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(K)",
+    "point(H)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(EF)",
+    "segment(DG)",
+    "segment(DE)",
+    "segment(HC)",
+    "segment(HB)",
+    "trisection(E, BC, near=C)",
+    "on(F, BA_extended)",
+    "foot(H, D, EF)",
+    "intersection(G, DH_extended, BF)",
+    "intersection(K, EF, AD)",
+    "equal(AF, CE)",
+    "triangle(D, A, F)",
+    "triangle(D, C, E)",
+    "congruent(DCE, DAF)",
+    "collinear(D, H, G)",
+    "equal(HD, HB)",
+    "length(AB)=6",
+    "length(CE)=2",
+    "length(AF)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00183.png",
+  "meta": {
+    "source": "正方形与全等",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "congruent",
+      "perpendicular"
+    ]
+  }
+}

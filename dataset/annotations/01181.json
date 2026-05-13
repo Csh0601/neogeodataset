@@ -1,0 +1,32 @@
+{
+  "id": "01181",
+  "text": "在平面直角坐标系xOy中，点A在x轴上，点B在y轴正半轴上，以线段OB为边在y轴右侧作等边三角形OBC，以线段AB为边在AB上方作等边三角形ABD，连接CD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(OB)",
+    "segment(AB)",
+    "segment(OC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "equilateral(O, B, C)",
+    "equilateral(A, B, D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01181.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "equilateral", "moving_point"]
+  }
+}

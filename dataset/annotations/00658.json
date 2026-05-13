@@ -1,0 +1,33 @@
+{
+  "id": "00658",
+  "text": "在平面直角坐标系xOy中，点A在第一象限内，∠AOB=50°，AB⊥x轴，垂足为B，点C在y轴正半轴上，△OAC为等腰三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "segment(OA)",
+    "segment(AB)",
+    "segment(OC)",
+    "segment(AC)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "perpendicular(AB, OB)",
+    "triangle(O, A, C)",
+    "angle(AOB)=50"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00658.png",
+  "meta": {
+    "source": "坐标系中等腰三角形",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "isosceles",
+      "perpendicular"
+    ]
+  }
+}

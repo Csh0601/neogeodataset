@@ -1,0 +1,40 @@
+{
+  "id": "01053",
+  "text": "△ABC与△BDE均为等腰直角三角形，BA⊥AC，DE⊥BD，D在AB边上，连接EC，取EC中点F，连接AF，DF，AF=DF，AF⊥DF",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(B, D, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(DE)",
+    "segment(EC)",
+    "segment(AF)",
+    "segment(DF)",
+    "on(D, AB)",
+    "midpoint(F, EC)",
+    "equal(BA, AC)",
+    "equal(BD, DE)",
+    "perpendicular(BA, AC)",
+    "perpendicular(DE, BD)",
+    "equal(AF, DF)",
+    "perpendicular(AF, DF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01053.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "isosceles",
+      "midpoint",
+      "rotation"
+    ]
+  }
+}

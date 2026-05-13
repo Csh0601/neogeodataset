@@ -1,0 +1,46 @@
+{
+  "id": "00542",
+  "text": "直线l1∥l2∥l3，直线AC和DF被l1、l2、l3所截，AB=5，BC=6，EF=4，DE=10/3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "line(l1)",
+    "line(l2)",
+    "line(l3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(DE)",
+    "segment(EF)",
+    "on(A, l1)",
+    "on(B, l2)",
+    "on(C, l3)",
+    "on(D, l1)",
+    "on(E, l2)",
+    "on(F, l3)",
+    "parallel(l1, l2)",
+    "parallel(l2, l3)",
+    "collinear(A, B, C)",
+    "collinear(D, E, F)",
+    "length(AB)=5",
+    "length(BC)=6",
+    "length(EF)=4",
+    "length(DE)=3.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00542.png",
+  "meta": {
+    "source": "平行线分线段成比例",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "proportion"
+    ]
+  }
+}

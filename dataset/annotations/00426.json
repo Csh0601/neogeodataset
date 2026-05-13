@@ -1,0 +1,36 @@
+{
+  "id": "00426",
+  "text": "PA、PB分别与⊙O相切于A、B两点，C是圆上一点，∠P=72°，∠C=54°",
+  "dsl": [
+    "point(P)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "tangent(A, circle_O)",
+    "tangent(B, circle_O)",
+    "angle(APB)=72",
+    "angle(ACB)=54"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00426.png",
+  "meta": {
+    "source": "圆的切线与圆周角",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "inscribed_angle"
+    ]
+  }
+}

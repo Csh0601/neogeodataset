@@ -1,0 +1,38 @@
+{
+  "id": "00534",
+  "text": "AB是⊙O的直径，EF、EB是⊙O的弦，且EF=EB，EF与AB交于点C，连接OF，∠AOF=40°，∠F=35°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(E)",
+    "point(F)",
+    "point(C)",
+    "circle(O)",
+    "segment(EF)",
+    "segment(EB)",
+    "segment(OF)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(E, circle_O)",
+    "on(F, circle_O)",
+    "intersection(C, EF, AB)",
+    "equal(EF, EB)",
+    "collinear(A, O, B)",
+    "angle(AOF)=40",
+    "angle(OFE)=35"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00534.png",
+  "meta": {
+    "source": "圆直径与等弦",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "chord"
+    ]
+  }
+}

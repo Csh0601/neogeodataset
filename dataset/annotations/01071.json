@@ -1,0 +1,35 @@
+{
+  "id": "01071",
+  "text": "将边长为4的正方形ABCD折叠，使得点A落在CD的中点E处，折痕为FG，F在AD边上，G在AB边上，连接EF，EG",
+  "dsl": [
+    "point(H)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(FG)",
+    "segment(EF)",
+    "segment(EG)",
+    "midpoint(E, CD)",
+    "on(F, AD)",
+    "on(G, AB)",
+    "fold(A, E, FG)",
+    "equal(AB, BC)",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01071.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

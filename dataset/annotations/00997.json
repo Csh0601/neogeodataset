@@ -1,0 +1,37 @@
+{
+  "id": "00997",
+  "text": "在平面直角坐标系中，抛物线y=-x^2+4x+5与x轴交于点A和B(5,0)，与y轴交于点C(0,5)，抛物线的对称轴与x轴交于点M，与BC交于点F",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(F)",
+    "point(M)",
+    "point_coord(B, 5, 0)",
+    "point_coord(C, 0, 5)",
+    "parabola(p1, -1, 4, 5)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(M, axis_x)",
+    "on(F, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00997.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "symmetry_axis"
+    ]
+  }
+}

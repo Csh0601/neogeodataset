@@ -1,0 +1,42 @@
+{
+  "id": "00497",
+  "text": "在△ABC中，AD⊥BC，CE⊥AB，垂足分别为点D和点E，AD与CE交于点O，连接BO并延长交AC于点F，AB=5，BC=4，AC=6，CE=12/5，AD=15/5，BF=10/3",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(CE)",
+    "segment(BO)",
+    "segment(OF)",
+    "segment(BF)",
+    "on(F, AC)",
+    "foot(D, A, BC)",
+    "foot(E, C, AB)",
+    "intersection(O, AD, CE)",
+    "perpendicular(AD, BC)",
+    "perpendicular(CE, AB)",
+    "collinear(B, O, F)",
+    "length(AB)=5",
+    "length(BC)=4",
+    "length(AC)=6",
+    "length(CE)=2.4",
+    "length(AD)=3",
+    "length(BF)=3.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00497.png",
+  "meta": {
+    "source": "三角形高线与正交中心",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "altitude",
+      "orthocenter"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "00002",
+  "text": "折叠矩形ABCD，AB=9，BC=6，点E在AB上，点F在CD上，沿折痕EF折叠，使得点C落在AD边的中点C'处，点B落在矩形ABCD外的B'处",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(C_prime)",
+    "point(B_prime)",
+    "rectangle(A, B, C, D)",
+    "segment(EF)",
+    "midpoint(C_prime, AD)",
+    "on(E, AB)",
+    "on(F, CD)",
+    "fold(C, C_prime, EF)",
+    "fold(B, B_prime, EF)",
+    "length(AB)=9",
+    "length(BC)=6",
+    "outside(B_prime, rectangle_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00002.png",
+  "meta": {
+    "source": "矩形折叠问题",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "midpoint",
+      "symmetry"
+    ]
+  }
+}

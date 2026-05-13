@@ -1,0 +1,29 @@
+{
+  "id": "00853",
+  "text": "在四边形ABCD中，AC=BD=5，点E、F、G、H分别为边AB、BC、CD、DA的中点，连接EG、HF，相交于点O，EG²+FH²=25",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EG)",
+    "segment(HF)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, CD)",
+    "midpoint(H, DA)",
+    "intersection(O, EG, HF)",
+    "equal(AC, BD)",
+    "length(AC)=5",
+    "length(BD)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00853.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["quadrilateral", "midpoint", "diagonal"]
+  }
+}

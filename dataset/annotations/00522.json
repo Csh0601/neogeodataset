@@ -1,0 +1,33 @@
+{
+  "id": "00522",
+  "text": "BC∥AD，BE⊥AD，斜坡AB长26m，斜坡AB的坡比为12:5，坡角不超过50°时可确保山体不滑坡",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BE)",
+    "on(E, AD)",
+    "parallel(BC, AD)",
+    "perpendicular(BE, AD)",
+    "length(AB)=26"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00522.png",
+  "meta": {
+    "source": "斜坡坡比应用",
+    "difficulty": "middle",
+    "tags": [
+      "slope",
+      "application",
+      "perpendicular"
+    ]
+  }
+}

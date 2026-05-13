@@ -1,0 +1,36 @@
+{
+  "id": "00084",
+  "text": "在四边形ABCD中，沿过点A的折痕AP折叠，使得点B落在CD上的点Q处；再将△PCQ、△ADQ分别沿PQ、AQ折叠，此时点C、D落在AP上的同一点R处，∠PAQ=30°",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "point(R)",
+    "quadrilateral(A, B, C, D)",
+    "triangle(A, D, Q)",
+    "triangle(P, C, Q)",
+    "segment(AP)",
+    "segment(AQ)",
+    "segment(PQ)",
+    "on(Q, CD)",
+    "on(P, BC)",
+    "on(R, AP)",
+    "fold(B, Q, AP)",
+    "fold(C, R, PQ)",
+    "fold(D, R, AQ)",
+    "collinear(A,R,P)",
+    "angle(PAQ)=30"
+  ],
+  "image_path": "images/00084.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "四边形",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "angle"
+    ]
+  }
+}

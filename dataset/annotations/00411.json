@@ -1,0 +1,41 @@
+{
+  "id": "00411",
+  "text": "AB是⊙O的直径，CD是弦，点C、D在直径AB的两侧，∠AOC=18°，∠AOD=63°，∠DOB=99°，CD=4，弧CD的长为√2π",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(OA)",
+    "segment(OC)",
+    "segment(OD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "collinear(A, O, B)",
+    "arc(C, D, circle_O)",
+    "length(CD)=4",
+    "angle(AOC)=18",
+    "angle(AOD)=63",
+    "angle(DOB)=99"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00411.png",
+  "meta": {
+    "source": "圆的直径与弦",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "chord",
+      "arc"
+    ]
+  }
+}

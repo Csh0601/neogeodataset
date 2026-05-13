@@ -1,0 +1,33 @@
+{
+  "id": "01356",
+  "text": "在△ABC中，O为△ABC内部一点，连接OB、OC，∠A=70°，∠OBC=40°，∠OCB=20°，∠BOC=120°",
+  "dsl": [
+    "point(O)",
+    "triangle(A, B, C)",
+    "segment(OB)",
+    "segment(OC)",
+    "angle(BAC)=70",
+    "angle(OBC)=40",
+    "angle(OCB)=20",
+    "angle(BOC)=120",
+    "inside(O, triangle_ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01356.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "interior_point",
+      "angle"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

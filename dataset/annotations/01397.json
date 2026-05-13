@@ -1,0 +1,43 @@
+{
+  "id": "01397",
+  "text": "在Rt△ABC中，∠ABC=90，BD⊥AC，垂足为D，AE平分∠BAC，分别交BD、BC于点F、E，AB:BC=3:4，BF:FD=5:4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(FD)",
+    "foot(D, B, AC)",
+    "on(F, BD)",
+    "on(E, BC)",
+    "intersection(F, AE, BD)",
+    "right_triangle(A, B, C, right_at=B)",
+    "equal_angle(BAE, EAC)",
+    "perpendicular(BD, AC)",
+    "ratio(AB, BC)=3/4",
+    "ratio(BF, FD)=5/4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01397.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "perpendicular",
+      "angle_bisector",
+      "ratio"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "计算出BF:FD=5:4"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

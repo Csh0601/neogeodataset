@@ -1,0 +1,35 @@
+{
+  "id": "00218",
+  "text": "点E、F、G、H在一条直线上，且EF=GH=2，直线l为线段FG的垂直平分线，l是线段EH的垂直平分线",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "line(l)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(EH)",
+    "perpendicular_bisector(l, FG)",
+    "perpendicular_bisector(l, EH)",
+    "collinear(E, F, G)",
+    "collinear(F, G, H)",
+    "equal(EF, GH)",
+    "length(EF)=2",
+    "length(GH)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00218.png",
+  "meta": {
+    "source": "垂直平分线性质",
+    "difficulty": "easy",
+    "tags": [
+      "perpendicular_bisector",
+      "collinear"
+    ]
+  }
+}

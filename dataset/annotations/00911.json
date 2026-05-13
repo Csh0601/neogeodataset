@@ -1,0 +1,35 @@
+{
+  "id": "00911",
+  "text": "在平面直角坐标系中，抛物线y=-x^2+4x+5与x轴交于点A、B，与y轴交于点C，连接BC，OA=1，对称轴为直线x=2，点D为此抛物线的顶点",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 5, 0)",
+    "point_coord(C, 0, 5)",
+    "point_coord(D, 2, 9)",
+    "parabola(p1, -1, 4, 5)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "length(OA)=1"
+  ],
+  "image_path": "images/00911.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线顶点与对称轴",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola"]
+  }
+}

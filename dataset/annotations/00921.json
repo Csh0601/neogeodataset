@@ -1,0 +1,32 @@
+{
+  "id": "00921",
+  "text": "△ABC的三边AB、BC、CA的长度分别为3、7、8，△ABC的内切圆I的半径为√7/3",
+  "dsl": [
+    "triangle(A, B, C)",
+    "circle(I)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CA)",
+    "tangent(circle_I, AB)",
+    "tangent(circle_I, BC)",
+    "tangent(circle_I, CA)",
+    "length(AB)=3",
+    "length(BC)=7",
+    "length(CA)=8",
+    "inside(I, ABC)"
+  ],
+  "image_path": "images/00921.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形内切圆半径",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "circle",
+      "tangent"
+    ]
+  }
+}

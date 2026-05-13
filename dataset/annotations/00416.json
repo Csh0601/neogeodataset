@@ -1,0 +1,48 @@
+{
+  "id": "00416",
+  "text": "AB是⊙O的直径，半径OC⊥AB，过点A作⊙O的切线，A是切点，D是OA上一点，CD的延长线交切线于点E，F是OB上一点，CF的延长线交⊙O于点G，连接AC、AG，⊙O的半径为3，CE=√34，AE=2",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "circle(O, r=3)",
+    "segment(AB)",
+    "segment(OC)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(CF)",
+    "segment(AC)",
+    "segment(AG)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, OA)",
+    "on(F, OB)",
+    "on(G, circle_O)",
+    "tangent(A, circle_O)",
+    "collinear(A, O, B)",
+    "perpendicular(OC, AB)",
+    "collinear(C, D, E)",
+    "collinear(C, F, G)",
+    "length(CE)=5.831",
+    "length(AE)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00416.png",
+  "meta": {
+    "source": "圆的直径与切线综合",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent"
+    ]
+  }
+}

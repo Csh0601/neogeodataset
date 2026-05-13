@@ -1,0 +1,42 @@
+{
+  "id": "00239",
+  "text": "直线AB与直线CD被直线EF和直线GH所截，AB和EF、GH的交点分别为I和J，CD和EF、GH的交点分别为K和L，其中AB∥CD且EF∥GH",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "point(I)",
+    "point(J)",
+    "point(K)",
+    "point(L)",
+    "line(AB)",
+    "line(CD)",
+    "line(EF)",
+    "line(GH)",
+    "intersection(I, AB, EF)",
+    "intersection(J, AB, GH)",
+    "intersection(K, CD, EF)",
+    "intersection(L, CD, GH)",
+    "parallel(AB, CD)",
+    "parallel(EF, GH)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00239.png",
+  "meta": {
+    "source": "平行线判定",
+    "difficulty": "easy",
+    "tags": [
+      "parallel",
+      "transversal",
+      "angle"
+    ]
+  }
+}

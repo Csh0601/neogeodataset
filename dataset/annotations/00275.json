@@ -1,0 +1,34 @@
+{
+  "id": "00275",
+  "text": "在梯形ABCD中，AD∥BC，高DH=12，AD=6，BC=8，∠DCP=26°，P、D、H三点共线，P在HD的延长线上，PD=15，∠DCB=45°",
+  "dsl": [
+    "point(H)",
+    "point(P)",
+    "trapezoid(D, A, B, C)",
+    "segment(DH)",
+    "segment(PD)",
+    "foot(H, D, BC)",
+    "collinear(P, D, H)",
+    "length(DH)=12",
+    "length(PD)=15",
+    "length(AD)=6",
+    "length(BC)=8",
+    "angle(DCP)=26",
+    "angle(DCB)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00275.png",
+  "meta": {
+    "source": "梯形坡度应用题",
+    "difficulty": "hard",
+    "tags": [
+      "trapezoid",
+      "slope",
+      "trigonometry",
+      "application"
+    ]
+  }
+}

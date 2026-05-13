@@ -1,0 +1,33 @@
+{
+  "id": "01293",
+  "text": "在矩形ABCD中，AB=5，AD=3，P为矩形内部一点，连接PA、PB，△PAB的面积等于矩形ABCD面积的1/3",
+  "dsl": [
+    "point(P)",
+    "rectangle(D, A, B, C)",
+    "triangle(P, A, B)",
+    "segment(PA)",
+    "segment(PB)",
+    "length(AB)=5",
+    "length(AD)=3",
+    "inside(P, rectangle_DABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01293.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "rectangle",
+      "area"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "动点P静态化，P到AB的距离为2（面积条件推导）"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

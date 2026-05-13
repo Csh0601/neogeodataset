@@ -1,0 +1,35 @@
+{
+  "id": "00895",
+  "text": "在△ABC中，DE是△ABC的中位线，F为DE中点，连接AF并延长交BC于点G",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "segment(AF)",
+    "segment(BG)",
+    "segment(GC)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "midpoint(F, DE)",
+    "on(G, BC)",
+    "collinear(A, F, G)",
+    "parallel(DE, BC)"
+  ],
+  "image_path": "images/00895.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "中位线与中点连线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "parallel"
+    ]
+  }
+}

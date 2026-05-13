@@ -1,0 +1,36 @@
+{
+  "id": "00307",
+  "text": "△BEF的顶点E在边长为1的正方形ABCD对角线AC的延长线上，AE与BF交于点G，连接AF、CF，△ABF≅△CBE，CE=2，∠EBF=90°",
+  "dsl": [
+    "point(E)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "triangle(B, E, F)",
+    "segment(CE)",
+    "segment(AF)",
+    "segment(CF)",
+    "segment(AE)",
+    "on(E, AC_extended)",
+    "intersection(G, AE, BF)",
+    "triangle(A, B, F)",
+    "triangle(C, B, E)",
+    "congruent(ABF, CBE)",
+    "length(AB)=1",
+    "length(CE)=2",
+    "angle(EBF)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00307.png",
+  "meta": {
+    "source": "正方形与全等三角形",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "congruent",
+      "diagonal"
+    ]
+  }
+}

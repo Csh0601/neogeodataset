@@ -1,0 +1,28 @@
+{
+  "id": "00843",
+  "text": "在三角形ABC中，角BAC=30度，AB=AC，P是三角形ABC内一点，连接AP、BP、CP",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AP)",
+    "segment(BP)",
+    "segment(CP)",
+    "equal(AB, AC)",
+    "angle(BAC)=30",
+    "inside(P, triangle_ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00843.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "interior_point"
+    ]
+  }
+}

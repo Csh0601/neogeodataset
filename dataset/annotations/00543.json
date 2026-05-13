@@ -1,0 +1,35 @@
+{
+  "id": "00543",
+  "text": "A、B、C是⊙O上的三个点，∠AOB=50°，∠B=55°，∠A=80°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CA)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "angle(AOB)=50",
+    "angle(ABC)=55",
+    "angle(CAB)=80"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00543.png",
+  "meta": {
+    "source": "圆心角与圆周角",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "central_angle",
+      "inscribed_angle"
+    ]
+  }
+}

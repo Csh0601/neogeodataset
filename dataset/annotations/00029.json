@@ -1,0 +1,37 @@
+{
+  "id": "00029",
+  "text": "在平行四边形ABCD中，对角线AC、BD相交于点O，AB=OB，点E、F分别是OA、OD的中点，连接EF，∠CEF=45°，EM⊥BC于点M，EM交BD于点N",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(N)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(EM)",
+    "midpoint(E, OA)",
+    "midpoint(F, OD)",
+    "intersection(O, AC, BD)",
+    "intersection(N, EM, BD)",
+    "foot(M, E, BC)",
+    "perpendicular(EM, BC)",
+    "equal(AB, OB)",
+    "angle(CEF)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00029.png",
+  "meta": {
+    "source": "平行四边形与中点问题",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "midpoint",
+      "perpendicular"
+    ]
+  }
+}

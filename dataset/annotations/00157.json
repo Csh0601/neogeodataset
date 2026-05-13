@@ -1,0 +1,30 @@
+{
+  "id": "00157",
+  "text": "在边长为6的正方形ABCD中，Q为对角线AC的中点，以Q为圆心、QA为半径作⊙Q，⊙Q过点A、B、C",
+  "dsl": [
+    "point(Q)",
+    "square(A, B, C, D)",
+    "circle(Q, radius=QA)",
+    "segment(AC)",
+    "midpoint(Q, AC)",
+    "on(A, circle_Q)",
+    "on(B, circle_Q)",
+    "on(C, circle_Q)",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00157.png",
+  "meta": {
+    "source": "外接圆与弧长",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "circumcircle",
+      "arc",
+      "grid"
+    ]
+  }
+}

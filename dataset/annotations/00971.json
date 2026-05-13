@@ -1,0 +1,36 @@
+{
+  "id": "00971",
+  "text": "在△ABC中，AB=AC，AB>BC，点D在边BC上，CD=3BD，点E、F在线段AD上，∠1=∠2=∠BAC，△ABC的面积为12",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(BE)",
+    "segment(CF)",
+    "on(D, BC)",
+    "on(E, AD)",
+    "on(F, AD)",
+    "equal(AB, AC)",
+    "equal_angle(ABE, BAC)",
+    "equal_angle(ACF, BAC)",
+    "ratio(CD, BD)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00971.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "angle_equal",
+      "area"
+    ]
+  }
+}

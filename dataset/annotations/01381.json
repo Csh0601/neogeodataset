@@ -1,0 +1,40 @@
+{
+  "id": "01381",
+  "text": "在边长为3的正方形ABCD中，E、F分别是AB、BC边上的点，∠EDF=45，将△DAE绕点D逆时针旋转90得到△DCM",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "square(A, B, C, D)",
+    "triangle(D, A, E)",
+    "triangle(D, C, M)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "rotate(M, source=E, center=D, angle=90)",
+    "angle(EDF)=45",
+    "length(AB)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01381.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "rotation",
+      "angle"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

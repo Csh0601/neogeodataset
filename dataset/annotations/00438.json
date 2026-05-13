@@ -1,0 +1,38 @@
+{
+  "id": "00438",
+  "text": "在△ABC中，∠B=90°，点D为AC上一点，以CD为直径的⊙O交AB于点E，连接CE，且CE平分∠ACB，AE是⊙O的切线，∠A=30°，BE/DE=1",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "circle(O)",
+    "segment(CE)",
+    "segment(DE)",
+    "segment(BE)",
+    "on(D, AC)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(E, AB)",
+    "on(E, circle_O)",
+    "midpoint(O, CD)",
+    "angle_bisector(E, A, C, B)",
+    "tangent(E, circle_O)",
+    "angle(ABC)=90",
+    "angle(CAB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00438.png",
+  "meta": {
+    "source": "直角三角形与圆切线",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "circle",
+      "tangent",
+      "angle_bisector"
+    ]
+  }
+}

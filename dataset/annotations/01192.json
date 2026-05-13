@@ -1,0 +1,32 @@
+{
+  "id": "01192",
+  "text": "在平面直角坐标系中，点A、B在函数y=k/x(k>0,x>0)的图象上，过点A作x轴的垂线，与函数y=-k/x(x>0)的图象交于点C，连接BC交x轴于点D，点A的横坐标为1，BC=3BD，点B的横坐标为2",
+  "dsl": [
+    "coordinate_system(O)",
+    "hyperbola(h1, 1)",
+    "hyperbola(h2, -1)",
+    "segment(BC)",
+    "segment(AD)",
+    "function_point(A, h1)",
+    "function_point(B, h1)",
+    "function_point(C, h2)",
+    "on(D, axis_x)",
+    "on(D, BC)",
+    "perpendicular(AC, OD)",
+    "ratio(BC, BD)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01192.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["coordinate_system", "hyperbola", "perpendicular", "ratio"],
+    "annotated_by": "agent-1",
+    "supplements": ["补充了点B横坐标为2的计算结果"]
+  },
+  "validated": true,
+  "needs_review": false
+}

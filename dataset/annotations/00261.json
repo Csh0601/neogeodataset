@@ -1,0 +1,38 @@
+{
+  "id": "00261",
+  "text": "线段OA和OB的长度均为4，∠AOB=60°，作∠AOB的平分射线OM，在射线OM上取一点C使OC=8，D是OC的中点，以OC为直径作圆D",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(M)",
+    "circle(D, r=4)",
+    "ray(O, M)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "on(C, ray_OM)",
+    "midpoint(D, OC)",
+    "angle_bisector(M, A, O, B)",
+    "angle(AOB)=60",
+    "length(OC)=8",
+    "length(OA)=4",
+    "length(OB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00261.png",
+  "meta": {
+    "source": "角平分线尺规作图",
+    "difficulty": "middle",
+    "tags": [
+      "angle_bisector",
+      "construction",
+      "right_triangle"
+    ]
+  }
+}

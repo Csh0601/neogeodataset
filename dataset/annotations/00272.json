@@ -1,0 +1,39 @@
+{
+  "id": "00272",
+  "text": "在半径为12的⊙O中，A和B均在圆上，圆心角∠AOB=90°，连接OA,OB,AB，过O做AB的中垂线OC，C在AB上，过B做OB的垂线交OC的延长线于点D",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O, r=12)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AB)",
+    "segment(OC)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "midpoint(C, AB)",
+    "perpendicular_bisector(OC, AB)",
+    "perpendicular(BD, OB)",
+    "angle(AOB)=90",
+    "length(OA)=12",
+    "length(OB)=12",
+    "on_extended(D, OC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00272.png",
+  "meta": {
+    "source": "圆心角与弧长",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "central_angle",
+      "arc"
+    ]
+  }
+}

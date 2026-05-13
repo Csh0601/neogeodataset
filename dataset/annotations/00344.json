@@ -1,0 +1,35 @@
+{
+  "id": "00344",
+  "text": "在四边形ABCD中（AB>CD），∠ABC=∠BCD=90°，AB=3，BC=√3，把Rt△ABC沿着AC翻折得到Rt△AEC，tan∠AED=√3/2，线段DE的长度为√7/3",
+  "dsl": [
+    "point(E)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(AE)",
+    "segment(CE)",
+    "segment(DE)",
+    "right_triangle(A, B, C, right_at=B)",
+    "reflect(E, B, AC)",
+    "right_triangle(A, E, C, right_at=E)",
+    "equal(AE, AB)",
+    "equal(CE, CB)",
+    "angle(BCD)=90",
+    "length(AB)=3",
+    "length(BC)=√3",
+    "length(DE)=√7/3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00344.png",
+  "meta": {
+    "source": "四边形翻折问题",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "fold",
+      "reflect"
+    ]
+  }
+}

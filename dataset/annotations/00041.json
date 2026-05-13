@@ -1,0 +1,42 @@
+{
+  "id": "00041",
+  "text": "在平面直角坐标系中，反比例函数y=12/x经过A、C两点，其中A的坐标为(2,6)，C的坐标为(3,4)，过点A作AB⊥y轴于点B，过点C作CD⊥x轴于点D，连接OA、OC、AC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 2, 6)",
+    "point_coord(C, 3, 4)",
+    "hyperbola(h, 12)",
+    "segment(OA)",
+    "segment(OC)",
+    "segment(AC)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(OD)",
+    "on(B, axis_y)",
+    "on(D, axis_x)",
+    "function_point(A, h)",
+    "function_point(C, h)",
+    "perpendicular(AB, OB)",
+    "perpendicular(CD, OD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00041.png",
+  "meta": {
+    "source": "反比例函数与垂线",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "perpendicular"
+    ],
+    "note": "B在y轴上，D在x轴上，通过共线约束表达"
+  }
+}

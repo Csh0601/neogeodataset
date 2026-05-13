@@ -1,0 +1,34 @@
+{
+  "id": "00759",
+  "text": "在平面直角坐标系xOy中，平行四边形OABC的顶点B(17,6)，C(5,6)，O在原点，A在x轴正半轴上，直线y=1/2x+b将平行四边形OABC的面积分成相等的两部分",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, 17, 6)",
+    "point_coord(C, 5, 6)",
+    "parallelogram(O, A, B, C)",
+    "line_function(l1, 0.5, 0)",
+    "segment(OA)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(OC)"
+  ],
+  "image_path": "images/00759.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parallelogram",
+      "line",
+      "area"
+    ]
+  }
+}

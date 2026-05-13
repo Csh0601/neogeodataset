@@ -1,0 +1,35 @@
+{
+  "id": "01022",
+  "text": "在△ABC中，∠ACB=90°，CD⊥AB于点D，AC=20，BC=15，CD=12，AD=16",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BD)",
+    "on(D, AB)",
+    "foot(D, C, AB)",
+    "perpendicular(CD, AB)",
+    "angle(ACB)=90",
+    "length(AC)=20",
+    "length(BC)=15",
+    "length(CD)=12",
+    "length(AD)=16"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01022.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "altitude",
+      "perpendicular"
+    ]
+  }
+}

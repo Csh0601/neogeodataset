@@ -1,0 +1,35 @@
+{
+  "id": "00560",
+  "text": "△ABC和△ECD均为等边三角形，边长分别为5和3，B、C、D三点在同一条直线上，AD=BE=7，△CFG为等边三角形，CM=13/7",
+  "dsl": [
+    "point(F)",
+    "point(G)",
+    "point(M)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CM)",
+    "equilateral(A, B, C)",
+    "equilateral(E, C, D)",
+    "equilateral(C, F, G)",
+    "line(l1, B, D)",
+    "on(C, l1)",
+    "equal(AD, BE)",
+    "length(AB)=5",
+    "length(EC)=3",
+    "length(AD)=7",
+    "length(CM)=1.857"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00560.png",
+  "meta": {
+    "source": "等边三角形组合",
+    "difficulty": "middle",
+    "tags": [
+      "equilateral",
+      "collinear"
+    ]
+  }
+}

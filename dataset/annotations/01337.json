@@ -1,0 +1,35 @@
+{
+  "id": "01337",
+  "text": "P是正方形ABCD内一点，CP=CD，AP⊥BP",
+  "dsl": [
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(AP)",
+    "segment(BP)",
+    "segment(CP)",
+    "segment(DP)",
+    "equal(CP, CD)",
+    "perpendicular(AP, BP)",
+    "inside(P, square_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01337.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "perpendicular",
+      "equal"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "求PA/PD的值"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

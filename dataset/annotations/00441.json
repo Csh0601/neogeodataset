@@ -1,0 +1,33 @@
+{
+  "id": "00441",
+  "text": "直线AB∥CD，直线EF与AB、CD相交于点E、F，∠BEF的平分线EN与CD相交于点N，∠AEN=65°，∠ENF=50°",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(N)",
+    "line(AB)",
+    "line(CD)",
+    "line(EF)",
+    "segment(EN)",
+    "on(N, CD)",
+    "intersection(E, EF, AB)",
+    "intersection(F, EF, CD)",
+    "angle_bisector(N, B, E, F)",
+    "parallel(AB, CD)",
+    "angle(AEN)=65",
+    "angle(ENF)=50"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00441.png",
+  "meta": {
+    "source": "平行线与角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "angle_bisector"
+    ]
+  }
+}

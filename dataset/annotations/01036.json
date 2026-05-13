@@ -1,0 +1,37 @@
+{
+  "id": "01036",
+  "text": "直线m∥n，AB⊥BC，∠1=35°，∠2=62°，∠BCD=117°，A在直线m上，D在直线n上",
+  "dsl": [
+    "point(B)",
+    "point(C)",
+    "point(E)",
+    "point(F)",
+    "line(m, A, E)",
+    "line(n, D, F)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "on(A, line_m)",
+    "on(D, line_n)",
+    "parallel(m, n)",
+    "perpendicular(AB, BC)",
+    "angle(ABC)=90",
+    "angle(EAB)=35",
+    "angle(FDC)=62",
+    "angle(BCD)=117"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01036.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": [
+      "parallel_lines",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

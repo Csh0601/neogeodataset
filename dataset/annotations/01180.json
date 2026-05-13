@@ -1,0 +1,39 @@
+{
+  "id": "01180",
+  "text": "AB=AD，AE=AC，∠BAD=∠EAC，P为BD与CE的交点，连接AB、AD、AE、AC、BD、CE，∠ACE=∠AEC=∠ADC=45°，DC=3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(P)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(BE)",
+    "segment(CD)",
+    "segment(DE)",
+    "intersection(P, BD, CE)",
+    "equal(AB, AD)",
+    "equal(AE, AC)",
+    "equal_angle(BAD, EAC)",
+    "angle(ACE)=45",
+    "angle(AEC)=45",
+    "angle(ADC)=45",
+    "length(DC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01180.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["congruent", "intersection", "angle"]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00714",
+  "text": "在平面直角坐标系中，抛物线y=-x²+2x+3与x轴交于A(3,0)和B(-1,0)两点，与y轴交于点C(0,3)，点P在抛物线的对称轴x=1上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, -1, 0)",
+    "point_coord(C, 0, 3)",
+    "parabola(p, -1, 2, 3)",
+    "segment(PB)",
+    "segment(PC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00714.png",
+  "meta": {
+    "source": "抛物线对称轴上的动点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00474",
+  "text": "在△ABC中，AB=AC，分别以点A、B为圆心，以适当的长为半径作弧，两弧分别交于E、F，作直线EF，D为BC的中点，M为直线EF上任意一点，BC=4，△ABC面积为10，BM+MD的最小值为5",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(D)",
+    "point(M)",
+    "triangle(A, B, C)",
+    "circle(A, r=3)",
+    "circle(B, r=3)",
+    "line(l1, E, F)",
+    "segment(BM)",
+    "segment(MD)",
+    "intersection(E, circle_A, circle_B)",
+    "intersection(F, circle_A, circle_B, index=1)",
+    "on(M, EF)",
+    "midpoint(D, BC)",
+    "equal(AB, AC)",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00474.png",
+  "meta": {
+    "source": "等腰三角形垂直平分线与最值",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "circle_intersection",
+      "minimum"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "00457",
+  "text": "在△ABC中，∠ACB=90°，点D为AB边的中点，连接CD，BC=4，CD=3，cos∠DCB=2/3",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "midpoint(D, AB)",
+    "angle(ACB)=90",
+    "length(BC)=4",
+    "length(CD)=3",
+    "cos(DCB)=0.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00457.png",
+  "meta": {
+    "source": "直角三角形斜边中点",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "trigonometry"
+    ]
+  }
+}

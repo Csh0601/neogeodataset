@@ -1,0 +1,27 @@
+{
+  "id": "01220",
+  "text": "在△ABC和△AED中，AB=AE，∠BAE=∠CAD，AC=AD，△ABC≅△AED",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A, E, D)",
+    "segment(CE)",
+    "equal(AB, AE)",
+    "equal(AC, AD)",
+    "equal_angle(BAE, CAD)",
+    "congruent(ABC, AED)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01220.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": ["triangle", "congruent", "equal_angle"],
+    "annotated_by": "annotator-1",
+    "supplements": ["补充了△ABC≅△AED的结论"]
+  },
+  "validated": false,
+  "needs_review": false
+}

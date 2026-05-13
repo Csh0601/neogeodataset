@@ -1,0 +1,40 @@
+{
+  "id": "00401",
+  "text": "在∠MOK中，以点O为圆心，任意长为半径作弧，交射线OM于点A，交射线OK于点B，再分别以A、B为圆心，OA的长为半径作弧，两弧在∠MOK的内部交于点C，作射线OC，OA=5，AB=6，点B到AC的距离为24/5",
+  "dsl": [
+    "point(O)",
+    "point(M)",
+    "point(K)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(A, r=5)",
+    "circle(B, r=5)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AB)",
+    "ray(O, M)",
+    "ray(O, K)",
+    "ray(O, C)",
+    "on(A, OM)",
+    "on(B, OK)",
+    "intersection(C, circle_A, circle_B)",
+    "equal(OA, OB)",
+    "length(OA)=5",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00401.png",
+  "meta": {
+    "source": "尺规作图角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "angle_bisector",
+      "circle_intersection",
+      "construction"
+    ]
+  }
+}

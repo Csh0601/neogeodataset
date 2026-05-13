@@ -1,0 +1,27 @@
+{
+  "id": "01006",
+  "text": "在平面直角坐标系中，M(1,4)，N(-1,2)，P在x轴的正半轴上，连接MP，NP",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(M, 1, 4)",
+    "point_coord(N, -1, 2)",
+    "segment(MP)",
+    "segment(NP)",
+    "on(P, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01006.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "angle",
+      "optimization"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00943",
+  "text": "在矩形ABCD中，AB=4，BC=8，将A、C重合折叠，折痕为EF，E在AD上，F在BC上",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(EF)",
+    "segment(AE)",
+    "segment(BF)",
+    "on(E, AD)",
+    "on(F, BC)",
+    "fold(A, C, EF)",
+    "length(AB)=4",
+    "length(BC)=8"
+  ],
+  "image_path": "images/00943.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "矩形折叠重合",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold"
+    ]
+  }
+}

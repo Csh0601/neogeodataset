@@ -1,0 +1,40 @@
+{
+  "id": "00882",
+  "text": "在平面直角坐标系中，抛物线与x轴分别交于A、B两点，与y轴交于点C(0,6)，抛物线的顶点坐标为E(2,8)，连接BC、BE、CE",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(E)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 6, 0)",
+    "point_coord(C, 0, 6)",
+    "point_coord(E, 2, 8)",
+    "parabola(p1, -0.5, 2, 6)",
+    "segment(BC)",
+    "segment(BE)",
+    "segment(CE)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)"
+  ],
+  "image_path": "images/00882.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线与三角形",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "triangle"
+    ]
+  }
+}

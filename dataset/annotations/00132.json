@@ -1,0 +1,38 @@
+{
+  "id": "00132",
+  "text": "半圆的直径AB=4，点C在半圆上，以点A为圆心，AC为半径画弧交AB于点D，连接BC，∠ABC=60°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "semicircle(O, A, B)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, AB)",
+    "collinear(A, O, B)",
+    "equal(AD, AC)",
+    "length(AB)=4",
+    "angle(ABC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00132.png",
+  "meta": {
+    "source": "半圆与弧面积",
+    "difficulty": "hard",
+    "tags": [
+      "semicircle",
+      "arc",
+      "shaded",
+      "area"
+    ]
+  }
+}

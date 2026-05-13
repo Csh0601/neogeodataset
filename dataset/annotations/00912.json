@@ -1,0 +1,33 @@
+{
+  "id": "00912",
+  "text": "在平面直角坐标系中，点A的坐标为(1,0)，点B的坐标为(4,0)，点C在y的正半轴上，且OB=2OC，以点D、A、B、C为顶点的四边形是平行四边形",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, 2)",
+    "parallelogram(D, A, B, C)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "ratio(OB, OC)=2"
+  ],
+  "image_path": "images/00912.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系中平行四边形",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parallelogram"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "00673",
+  "text": "在平面直角坐标系中，抛物线y=0.5x²-1.5x-2与x轴交于两个不同的点A(-1,0)和B(4,0)，与y轴交于点C，∠ACB=90°，点D(1,-3)在抛物线上，过点A的直线y=x+1交抛物线于另一点E",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, -2)",
+    "point_coord(D, 1, -3)",
+    "parabola(p, 0.5, -1.5, -2)",
+    "line_function(l, 1, 1)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AB)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)",
+    "on(D, parabola_p)",
+    "on(A, line_l)",
+    "on(E, line_l)",
+    "on(E, parabola_p)",
+    "angle(ACB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00673.png",
+  "meta": {
+    "source": "抛物线直角交点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "right_angle"
+    ]
+  }
+}

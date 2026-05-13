@@ -1,0 +1,29 @@
+{
+  "id": "00442",
+  "text": "将Rt△ABC绕直角顶点C顺时针旋转90°，得到△DEC，连接AD，∠BAC=25°，∠BAD=70°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "right_triangle(A, B, C, right_at=C)",
+    "triangle(D, E, C)",
+    "segment(AD)",
+    "rotate(D, source=A, center=C, angle=-90)",
+    "rotate(E, source=B, center=C, angle=-90)",
+    "angle(BAC)=25",
+    "angle(BAD)=70"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00442.png",
+  "meta": {
+    "source": "直角三角形旋转",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "rotation",
+      "angle"
+    ]
+  }
+}

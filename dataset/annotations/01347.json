@@ -1,0 +1,41 @@
+{
+  "id": "01347",
+  "text": "在△ABC中，AC>BC，M是它的外接圆上弧ACB的中点，AC上的点X使得MX⊥AC，AC=10，XC=3",
+  "dsl": [
+    "point(X)",
+    "point(M)",
+    "triangle(A, B, C)",
+    "circle(O)",
+    "arc(A, B, circle_O)",
+    "segment(MX)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(M, circle_O)",
+    "on(X, AC)",
+    "circumcircle(O, A, B, C)",
+    "arc_midpoint(M, AB, circle_O, arc_type='major')",
+    "perpendicular(MX, AC)",
+    "length(AC)=10",
+    "length(XC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01347.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circle",
+      "arc_midpoint",
+      "perpendicular"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": true
+}

@@ -1,0 +1,29 @@
+{
+  "id": "01141",
+  "text": "在△ABC中，∠BAC=120°，AD⊥BC于D，AB+BD=DC，∠C=30°",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(DC)",
+    "on(D, BC)",
+    "foot(D, A, BC)",
+    "perpendicular(AD, BC)",
+    "angle(BAC)=120",
+    "angle(ACB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01141.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "altitude", "perpendicular", "angle"]
+  }
+}

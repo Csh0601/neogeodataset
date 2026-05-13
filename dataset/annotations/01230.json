@@ -1,0 +1,34 @@
+{
+  "id": "01230",
+  "text": "在△ABC中，分别以AB、AC为直角边向外作两个等腰直角三角形，∠EAB=∠DAC=90°，AE=AB，AD=AC，连接BD、CE交于点F",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(CE)",
+    "intersection(F, BD, CE)",
+    "isosceles_right(E, A, B)",
+    "isosceles_right(D, A, C)",
+    "equal(AE, AB)",
+    "equal(AD, AC)",
+    "angle(EAB)=90",
+    "angle(DAC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01230.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right",
+      "congruent_triangles",
+      "intersection"
+    ],
+    "annotated_by": "agent-2",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

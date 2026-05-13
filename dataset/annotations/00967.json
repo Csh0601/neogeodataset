@@ -1,0 +1,42 @@
+{
+  "id": "00967",
+  "text": "在平面直角坐标系中，一次函数y=1/2x+3与x轴交于点A，与y轴交于点B，点C与点A关于y轴对称，过M作y轴的平行线交直线AB于P，交直线BC于Q，M在x轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(A, -6, 0)",
+    "point_coord(B, 0, 3)",
+    "point_coord(C, 6, 0)",
+    "line_function(l1, 0.5, 3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(PQ)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)",
+    "on(C, axis_x)",
+    "on(M, axis_x)",
+    "on(P, line_l1)",
+    "on(Q, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00967.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "reflection",
+      "parallel"
+    ]
+  }
+}

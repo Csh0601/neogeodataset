@@ -1,0 +1,41 @@
+{
+  "id": "01406",
+  "text": "在边长为4的正方形ABCD中，E是BC上一点，F是CD延长线上一点，AM平分∠EAF，AM交CD于点M，BE=DF=1",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "square(A, B, C, D)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(AM)",
+    "on(E, BC)",
+    "on(M, CD)",
+    "equal_angle(EAM, MAF)",
+    "length(AB)=4",
+    "length(BE)=1",
+    "length(DF)=1",
+    "on_extended(F, CD, towards=D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01406.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "angle_bisector",
+      "extension"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "正方形ABCD顺序为A左上、B左下、C右下、D右上",
+      "F在CD延长线上即D的上方"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

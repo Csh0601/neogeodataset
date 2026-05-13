@@ -1,0 +1,29 @@
+{
+  "id": "00213",
+  "text": "在四边形ABCD中，∠CDA=45°，∠BCD=120°，CD=3.4，CB=5",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(DA)",
+    "angle(CDA)=45",
+    "angle(BCD)=120",
+    "length(CD)=3.4",
+    "length(CB)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00213.png",
+  "meta": {
+    "source": "飞机机翼形状计算",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "trigonometry",
+      "application"
+    ]
+  }
+}

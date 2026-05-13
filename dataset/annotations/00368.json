@@ -1,0 +1,26 @@
+{
+  "id": "00368",
+  "text": "在Rt△ABC中，CD为斜边AB上的中线，CD=2，AB=4",
+  "dsl": [
+    "point(D)",
+    "right_triangle(A, B, C, right_at=C)",
+    "segment(CD)",
+    "midpoint(D, AB)",
+    "length(CD)=2",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00368.png",
+  "meta": {
+    "source": "直角三角形斜边中线",
+    "difficulty": "easy",
+    "tags": [
+      "right_triangle",
+      "median",
+      "hypotenuse"
+    ]
+  }
+}

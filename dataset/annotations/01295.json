@@ -1,0 +1,38 @@
+{
+  "id": "01295",
+  "text": "在Rt△ABC中，∠ACB=90°，AC=3，BC=4，AB=5，AD平分∠CAB交BC于D点，E在AD上，F在AC上，连接CE、EF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "segment(AD)",
+    "segment(CE)",
+    "segment(EF)",
+    "on(D, BC)",
+    "on(E, AD)",
+    "on(F, AC)",
+    "right_triangle(A, B, C, right_at=C)",
+    "bisector(AD, CAB)",
+    "length(AC)=3",
+    "length(BC)=4",
+    "length(AB)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01295.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "right_triangle",
+      "angle_bisector"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "动点E、F静态化"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00156",
+  "text": "直线l₁∥l₂，点A在直线l₁上，点B在直线l₂上，AB=BC，连接AC，∠ACB=30°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(A1)",
+    "point(B1)",
+    "line(l1, A, A1)",
+    "line(l2, B, B1)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "parallel(l1, l2)",
+    "equal(AB, BC)",
+    "angle(ACB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00156.png",
+  "meta": {
+    "source": "平行线与等腰三角形",
+    "difficulty": "easy",
+    "tags": [
+      "parallel",
+      "isosceles",
+      "angle"
+    ]
+  }
+}

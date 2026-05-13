@@ -1,0 +1,32 @@
+{
+  "id": "00789",
+  "text": "已知AB=12，AB⊥BC于B，AB⊥AD于A，AD=5，BC=10，点E是CD的中点，AE=13/2",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(CD)",
+    "segment(AE)",
+    "midpoint(E, CD)",
+    "perpendicular(AB, BC)",
+    "perpendicular(AB, AD)",
+    "length(AB)=12",
+    "length(AD)=5",
+    "length(BC)=10"
+  ],
+  "image_path": "images/00789.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["perpendicular", "midpoint", "length"]
+  }
+}

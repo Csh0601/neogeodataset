@@ -1,0 +1,40 @@
+{
+  "id": "01342",
+  "text": "M是弧AC的中点，B为弧AM上任意一点，MD⊥BC于D，BD=2，CD=6",
+  "dsl": [
+    "point(D)",
+    "circle(O)",
+    "arc(A, C, circle_O)",
+    "arc(A, M, circle_O)",
+    "segment(BC)",
+    "segment(MD)",
+    "segment(AB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(M, circle_O)",
+    "arc_midpoint(M, AC, circle_O)",
+    "foot(D, M, BC)",
+    "perpendicular(MD, BC)",
+    "length(BD)=2",
+    "length(CD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01342.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "arc_midpoint",
+      "perpendicular"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

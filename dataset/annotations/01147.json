@@ -1,0 +1,35 @@
+{
+  "id": "01147",
+  "text": "在平面直角坐标系中，点A在y轴上，B在x轴正半轴上，AB=4，点D坐标为(4,3)，点A关于点D的对称点为C，连接BC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(D, 4, 3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(DC)",
+    "on(A, axis_y)",
+    "on(B, axis_x)",
+    "reflect(C, A, D)",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01147.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "symmetry",
+      "optimization",
+      "reflection"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "01142",
+  "text": "菱形ABCD的边AB=20，∠BAD<90°，⊙O与边AB、AD都相切，AO=10，⊙O的半径长等于2√5",
+  "dsl": [
+    "point(O)",
+    "parallelogram(A, B, C, D)",
+    "circle(O, r=4.472)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AO)",
+    "tangent(circle_O, AB)",
+    "tangent(circle_O, AD)",
+    "equal(AB, BC)",
+    "length(AB)=20",
+    "length(AO)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01142.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "circle",
+      "tangent",
+      "area"
+    ]
+  }
+}

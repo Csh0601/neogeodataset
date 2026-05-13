@@ -1,0 +1,39 @@
+{
+  "id": "00405",
+  "text": "等边三角形ABC的边长为1，顶点B与原点O重合，点C在x轴的正半轴上，过点B作BA1⊥AC于点A1，过点A1作A1B1∥OA，交OC于点B1；过点B1作B1A2⊥AC于点A2，过点A2作A2B2∥OA，交OC于点B2，按此规律进行下去",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A1)",
+    "point(B1)",
+    "point(A2)",
+    "point(B2)",
+    "point_coord(B, 0, 0)",
+    "equilateral(A, B, C)",
+    "segment(BA1)",
+    "segment(A1B1)",
+    "segment(B1A2)",
+    "segment(A2B2)",
+    "on(C, axis_x)",
+    "on(B1, OC)",
+    "on(B2, OC)",
+    "foot(A1, B, AC)",
+    "foot(A2, B1, AC)",
+    "parallel(A1B1, OA)",
+    "parallel(A2B2, OA)",
+    "length(AB)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00405.png",
+  "meta": {
+    "source": "等边三角形递归作图",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral_triangle",
+      "sequence",
+      "coordinate_system"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "01109",
+  "text": "点P是正方形ABCD内一点，PA=√5，PB=√2，PC=1，∠BPC=135°",
+  "dsl": [
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "length(PA)=2.236",
+    "length(PB)=1.414",
+    "length(PC)=1",
+    "angle(BPC)=135",
+    "inside(P, ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01109.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "interior_point",
+      "distance"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "00105",
+  "text": "△ABC的外接圆⊙O的半径为3，A、B、C在圆上，CA=CB,圆周角∠ACB=55°，弧AB为劣弧，连接AB、BC、CA、OA、OB",
+  "dsl": [
+    "circle(O, r=3)",
+    "triangle(A, B, C)",
+    "segment(OA)",
+    "segment(OB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "arc(A, B, circle_O)",
+    "equal(CA, CB)",
+    "angle(ACB)=55"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00105.png",
+  "meta": {
+    "source": "圆的外接与弧长",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "triangle",
+      "inscribed_angle",
+      "arc"
+    ]
+  }
+}

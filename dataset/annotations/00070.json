@@ -1,0 +1,35 @@
+{
+  "id": "00070",
+  "text": "在△ABC中，AB=AC=4,D是边BC中点，DE⊥AC垂足为E，DF⊥AB垂足为F，DE=DF，CE=BF，∠B=∠C",
+  "dsl": [
+    "segment(DE)",
+    "segment(DF)",
+    "midpoint(D, BC)",
+    "foot(E, D, AC)",
+    "foot(F, D, AB)",
+    "isosceles(A, B, C)",
+    "perpendicular(DE, AC)",
+    "perpendicular(DF, AB)",
+    "equal(DE, DF)",
+    "equal(CE, BF)",
+    "equal_angle(ABC, ACB)",
+    "length(AB)=4",
+    "length(AC)=4"
+  ],
+  "image_path": "images/00070.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形与垂足",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "perpendicular",
+      "foot",
+      "equal",
+      "angle"
+    ]
+  }
+}

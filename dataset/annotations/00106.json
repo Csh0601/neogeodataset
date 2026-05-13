@@ -1,0 +1,35 @@
+{
+  "id": "00106",
+  "text": "在正五边形ABCDE中，各边相等，各内角均为108°，即∠ABC=∠BCD=∠CDE=∠DEA=∠EAB=108°，点F在正五边形内部，△ABF为等边三角形，连接AF、BF、CF，∠AFC=126°",
+  "dsl": [
+    "regular_polygon(5, A, B, C, D, E)",
+    "segment(CF)",
+    "equilateral(A, B, F)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DE)",
+    "equal(DE, EA)",
+    "angle(ABC)=108",
+    "angle(BCD)=108",
+    "angle(CDE)=108",
+    "angle(DEA)=108",
+    "angle(EAB)=108",
+    "angle(AFC)=126",
+    "inside(F, polygon_ABCDE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00106.png",
+  "meta": {
+    "source": "正五边形与等边三角形",
+    "difficulty": "middle",
+    "tags": [
+      "polygon",
+      "pentagon",
+      "equilateral",
+      "angle"
+    ]
+  }
+}

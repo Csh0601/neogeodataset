@@ -1,0 +1,34 @@
+{
+  "id": "01004",
+  "text": "在平面直角坐标系xOy中，直线y=(1/2)x-2与x轴交于点A，与y轴交于点B，过A、B两点的抛物线y=(1/2)x^2-(3/2)x-2与x轴交于另一点C(-1,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(M)",
+    "point(N)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, -2)",
+    "point_coord(C, -1, 0)",
+    "line_function(l1, 0.5, -2)",
+    "parabola(p1, 0.5, -1.5, -2)",
+    "segment(AB)",
+    "segment(AC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01004.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "linear_function"
+    ]
+  }
+}

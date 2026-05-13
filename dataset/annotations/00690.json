@@ -1,0 +1,43 @@
+{
+  "id": "00690",
+  "text": "正方形ABCD的边长为6，点E是BC的中点，连接AE与对角线BD交于点G，连接CG并延长交AB于点F，连接DE交CF于点H，连接AH，CF⊥DE，AD=AH，GH=4/5，CH:HF=2:3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "square(A, B, C, D)",
+    "segment(AE)",
+    "segment(BD)",
+    "segment(CG)",
+    "segment(CF)",
+    "segment(DE)",
+    "segment(AH)",
+    "segment(GH)",
+    "midpoint(E, BC)",
+    "intersection(G, AE, BD)",
+    "on(F, AB)",
+    "intersection(H, DE, CF)",
+    "collinear(C, G, F)",
+    "perpendicular(CF, DE)",
+    "equal(AD, AH)",
+    "length(AB)=6",
+    "length(GH)=0.8",
+    "ratio(CH, HF)=0.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00690.png",
+  "meta": {
+    "source": "正方形中点与对角线交点",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "midpoint",
+      "intersection",
+      "perpendicular"
+    ]
+  }
+}

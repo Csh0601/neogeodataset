@@ -1,0 +1,22 @@
+{
+  "id": "00711",
+  "text": "在△ABC中，AB=12，AC=20，D为BC边的中点，连接AD",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "midpoint(D, BC)",
+    "length(AB)=12",
+    "length(AC)=20"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00711.png",
+  "meta": {
+    "source": "三角形中线范围",
+    "difficulty": "easy",
+    "tags": ["triangle", "median", "midpoint"]
+  }
+}

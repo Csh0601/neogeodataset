@@ -1,0 +1,29 @@
+{
+  "id": "01060",
+  "text": "直线AB平行于直线DE，C为AB与DE之间的一点，连接AC，DC，∠A=40°，∠ACD=100°，∠D=60°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "line(AB)",
+    "line(DE)",
+    "segment(AC)",
+    "segment(DC)",
+    "parallel(AB, DE)",
+    "angle(BAC)=40",
+    "angle(ACD)=100",
+    "angle(CDE)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01060.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["parallel_lines", "angle"]
+  }
+}

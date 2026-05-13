@@ -1,0 +1,17 @@
+{
+  "id": "00616",
+  "text": "△ABC中，连接AB、AC、BC",
+  "dsl": [
+    "triangle(A, B, C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00616.png",
+  "meta": {
+    "source": "网格三角形",
+    "difficulty": "easy",
+    "tags": ["grid", "triangle", "sine"]
+  }
+}

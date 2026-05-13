@@ -1,0 +1,37 @@
+{
+  "id": "00873",
+  "text": "在平面直角坐标系中，抛物线y=x²+2x-3与x轴交于A(-3,0)、B(1,0)两点，与y轴交于点C(0,-3)，OA=OC=3，顶点为D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 1, 0)",
+    "point_coord(C, 0, -3)",
+    "parabola(p1, 1, 2, -3)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "length(OA)=3",
+    "length(OC)=3"
+  ],
+  "image_path": "images/00873.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线与坐标轴交点",
+    "difficulty": "middle",
+    "tags": ["coordinate", "parabola"]
+  }
+}

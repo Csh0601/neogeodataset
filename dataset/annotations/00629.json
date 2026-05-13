@@ -1,0 +1,29 @@
+{
+  "id": "00629",
+  "text": "在矩形ABCD中，AB=5，AD=3，点E为BC上一点，把△CDE沿DE翻折，点C恰好落在AB边上的F处，CE=5/3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "triangle(C, D, E)",
+    "on(E, BC)",
+    "on(F, AB)",
+    "fold(C, F, DE)",
+    "length(AB)=5",
+    "length(AD)=3",
+    "length(CE)=1.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00629.png",
+  "meta": {
+    "source": "矩形折叠",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold"
+    ]
+  }
+}

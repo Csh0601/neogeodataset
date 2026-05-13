@@ -1,0 +1,31 @@
+{
+  "id": "00549",
+  "text": "在等腰△ABC中，点D、E分别在腰AB、AC上，△ABE≌△ACD",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, B, E)",
+    "triangle(A, C, D)",
+    "segment(DE)",
+    "segment(BE)",
+    "segment(CD)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "equal(AB, AC)",
+    "congruent(ABE, ACD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00549.png",
+  "meta": {
+    "source": "等腰三角形全等",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles_triangle",
+      "congruent"
+    ]
+  }
+}

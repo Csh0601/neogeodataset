@@ -1,0 +1,48 @@
+{
+  "id": "00254",
+  "text": "在半径为3的⊙O中，BC为直径，点A在圆上，∠BAC=90°，∠ABC的角平分线与AC相交于点E，与⊙O相交于点D，延长CA至M，连结BM，使得MB=ME，过点A作BM的平行线与CD的延长线交于点N，BM与⊙O相切",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "circle(O, r=3)",
+    "segment(BC)",
+    "segment(BM)",
+    "segment(AN)",
+    "segment(CD)",
+    "segment(AC)",
+    "segment(BD)",
+    "midpoint(O, BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "intersection(E, BD, AC)",
+    "intersection(N, AN, CD_extended)",
+    "angle_bisector(D, A, B, C)",
+    "tangent(BM, circle_O)",
+    "equal(MB, ME)",
+    "parallel(AN, BM)",
+    "angle(BAC)=90",
+    "on_extended(M, CA, towards=A)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00254.png",
+  "meta": {
+    "source": "圆的角平分线与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "angle_bisector",
+      "tangent",
+      "parallel"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "00695",
+  "text": "在平面直角坐标系中，抛物线y=-x²+3x+4与y轴交于点A(0,4)，与x轴交于点B(4,0)和C(-1,0)，过点A作垂直于y轴的直线l，在直线l下方的抛物线上取一点P，过点P作直线PQ平行于y轴交直线l于Q，连接AP",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(A, 0, 4)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, -1, 0)",
+    "parabola(p, -1, 3, 4)",
+    "line_function(l, 0, 4)",
+    "segment(AP)",
+    "segment(PQ)",
+    "on(A, axis_y)",
+    "on(B, axis_x)",
+    "on(C, axis_x)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)",
+    "on(P, parabola_p)",
+    "on(Q, line_l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00695.png",
+  "meta": {
+    "source": "抛物线与水平线上的动点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "parallel"
+    ]
+  }
+}

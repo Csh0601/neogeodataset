@@ -1,0 +1,37 @@
+{
+  "id": "01399",
+  "text": "在△ABC中，AC=BC，矩形DEFG的顶点D、E在AB上，点F、G分别在BC、AC上，CF=4，BF=3，DE=2EF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "rectangle(D, E, F, G)",
+    "on(D, AB)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "on(G, AC)",
+    "isosceles(C, A, B)",
+    "length(CF)=4",
+    "length(BF)=3",
+    "ratio(DE, EF)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01399.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "rectangle",
+      "inscribed"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

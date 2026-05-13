@@ -1,0 +1,31 @@
+{
+  "id": "01255",
+  "text": "在△ABC中，∠ABC=60°，AB=2√3，BC=8，以AC为腰、点A为顶点作等腰△ACD，∠DAC=120°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A, C, D)",
+    "segment(BD)",
+    "isosceles(A, C, D)",
+    "angle(ABC)=60",
+    "angle(DAC)=120",
+    "length(AB)=2√3",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01255.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": ["triangle", "isosceles", "angle"],
+    "annotated_by": "annotator-3",
+    "supplements": [
+      "等腰△ACD以A为顶点，AC=AD",
+      "isosceles(A,C,D)表示AC=AD"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

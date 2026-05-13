@@ -1,0 +1,40 @@
+{
+  "id": "00119",
+  "text": "在Rt△ABC中，∠C=90°，点O在AC上靠近A的三等分点，以OA为半径的半圆O交AB于点D，交AC于点E，过点D作半圆O的切线DF，交BC于点F，AC=4，BC=3",
+  "dsl": [
+    "point(O)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "right_triangle(A, B, C, right_at=C)",
+    "circle(O)",
+    "semicircle(O, A, E)",
+    "segment(OA)",
+    "segment(OE)",
+    "segment(DF)",
+    "trisection(O, AC, near=A)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "on(E, AC)",
+    "on(F, BC)",
+    "intersection(F, DF, BC)",
+    "tangent(DF, circle_O)",
+    "length(AC)=4",
+    "length(BC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00119.png",
+  "meta": {
+    "source": "直角三角形与切线",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "circle",
+      "tangent",
+      "semicircle"
+    ]
+  }
+}

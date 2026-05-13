@@ -1,0 +1,25 @@
+{
+  "id": "00817",
+  "text": "在平面直角坐标系中，一次函数y=-x-2的图象经过点A(-1,-1)和点B(1,-3)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, -1, -1)",
+    "point_coord(B, 1, -3)",
+    "line_function(l, -1, -2)",
+    "segment(AB)",
+    "function_point(A, l)",
+    "function_point(B, l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00817.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["coordinate", "linear_function"]
+  }
+}

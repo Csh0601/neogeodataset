@@ -1,0 +1,42 @@
+{
+  "id": "01039",
+  "text": "在菱形ABCD中，∠BAD=60°，E在边AB上，F在边AD上，AE=DF，BF与DE交于点G，连接CG，△ADE≅△DBF，BG+DG=CG",
+  "dsl": [
+    "triangle(A, D, E)",
+    "triangle(D, B, F)",
+    "parallelogram(A, B, C, D)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(DF)",
+    "segment(BF)",
+    "segment(DE)",
+    "segment(CG)",
+    "segment(BG)",
+    "segment(DG)",
+    "on(E, AB)",
+    "on(F, AD)",
+    "intersection(G, BF, DE)",
+    "equal(AE, DF)",
+    "equal(AB, BC)",
+    "congruent(ADE, DBF)",
+    "angle(BAD)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01039.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "congruent",
+      "intersection"
+    ]
+  }
+}

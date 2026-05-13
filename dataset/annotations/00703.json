@@ -1,0 +1,35 @@
+{
+  "id": "00703",
+  "text": "在等边三角形ABC中，AB=4，P是边AB上一点，BP=3/2，D是边BC上一点，∠PDQ=60°，DQ交边AC于点Q，CQ=5/2",
+  "dsl": [
+    "point(D)",
+    "point(P)",
+    "point(Q)",
+    "segment(PD)",
+    "segment(DQ)",
+    "segment(CQ)",
+    "segment(BP)",
+    "on(P, AB)",
+    "on(D, BC)",
+    "on(Q, AC)",
+    "equilateral(A, B, C)",
+    "length(AB)=4",
+    "length(BP)=1.5",
+    "length(CQ)=2.5",
+    "angle(PDQ)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00703.png",
+  "meta": {
+    "source": "等边三角形内角条件",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "equilateral",
+      "angle"
+    ]
+  }
+}

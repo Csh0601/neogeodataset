@@ -1,0 +1,42 @@
+{
+  "id": "00639",
+  "text": "AB是圆O的直径，点C是圆上异于A、B的一点，连接BC并延长至点D，使得CD=BC，连接AD交⊙O于点E，连接BE，△ABD是等腰三角形，连接OC并延长，与B以为切点的切线交于点F，AB=4，CF=1，DE=4/3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "circle(O)",
+    "segment(BE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(E, circle_O)",
+    "intersection(E, AD, circle_O)",
+    "isosceles(A, B, D)",
+    "tangent(B, circle_O)",
+    "collinear(A, O, B)",
+    "collinear(B, C, D)",
+    "equal(CD, BC)",
+    "length(AB)=4",
+    "length(CF)=1",
+    "length(DE)=1.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00639.png",
+  "meta": {
+    "source": "圆与等腰三角形",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "isosceles",
+      "tangent"
+    ]
+  }
+}

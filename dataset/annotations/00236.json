@@ -1,0 +1,38 @@
+{
+  "id": "00236",
+  "text": "在平面直角坐标系xOy中，平行四边形ABCD的AB边与y轴交于E点，F是AD的中点，连接EF，B、C、D的坐标分别为(-2,0)、(8,0)、(13,10)，点M在线段EQ中靠近E的三等分点上，连接DM，过C做DM的垂线CQ，垂足为Q",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(Q)",
+    "point_coord(B, -2, 0)",
+    "point_coord(C, 8, 0)",
+    "point_coord(D, 13, 10)",
+    "parallelogram(A, B, C, D)",
+    "segment(EF)",
+    "segment(DM)",
+    "segment(CQ)",
+    "midpoint(F, AD)",
+    "trisection(M, EQ, near=E)",
+    "intersection(E, AB, axis_y)",
+    "on(Q, DM)",
+    "foot(Q, C, DM)",
+    "perpendicular(CQ, DM)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00236.png",
+  "meta": {
+    "source": "平行四边形与抛物线",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "parabola",
+      "coordinate"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00865",
+  "text": "在平面直角坐标系中，一次函数y=k2x+b的图象与y轴交于点B，与正比例函数y=k1x的图象相交于点A(3,4)，且OA=OB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 4)",
+    "point_coord(B, 0, -5)",
+    "line_function(l1, 1.3333, 0)",
+    "line_function(l2, 3, -5)",
+    "segment(OA)",
+    "segment(OB)",
+    "on(A, l1)",
+    "on(A, l2)",
+    "on(B, l2)",
+    "on(B, axis_y)",
+    "equal(OA, OB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00865.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "proportional_function"
+    ]
+  }
+}

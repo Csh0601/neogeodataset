@@ -1,0 +1,41 @@
+{
+  "id": "01041",
+  "text": "AB∥CD，EF⊥AB于点E，∠AEH=∠FGH=20°，∠H=50°，∠EFG=70°，G在直线CD上",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(F)",
+    "point(H)",
+    "segment(AB)",
+    "segment(CD)",
+    "line(l, C, D)",
+    "segment(EF)",
+    "segment(EH)",
+    "segment(FG)",
+    "segment(GH)",
+    "on(E, AB)",
+    "on(G, CD)",
+    "parallel(AB, CD)",
+    "perpendicular(EF, AB)",
+    "angle(AEH)=20",
+    "angle(FGH)=20",
+    "angle(GHE)=50",
+    "angle(EFG)=70"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01041.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "parallel_lines",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

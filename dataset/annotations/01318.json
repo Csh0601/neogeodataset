@@ -1,0 +1,34 @@
+{
+  "id": "01318",
+  "text": "在△ABC中，∠ACB=90°，AC=6，BC=8，点D在AB上，点E在BC上，连接DC、DE",
+  "dsl": [
+    "segment(DC)",
+    "segment(DE)",
+    "on(D, AB)",
+    "on(E, BC)",
+    "right_triangle(A, B, C, right_at=C)",
+    "angle(ACB)=90",
+    "length(AC)=6",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01318.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "tangent",
+      "dynamic_point"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "直角三角形ABC，∠C=90°，C在上方，A左下B右下，tanB=0.75即AC/BC=3/4，AC+BC=14所以AC=6,BC=8，D在AB上，E在BC上"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

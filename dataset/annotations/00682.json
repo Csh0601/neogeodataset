@@ -1,0 +1,30 @@
+{
+  "id": "00682",
+  "text": "在△ABC中，三边的中线AD、BE、CF交于重心G，AG:GD=2:1",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "triangle(A, B, C)",
+    "centroid(G, A, B, C)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CF)",
+    "midpoint(D, BC)",
+    "midpoint(E, AC)",
+    "midpoint(F, AB)",
+    "intersection(G, AD, BE)",
+    "ratio(AG, GD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00682.png",
+  "meta": {
+    "source": "三角形重心与面积",
+    "difficulty": "middle",
+    "tags": ["triangle", "centroid", "median", "shaded"]
+  }
+}

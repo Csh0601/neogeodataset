@@ -1,0 +1,32 @@
+{
+  "id": "00520",
+  "text": "点A、B的坐标分别为A(2,0)、B(0,2)，点C为坐标平面内一点，BC=1，点M为线段AC的中点，连接OM，OM的最大值为√2+1/2",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point_coord(A, 2, 0)",
+    "point_coord(B, 0, 2)",
+    "segment(BC)",
+    "segment(OM)",
+    "segment(AC)",
+    "midpoint(M, AC)",
+    "length(BC)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00520.png",
+  "meta": {
+    "source": "坐标系中点与最值",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "midpoint",
+      "maximum"
+    ]
+  }
+}

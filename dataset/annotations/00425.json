@@ -1,0 +1,25 @@
+{
+  "id": "00425",
+  "text": "在△ABC中，O是△ABC的外接圆圆心，∠BAC=70°，∠ABC=50°，∠BCA=60°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "circumcircle(O, A, B, C)",
+    "angle(BAC)=70",
+    "angle(ABC)=50",
+    "angle(BCA)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00425.png",
+  "meta": {
+    "source": "尺规作图外心",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "circumcircle",
+      "construction"
+    ]
+  }
+}

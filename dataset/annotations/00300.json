@@ -1,0 +1,33 @@
+{
+  "id": "00300",
+  "text": "在△ABC中，AB=AC，AD是边BC上的中线，∠BAD=∠CAD，CE∥AD，CE交BA的延长线于点E，BC=8，AD=3，CE=6",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "segment(AD)",
+    "segment(CE)",
+    "midpoint(D, BC)",
+    "intersection(E, CE, BA_extended)",
+    "isosceles(A, B, C)",
+    "parallel(CE, AD)",
+    "equal_angle(BAD, CAD)",
+    "length(BC)=8",
+    "length(AD)=3",
+    "length(CE)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00300.png",
+  "meta": {
+    "source": "等腰三角形中线与平行线",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "median",
+      "parallel",
+      "angle_bisector"
+    ]
+  }
+}

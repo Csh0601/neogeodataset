@@ -1,0 +1,38 @@
+{
+  "id": "01380",
+  "text": "在直角坐标系中，以坐标原点O(0,0)，A(0,4)，B(3,0)为顶点的Rt△AOB，其两个锐角对应的外角角平分线相交于点P，点P在反比例函数y=48/x的图象上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 0, 4)",
+    "point_coord(B, 3, 0)",
+    "point(P)",
+    "hyperbola(h, 48)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AB)",
+    "function_point(P, h)",
+    "right_triangle(A, O, B, right_at=O)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01380.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "right_triangle",
+      "hyperbola",
+      "angle_bisector"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "计算出k=48"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

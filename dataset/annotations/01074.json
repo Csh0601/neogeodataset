@@ -1,0 +1,28 @@
+{
+  "id": "01074",
+  "text": "AB平行于FE，连接BC、CD、DE，∠B+∠C+∠D+∠E=360°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(EF)",
+    "parallel(AB, FE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01074.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["parallel_lines", "angle", "polygon"]
+  }
+}

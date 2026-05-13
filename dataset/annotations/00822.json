@@ -1,0 +1,42 @@
+{
+  "id": "00822",
+  "text": "在三角形ABC中，D是三角形ABC内一点，BD垂直于CD，AD=6，BD=4，CD=3，E、F、G、H分别是AB、BD、CD、AC的中点",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(EH)",
+    "midpoint(E, AB)",
+    "midpoint(F, BD)",
+    "midpoint(G, CD)",
+    "midpoint(H, AC)",
+    "perpendicular(BD, CD)",
+    "length(AD)=6",
+    "length(BD)=4",
+    "length(CD)=3",
+    "inside(D, triangle_ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00822.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "perpendicular"
+    ]
+  }
+}

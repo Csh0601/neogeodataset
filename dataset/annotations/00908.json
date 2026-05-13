@@ -1,0 +1,29 @@
+{
+  "id": "00908",
+  "text": "在矩形ABCD中，AB=8，BC=6，点P在矩形的内部，连接PA、PB、PC，∠PBC=∠PAB，PC的最小值为2√13-4",
+  "dsl": [
+    "point(P)",
+    "rectangle(A, B, C, D)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "equal_angle(PBC, PAB)",
+    "length(AB)=8",
+    "length(BC)=6",
+    "inside(P, ABCD)"
+  ],
+  "image_path": "images/00908.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "矩形内部点与等角",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "angle",
+      "minimum"
+    ]
+  }
+}

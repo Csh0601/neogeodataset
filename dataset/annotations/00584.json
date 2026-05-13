@@ -1,0 +1,25 @@
+{
+  "id": "00584",
+  "text": "△ABC的顶点在正方形网格的格点上，tanA=1/2",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CA)",
+    "tan(BAC)=0.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00584.png",
+  "meta": {
+    "source": "网格三角形",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "grid",
+      "tangent"
+    ]
+  }
+}

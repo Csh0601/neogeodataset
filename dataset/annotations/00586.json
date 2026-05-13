@@ -1,0 +1,29 @@
+{
+  "id": "00586",
+  "text": "菱形ABCD的对角线AC、BD相交于点O，OE∥AB交AD于点E，OA=1，AB=4",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "on(E, AD)",
+    "intersection(O, AC, BD)",
+    "parallel(OE, AB)",
+    "equal(AB, BC)",
+    "length(OA)=1",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00586.png",
+  "meta": {
+    "source": "菱形对角线",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "parallel",
+      "diagonal"
+    ]
+  }
+}

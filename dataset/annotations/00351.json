@@ -1,0 +1,35 @@
+{
+  "id": "00351",
+  "text": "存在三角形MON，∠MON=30°，MO=8,NO=10,在OM上取靠近M的三等分点，过点A1作A1B1⊥OM，交NO于点B1，以点B1为圆心，B1O为半径画弧，交OM于点A2,连接A2B1",
+  "dsl": [
+    "point(A1)",
+    "point(B1)",
+    "point(A2)",
+    "triangle(M, O, N)",
+    "circle(B1, radius=B1O)",
+    "segment(A1B1)",
+    "segment(A2B1)",
+    "intersection(A2, circle_B1, OM, index=1)",
+    "trisection(A1, OM, near=M)",
+    "on(B1, NO)",
+    "perpendicular(A1B1, OM)",
+    "length(MO)=8",
+    "length(NO)=10",
+    "angle(MON)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00351.png",
+  "meta": {
+    "source": "角内递归垂线与圆弧",
+    "difficulty": "hard",
+    "tags": [
+      "angle",
+      "perpendicular",
+      "arc",
+      "sequence"
+    ]
+  }
+}

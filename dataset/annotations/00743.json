@@ -1,0 +1,25 @@
+{
+  "id": "00743",
+  "text": "在△ABC中，AD是∠BAC的外角平分线，P是AD上异于点A的一点，连接PB、PC，D在BC延长线上",
+  "dsl": [
+    "point(D)",
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(BD)",
+    "on(P, AD)",
+    "on(D, BC_extended)"
+  ],
+  "image_path": "images/00743.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "angle_bisector", "exterior_angle"]
+  }
+}

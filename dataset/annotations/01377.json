@@ -1,0 +1,36 @@
+{
+  "id": "01377",
+  "text": "在△ABC中，AB=AC，∠BAC=120，点D、E在边BC上，∠DAE=60，BD=10，EC=16",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(DE)",
+    "on(D, BC)",
+    "on(E, BC)",
+    "isosceles(A, B, C)",
+    "angle(BAC)=120",
+    "angle(DAE)=60",
+    "length(BD)=10",
+    "length(EC)=16"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01377.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "isosceles_triangle",
+      "angle",
+      "on_segment"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

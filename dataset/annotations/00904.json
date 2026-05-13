@@ -1,0 +1,40 @@
+{
+  "id": "00904",
+  "text": "在△ABC中，∠BAC=90°，AD是高，BE是中线，CF是角平分线，CF交AD于点G，交BE于点H",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CF)",
+    "segment(FG)",
+    "foot(D, A, BC)",
+    "midpoint(E, AC)",
+    "on(F, AB)",
+    "on(F, l1)",
+    "intersection(G, CF, AD)",
+    "intersection(H, CF, BE)",
+    "bisect_angle(A, C, B, l1)",
+    "angle(BAC)=90"
+  ],
+  "image_path": "images/00904.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "直角三角形高中线角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "right_angle",
+      "altitude",
+      "median",
+      "angle_bisector"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "01308",
+  "text": "在Rt△ABC中，∠A=90°，∠B=60°，BC=4，点E在BC上，点F在AC上，连接AE、EF",
+  "dsl": [
+    "segment(AE)",
+    "segment(EF)",
+    "on(E, BC)",
+    "on(F, AC)",
+    "right_triangle(A, B, C, right_at=A)",
+    "angle(ABC)=60",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01308.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "right_triangle",
+      "angle"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "直角三角形，∠A=90°在上方，B在左下，C在右下，∠B=60°"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00689",
+  "text": "在平面直角坐标系中，直线y=3x+3与x轴交于点B(-1,0)，与y轴交于点A(0,3)，点C为x轴正半轴上一点，AC=BC，C(4,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, 0, 3)",
+    "point_coord(B, -1, 0)",
+    "point_coord(C, 4, 0)",
+    "line_function(l, 3, 3)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, axis_y)",
+    "on(B, axis_x)",
+    "on(C, axis_x)",
+    "on(A, line_l)",
+    "on(B, line_l)",
+    "equal(AC, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00689.png",
+  "meta": {
+    "source": "直线与坐标轴交点等距",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "equal"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "00681",
+  "text": "在平面直角坐标系中，直线y=4/3·x+8与x轴交于点A(-6,0)，与y轴交于点B(0,8)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, -6, 0)",
+    "point_coord(B, 0, 8)",
+    "line_function(l, 1.333, 8)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(A, line_l)",
+    "on(B, line_l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00681.png",
+  "meta": {
+    "source": "一次函数与坐标轴交点",
+    "difficulty": "easy",
+    "tags": [
+      "coordinate",
+      "line"
+    ]
+  }
+}

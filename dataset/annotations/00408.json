@@ -1,0 +1,30 @@
+{
+  "id": "00408",
+  "text": "∠ACD是△ABC的外角，CE∥AB，∠ACB=75°，∠ECD=50°，∠A=55°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(CE)",
+    "segment(CD)",
+    "on(D, BC_extended)",
+    "parallel(CE, AB)",
+    "angle(ACB)=75",
+    "angle(ECD)=50",
+    "angle(CAB)=55"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00408.png",
+  "meta": {
+    "source": "三角形外角与平行线",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "exterior_angle",
+      "parallel"
+    ]
+  }
+}

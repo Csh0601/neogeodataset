@@ -1,0 +1,37 @@
+{
+  "id": "01045",
+  "text": "在正方形ABCD中，E在边BC上，F在边CD上，∠EAF=45°，连接EF，过点A作AG⊥EF于点G，EF=BE+DF，AG=AD",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(EF)",
+    "segment(AG)",
+    "segment(BE)",
+    "segment(DF)",
+    "on(E, BC)",
+    "on(F, CD)",
+    "foot(G, A, EF)",
+    "perpendicular(AG, EF)",
+    "angle(EAF)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01045.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "perpendicular",
+      "angle",
+      "rotation"
+    ]
+  }
+}

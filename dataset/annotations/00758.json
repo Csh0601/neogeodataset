@@ -1,0 +1,22 @@
+{
+  "id": "00758",
+  "text": "等腰直角△ABC中，AC=BC，∠ACB=90°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "equal(AC, BC)",
+    "angle(ACB)=90"
+  ],
+  "image_path": "images/00758.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "isosceles", "right_triangle", "parallel_lines"]
+  }
+}

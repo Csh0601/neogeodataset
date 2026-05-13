@@ -1,0 +1,35 @@
+{
+  "id": "00139",
+  "text": "在平行四边形ABCD中，AB=4,AD=6,以点B为圆心，BA长为半径画圆，交BC于点E，在AD上截取AF=BE，连接EF，四边形ABEF是菱形",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "parallelogram(A, B, E, F)",
+    "circle(B, r=4)",
+    "segment(EF)",
+    "on(E, BC)",
+    "on(F, AD)",
+    "on(E, circle_B)",
+    "equal(BE, EF)",
+    "equal(AF, EF)",
+    "equal(AB, FA)",
+    "length(AB)=4",
+    "length(AD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00139.png",
+  "meta": {
+    "source": "平行四边形与菱形",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "rhombus",
+      "arc",
+      "equal"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "00786",
+  "text": "在平面直角坐标系xOy中，抛物线y=(m-1)x^2-(3m-4)x-3与x轴交于A、B两点，与y轴交于点C，抛物线的对称轴经过(1,0)且与y轴平行，点P是抛物线上一点，点Q是y轴上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(Q)",
+    "parabola(p1, 1, -1, -3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(P, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(C, p1, y)",
+    "on(Q, axis_y)"
+  ],
+  "image_path": "images/00786.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "parallelogram"
+    ]
+  }
+}

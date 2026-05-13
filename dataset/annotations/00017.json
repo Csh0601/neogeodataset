@@ -1,0 +1,31 @@
+{
+  "id": "00017",
+  "text": "在平面直角坐标系中，点P₁、P₂、P₃、P₄均在坐标轴上，P₁P₂⊥P₂P₃，P₂P₃⊥P₃P₄，点P₁坐标为(0,-1)，点P₂坐标为(-2,0), 点P₃坐标为(0,4), 点P₄坐标为(8,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P1)",
+    "point(P2)",
+    "point(P3)",
+    "point(P4)",
+    "point_coord(O, 0, 0)",
+    "point_coord(P1, 0, -1)",
+    "point_coord(P2, -2, 0)",
+    "point_coord(P3, 0, 4)",
+    "point_coord(P4, 8, 0)",
+    "segment(P1P2)",
+    "segment(P2P3)",
+    "segment(P3P4)",
+    "perpendicular(P1P2, P2P3)",
+    "perpendicular(P2P3, P3P4)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00017.png",
+  "meta": {
+    "source": "坐标系中的垂直线段问题",
+    "difficulty": "middle",
+    "tags": ["coordinate", "perpendicular", "sequence"]
+  }
+}

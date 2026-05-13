@@ -1,0 +1,27 @@
+{
+  "id": "00736",
+  "text": "在矩形ABCD中，E在AD上，F在BC上，沿EF折叠，再沿BF折叠，∠DEF=a，∠CFE=180°-2a，G在BF延长线上",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "rectangle(A, B, C, D)",
+    "segment(EF)",
+    "segment(BF)",
+    "segment(GF)",
+    "on(E, AD)",
+    "on(F, BC)",
+    "on(G, BF_extended)",
+    "parallel(AB, DC)"
+  ],
+  "image_path": "images/00736.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["rectangle", "fold", "angle"]
+  }
+}

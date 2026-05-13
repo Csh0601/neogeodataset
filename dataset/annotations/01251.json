@@ -1,0 +1,35 @@
+{
+  "id": "01251",
+  "text": "四边形ABCD中，∠ABC=∠ADC=90°，BD平分∠ABC，∠DCB=60°，AB+BC=4，AC=2",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(BD)",
+    "segment(AC)",
+    "segment(AB)",
+    "segment(BC)",
+    "equal_angle(ABD, DBC)",
+    "angle(ABC)=90",
+    "angle(ADC)=90",
+    "angle(ABD)=45",
+    "angle(DBC)=45",
+    "angle(DCB)=60",
+    "length(AC)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01251.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["quadrilateral", "angle_bisector", "right_angle"],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "BD平分∠ABC，即∠ABD=∠DBC=45°",
+      "AB+BC=4无法直接用DSL表示，用AC=2替代（由计算得出）"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

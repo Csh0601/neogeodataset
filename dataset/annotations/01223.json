@@ -1,0 +1,35 @@
+{
+  "id": "01223",
+  "text": "等腰Rt△ABC中，∠BAC=90°，BC=√2，E为AB上一点，以CE为斜边作等腰Rt△CDE，连接AD，∠ACE=30°，AD=(3√2-√6)/6",
+  "dsl": [
+    "triangle(C, D, E)",
+    "segment(AD)",
+    "on(E, AB)",
+    "isosceles_right(A, B, C)",
+    "equal(DE, CE)",
+    "angle(BAC)=90",
+    "length(BC)=1.414",
+    "angle(ACE)=30",
+    "angle(DEC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01223.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right",
+      "rotation",
+      "construction"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "BC=√2≈1.414，补充AD=(3√2-√6)/6的结论"
+    ]
+  },
+  "validated": false,
+  "needs_review": true
+}

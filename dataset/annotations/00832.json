@@ -1,0 +1,39 @@
+{
+  "id": "00832",
+  "text": "在平面直角坐标系中，抛物线的顶点为A(0,2)，且经过点B(2,0)，以坐标原点O为圆心的圆的半径r=√2，OC垂直于AB于点C，P为抛物线上一点，线段PO交圆O于点M",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(C)",
+    "point(P)",
+    "point(M)",
+    "point_coord(A, 0, 2)",
+    "point_coord(B, 2, 0)",
+    "circle(O, r=1.4142)",
+    "parabola(f, -0.5, 0, 2)",
+    "segment(AB)",
+    "segment(OC)",
+    "segment(PO)",
+    "segment(PM)",
+    "function_point(A, f)",
+    "function_point(B, f)",
+    "function_point(P, f)",
+    "on(M, circle_O)",
+    "foot(C, O, AB)",
+    "on(M, PO)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00832.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "circle",
+      "tangent"
+    ]
+  }
+}

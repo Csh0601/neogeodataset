@@ -1,0 +1,26 @@
+{
+  "id": "00748",
+  "text": "在平面直角坐标系xOy中，正比例函数y=2x的图象经过点A(2,4)，过点A的直线y=kx+b与x轴、y轴分别交于B、C两点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, 2, 4)",
+    "line_function(l1, 2, 0)",
+    "segment(OA)",
+    "segment(AB)",
+    "segment(BC)",
+    "function_point(A, l1)"
+  ],
+  "image_path": "images/00748.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "line", "proportional_function"]
+  }
+}

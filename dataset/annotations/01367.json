@@ -1,0 +1,42 @@
+{
+  "id": "01367",
+  "text": "AB⊥BD，AC⊥CD，AB与AC交于点A，BD与CD交于点D，BC与AD交于点E，∠A=35°，∠D=35°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(BC)",
+    "segment(AD)",
+    "intersection(E, BC, AD)",
+    "perpendicular(AB, BD)",
+    "perpendicular(AC, CD)",
+    "angle(BAC)=35",
+    "angle(BDC)=35"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01367.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "perpendicular",
+      "angle",
+      "intersection"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "AB⊥BD即∠ABD=90°，AC⊥CD即∠ACD=90°，四边形ABDC中∠A+∠B+∠C+∠D=360°，故∠A=∠D=35°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

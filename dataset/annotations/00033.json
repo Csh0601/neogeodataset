@@ -1,0 +1,36 @@
+{
+  "id": "00033",
+  "text": "在Rt△BCD中，∠CBD=90°，BC=BD=5，点A在CB的延长线上，BA=BC，E是BD的中点，过点E作射线EF⊥EA，EF与CD交于点F",
+  "dsl": [
+    "point(A)",
+    "point(E)",
+    "point(F)",
+    "right_triangle(B, C, D, right_at=B)",
+    "segment(BA)",
+    "segment(EA)",
+    "ray(E, F)",
+    "midpoint(E, BD)",
+    "on(F, CD)",
+    "equal(BC, BD)",
+    "equal(BA, BC)",
+    "perpendicular(EF, EA)",
+    "length(BC)=5",
+    "length(BD)=5",
+    "on_extended(A, CB, towards=B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00033.png",
+  "meta": {
+    "source": "直角三角形与垂线构造",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "isosceles",
+      "perpendicular",
+      "extension"
+    ]
+  }
+}

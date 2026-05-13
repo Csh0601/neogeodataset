@@ -1,0 +1,42 @@
+{
+  "id": "01086",
+  "text": "在正方形ABCD中，连接BD，AE⊥BD于点E，E在BD上，将△AEB以A为旋转中心沿逆时针方向旋转30°后得到△AB_1E_1，AB_1与BD交于M，AE_1的延长线与BD交于N，∠BAE=45°",
+  "dsl": [
+    "point(B_1)",
+    "point(E_1)",
+    "square(A, B, C, D)",
+    "triangle(A, E, B)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(AB_1)",
+    "segment(AE_1)",
+    "on(E, BD)",
+    "foot(E, A, BD)",
+    "intersection(M, AB_1, BD)",
+    "intersection(N, AE_1, BD)",
+    "rotate(B_1, source=B, center=A, angle=30)",
+    "rotate(E_1, source=E, center=A, angle=30)",
+    "perpendicular(AE, BD)",
+    "equal(AB, BC)",
+    "angle(BAE)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01086.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "rotation",
+      "perpendicular",
+      "diagonal"
+    ]
+  }
+}

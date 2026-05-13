@@ -1,0 +1,34 @@
+{
+  "id": "00205",
+  "text": "在平面直角坐标系中，二次函数y=x²-1的图象是一条开口向上的抛物线，顶点V的坐标为(0,-1)，与x轴交于点A(-1,0)和点B(1,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(V)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 1, 0)",
+    "point_coord(V, 0, -1)",
+    "parabola(p, 1, 0, -1)",
+    "function_point(A, p)",
+    "function_point(B, p)",
+    "function_point(V, p)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(V, p, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00205.png",
+  "meta": {
+    "source": "二次函数图像性质",
+    "difficulty": "middle",
+    "tags": [
+      "parabola",
+      "quadratic_function",
+      "coordinate"
+    ]
+  }
+}

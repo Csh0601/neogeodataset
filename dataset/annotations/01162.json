@@ -1,0 +1,34 @@
+{
+  "id": "01162",
+  "text": "∠ACB=∠ADB=90°，AB=6，E为AB中点，连接CE，DE，CD=2",
+  "dsl": [
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(A)",
+    "point(B)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(DE)",
+    "midpoint(E, AB)",
+    "angle(ACB)=90",
+    "angle(ADB)=90",
+    "length(AB)=6",
+    "length(CD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01162.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["right_angle", "midpoint", "semicircle"]
+  }
+}

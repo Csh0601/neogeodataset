@@ -1,0 +1,34 @@
+{
+  "id": "00210",
+  "text": "直线AB与CD相交于点O，OE⊥CD，垂足为点O，∠BOE=40°，∠AOC=50°",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "line(AB)",
+    "line(CD)",
+    "ray(O, E)",
+    "collinear(A, O, B)",
+    "collinear(C, O, D)",
+    "perpendicular(OE, CD)",
+    "angle(BOE)=40",
+    "angle(AOC)=50"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00210.png",
+  "meta": {
+    "source": "直线相交与垂直",
+    "difficulty": "easy",
+    "tags": [
+      "intersecting_lines",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

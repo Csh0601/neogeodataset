@@ -1,0 +1,34 @@
+{
+  "id": "00778",
+  "text": "在平面直角坐标系xOy中，矩形OACB中，点A(11,0)在x轴上，点B(0,6)在y轴上，点P在BC边上，经过点O、P折叠矩形，得点B'和折痕OP",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(B_prime)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 11, 0)",
+    "point_coord(B, 0, 6)",
+    "point_coord(C, 11, 6)",
+    "rectangle(O, A, C, B)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(OP)",
+    "on(P, BC)",
+    "fold(B, B_prime, OP)"
+  ],
+  "image_path": "images/00778.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "rectangle", "fold"]
+  }
+}

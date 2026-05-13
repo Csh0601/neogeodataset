@@ -1,0 +1,33 @@
+{
+  "id": "00034",
+  "text": "在Rt△ABC中，∠ABC=90°，点D为AB中点，点E为BC中点，AD=4，CE=3，M是AC的中点，N是DE的中点，连接DE、MN",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "right_triangle(A, B, C, right_at=B)",
+    "segment(DE)",
+    "segment(MN)",
+    "midpoint(D, AB)",
+    "midpoint(E, BC)",
+    "midpoint(M, AC)",
+    "midpoint(N, DE)",
+    "length(AD)=4",
+    "length(CE)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00034.png",
+  "meta": {
+    "source": "直角三角形中点连线",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "segment"
+    ]
+  }
+}

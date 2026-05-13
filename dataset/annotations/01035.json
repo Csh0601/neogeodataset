@@ -1,0 +1,42 @@
+{
+  "id": "01035",
+  "text": "在Rt△ABC中，∠ABC=90°，AB=BC，D是线段AC上一点，连接BD，以BD为直角边作等腰直角△BDE，∠DBE=90°，BD=BE，连接AE，F为AE中点，AB=4，BF=1",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(B, D, E)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(DE)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(AD)",
+    "on(D, AC)",
+    "midpoint(F, AE)",
+    "equal(AB, BC)",
+    "equal(BD, BE)",
+    "perpendicular(AB, BC)",
+    "perpendicular(BD, BE)",
+    "angle(ABC)=90",
+    "angle(DBE)=90",
+    "length(AB)=4",
+    "length(BF)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01035.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "isosceles",
+      "midpoint",
+      "rotation"
+    ]
+  }
+}

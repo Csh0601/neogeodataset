@@ -1,0 +1,38 @@
+{
+  "id": "01310",
+  "text": "正方形ABCD内接于⊙O，线段MN在对角线BD上，MN=1，⊙O的面积为2π，连接AM、AN",
+  "dsl": [
+    "circle(O)",
+    "square(A, B, C, D)",
+    "segment(AM)",
+    "segment(AN)",
+    "segment(MN)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(M, BD)",
+    "on(N, BD)",
+    "length(MN)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01310.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "square",
+      "circle",
+      "inscribed"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "正方形ABCD内接于圆O，A左下B右下C右上D左上，M和N在对角线BD上，⊙O面积2π即半径√2"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

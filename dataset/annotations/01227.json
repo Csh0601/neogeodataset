@@ -1,0 +1,37 @@
+{
+  "id": "01227",
+  "text": "△ABC为等边三角形，AB=8，AD⊥BC于点D，E为线段AD上一点，AE=2√3，以AE为边在直线AD右侧构造等边三角形AEF，连接CE，N为CE的中点，连接NG",
+  "dsl": [
+    "segment(CE)",
+    "segment(NG)",
+    "foot(D, A, BC)",
+    "on(E, AD)",
+    "intersection(G, EF, AC)",
+    "midpoint(N, CE)",
+    "equilateral(A, B, C)",
+    "equilateral(A, E, F)",
+    "length(AB)=8",
+    "length(AE)=3.464"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01227.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "rotation",
+      "midpoint",
+      "foot"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "AE=2√3≈3.464，G为EF上的点或相关交点，旋转问题"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "00806",
+  "text": "在正方形ABCD中，边长为2，点E是CD边的中点，点F在边BC上，沿EF折叠，使点C落在点C'处",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(C_prime)",
+    "square(A, B, C, D)",
+    "segment(EF)",
+    "segment(EC_prime)",
+    "segment(FC_prime)",
+    "midpoint(E, CD)",
+    "on(F, BC)",
+    "fold(C, C_prime, EF)",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00806.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["square", "fold", "midpoint"]
+  }
+}

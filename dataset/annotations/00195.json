@@ -1,0 +1,37 @@
+{
+  "id": "00195",
+  "text": "在扇形AOB中，OA=OB=2，∠AOB=90°，C为弧AB上一点，∠AOC=30°，连接BC，过C作OA的垂线交AO于点D",
+  "dsl": [
+    "circle(O)",
+    "sector(O, A, B, angle=90)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(BC)",
+    "segment(CD)",
+    "arc(A, B, circle_O)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "foot(D, C, OA)",
+    "length(OA)=2",
+    "angle(AOB)=90",
+    "angle(AOC)=30",
+    "shaded(sector_OBC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00195.png",
+  "meta": {
+    "source": "扇形与阴影面积",
+    "difficulty": "middle",
+    "tags": [
+      "sector",
+      "angle",
+      "perpendicular",
+      "shaded",
+      "area"
+    ]
+  }
+}

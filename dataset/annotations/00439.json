@@ -1,0 +1,33 @@
+{
+  "id": "00439",
+  "text": "两个全等的含30°角的直角三角形ABC与DEF，∠B=∠E=30°，点B、F、C、E共线，AB与DF交于点P，AB与DE交于点M，AC与DE交于点Q，AC=DF=√3",
+  "dsl": [
+    "point(P)",
+    "point(M)",
+    "point(Q)",
+    "right_triangle(A, B, C, right_at=A)",
+    "right_triangle(D, E, F, right_at=D)",
+    "intersection(P, AB, DF)",
+    "intersection(M, AB, DE)",
+    "intersection(Q, AC, DE)",
+    "collinear(B, F, C, E)",
+    "angle(ABC)=30",
+    "angle(DEF)=30",
+    "length(AC)=1.732",
+    "length(DF)=1.732"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00439.png",
+  "meta": {
+    "source": "三角板移动重叠问题",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "moving",
+      "intersection"
+    ]
+  }
+}

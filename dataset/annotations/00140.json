@@ -1,0 +1,39 @@
+{
+  "id": "00140",
+  "text": "在平面直角坐标系中，A、B是双曲线y=2/x上的两个点，点A坐标为（1,2），点B坐标为（2,1）连接OA,OB,过点A作AC⊥x轴，交OB于点D，垂足为C，D为OB的中点",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "point(C)",
+    "coordinate_system(O)",
+    "point_coord(A, 1, 2)",
+    "point_coord(B, 2, 1)",
+    "point_coord(C, 1, 0)",
+    "hyperbola(h, 2)",
+    "segment(AC)",
+    "segment(OB)",
+    "segment(OA)",
+    "segment(DC)",
+    "midpoint(D, OB)",
+    "intersection(D, AC, OB)",
+    "function_point(A, h)",
+    "function_point(B, h)",
+    "perpendicular(AC, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00140.png",
+  "meta": {
+    "source": "双曲线与三角形面积",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "midpoint",
+      "area"
+    ]
+  }
+}

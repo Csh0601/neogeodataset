@@ -1,0 +1,27 @@
+{
+  "id": "01216",
+  "text": "在对余四边形ABCD中，∠DAB+∠BCD=180°，AB=BC，AD=2√5，CD=5，∠ABC=60°，BD=2√185/5",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(BD)",
+    "equal(AB, BC)",
+    "length(AD)=4.472",
+    "length(CD)=5",
+    "angle(ABC)=60",
+    "angle(ADC)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01216.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["quadrilateral", "supplementary_angles", "equal_length"],
+    "annotated_by": "annotator-1",
+    "supplements": ["对余四边形：∠DAB+∠BCD=180°，由此推出∠ADC=120°，补充BD=2√185/5"]
+  },
+  "validated": false,
+  "needs_review": false
+}

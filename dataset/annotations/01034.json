@@ -1,0 +1,36 @@
+{
+  "id": "01034",
+  "text": "在△AOB和△COD中，OA=OB，OC=OD，OA<OC，∠AOB=∠COD=36°，连接AC，BD交于点M，连接OM，∠AMB=36°，AC=BD，OM平分∠AOD，MO平分∠AMD",
+  "dsl": [
+    "triangle(A, O, B)",
+    "triangle(C, O, D)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(OD)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OM)",
+    "intersection(M, AC, BD)",
+    "equal(OA, OB)",
+    "equal(OC, OD)",
+    "equal(AC, BD)",
+    "angle(AOB)=36",
+    "angle(COD)=36",
+    "angle(AMB)=36"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01034.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "congruent",
+      "angle_bisector"
+    ]
+  }
+}

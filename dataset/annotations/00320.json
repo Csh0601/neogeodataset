@@ -1,0 +1,30 @@
+{
+  "id": "00320",
+  "text": "在△ABC中，AB=4，AC=3，∠BAC=60°，D、E分别是边AB、AC的中点,连接DE，DE平行于BC",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "parallel(DE, BC)",
+    "length(AB)=4",
+    "length(AC)=3",
+    "angle(BAC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00320.png",
+  "meta": {
+    "source": "三角形中位线与面积",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "area"
+    ]
+  }
+}

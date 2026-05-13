@@ -1,0 +1,31 @@
+{
+  "id": "00038",
+  "text": "在矩形ABCD中，AB=10，BC=5，点E在边AD中点，点F在边BC中点，连接EF，以EF的中点G为圆心，EG长为半径作圆",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "rectangle(A, B, C, D)",
+    "circle(G, radius=EG)",
+    "segment(EF)",
+    "midpoint(E, AD)",
+    "midpoint(F, BC)",
+    "midpoint(G, EF)",
+    "length(AB)=10",
+    "length(BC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00038.png",
+  "meta": {
+    "source": "矩形与平行线剪切",
+    "difficulty": "easy",
+    "tags": [
+      "rectangle",
+      "parallel",
+      "angle"
+    ]
+  }
+}

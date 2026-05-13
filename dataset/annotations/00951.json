@@ -1,0 +1,25 @@
+{
+  "id": "00951",
+  "text": "在矩形BCDE中，A为对角线BD与CE的交点，连接BA、CA、DA、EA",
+  "dsl": [
+    "point(A)",
+    "rectangle(B, C, D, E)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(BA)",
+    "segment(CA)",
+    "segment(DA)",
+    "segment(EA)",
+    "intersection(A, BD, CE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00951.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["rectangle", "diagonal", "intersection"]
+  }
+}

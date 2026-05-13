@@ -1,0 +1,31 @@
+{
+  "id": "00104",
+  "text": "在等边三角形ABC中，边长为2，D、E、F分别是AB、BC、CA的中点，连接DE,DF,EF",
+  "dsl": [
+    "triangle(D, E, F)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(FD)",
+    "midpoint(D, AB)",
+    "midpoint(E, BC)",
+    "midpoint(F, CA)",
+    "equilateral(A, B, C)",
+    "length(AB)=2",
+    "length(BC)=2",
+    "length(CA)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00104.png",
+  "meta": {
+    "source": "等边三角形与中点三角形",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "equilateral",
+      "midpoint"
+    ]
+  }
+}

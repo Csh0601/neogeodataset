@@ -1,0 +1,27 @@
+{
+  "id": "00316",
+  "text": "一个等腰边长度为2的直角三角形ABC，直角为角BAC，一个是角E为三十度角的直角三角形DEF，DF长度为根号3，直角为角EDF，B,C，E,F四点共线，且F和点C重叠,DE和线段AB交于点G",
+  "dsl": [
+    "point(G)",
+    "intersection(G, DE, AB)",
+    "isosceles_right(A, B, C)",
+    "right_triangle(D, E, F, right_at=D)",
+    "angle(DEF)=30",
+    "angle(EFD)=60",
+    "length(DF)=√3",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00316.png",
+  "meta": {
+    "source": "三角尺摆放角度",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "angle"
+    ]
+  }
+}

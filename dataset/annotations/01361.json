@@ -1,0 +1,42 @@
+{
+  "id": "01361",
+  "text": "B、C在上方，A在左方，D在右方，F在左下方，E在右下方，连接AE、BF交于点I，AD与FE交叉，BC与AD交叉，形成星形图案，∠1为∠BIF=60°，∠A+∠B+∠C+∠D+∠E+∠F=300°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(I)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(AD)",
+    "segment(AF)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(FE)",
+    "intersection(I, AE, BF)",
+    "angle(BIF)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01361.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "star",
+      "angle_sum",
+      "eight_model"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "八字模型（8字模型），六个顶角之和=5×∠1=300°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

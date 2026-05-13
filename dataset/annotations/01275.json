@@ -1,0 +1,36 @@
+{
+  "id": "01275",
+  "text": "在△ABC中，M为垂心，O为外心，∠BAC=60°，△ABC外接圆直径为10",
+  "dsl": [
+    "point(M)",
+    "point(O)",
+    "triangle(A, B, C)",
+    "circle(O, r=5)",
+    "orthocenter(M, A, B, C)",
+    "circumcircle(O, A, B, C)",
+    "angle(BAC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01275.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "orthocenter",
+      "circumcenter",
+      "circumcircle"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "M是垂心，O是外心",
+      "外接圆直径10即半径5",
+      "求AM的值"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

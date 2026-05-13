@@ -1,0 +1,30 @@
+{
+  "id": "00740",
+  "text": "在△ABC中，三个内角的平分线交于点O，D在CA的延长线上，AD=AO，CB=CD，连接BD，∠OBD=∠ODB，∠BAC=80°，∠ACB=40°",
+  "dsl": [
+    "point(O)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AO)",
+    "segment(BD)",
+    "segment(AD)",
+    "segment(CD)",
+    "segment(BO)",
+    "segment(CO)",
+    "on(D, CA_extended)",
+    "equal(AD, AO)",
+    "equal(CB, CD)",
+    "angle(BAC)=80",
+    "angle(ACB)=40"
+  ],
+  "image_path": "images/00740.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["triangle", "angle_bisector", "incenter", "equal"]
+  }
+}

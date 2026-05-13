@@ -1,0 +1,34 @@
+{
+  "id": "00886",
+  "text": "在△ABC与△ADE中，∠BAC=∠DAE，∠ABC=∠ADE，D在BC上，E在AC上，连接AD、AE、BD、CE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(DE)",
+    "on(D, BC)",
+    "on(E, AC)",
+    "equal_angle(BAC, DAE)",
+    "equal_angle(ABC, ADE)",
+    "similar(BAC, DAE)"
+  ],
+  "image_path": "images/00886.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "相似三角形",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "similar",
+      "angle"
+    ]
+  }
+}

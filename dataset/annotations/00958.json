@@ -1,0 +1,31 @@
+{
+  "id": "00958",
+  "text": "在等腰直角三角形ABC中，∠C=90°，D为BC的中点，将△ABC折叠使点A与点D重合，EF为折痕，E在AB上，F在AC上，AF:CF=3:2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(EF)",
+    "segment(AD)",
+    "midpoint(D, BC)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "isosceles_right(C, A, B)",
+    "fold(A, D, EF)",
+    "ratio(AF, CF)=1.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00958.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles_right_triangle",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

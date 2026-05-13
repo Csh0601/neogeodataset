@@ -1,0 +1,35 @@
+{
+  "id": "01173",
+  "text": "在梯形ABCD中，AD∥BC，AD=2，BC=3，△ABC的，连接AC，BD",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "trapezoid(A, B, C, D)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(BD)",
+    "parallel(AD, BC)",
+    "length(AD)=2",
+    "length(BC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01173.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": [
+      "trapezoid",
+      "parallel",
+      "area"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00009",
+  "text": "在Rt△ABC中，∠BAC=90°，BA=3，AC=4，D是BC上一点，过点D分别作DM⊥AB于点M，DN⊥AC于点N，连接MN",
+  "dsl": [
+    "point(D)",
+    "point(M)",
+    "point(N)",
+    "right_triangle(A, B, C, right_at=A)",
+    "segment(DM)",
+    "segment(DN)",
+    "segment(MN)",
+    "on(D, BC)",
+    "foot(M, D, AB)",
+    "foot(N, D, AC)",
+    "perpendicular(DM, AB)",
+    "perpendicular(DN, AC)",
+    "length(BA)=3",
+    "length(AC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00009.png",
+  "meta": {
+    "source": "直角三角形动点问题",
+    "difficulty": "middle",
+    "tags": ["right_triangle", "perpendicular"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "01067",
+  "text": "在△AEF中，∠EAF=45°，AG⊥EF于点G，GF=2，GE=3",
+  "dsl": [
+    "triangle(A, E, F)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(EF)",
+    "segment(AG)",
+    "segment(GE)",
+    "segment(GF)",
+    "on(G, EF)",
+    "foot(G, A, EF)",
+    "perpendicular(AG, EF)",
+    "angle(EAF)=45",
+    "length(GF)=2",
+    "length(GE)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01067.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "altitude",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

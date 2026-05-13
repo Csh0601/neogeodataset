@@ -1,0 +1,32 @@
+{
+  "id": "00887",
+  "text": "在△ABC中，BD是∠ABC的角平分线，AE垂直于BD，垂足为F，∠ABC=35°，∠C=50°，∠CDE=60°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(DE)",
+    "on(D, AC)",
+    "on(E, BC)",
+    "foot(F, A, BD)",
+    "bisect_angle(A, B, C, l)",
+    "perpendicular(AE, BD)",
+    "angle(ABC)=35",
+    "angle(ACB)=50",
+    "angle(CDE)=60"
+  ],
+  "image_path": "images/00887.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "角平分线与垂线",
+    "difficulty": "middle",
+    "tags": ["triangle", "bisector", "perpendicular"]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00608",
+  "text": "在等腰△ABC中，AB=AC，∠B=∠C，点D在AB上，点E在AC上，BD=CE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(DE)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "isosceles(A, B, C)",
+    "equal(BD, CE)",
+    "equal_angle(ABC, ACB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00608.png",
+  "meta": {
+    "source": "等腰三角形",
+    "difficulty": "easy",
+    "tags": [
+      "isosceles",
+      "equal"
+    ]
+  }
+}

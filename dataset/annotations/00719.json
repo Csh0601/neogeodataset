@@ -1,0 +1,24 @@
+{
+  "id": "00719",
+  "text": "△ABC与△A'B'C'关于点C中心对称，C与C'重合，A、C、A'三点共线，B、C、B'三点共线",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A_prime, B_prime, C_prime)",
+    "segment(AA_prime)",
+    "segment(BB_prime)",
+    "midpoint(C, AA_prime)",
+    "midpoint(C, BB_prime)",
+    "collinear(A, C, A_prime)",
+    "collinear(B, C, B_prime)"
+  ],
+  "image_path": "images/00719.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["triangle", "central_symmetry"]
+  }
+}

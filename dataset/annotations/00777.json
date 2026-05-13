@@ -1,0 +1,47 @@
+{
+  "id": "00777",
+  "text": "在△ABC中，E、F、G、H分别是BD、BC、AC、AD的中点，AB=CD，EG⊥FH，四边形EFGH是矩形，HF平分∠EHG",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "triangle(A, B, C)",
+    "quadrilateral(E, F, G, H)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(HE)",
+    "segment(EG)",
+    "segment(FH)",
+    "on(D, BC)",
+    "midpoint(E, BD)",
+    "midpoint(F, BC)",
+    "midpoint(G, AC)",
+    "midpoint(H, AD)",
+    "equal(AB, CD)",
+    "perpendicular(EG, FH)"
+  ],
+  "image_path": "images/00777.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "rectangle",
+      "perpendicular"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "01268",
+  "text": "在平面直角坐标系中，B(-2,3)，C在x轴负半轴上，OB=BC，M为△OBC的重心，将△OBC绕着点O旋转90°",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, -2, 3)",
+    "point(C)",
+    "point(M)",
+    "triangle(O, B, C)",
+    "on(C, OC)",
+    "centroid(M, O, B, C)",
+    "equal(OB, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01268.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "centroid",
+      "isosceles_triangle",
+      "rotation"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "C在x轴负半轴，OB=BC为等腰三角形",
+      "M是△OBC的重心"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

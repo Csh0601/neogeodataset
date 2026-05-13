@@ -1,0 +1,32 @@
+{
+  "id": "00112",
+  "text": "在矩形ABCD中,AB=6,AD=8，沿对角线BD折叠，使点A落在矩形外一点E处，DE与BC交于点F，F为BC的三等分点中靠近C的点，连接BD",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(DE)",
+    "intersection(F, DE, BC)",
+    "trisection(F, BC, near=C)",
+    "fold(A, E, BD)",
+    "length(AB)=6",
+    "length(AD)=8",
+    "outside(E, rectangle_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00112.png",
+  "meta": {
+    "source": "矩形折叠",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00962",
+  "text": "在平面直角坐标系中，抛物线y=-(1/4)x^2+(3/2)x+4与x轴交于A(-2,0)和B(8,0)两点，与y轴交于点C(0,4)，连接AC和BC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 8, 0)",
+    "point_coord(C, 0, 4)",
+    "parabola(p1, -0.25, 1.5, 4)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00962.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola"
+    ]
+  }
+}

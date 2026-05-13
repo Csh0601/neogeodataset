@@ -1,0 +1,39 @@
+{
+  "id": "00008",
+  "text": "在等腰△ABC中，AB=AC，以AB为直径作⊙O，圆心O是AB的中点，⊙O与边BC交于点D，与边AC交于点E，过点D作DH⊥AC，垂足为H，连接DH",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(H)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(DH)",
+    "midpoint(O , AB)",
+    "foot(H, D, AC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "on(D, BC)",
+    "on(E, AC)",
+    "isosceles(A, B, C)",
+    "perpendicular(DH, AC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00008.png",
+  "meta": {
+    "source": "等腰三角形与圆的综合问题",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles",
+      "circle",
+      "diameter",
+      "perpendicular"
+    ]
+  }
+}

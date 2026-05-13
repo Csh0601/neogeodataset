@@ -1,0 +1,29 @@
+{
+  "id": "00075",
+  "text": "△ABC的外接圆⊙O的半径为3，A、B、C是圆上的点，∠ACB=55°，圆心角∠AOB=110°，连接AB、BC、CA、OA、OB",
+  "dsl": [
+    "circle(O, r=3)",
+    "triangle(A, B, C)",
+    "segment(OA)",
+    "segment(OB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "angle(ACB)=55",
+    "angle(AOB)=110"
+  ],
+  "image_path": "images/00075.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆的性质",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "triangle",
+      "angle"
+    ]
+  }
+}

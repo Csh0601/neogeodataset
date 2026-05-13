@@ -1,0 +1,42 @@
+{
+  "id": "01398",
+  "text": "菱形ABCD的边长为6，∠BAD=120，过点D作DE⊥BC，交BC的延长线于点E，连结AE分别交BD、CD于点F、G",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "segment(AE)",
+    "segment(BD)",
+    "segment(DE)",
+    "segment(BC)",
+    "segment(FG)",
+    "on(E, BC_extended)",
+    "intersection(F, AE, BD)",
+    "intersection(G, AE, CD)",
+    "perpendicular(DE, BC)",
+    "equal(AB, BC)",
+    "angle(BAD)=120",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01398.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "perpendicular",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "菱形用parallelogram+equal(AB,BC)表示"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "01174",
+  "text": "等边三角形ABC内有一点P，AP=6，BP=8，CP=10，连接AP、BP、CP",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AP)",
+    "segment(BP)",
+    "segment(CP)",
+    "equilateral(A, B, C)",
+    "length(AP)=6",
+    "length(BP)=8",
+    "length(CP)=10",
+    "inside(P, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01174.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "interior_point"
+    ]
+  }
+}

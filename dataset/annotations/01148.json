@@ -1,0 +1,27 @@
+{
+  "id": "01148",
+  "text": "∠BCD=90°，AB∥DE，B在直线AB上，C在BC上，D在直线DE上，α+β=90°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "line(l1, A, B)",
+    "line(l2, D, E)",
+    "segment(BC)",
+    "segment(CD)",
+    "parallel(AB, DE)",
+    "angle(BCD)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01148.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["parallel", "angle", "perpendicular"]
+  }
+}

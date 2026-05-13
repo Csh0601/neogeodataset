@@ -1,0 +1,48 @@
+{
+  "id": "00884",
+  "text": "在平面直角坐标系中，抛物线y=2x^2-8x+6的图象经过A(1,0)、B(3,0)、C(0,6)三点，抛物线的顶点M与对称轴上的点N关于x轴对称，直线AN交抛物线于点D，连接AE、DE",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, 6)",
+    "point_coord(M, 2, -2)",
+    "point_coord(N, 2, 2)",
+    "parabola(p1, 2, -8, 6)",
+    "segment(AN)",
+    "segment(AE)",
+    "segment(DE)",
+    "segment(AD)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(D, p1)",
+    "line(l1, A, N)",
+    "on(D, line_l1)"
+  ],
+  "image_path": "images/00884.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线顶点与对称",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "reflect"
+    ]
+  }
+}

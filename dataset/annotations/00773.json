@@ -1,0 +1,37 @@
+{
+  "id": "00773",
+  "text": "在平面直角坐标系xOy中，直线y=1/3x+1与y轴交于点A，与x轴交于点B，点C在x轴上，∠ABO+∠ACO=45°",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 0, 1)",
+    "point_coord(B, -3, 0)",
+    "line_function(l1, 0.333, 1)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OC)",
+    "segment(AC)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "axis_intersection(A, l1, y)",
+    "axis_intersection(B, l1, x)",
+    "on(C, axis_x)"
+  ],
+  "image_path": "images/00773.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "angle"
+    ]
+  }
+}

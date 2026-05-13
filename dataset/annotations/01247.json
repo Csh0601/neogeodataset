@@ -1,0 +1,41 @@
+{
+  "id": "01247",
+  "text": "在矩形ABCD中，AB>2AD，点E、F分别在边AB、CD上，将△ADF沿AF翻折，点D的对应点G恰好落在对角线AC上，将△CBE沿CE翻折，点B的对应点H恰好也落在对角线AC上，连接GE、FH",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "triangle(A, D, F)",
+    "triangle(C, B, E)",
+    "segment(AF)",
+    "segment(CE)",
+    "segment(AC)",
+    "segment(GE)",
+    "segment(FH)",
+    "on(E, AB)",
+    "on(F, CD)",
+    "on(G, AC)",
+    "on(H, AC)",
+    "fold(G, D, AF)",
+    "fold(H, B, CE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01247.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "diagonal",
+      "parallelogram"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "矩形折叠问题，D沿AF折叠到G落在AC上，B沿CE折叠到H落在AC上"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

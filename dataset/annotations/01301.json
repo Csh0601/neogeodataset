@@ -1,0 +1,37 @@
+{
+  "id": "01301",
+  "text": "在矩形ABCD中，AB=5，BC=4，E、F分别是AD、BC的中点，点P、Q在EF上，PQ=2，连接AP、BQ",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "segment(EF)",
+    "segment(AP)",
+    "segment(BQ)",
+    "midpoint(E, AD)",
+    "midpoint(F, BC)",
+    "on(P, EF)",
+    "on(Q, EF)",
+    "length(AB)=5",
+    "length(BC)=4",
+    "length(PQ)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01301.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "rectangle",
+      "midpoint",
+      "segment"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "矩形ABCD顺序为A左下、B右下、C右上、D左上，E是AD中点在左侧，F是BC中点在右侧"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

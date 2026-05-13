@@ -1,0 +1,29 @@
+{
+  "id": "00731",
+  "text": "P是矩形ABCD内一点，AB=4，AD=2，AP⊥BP，连接DP、CP",
+  "dsl": [
+    "point(P)",
+    "rectangle(A, B, C, D)",
+    "segment(AP)",
+    "segment(BP)",
+    "segment(CP)",
+    "segment(DP)",
+    "perpendicular(AP, BP)",
+    "length(AB)=4",
+    "length(AD)=2",
+    "inside(P, rectangle_ABCD)"
+  ],
+  "image_path": "images/00731.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "perpendicular"
+    ]
+  }
+}

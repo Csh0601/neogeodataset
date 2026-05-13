@@ -1,0 +1,37 @@
+{
+  "id": "00056",
+  "text": "在平面直角坐标系中，一次函数y=x(x≥0)与反比例函数y=9/x(x>0)的图象交于点C，过反比例函数图象上点A作x轴垂线，垂足为点D，交y=x的图象于点B，点A的横坐标为1",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 1, 9)",
+    "point_coord(D, 1, 0)",
+    "point_coord(B, 1, 1)",
+    "line_function(l, 1, 0)",
+    "hyperbola(h, 9)",
+    "segment(AB)",
+    "segment(AD)",
+    "function_point(A, h)",
+    "function_point(B, l)",
+    "function_intersection(C, l, h)",
+    "collinear(A, B, D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00056.png",
+  "meta": {
+    "source": "一次函数与反比例函数",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "hyperbola"
+    ]
+  }
+}

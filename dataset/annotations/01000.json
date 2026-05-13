@@ -1,0 +1,34 @@
+{
+  "id": "01000",
+  "text": "在平面直角坐标系中，A(4,0)，B(0,4)，C为坐标平面内一点，BC=2，M为线段AC的中点，连接OM",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(C)",
+    "point(M)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 4)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(OM)",
+    "midpoint(M, AC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "length(BC)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01000.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "midpoint",
+      "distance"
+    ]
+  }
+}

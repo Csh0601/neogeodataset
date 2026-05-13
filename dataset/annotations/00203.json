@@ -1,0 +1,33 @@
+{
+  "id": "00203",
+  "text": "在直角三角形ABC中，∠ABC=90°，AB=3,BC=4,AC=5,点D在边AB上，点E在AC上，连接DE，DB=DE，AB=AE，∠EDC=∠BAC，∠DAC=∠C",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "right_triangle(A, B, C, right_at=B)",
+    "segment(DE)",
+    "segment(AD)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "equal(DB, DE)",
+    "equal(AB, AE)",
+    "equal_angle(EDC, BAC)",
+    "equal_angle(DAC, ACB)",
+    "length(AB)=3",
+    "length(BC)=4",
+    "length(AC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00203.png",
+  "meta": {
+    "source": "直角三角形尺规作图",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "compass_construction"
+    ]
+  }
+}

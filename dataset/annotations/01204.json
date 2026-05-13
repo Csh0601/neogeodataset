@@ -1,0 +1,34 @@
+{
+  "id": "01204",
+  "text": "在平面直角坐标系中，抛物线y=x²+bx+c经过A(-1,0)、B(3,0)两点，且与y轴相交于点C(0,-3)，直线l是抛物线的对称轴，抛物线的解析式为y=x²-2x-3",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, -3)",
+    "parabola(p, 1, -2, -3)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01204.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "parabola",
+      "axis_intersection"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了抛物线解析式y=x²-2x-3"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

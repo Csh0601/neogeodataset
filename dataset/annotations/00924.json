@@ -1,0 +1,33 @@
+{
+  "id": "00924",
+  "text": "正方形ABCD的边长是6，对角线的交点为O，点E在边CD上且CE=2，CF⊥BE，垂足为F，连接OF，∠OFB=135°",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(BE)",
+    "segment(CF)",
+    "segment(OF)",
+    "intersection(O, AC, BD)",
+    "on(E, CD)",
+    "foot(F, C, BE)",
+    "perpendicular(CF, BE)",
+    "length(AB)=6",
+    "length(CE)=2",
+    "angle(OFB)=135"
+  ],
+  "image_path": "images/00924.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "正方形对角线与垂线",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

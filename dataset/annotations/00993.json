@@ -1,0 +1,32 @@
+{
+  "id": "00993",
+  "text": "在等边△ABC中，AB=6，点D、点E分别在BC和AC上，BD=CE，连接AD和BE，AD与BE交于点F",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CF)",
+    "segment(BD)",
+    "segment(CE)",
+    "on(D, BC)",
+    "on(E, AC)",
+    "intersection(F, AD, BE)",
+    "equal(AB, BC)",
+    "equal(BC, CA)",
+    "equal(BD, CE)",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00993.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["equilateral_triangle", "rotation", "intersection"]
+  }
+}

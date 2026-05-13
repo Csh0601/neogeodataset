@@ -1,0 +1,38 @@
+{
+  "id": "01325",
+  "text": "正方形ABCD边长为4，E在CD上且DE=1，M、N在BC上且MN=2",
+  "dsl": [
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "square(A, B, C, D)",
+    "segment(AM)",
+    "segment(NE)",
+    "segment(MN)",
+    "on(E, CD)",
+    "on(M, BC)",
+    "on(N, BC)",
+    "length(AB)=4",
+    "length(DE)=1",
+    "length(MN)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01325.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "square",
+      "segment"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "动点M、N静态化到BC上固定位置"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

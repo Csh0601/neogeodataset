@@ -1,0 +1,28 @@
+{
+  "id": "00488",
+  "text": "有一块半径为1m，圆心角为90°的扇形铁皮，要把它做成一个圆锥形容器（接缝忽略不计），这个圆锥形容器的高为√15/4",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "segment(OA)",
+    "segment(OB)",
+    "length(OA)=1",
+    "angle(AOB)=90",
+    "shaded(sector_OAB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00488.png",
+  "meta": {
+    "source": "扇形做圆锥",
+    "difficulty": "middle",
+    "tags": [
+      "sector",
+      "cone",
+      "application"
+    ]
+  }
+}

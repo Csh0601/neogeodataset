@@ -1,0 +1,34 @@
+{
+  "id": "01102",
+  "text": "AB=3，AC=√2，连接BC，分别以AC、BC为直角边作等腰直角三角形△ACD和△BCE，∠ACD=∠BCE=90°，AC=CD，BC=CE，连接AE，BD",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, C, D)",
+    "triangle(B, C, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(AE)",
+    "segment(BD)",
+    "equal(AC, CD)",
+    "equal(BC, CE)",
+    "angle(ACD)=90",
+    "angle(BCE)=90",
+    "length(AB)=3",
+    "length(AC)=1.414"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01102.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["isosceles_right_triangle", "congruent", "rotation"]
+  }
+}

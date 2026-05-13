@@ -1,0 +1,21 @@
+{
+  "id": "00856",
+  "text": "在平面直角坐标系中，直线y=3x-1上有一点B(1,2)，B到原点的距离是√5，直线与两坐标轴围成三角形的面积为1/6",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, 1, 2)",
+    "line_function(l, 3, -1)",
+    "on(B, l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00856.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "linear_function", "distance"]
+  }
+}

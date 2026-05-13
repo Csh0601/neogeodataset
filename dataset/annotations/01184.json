@@ -1,0 +1,33 @@
+{
+  "id": "01184",
+  "text": "在平面直角坐标系中，四边形AOBD的边OB在x轴的正半轴上，AD//OB，DB⊥x轴，对角线AB与OD交于点M，AD:OB=2:3，△AMD的面积为4，反比例函数y=k/x的图象经过点M，k=54/5",
+  "dsl": [
+    "coordinate_system(O)",
+    "triangle(A, M, D)",
+    "quadrilateral(A, O, B, D)",
+    "hyperbola(h, 54/5)",
+    "segment(AB)",
+    "segment(OD)",
+    "on(B, axis_x)",
+    "on(O, axis_x)",
+    "intersection(M, AB, OD)",
+    "function_point(M, h)",
+    "parallel(AD, OB)",
+    "perpendicular(DB, OB)",
+    "ratio(AD, OB)=2/3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01184.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["coordinate_system", "quadrilateral", "hyperbola", "intersection"],
+    "annotated_by": "agent-1",
+    "supplements": ["补充了k=54/5的计算结果，△AMD面积=4作为已知条件"]
+  },
+  "validated": true,
+  "needs_review": false
+}

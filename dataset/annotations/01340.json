@@ -1,0 +1,44 @@
+{
+  "id": "01340",
+  "text": "⊙O半径为2，AB、DE为两条直径，作DC⊥AB于C，且C为AO的中点，P为圆上一点，连接PC、PE",
+  "dsl": [
+    "point(C)",
+    "point(P)",
+    "circle(O, r=2)",
+    "segment(AB)",
+    "segment(DE)",
+    "segment(PC)",
+    "segment(PE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "on(P, circle_O)",
+    "midpoint(O, AB)",
+    "midpoint(O, DE)",
+    "foot(C, D, AB)",
+    "midpoint(C, AO)",
+    "perpendicular(DC, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01340.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "perpendicular",
+      "midpoint"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "动点P静态化到圆上一个合理位置"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

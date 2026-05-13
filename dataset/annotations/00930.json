@@ -1,0 +1,33 @@
+{
+  "id": "00930",
+  "text": "在平面直角坐标系中，二次函数y=0.5x^2-2.5x+3的图象经过点A(3,0)、B(4,1)，且与y轴交于点C，连接AB、AC、BC",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, 4, 1)",
+    "point_coord(C, 0, 3)",
+    "parabola(p1, 0.5, -2.5, 3)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)"
+  ],
+  "image_path": "images/00930.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "二次函数与三角形外接圆",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "triangle"]
+  }
+}

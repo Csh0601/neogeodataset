@@ -1,0 +1,32 @@
+{
+  "id": "01111",
+  "text": "直线ED上有一点O，过点O作射线OC，∠COE=140°，∠AOB=90°，∠OAB=30°，OA在射线OD上，连接OA，OB，OC",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(E)",
+    "point(D)",
+    "segment(OA)",
+    "segment(OB)",
+    "line(l, E, D)",
+    "ray(O, C)",
+    "ray(O, D)",
+    "ray(O, E)",
+    "on(O, ED)",
+    "angle(COE)=140",
+    "angle(AOB)=90",
+    "angle(OAB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01111.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["angle", "ray", "rotation", "angle_bisector"]
+  }
+}

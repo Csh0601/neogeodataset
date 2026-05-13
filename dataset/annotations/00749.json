@@ -1,0 +1,44 @@
+{
+  "id": "00749",
+  "text": "在等腰梯形ABCD中，AD平行于BC，AB=CD，对角线AC、BD交于点O，AC⊥BD，E、F、G、H分别为AB、BC、CD、DA的中点，AD=2，BC=4，四边形EFGH的面积为3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "trapezoid(A, B, C, D)",
+    "quadrilateral(E, F, G, H)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(HE)",
+    "intersection(O, AC, BD)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, CD)",
+    "midpoint(H, DA)",
+    "equal(AB, CD)",
+    "perpendicular(AC, BD)",
+    "parallel(AD, BC)",
+    "length(AD)=2",
+    "length(BC)=4"
+  ],
+  "image_path": "images/00749.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "trapezoid",
+      "isosceles",
+      "midpoint",
+      "perpendicular",
+      "area"
+    ]
+  }
+}

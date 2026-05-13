@@ -1,0 +1,37 @@
+{
+  "id": "01333",
+  "text": "四边形ABCD内接于⊙O，BD平分∠ABC，∠COD=120°，连接AC、BD、CD",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "circle(O)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "bisector(BD, ABC)",
+    "angle(COD)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01333.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "circle",
+      "bisector"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "多子图题目，选取图2标注"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

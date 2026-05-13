@@ -1,0 +1,35 @@
+{
+  "id": "01140",
+  "text": "在四边形ABCD中，∠ABC=90°，AB=AD=10，BC=CD=5，点M、N分别在边BC、AB上，AM⊥DN，连接AM，DN",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AM)",
+    "segment(DN)",
+    "on(M, BC)",
+    "on(N, AB)",
+    "perpendicular(AM, DN)",
+    "equal(AB, AD)",
+    "equal(BC, CD)",
+    "angle(ABC)=90",
+    "length(AB)=10",
+    "length(AD)=10",
+    "length(BC)=5",
+    "length(CD)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01140.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["quadrilateral", "perpendicular", "ratio"]
+  }
+}

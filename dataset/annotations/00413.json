@@ -1,0 +1,27 @@
+{
+  "id": "00413",
+  "text": "在平行四边形ABCD中，AB=2，∠ABC的平分线与∠BCD的平分线交于点E，若点E恰好在边AD上，BE²+CE²=16",
+  "dsl": [
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "segment(BE)",
+    "segment(CE)",
+    "on(E, AD)",
+    "angle_bisector(E, A, B, C)",
+    "angle_bisector(E, B, C, D)",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00413.png",
+  "meta": {
+    "source": "平行四边形角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "angle_bisector"
+    ]
+  }
+}

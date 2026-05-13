@@ -1,0 +1,38 @@
+{
+  "id": "00545",
+  "text": "在矩形ABCD中，AB=4，BC=3，E、F分别为AB、CD边的中点，点P在AB上，点Q在CD上，连接PQ，过点B作BH⊥PQ于点H，连接DH",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "point(Q)",
+    "point(H)",
+    "rectangle(A, B, C, D)",
+    "segment(PQ)",
+    "segment(BH)",
+    "segment(DH)",
+    "on(P, AB)",
+    "on(Q, CD)",
+    "midpoint(E, AB)",
+    "midpoint(F, CD)",
+    "foot(H, B, PQ)",
+    "perpendicular(BH, PQ)",
+    "length(AB)=4",
+    "length(BC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00545.png",
+  "meta": {
+    "source": "矩形动点与垂线",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "midpoint",
+      "perpendicular",
+      "moving_point"
+    ]
+  }
+}

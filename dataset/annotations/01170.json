@@ -1,0 +1,27 @@
+{
+  "id": "01170",
+  "text": "在△ABC中，AB=AC，D是△ABC外一点，∠ABD=60°，∠ACD=60°，BD+DC=AB",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(DC)",
+    "segment(AD)",
+    "equal(AB, AC)",
+    "angle(ABD)=60",
+    "angle(ACD)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01170.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["isosceles", "exterior_point"]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "00198",
+  "text": "长度为6的线段AB是⊙O的直径，CD是弦，连接AD,BD，BC,∠BCD=36°，∠ABD=54°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O, r=3)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "collinear(A, O, B)",
+    "angle(BCD)=36",
+    "angle(ABD)=54",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00198.png",
+  "meta": {
+    "source": "圆与角度",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "diameter",
+      "chord",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00455",
+  "text": "将△ABC绕点A顺时针旋转60°，得到△ADE，点E恰好在CB的延长线上，∠BED=120°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(BE)",
+    "segment(BD)",
+    "rotate(D, source=B, center=A, angle=-60)",
+    "rotate(E, source=C, center=A, angle=-60)",
+    "collinear(C, B, E)",
+    "angle(BED)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00455.png",
+  "meta": {
+    "source": "三角形旋转",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "rotation",
+      "angle"
+    ]
+  }
+}

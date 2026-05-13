@@ -1,0 +1,39 @@
+{
+  "id": "01110",
+  "text": "PA、PB切⊙O于A、B两点，CD切⊙O于点E，交PA、PB于C、D，⊙O的半径为r，△PCD的周长等于3r",
+  "dsl": [
+    "point(P)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "circle(O)",
+    "triangle(P, C, D)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(CD)",
+    "segment(PC)",
+    "segment(PD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(E, circle_O)",
+    "on(C, PA)",
+    "on(D, PB)",
+    "tangent(PA, circle_O)",
+    "tangent(PB, circle_O)",
+    "tangent(CD, circle_O)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01110.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "perimeter"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "00526",
+  "text": "在扇形OAB中，AC=BD=12，C、D两点之间的距离为4，圆心角为60°",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "sector(O, A, B)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(C, OA)",
+    "on(D, OB)",
+    "length(AC)=12",
+    "length(BD)=12",
+    "length(CD)=4",
+    "angle(AOB)=60",
+    "shaded(sector_OAB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00526.png",
+  "meta": {
+    "source": "扇形面积",
+    "difficulty": "middle",
+    "tags": [
+      "sector",
+      "area",
+      "shaded"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "00174",
+  "text": "正方形ABCD的边长为4，点E在AB上且BE=1，F为对角线AC中点，连接BF,EF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AC)",
+    "segment(BF)",
+    "segment(EF)",
+    "on(E, AB)",
+    "midpoint(F, AC)",
+    "length(AB)=4",
+    "length(BE)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00174.png",
+  "meta": {
+    "source": "正方形与最值",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "diagonal",
+      "optimization",
+      "perimeter"
+    ]
+  }
+}

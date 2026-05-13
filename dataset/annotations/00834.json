@@ -1,0 +1,29 @@
+{
+  "id": "00834",
+  "text": "在三角形ABC中，BE、CD分别是角ABC、角ACB的平分线，BE、CD相交于点I，BD+CE=BC，D在AB上，E在AC上",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(I)",
+    "triangle(A, B, C)",
+    "segment(BE)",
+    "segment(CD)",
+    "segment(BD)",
+    "segment(CE)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "intersection(I, BE, CD)",
+    "bisector(BE, ABC)",
+    "bisector(CD, ACB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00834.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "angle_bisector", "incenter"]
+  }
+}

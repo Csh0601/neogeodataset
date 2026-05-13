@@ -1,0 +1,35 @@
+{
+  "id": "00483",
+  "text": "点P距离地面的高度PH=30，PH⊥HC，从P处测得A处的俯角为15°，B处的俯角为60°，斜面坡度∠ACB=30°，斜坡AB的长是20√3",
+  "dsl": [
+    "point(P)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(H)",
+    "segment(PH)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "perpendicular(PH, HC)",
+    "length(PH)=30",
+    "angle(APH)=15",
+    "angle(BPH)=60",
+    "angle(ACB)=30",
+    "length(AB)=34.64"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00483.png",
+  "meta": {
+    "source": "俯角与斜坡测量",
+    "difficulty": "hard",
+    "tags": [
+      "trigonometry",
+      "application",
+      "slope"
+    ]
+  }
+}

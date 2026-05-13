@@ -1,0 +1,30 @@
+{
+  "id": "00100",
+  "text": "在平面直角坐标系xOy中，二次函数y₁=-1/4(x-1)²+1的图象与x轴的正半轴相交于点A(3,0)，二次函数y₂=(1/2)x²-9/2的图象经过点A，且与y₁的另一个交点为B(-2.333,-1.778)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, -2.333, -1.778)",
+    "parabola(p1, -0.25, 0.5, 0.75)",
+    "parabola(p2, 0.5, 0, -4.5)",
+    "segment(AB)",
+    "function_point(A, p1)",
+    "function_point(A, p2)",
+    "function_intersection(B, p1, p2)"
+  ],
+  "image_path": "images/00100.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系与函数",
+    "difficulty": "easy",
+    "tags": [
+      "coordinate",
+      "parabola"
+    ]
+  }
+}

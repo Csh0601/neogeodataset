@@ -1,0 +1,38 @@
+{
+  "id": "00544",
+  "text": "在△ABC的边BC上取一点O，以O为圆心，OC为半径画⊙O，⊙O与边AB相切于点D，AC=AD，连接OA交⊙O于点E，连接CE，并延长交线段AB于点F，AB=10，tanB=4/3",
+  "dsl": [
+    "point(O)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "circle(O, radius=OC)",
+    "segment(OA)",
+    "segment(CE)",
+    "on(O, BC)",
+    "on(D, AB)",
+    "on(E, circle_O)",
+    "on(F, AB)",
+    "intersection(E, OA, circle_O)",
+    "tangent(D, circle_O)",
+    "equal(AC, AD)",
+    "collinear(C, E, F)",
+    "length(AB)=10",
+    "tan(ABC)=1.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00544.png",
+  "meta": {
+    "source": "三角形与内切圆",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circle",
+      "tangent"
+    ]
+  }
+}

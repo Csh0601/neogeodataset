@@ -1,0 +1,27 @@
+{
+  "id": "00011",
+  "text": "在△ABC和△DEF中，点B、F、C、E四点共线，AB∥ED，AC∥FD，连接各三角形的三边",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(D, E, F)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(DF)",
+    "collinear(B, F, C, E)",
+    "parallel(AB, ED)",
+    "parallel(AC, FD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00011.png",
+  "meta": {
+    "source": "三角形全等判定问题",
+    "difficulty": "easy",
+    "tags": ["triangle", "congruent", "parallel"]
+  }
+}

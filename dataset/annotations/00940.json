@@ -1,0 +1,28 @@
+{
+  "id": "00940",
+  "text": "将平行四边形ABCD沿对角线AC折叠，点D落在点E处，AE恰好过BC边中点，AB=3，BC=6，∠B=60°",
+  "dsl": [
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(AE)",
+    "segment(CE)",
+    "segment(BE)",
+    "fold(D, E, AC)",
+    "equal(AE, AD)",
+    "equal(CE, CD)",
+    "length(AB)=3",
+    "length(BC)=6",
+    "angle(ABC)=60"
+  ],
+  "image_path": "images/00940.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "平行四边形折叠",
+    "difficulty": "middle",
+    "tags": ["parallelogram", "fold", "angle"]
+  }
+}

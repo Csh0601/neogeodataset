@@ -1,0 +1,28 @@
+{
+  "id": "00808",
+  "text": "在正方形ABCD中，E是边BC的中点，F是边CD上一点，角AEF=90度，EC与DF的比为2比3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(AF)",
+    "segment(EC)",
+    "segment(DF)",
+    "midpoint(E, BC)",
+    "on(F, CD)",
+    "angle(AEF)=90",
+    "ratio(EC, DF)=0.6667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00808.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["square", "midpoint", "right_angle"]
+  }
+}

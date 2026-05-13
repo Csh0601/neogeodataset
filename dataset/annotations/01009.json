@@ -1,0 +1,41 @@
+{
+  "id": "01009",
+  "text": "在平面直角坐标系中，抛物线y=2/3x^2+bx+c经过点B(3,0)和C(0,-2)，直线L：y=-2/3x-2/3交y轴于点E(0,-2/3)，且与抛物线交于A、D两点，P为抛物线上一点，N在直线L上，M在x轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, -2)",
+    "parabola(p1, 0.6667, -1.3333, -2)",
+    "line_function(l1, -0.6667, -0.6667)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(PN)",
+    "segment(PM)",
+    "on(B, axis_x)",
+    "on(E, axis_y)",
+    "on(M, axis_x)",
+    "on(N, l1)",
+    "parallel(PN, axis_y)",
+    "parallel(PM, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01009.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "linear_function",
+      "parallel"
+    ]
+  }
+}

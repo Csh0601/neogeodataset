@@ -1,0 +1,38 @@
+{
+  "id": "00717",
+  "text": "在平面直角坐标系中，一次函数y=3/4·x+3的图象与x轴交于点A(-4,0)，与y轴交于点B(0,3)，且与正比例函数y=3/2·x的图象交于点C(4,6)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, -4, 0)",
+    "point_coord(B, 0, 3)",
+    "point_coord(C, 4, 6)",
+    "line_function(l1, 0.75, 3)",
+    "line_function(l2, 1.5, 0)",
+    "segment(AB)",
+    "segment(OC)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(A, line_l1)",
+    "on(B, line_l1)",
+    "on(C, line_l1)",
+    "on(C, line_l2)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00717.png",
+  "meta": {
+    "source": "一次函数与正比例函数交点",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "intersection"
+    ]
+  }
+}

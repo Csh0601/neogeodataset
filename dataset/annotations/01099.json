@@ -1,0 +1,34 @@
+{
+  "id": "01099",
+  "text": "在△ABC中，∠ABC=90°，AB=3，BC=4，D为AC的中点，过点D作DE⊥DF，DE、DF分别交AB、BC于点E、F",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)",
+    "midpoint(D, AC)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "perpendicular(DE, DF)",
+    "angle(ABC)=90",
+    "length(AB)=3",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01099.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "perpendicular"
+    ]
+  }
+}

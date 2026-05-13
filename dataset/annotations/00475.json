@@ -1,0 +1,24 @@
+{
+  "id": "00475",
+  "text": "在正六边形ABCDEF中，分别以C、F为圆心，以边长为半径作弧，图中阴影部分的面积为24π，正六边形的边长为6",
+  "dsl": [
+    "regular_polygon(6, A, B, C, D, E, F)",
+    "circle(C, radius=AB)",
+    "circle(F, radius=AB)",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00475.png",
+  "meta": {
+    "source": "正六边形与扇形面积",
+    "difficulty": "middle",
+    "tags": [
+      "regular_polygon",
+      "sector",
+      "area"
+    ]
+  }
+}

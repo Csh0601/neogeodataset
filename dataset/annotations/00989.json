@@ -1,0 +1,37 @@
+{
+  "id": "00989",
+  "text": "在平面直角坐标系中，抛物线y=(3+√3)/6·x^2+bx+c与x轴交于A和B两点，A、B分别位于原点的左右两侧，BO=3AO=3，过点B的直线与y轴正半轴和抛物线的交点分别为C和D，BC=√3CD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "parabola(p1, 0.7887, -1.5774, -2.366)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(BD)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "ratio(BO, AO)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00989.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "ratio"
+    ]
+  }
+}

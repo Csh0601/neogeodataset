@@ -1,0 +1,36 @@
+{
+  "id": "00468",
+  "text": "在△ABC中，AB=AC，以AB为直径的⊙O与BC相交于点D，过点D作⊙O的切线交AC于点E，DE⊥AC，⊙O的半径为5，BC=16，DE的长为4.8",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "circle(O, r=5)",
+    "segment(AB)",
+    "segment(DE)",
+    "on(D, BC)",
+    "on(D, circle_O)",
+    "on(E, AC)",
+    "tangent(D, circle_O)",
+    "equal(AB, AC)",
+    "perpendicular(DE, AC)",
+    "collinear(A, O, B)",
+    "length(BC)=16",
+    "length(DE)=4.8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00468.png",
+  "meta": {
+    "source": "等腰三角形直径与切线",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "circle",
+      "diameter",
+      "tangent"
+    ]
+  }
+}

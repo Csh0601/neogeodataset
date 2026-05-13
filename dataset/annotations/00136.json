@@ -1,0 +1,29 @@
+{
+  "id": "00136",
+  "text": "有两个直角三角形ABC和DEA，△ABC含45°角，△DEA含30°角，△ABC的边BC平行于△DEA的边DE，∠BAD=15°",
+  "dsl": [
+    "right_triangle(A, B, C, right_at=A)",
+    "right_triangle(D, E, A, right_at=D)",
+    "parallel(BC, DE)",
+    "angle(ABC)=45",
+    "angle(BCA)=45",
+    "angle(DAE)=30",
+    "angle(DEA)=60",
+    "angle(BAD)=15"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00136.png",
+  "meta": {
+    "source": "三角形旋转与平行",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "rotation",
+      "parallel",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00900",
+  "text": "在平面直角坐标系中，矩形OABC的顶点O为原点，A在x轴正半轴上，C在y轴正半轴上，点B坐标为(3,4)，D是OA的中点，E在AB上，连接CD、CE、DE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, 3, 4)",
+    "point_coord(C, 0, 4)",
+    "point_coord(D, 1.5, 0)",
+    "rectangle(O, A, B, C)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(DE)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "midpoint(D, OA)",
+    "on(E, AB)"
+  ],
+  "image_path": "images/00900.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系中矩形与三角形周长最值",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "rectangle",
+      "midpoint"
+    ]
+  }
+}

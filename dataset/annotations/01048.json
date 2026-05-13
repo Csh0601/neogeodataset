@@ -1,0 +1,44 @@
+{
+  "id": "01048",
+  "text": "在正方形ABCD中，M在CB上，N在CD上，∠MAN=45°，在MN上取一点G，BM=GM，连接AG，取AM和AN的中点分别为F和E，连接GF，GE，AM与BD交于H，AN与BD交于I，AB=4",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AM)",
+    "segment(AN)",
+    "segment(MN)",
+    "segment(AG)",
+    "segment(GF)",
+    "segment(GE)",
+    "segment(BD)",
+    "segment(HI)",
+    "on(M, BC)",
+    "on(N, CD)",
+    "on(G, MN)",
+    "midpoint(F, AM)",
+    "midpoint(E, AN)",
+    "intersection(H, AM, BD)",
+    "intersection(I, AN, BD)",
+    "equal(BM, GM)",
+    "angle(MAN)=45",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01048.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "midpoint",
+      "angle",
+      "optimization"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "00686",
+  "text": "在平面直角坐标系中，菱形OABC的顶点O在坐标原点，点C(1,2)，点A在x轴正半轴上，点M(0,2)在y轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point_coord(O, 0, 0)",
+    "point_coord(C, 1, 2)",
+    "point_coord(M, 0, 2)",
+    "parallelogram(O, A, B, C)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "on(A, axis_x)",
+    "on(M, axis_y)",
+    "equal(OA, AB)",
+    "equal(AB, BC)",
+    "equal(BC, OC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00686.png",
+  "meta": {
+    "source": "菱形在坐标系中的位置",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "rhombus",
+      "quadrilateral"
+    ]
+  }
+}

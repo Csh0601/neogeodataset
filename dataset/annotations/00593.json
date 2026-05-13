@@ -1,0 +1,34 @@
+{
+  "id": "00593",
+  "text": "在⊙O中，A、B是圆上两点，AB的垂直平分线CD交AB于点D，交弧AB于点C，AB=40，CD=10，⊙O的半径为25",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O, r=25)",
+    "arc(A, B, circle_O)",
+    "segment(AB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "midpoint(D, AB)",
+    "perpendicular(CD, AB)",
+    "length(AB)=40",
+    "length(CD)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00593.png",
+  "meta": {
+    "source": "圆弧与弦",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "perpendicular_bisector",
+      "chord"
+    ]
+  }
+}

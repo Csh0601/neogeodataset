@@ -1,0 +1,43 @@
+{
+  "id": "00535",
+  "text": "正六边形的边长为3，其较长的一条对角线长为6",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(FA)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CF)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DE)",
+    "equal(DE, EF)",
+    "equal(EF, FA)",
+    "length(AB)=3",
+    "length(AD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00535.png",
+  "meta": {
+    "source": "正六边形对角线",
+    "difficulty": "easy",
+    "tags": [
+      "hexagon",
+      "regular",
+      "diagonal"
+    ]
+  }
+}

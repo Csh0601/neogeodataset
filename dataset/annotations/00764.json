@@ -1,0 +1,31 @@
+{
+  "id": "00764",
+  "text": "在矩形ABCD中，AB=5，BC=3，点P在边AB上，连接CP、DP，△CDP为等腰三角形",
+  "dsl": [
+    "point(P)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CP)",
+    "segment(DP)",
+    "segment(CD)",
+    "on(P, AB)",
+    "isosceles(C, D, P)",
+    "length(AB)=5",
+    "length(BC)=3"
+  ],
+  "image_path": "images/00764.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "isosceles",
+      "triangle"
+    ]
+  }
+}

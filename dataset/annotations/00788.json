@@ -1,0 +1,33 @@
+{
+  "id": "00788",
+  "text": "在平面直角坐标系xOy中，一次函数y=√3/3x-√3图象与坐标轴交于点A和B，二次函数y=√3/3x^2+bx+c的图象过A、B两点，点B关于抛物线对称轴的对称点为C，点P在对称轴上，点Q在抛物线上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(Q)",
+    "line_function(l1, 0.577, -1.732)",
+    "parabola(p1, 0.577, -1.154, -1.732)",
+    "segment(AB)",
+    "segment(BC)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(Q, p1)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)"
+  ],
+  "image_path": "images/00788.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "line", "rhombus"]
+  }
+}

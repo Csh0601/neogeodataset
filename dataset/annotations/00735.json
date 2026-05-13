@@ -1,0 +1,31 @@
+{
+  "id": "00735",
+  "text": "在平面直角坐标系xOy中，矩形OABC的顶点B的坐标为(15,6)，O在原点，A在x轴正半轴上，C在y轴正半轴上，直线y=1/3x+b将矩形OABC分成面积相等的两部分，D是直线与矩形的交点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, 15, 6)",
+    "rectangle(O, A, B, C)",
+    "line_function(l1, 0.3333, 0)",
+    "segment(OA)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(OC)",
+    "on(A, axis_x)",
+    "on(C, axis_y)"
+  ],
+  "image_path": "images/00735.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "rectangle", "line", "area"]
+  }
+}

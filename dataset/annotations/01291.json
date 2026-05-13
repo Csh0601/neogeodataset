@@ -1,0 +1,38 @@
+{
+  "id": "01291",
+  "text": "在△ABC中，AB的垂直平分线DE交BC于点D，垂足为E，M为DE上一点，BA=3，AC=4，BC=6，连接AM、MC",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "segment(AM)",
+    "segment(MC)",
+    "perpendicular_bisector(DE, AB)",
+    "on(D, BC)",
+    "midpoint(E, AB)",
+    "on(M, DE)",
+    "length(BA)=3",
+    "length(AC)=4",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01291.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "perpendicular_bisector",
+      "midpoint"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": []
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "00487",
+  "text": "在4×5的正方形网格中，每个小正方形的边长都是1，△ABC的顶点都在这些小正方形的顶点上，sin∠ACB=4/5",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CA)",
+    "sin(ACB)=0.8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00487.png",
+  "meta": {
+    "source": "网格三角形三角函数",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "grid",
+      "trigonometry"
+    ]
+  }
+}

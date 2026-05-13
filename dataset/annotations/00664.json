@@ -1,0 +1,20 @@
+{
+  "id": "00664",
+  "text": "直线x+3y+1=0与直线3x+y+1=0互相垂直",
+  "dsl": [
+    "coordinate_system(O)",
+    "line_function(l1, -0.333, -0.333)",
+    "line_function(l2, -3, -1)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00664.png",
+  "meta": {
+    "source": "垂直直线",
+    "difficulty": "easy",
+    "tags": ["coordinate", "perpendicular", "line"],
+    "skip": true
+  }
+}

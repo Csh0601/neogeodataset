@@ -1,0 +1,33 @@
+{
+  "id": "00062",
+  "text": "在平面直角坐标系xOy中，点A、点B都在反比例函数y=-8/x的图象上，点A的坐标为(-1,8)，∠AOB=45°，∠ABO=45°，连接OA、OB、AB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -1, 8)",
+    "hyperbola(h, -8)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AB)",
+    "function_point(A, h)",
+    "function_point(B, h)",
+    "angle(AOB)=45",
+    "angle(ABO)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00062.png",
+  "meta": {
+    "source": "反比例函数与角度",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "angle"
+    ]
+  }
+}

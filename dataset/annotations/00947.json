@@ -1,0 +1,31 @@
+{
+  "id": "00947",
+  "text": "在平面直角坐标系中，点A(12,0)在x轴上，点B(0,4)在y轴上，点P是直线y=-x-1上一点，且∠ABP=45°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 12, 0)",
+    "point_coord(B, 0, 4)",
+    "line_function(l1, -1, -1)",
+    "segment(AB)",
+    "segment(BP)",
+    "segment(AP)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "function_point(P, l1)",
+    "angle(ABP)=45"
+  ],
+  "image_path": "images/00947.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系直线上角度约束",
+    "difficulty": "hard",
+    "tags": ["coordinate", "line_function", "angle"]
+  }
+}

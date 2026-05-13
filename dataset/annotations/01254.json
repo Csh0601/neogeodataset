@@ -1,0 +1,28 @@
+{
+  "id": "01254",
+  "text": "四边形ABCD中，∠A=∠C=90°，AB=AD，四边形ABCD的面积为12",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(BD)",
+    "equal(AB, AD)",
+    "angle(DAB)=90",
+    "angle(BCD)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01254.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": ["quadrilateral", "right_angle", "equal_length"],
+    "annotated_by": "annotator-3",
+    "supplements": [
+      "∠A=∠C=90°即∠DAB=∠BCD=90°",
+      "面积=12条件隐含在几何关系中，BC+CD=4√5为计算结果"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

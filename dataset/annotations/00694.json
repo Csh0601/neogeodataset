@@ -1,0 +1,39 @@
+{
+  "id": "00694",
+  "text": "在平面直角坐标系中，直线y=-2x+10与x轴交于点B(5,0)，与y轴交于点C(0,10)，与直线y=1/2·x交于点A(4,2)，点M在y轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point_coord(A, 4, 2)",
+    "point_coord(B, 5, 0)",
+    "point_coord(C, 0, 10)",
+    "line_function(l1, -2, 10)",
+    "line_function(l2, 0.5, 0)",
+    "segment(MA)",
+    "segment(MB)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(M, axis_y)",
+    "on(A, line_l1)",
+    "on(B, line_l1)",
+    "on(C, line_l1)",
+    "on(A, line_l2)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00694.png",
+  "meta": {
+    "source": "两直线交点与轴上动点",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "intersection"
+    ]
+  }
+}

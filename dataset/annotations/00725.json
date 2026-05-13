@@ -1,0 +1,38 @@
+{
+  "id": "00725",
+  "text": "在平面直角坐标系xOy中，抛物线y=0.5x²-2x与x轴交于A(4,0)和O(0,0)两点，顶点为D(2,-2)，E为AO的中点，以E为圆心、1为半径作⊙E，⊙E与x轴交于B、C两点，M为⊙E上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(D)",
+    "point(E)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point_coord(A, 4, 0)",
+    "point_coord(O, 0, 0)",
+    "point_coord(D, 2, -2)",
+    "parabola(p1, 0.5, -2, 0)",
+    "circle(E, r=1)",
+    "segment(BM)",
+    "segment(OM)",
+    "midpoint(E, AO)",
+    "function_point(A, p1)",
+    "function_point(O, p1)",
+    "on(B, circle_E)",
+    "on(C, circle_E)",
+    "on(M, circle_E)",
+    "axis_intersection(B, circle_E, x)",
+    "axis_intersection(C, circle_E, x)"
+  ],
+  "image_path": "images/00725.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "circle"]
+  }
+}

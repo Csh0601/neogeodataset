@@ -1,0 +1,29 @@
+{
+  "id": "00415",
+  "text": "点A、B、C、P满足AB=4.243，BC=6，∠PAB=45°，∠PBC=60°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AP)",
+    "segment(BP)",
+    "segment(CP)",
+    "length(AB)=4.243",
+    "length(BC)=6",
+    "angle(PAB)=45",
+    "angle(PBC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00415.png",
+  "meta": {
+    "source": "方位角骑行问题",
+    "difficulty": "hard",
+    "tags": ["angle", "trigonometry", "application"]
+  }
+}

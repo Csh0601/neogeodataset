@@ -1,0 +1,39 @@
+{
+  "id": "00406",
+  "text": "菱形ABCD的顶点A在y轴正半轴上，边BC在x轴上，且BC=5，sin∠ABC=4/5，反比例函数y=4/x（x>0）的图象分别与AD、CD交于点M、点N，点N的坐标是(3,4/3)，连接OM、MC，△OMC是等腰三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(M)",
+    "point(N)",
+    "parallelogram(A, B, C, D)",
+    "triangle(O, M, C)",
+    "hyperbola(h, 4)",
+    "segment(OM)",
+    "segment(MC)",
+    "segment(AD)",
+    "segment(CD)",
+    "on(A, axis_y)",
+    "on(B, axis_x)",
+    "on(C, axis_x)",
+    "on(M, AD)",
+    "on(N, CD)",
+    "function_point(M, h)",
+    "function_point(N, h)",
+    "equal(AB, BC)",
+    "length(BC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00406.png",
+  "meta": {
+    "source": "菱形与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "hyperbola",
+      "coordinate_system"
+    ]
+  }
+}

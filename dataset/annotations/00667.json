@@ -1,0 +1,39 @@
+{
+  "id": "00667",
+  "text": "将矩形ABCD按BE、EG、GF为折痕，顶点A、C、D都落在点O处，点B、O、G在同一条直线上，点E、O、F在另一条直线上",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(O)",
+    "rectangle(A, B, C, D)",
+    "segment(BE)",
+    "segment(EG)",
+    "segment(GF)",
+    "segment(EO)",
+    "segment(OG)",
+    "segment(OF)",
+    "on(E, AD)",
+    "on(G, DC)",
+    "on(F, BC)",
+    "fold(A, O, BE)",
+    "fold(D, O, EG)",
+    "fold(C, O, GF)",
+    "collinear(B, O, G)",
+    "collinear(E, O, F)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00667.png",
+  "meta": {
+    "source": "矩形三次折叠",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "collinear"
+    ]
+  }
+}

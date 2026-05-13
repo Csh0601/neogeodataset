@@ -1,0 +1,36 @@
+{
+  "id": "00339",
+  "text": "在△ABC中，∠BAC=90°，AB=4，AC=3，BC=5，分别以点B和点C为圆心，半径3作圆弧，两弧相交于点M和点P，连接MP，MP与边AB相交于点D，连结CD，∠BDP=∠CDP",
+  "dsl": [
+    "point(D)",
+    "point(M)",
+    "point(P)",
+    "circle(B, r=3)",
+    "circle(C, r=3)",
+    "segment(MP)",
+    "segment(CD)",
+    "intersection(M, circle_B, circle_C)",
+    "intersection(P, circle_B, circle_C, index=1)",
+    "intersection(D, MP, AB)",
+    "right_triangle(A, B, C, right_at=A)",
+    "equal_angle(BDP, CDP)",
+    "angle(BAC)=90",
+    "length(AB)=4",
+    "length(AC)=3",
+    "length(BC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00339.png",
+  "meta": {
+    "source": "尺规作图与角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "circle_intersection",
+      "angle_bisector"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "01320",
+  "text": "在等边△ABC中，E是AC的中点，D是BC边上的中点，P是中线AD上的点，AB=6，连接BP、PE",
+  "dsl": [
+    "segment(BP)",
+    "segment(PE)",
+    "midpoint(E, AC)",
+    "midpoint(D, BC)",
+    "on(P, AD)",
+    "equilateral(A, B, C)",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01320.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "equilateral_triangle",
+      "midpoint",
+      "median"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "等边三角形ABC，A在上，B左下C右下，E是AC中点，D是BC中点，P在中线AD上"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

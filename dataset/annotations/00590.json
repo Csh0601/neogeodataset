@@ -1,0 +1,33 @@
+{
+  "id": "00590",
+  "text": "矩形ABCD中，AD=12，AB=8，E是AB上一点，EB=3，F是BC上一点，将△EBF沿EF对折后，点B落在点P处，PD=10",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "rectangle(A, B, C, D)",
+    "triangle(E, B, F)",
+    "segment(PD)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "fold(B, P, EF)",
+    "length(AD)=12",
+    "length(AB)=8",
+    "length(EB)=3",
+    "length(PD)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00590.png",
+  "meta": {
+    "source": "矩形折叠",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "reflection"
+    ]
+  }
+}

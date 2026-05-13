@@ -1,0 +1,33 @@
+{
+  "id": "00915",
+  "text": "在直角△ABC和直角△EDF中，∠C=∠EDF=90°，∠E=45°，∠B=60°，点D在边BC上，边DE与AB交于点G，EF∥AB，∠CDE=105°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "triangle(A, B, C)",
+    "triangle(E, D, F)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(DG)",
+    "on(D, BC)",
+    "intersection(G, DE, AB)",
+    "parallel(EF, AB)",
+    "angle(ACB)=90",
+    "angle(EDF)=90",
+    "angle(DEF)=45",
+    "angle(ABC)=60",
+    "angle(CDE)=105"
+  ],
+  "image_path": "images/00915.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角板摆放与平行线",
+    "difficulty": "middle",
+    "tags": ["triangle", "parallel", "angle"]
+  }
+}

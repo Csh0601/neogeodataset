@@ -1,0 +1,33 @@
+{
+  "id": "00116",
+  "text": "AB为半径为6的⊙O的弦，OC⊥AB于点C，连接OA、OB，若AB=OA，AC=3",
+  "dsl": [
+    "circle(O, r=6)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "foot(C, O, AB)",
+    "perpendicular(OC, AB)",
+    "equal(AB, OA)",
+    "length(AC)=3",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00116.png",
+  "meta": {
+    "source": "圆的弦与垂直",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "chord",
+      "perpendicular",
+      "equal"
+    ]
+  }
+}

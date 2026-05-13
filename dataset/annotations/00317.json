@@ -1,0 +1,27 @@
+{
+  "id": "00317",
+  "text": "四边形ABCD内接于半径为4的⊙O，∠B=108°，∠D=72°",
+  "dsl": [
+    "circle(O, r=4)",
+    "quadrilateral(A, B, C, D)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "angle(ABC)=108",
+    "angle(CDA)=72"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00317.png",
+  "meta": {
+    "source": "圆内接四边形",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "inscribed_quadrilateral"
+    ]
+  }
+}

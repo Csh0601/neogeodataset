@@ -1,0 +1,33 @@
+{
+  "id": "00607",
+  "text": "在边长为4的正方形ABCD中，点E是BC的中点，点F在CD上，CF:BF=3:1，AE、BF相交于点G",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(AG)",
+    "segment(GF)",
+    "on(F, CD)",
+    "midpoint(E, BC)",
+    "intersection(G, AE, BF)",
+    "length(AB)=4",
+    "ratio(CF, BF)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00607.png",
+  "meta": {
+    "source": "正方形交点",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "midpoint",
+      "intersection"
+    ]
+  }
+}

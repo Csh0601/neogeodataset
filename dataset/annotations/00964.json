@@ -1,0 +1,30 @@
+{
+  "id": "00964",
+  "text": "在平行四边形ABCD中，E为边AD的中点，连接AC和BE，AC与BE交于点F，△AEF的面积为2，△ABC的面积为12",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "triangle(A, E, F)",
+    "triangle(A, B, C)",
+    "segment(AC)",
+    "segment(BE)",
+    "segment(EF)",
+    "midpoint(E, AD)",
+    "intersection(F, AC, BE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00964.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "midpoint",
+      "area"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "00847",
+  "text": "在平面直角坐标系中，CD是直线y=√3/3x上的一条线段，CD=2，点A的坐标为(2+√3,1)，连接AC、AD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, 3.7321, 1)",
+    "line_function(l, 0.5774, 0)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(CD)",
+    "function_point(C, l)",
+    "function_point(D, l)",
+    "length(CD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00847.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "moving_segment", "triangle"]
+  }
+}

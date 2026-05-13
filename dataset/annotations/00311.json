@@ -1,0 +1,42 @@
+{
+  "id": "00311",
+  "text": "在半径为3的⊙O中，MN为直径，点P在半圆上（点P与M、N不重合），连接PM,PN，∠MPN=90°，∠MOP=60°，作线PQ⊥MN，NE平分∠MNP，交PM于点E，交PQ于点F",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(P)",
+    "point(Q)",
+    "point(E)",
+    "point(F)",
+    "circle(O, r=3)",
+    "segment(MN)",
+    "segment(PQ)",
+    "segment(PM)",
+    "segment(PN)",
+    "segment(NE)",
+    "midpoint(O, MN)",
+    "on(M, circle_O)",
+    "on(N, circle_O)",
+    "on(P, circle_O)",
+    "on(E, PM)",
+    "foot(Q, P, MN)",
+    "intersection(F, NE, PQ)",
+    "angle_bisector(E, M, N, P)",
+    "angle(MPN)=90",
+    "angle(MOP)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00311.png",
+  "meta": {
+    "source": "半圆与角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "angle_bisector",
+      "perpendicular"
+    ]
+  }
+}

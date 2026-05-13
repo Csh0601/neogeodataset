@@ -1,0 +1,36 @@
+{
+  "id": "00814",
+  "text": "在平面直角坐标系中，抛物线y=-2x²+2x+2与x轴交于A、B两点，OA=2OB，与y轴交于点C，连接BC，抛物线对称轴为x=0.5，D为第一象限内抛物线上一点，过D作DE垂直于OA于点E，与AC交于点F",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point_coord(C, 0, 2)",
+    "parabola(f, -2, 2, 2)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(DE)",
+    "function_point(A, f)",
+    "function_point(B, f)",
+    "function_point(D, f)",
+    "axis_intersection(A, f, x)",
+    "axis_intersection(C, f, y)",
+    "foot(E, D, OA)",
+    "intersection(F, DE, AC)",
+    "ratio(OA, OB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00814.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "moving_point"]
+  }
+}

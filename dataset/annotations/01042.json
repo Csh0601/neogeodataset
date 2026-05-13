@@ -1,0 +1,41 @@
+{
+  "id": "01042",
+  "text": "D是等边△ABC内一点，AD=3，BD=3，CD=3√2，△ACE是由△ABD绕点A逆时针旋转得到的，∠ADC=105°",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "triangle(A, B, D)",
+    "triangle(A, C, E)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(AE)",
+    "segment(CE)",
+    "rotate(E, source=D, center=A, angle=60)",
+    "equal(AB, BC)",
+    "equal(AB, AC)",
+    "angle(BAC)=60",
+    "length(AD)=3",
+    "length(BD)=3",
+    "length(CD)=4.243",
+    "angle(ADC)=105",
+    "inside(D, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01042.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral_triangle",
+      "rotation",
+      "interior_point"
+    ]
+  }
+}

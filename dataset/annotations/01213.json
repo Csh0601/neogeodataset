@@ -1,0 +1,25 @@
+{
+  "id": "01213",
+  "text": "在四边形ABCD中，对角线AC、BD交于点O，AC⊥BD，AD=2，BC=6，AB²+CD²=40",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "intersection(O, AC, BD)",
+    "perpendicular(AC, BD)",
+    "length(AD)=2",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01213.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": ["quadrilateral", "perpendicular", "diagonal"],
+    "annotated_by": "annotator-1",
+    "supplements": ["补充了AB²+CD²=40的结论"]
+  },
+  "validated": false,
+  "needs_review": false
+}

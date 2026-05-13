@@ -1,0 +1,43 @@
+{
+  "id": "00047",
+  "text": "在⊙O中,半径为8，A、B、C是圆上的点，∠AOC=60°，∠ACB=90°，D是劣弧BC的中点，过D作⊙O的切线DE交AB的延长线于点E，连接AB、BC、AC、CD、BD",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "circle(O, r=8)",
+    "segment(DE)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(CD)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(E, AB_extended)",
+    "on(D, circle_O)",
+    "arc(B, C, circle_O)",
+    "arc_midpoint(D, BC, circle_O)",
+    "tangent(D, circle_O)",
+    "angle(ACB)=90",
+    "angle(AOC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00047.png",
+  "meta": {
+    "source": "圆的切线与中点",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "midpoint",
+      "right_angle"
+    ]
+  }
+}

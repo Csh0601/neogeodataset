@@ -1,0 +1,38 @@
+{
+  "id": "00797",
+  "text": "在菱形ABCD中，∠ABC=60°，AD=6，点E在边CD上，DE=4，点F在边AD上，将△DEF沿EF折叠，点D落在点N处，N在菱形ABCD内部",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(N)",
+    "parallelogram(A, B, C, D)",
+    "triangle(D, E, F)",
+    "segment(EF)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(NE)",
+    "segment(NF)",
+    "on(E, CD)",
+    "on(F, AD)",
+    "fold(D, N, EF)",
+    "equal(AB, BC)",
+    "angle(ABC)=60",
+    "length(AD)=6",
+    "length(DE)=4",
+    "inside(N, quadrilateral_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00797.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "fold",
+      "reflection"
+    ]
+  }
+}

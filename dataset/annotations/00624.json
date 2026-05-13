@@ -1,0 +1,33 @@
+{
+  "id": "00624",
+  "text": "点A、B、C、D在⊙O上，∠AOC=120°，点B是弧AC的中点，∠D=30°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O)",
+    "arc(A, C, circle_O)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "arc_midpoint(B, AC, circle_O)",
+    "angle(AOC)=120",
+    "angle(ADC)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00624.png",
+  "meta": {
+    "source": "圆心角与圆周角",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "central_angle",
+      "inscribed_angle"
+    ]
+  }
+}

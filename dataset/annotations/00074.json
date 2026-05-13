@@ -1,0 +1,39 @@
+{
+  "id": "00074",
+  "text": "在△ABC中，AB=AC=6，点O在边AB上，作以点O为圆心、OB长为半径的圆，交BC于点D，与AC相切于点E，连接OD、OE，OD⊥OE",
+  "dsl": [
+    "point(O)",
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "circle(O, radius=OB)",
+    "segment(OD)",
+    "segment(OE)",
+    "on(O, AB)",
+    "on(D, circle_O)",
+    "on(D, BC)",
+    "on(E, circle_O)",
+    "on(E, AC)",
+    "tangent(E, circle_O)",
+    "equal(AB, AC)",
+    "perpendicular(OD, OE)",
+    "length(AB)=6",
+    "length(AC)=6"
+  ],
+  "image_path": "images/00074.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆的切线",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "triangle",
+      "perpendicular",
+      "tangent",
+      "equal"
+    ]
+  }
+}

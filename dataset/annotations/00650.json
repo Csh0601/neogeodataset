@@ -1,0 +1,35 @@
+{
+  "id": "00650",
+  "text": "在正方形ABCD中，E、F分别为边AB、BC的中点，AF与DE交于点M，O为BD的中点，∠AME=90°，∠BMO=90°",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(O)",
+    "square(A, B, C, D)",
+    "segment(AF)",
+    "segment(DE)",
+    "segment(BD)",
+    "segment(AM)",
+    "segment(EM)",
+    "segment(MO)",
+    "segment(MD)",
+    "segment(MF)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(O, BD)",
+    "intersection(M, AF, DE)",
+    "angle(AME)=90",
+    "angle(BMO)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00650.png",
+  "meta": {
+    "source": "正方形中点连线交点",
+    "difficulty": "hard",
+    "tags": ["square", "midpoint", "intersection"]
+  }
+}

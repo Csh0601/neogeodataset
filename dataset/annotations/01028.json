@@ -1,0 +1,29 @@
+{
+  "id": "01028",
+  "text": "在△ABC中，AC=BC，D在BC上，AD平分∠BAC，AC+CD=AB，∠C=108°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(CD)",
+    "on(D, BC)",
+    "equal(AC, BC)",
+    "angle(ACB)=108"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01028.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "angle_bisector"
+    ]
+  }
+}

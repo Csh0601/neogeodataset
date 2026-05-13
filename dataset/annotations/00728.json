@@ -1,0 +1,37 @@
+{
+  "id": "00728",
+  "text": "在平面直角坐标系xOy中，抛物线y=√3/8·x^2+3√3/4·x-7√3/8与x轴交于A、B两点(A在B右侧)，顶点为D，C在y轴正半轴上，CD交x轴于点F，△CAD绕点C顺时针旋转得到△CFE，点A恰好旋转到点F，连接BE",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(C, A, D)",
+    "triangle(C, F, E)",
+    "parabola(p1, 0.2165, 1.299, -1.5155)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(BE)",
+    "segment(CF)",
+    "segment(CE)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "rotate(F, source=A, center=C, angle=-60)",
+    "rotate(E, source=D, center=C, angle=-60)"
+  ],
+  "image_path": "images/00728.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "rotation"]
+  }
+}

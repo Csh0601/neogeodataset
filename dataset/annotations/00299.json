@@ -1,0 +1,29 @@
+{
+  "id": "00299",
+  "text": "在三角形ABC中，BC=80，∠A=45°，∠B=30°,D为AB的中点，连接CD,以D为圆心，CD为半径做圆",
+  "dsl": [
+    "point(D)",
+    "circle(D, radius=CD)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "midpoint(D, AB)",  
+    "length(BC)=80",
+    "angle(CAB)=45",
+    "angle(ABC)=30"
+    
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00299.png",
+  "meta": {
+    "source": "三角形隧道应用题",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "trigonometry",
+      "application"
+    ]
+  }
+}

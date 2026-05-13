@@ -1,0 +1,42 @@
+{
+  "id": "01207",
+  "text": "在平面直角坐标系中，一次函数y=1/2x+1的图象与x轴交于点A，与y轴交于点B，二次函数y=1/2x²+bx+c的图象与一次函数y=1/2x+1的图象交于B、C两点，与x轴交于D、E两点，D点坐标为(1,0)，抛物线解析式为y=1/2x²-3/2x+1，A(-2,0)，B(0,1)，C(4,3)，E(2,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 0, 1)",
+    "point_coord(C, 4, 3)",
+    "point_coord(D, 1, 0)",
+    "point_coord(E, 2, 0)",
+    "line_function(l, 1/2, 1)",
+    "parabola(p, 1/2, -3/2, 1)",
+    "segment(BC)",
+    "axis_intersection(A, l, x)",
+    "axis_intersection(B, l, y)",
+    "axis_intersection(D, p, x)",
+    "axis_intersection(E, p, x)",
+    "function_intersection(B, l, p)",
+    "function_intersection(C, l, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01207.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "parabola",
+      "line_function",
+      "axis_intersection"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "补充了抛物线解析式y=1/2x²-3/2x+1和各交点坐标"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

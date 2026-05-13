@@ -1,0 +1,47 @@
+{
+  "id": "00729",
+  "text": "在平面直角坐标系xOy中，直线y=(4/3)x-4与x轴、y轴分别交于A(3,0)和B(0,-4)，过D(0,8)作平行于x轴的直线CD，交AB于点C，E(0,m)在线段OD上，延长CE交x轴于点F，G在x轴正半轴上，AG=AF",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, 0, -4)",
+    "point_coord(D, 0, 8)",
+    "line_function(l1, 1.3333, -4)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(CF)",
+    "segment(AG)",
+    "segment(AF)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "on(E, OD)",
+    "intersection(C, AB, CD)",
+    "on(F, CE)",
+    "axis_intersection(F, CE, x)",
+    "parallel(CD, AF)",
+    "equal(AG, AF)"
+  ],
+  "image_path": "images/00729.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "line",
+      "parallel",
+      "equal"
+    ]
+  }
+}

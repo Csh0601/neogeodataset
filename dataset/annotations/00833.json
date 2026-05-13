@@ -1,0 +1,32 @@
+{
+  "id": "00833",
+  "text": "在梯形ABCD中，AB平行于CD，中位线EF与对角线AC、BD交于M、N两点，EF=18，MN=8",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(N)",
+    "trapezoid(A, B, C, D)",
+    "segment(EF)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(MN)",
+    "midpoint(E, AD)",
+    "midpoint(F, BC)",
+    "intersection(M, EF, AC)",
+    "intersection(N, EF, BD)",
+    "parallel(AB, CD)",
+    "length(EF)=18",
+    "length(MN)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00833.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["trapezoid", "midline", "diagonal"]
+  }
+}

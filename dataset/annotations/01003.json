@@ -1,0 +1,34 @@
+{
+  "id": "01003",
+  "text": "在平面直角坐标系中，抛物线y=(1/2)x^2+(7/2)x-4交x轴于A和B两点，交y轴于点C，OA=2OC=8OB，点P是第三象限内抛物线上的一点，连接AC，过P作PE平行于y轴，与AC交于点E",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, -8, 0)",
+    "point_coord(B, 1, 0)",
+    "point_coord(C, 0, -4)",
+    "point(P)",
+    "parabola(p1, 0.5, 3.5, -4)",
+    "segment(AC)",
+    "segment(PE)",
+    "segment(AB)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(E, AC)",
+    "parallel(PE, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01003.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "parallel"
+    ]
+  }
+}

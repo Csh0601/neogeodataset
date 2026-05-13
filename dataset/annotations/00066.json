@@ -1,0 +1,47 @@
+{
+  "id": "00066",
+  "text": "在边长为4的正方形ABCD中，点F在BC边中点，点E在CB的延长线上，且BE=BF=2，连接AC、AE、AF，过点E作射线EG⊥AF于点G，EG分别交AB、AC、DC于点M、H、N",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(M)",
+    "point(H)",
+    "point(N)",
+    "square(A, B, C, D)",
+    "ray(E, G)",
+    "segment(AC)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(EG)",
+    "midpoint(F, BC)",
+    "on(M, AB)",
+    "on(H, AC)",
+    "on(N, DC)",
+    "intersection(G, EG, AF)",
+    "intersection(M, EG, AB)",
+    "intersection(H, EG, AC)",
+    "intersection(N, EG, DC)",
+    "foot(G, E, AF)",
+    "equal(BE, BF)",
+    "perpendicular(EG, AF)",
+    "length(AB)=4",
+    "length(BE)=2",
+    "length(BF)=2",
+    "on_extended(E, CB, towards=B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00066.png",
+  "meta": {
+    "source": "正方形与垂线综合",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "perpendicular",
+      "extension"
+    ]
+  }
+}

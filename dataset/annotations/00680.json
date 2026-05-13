@@ -1,0 +1,35 @@
+{
+  "id": "00680",
+  "text": "在四边形ABCD中，M、N、P、Q分别是AD、AB、BC、CD的中点，对角线AC⊥BD，AC=16，BD=12",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(P)",
+    "point(Q)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(MN)",
+    "segment(NP)",
+    "segment(PQ)",
+    "segment(QM)",
+    "midpoint(M, AD)",
+    "midpoint(N, AB)",
+    "midpoint(P, BC)",
+    "midpoint(Q, CD)",
+    "perpendicular(AC, BD)",
+    "ratio(AC, BD)=1.333",
+    "length(AC)=16",
+    "length(BD)=12"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00680.png",
+  "meta": {
+    "source": "四边形中点与垂直对角线",
+    "difficulty": "middle",
+    "tags": ["quadrilateral", "midpoint", "perpendicular", "diagonal"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00782",
+  "text": "在平面直角坐标系xOy中，抛物线y=x^2+bx+c与x轴交于A、B两点，与y轴交于点C，A(-2,0)在x轴负半轴上，B(1,0)在x轴正半轴上，C(0,-3)在y轴负半轴上，顶点为D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 1, 0)",
+    "point_coord(C, 0, -3)",
+    "parabola(p1, 1.5, 1.5, -3)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(C, p1, y)"
+  ],
+  "image_path": "images/00782.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "parallelogram"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "01049",
+  "text": "在正方形ABCD中，E为BC边上一点，连接AE，作AE的垂直平分线交AB于G，交CD于F，DF=2，BG=4",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(GF)",
+    "segment(DF)",
+    "segment(BG)",
+    "on(E, BC)",
+    "on(G, AB)",
+    "on(F, CD)",
+    "perpendicular(GF, AE)",
+    "length(DF)=2",
+    "length(BG)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01049.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "perpendicular_bisector"
+    ]
+  }
+}

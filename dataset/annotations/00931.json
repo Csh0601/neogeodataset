@@ -1,0 +1,38 @@
+{
+  "id": "00931",
+  "text": "在平面直角坐标系中，抛物线y=x^2-5x+4与x轴交于点A(1,0)和B，与y轴交于点C，对称轴为直线x=5/2，点P是线段BC上一点，点Q在抛物线上，连接OQ",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(Q)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, 4)",
+    "parabola(p1, 1, -5, 4)",
+    "segment(BC)",
+    "segment(OQ)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)"
+  ],
+  "image_path": "images/00931.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线对称轴与动点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "01087",
+  "text": "在平面直角坐标系中，直线y=(1/2)x+2与x轴交于点A(-4,0)，与y轴交于点C(0,2)，抛物线y=(1/2)x^2+(5/2)x+2经过A、C两点，与x轴的另一交点为B(-1,0)，D为直线AC上方抛物线上一点，连接BC，BD交线段AC于点E",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point_coord(A, -4, 0)",
+    "point_coord(B, -1, 0)",
+    "point_coord(C, 0, 2)",
+    "line_function(l1, 0.5, 2)",
+    "parabola(p1, 0.5, 2.5, 2)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(DE)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "intersection(E, BD, AC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01087.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "linear_function",
+      "intersection"
+    ]
+  }
+}

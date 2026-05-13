@@ -1,0 +1,36 @@
+{
+  "id": "01214",
+  "text": "在Rt△ABC中，∠BAC=90°，M、N是BC边上的点，BM=MN=NC，AM=4，AN=3，MN=√5",
+  "dsl": [
+    "segment(AM)",
+    "segment(AN)",
+    "on(M, BC)",
+    "on(N, BC)",
+    "right_triangle(A, B, C, right_at=A)",
+    "equal(BM, MN)",
+    "equal(MN, NC)",
+    "length(AM)=4",
+    "length(AN)=3",
+    "length(MN)=2.236"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01214.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "right_triangle",
+      "trisection",
+      "length"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "补充了MN=√5≈2.236的结论"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

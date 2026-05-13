@@ -1,0 +1,37 @@
+{
+  "id": "01013",
+  "text": "在平面直角坐标系中，抛物线y=x^2-2x-3与x轴交于A(-1,0)和B(3,0)两点，直线l与抛物线交于A、C两点，C的横坐标为2，P是线段AC上的一点，D在抛物线上，E在x轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "parabola(p1, 1, -2, -3)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(PE)",
+    "segment(BD)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(P, AC)",
+    "on(E, axis_x)",
+    "parallel(PE, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01013.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "parallel",
+      "distance"
+    ]
+  }
+}

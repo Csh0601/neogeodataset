@@ -1,0 +1,30 @@
+{
+  "id": "00429",
+  "text": "在△ABC中，AB=AC，∠BAC=120°，点E是AB的中点，点P在BC上",
+  "dsl": [
+    "point(E)",
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(PC)",
+    "segment(PA)",
+    "segment(PE)",
+    "on(P, BC)",
+    "midpoint(E, AB)",
+    "equal(AB, AC)",
+    "angle(BAC)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00429.png",
+  "meta": {
+    "source": "等腰三角形动点问题",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "moving_point",
+      "midpoint"
+    ]
+  }
+}

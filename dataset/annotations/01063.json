@@ -1,0 +1,38 @@
+{
+  "id": "01063",
+  "text": "正方形ABCD的边长为9，E在AB边上，F在CD边上，CF=4，连接EF，将正方形ABCD沿EF折叠，使点A、D分别落在点A'、D'处，D'落在直线BC上",
+  "dsl": [
+    "point(A_prime)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "line(l, B, C)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(EF)",
+    "segment(AE)",
+    "segment(CF)",
+    "on(E, AB)",
+    "on(F, CD)",
+    "on(D_prime, BC)",
+    "fold(A, A_prime, EF)",
+    "fold(D, D_prime, EF)",
+    "equal(AB, BC)",
+    "length(AB)=9",
+    "length(CF)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01063.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "fold",
+      "reflection"
+    ]
+  }
+}

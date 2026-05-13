@@ -1,0 +1,30 @@
+{
+  "id": "01079",
+  "text": "直线l1平行于直线l2，在l1与l2之间有两个角α和β，∠α=∠β，∠1=30°，∠2=30°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "line(AB)",
+    "line(CD)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(FC)",
+    "parallel(AB, CD)",
+    "angle(AEF)=30",
+    "angle(EFC)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01079.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel_lines", "angle", "zigzag"]
+  }
+}

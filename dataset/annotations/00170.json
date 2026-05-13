@@ -1,0 +1,39 @@
+{
+  "id": "00170",
+  "text": "在半径为4的⊙O中，A是圆上一点，点B在圆外，BA与⊙O相切于点A，BO与⊙O交于点C，点D在圆上，连接AD、CD、OA、BO，∠ADC=35°，∠ABO=20°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O, r=4)",
+    "segment(BA)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AD)",
+    "segment(CD)",
+    "on(A, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "tangent(BA, circle_O)",
+    "collinear(B, O, C)",
+    "angle(ADC)=35",
+    "angle(ABO)=20",
+    "length(OA)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00170.png",
+  "meta": {
+    "source": "圆与角度",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "angle"
+    ]
+  }
+}

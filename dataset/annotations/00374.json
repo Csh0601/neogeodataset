@@ -1,0 +1,28 @@
+{
+  "id": "00374",
+  "text": "AB=BC=CD=10，∠ABC=135°，∠BCD=135°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "length(AB)=10",
+    "length(BC)=10",
+    "length(CD)=10",
+    "angle(ABC)=135",
+    "angle(BCD)=135"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00374.png",
+  "meta": {
+    "source": "正八边形路径",
+    "difficulty": "middle",
+    "tags": ["polygon", "angle", "path"]
+  }
+}

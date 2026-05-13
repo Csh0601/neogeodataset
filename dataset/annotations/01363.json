@@ -1,0 +1,41 @@
+{
+  "id": "01363",
+  "text": "A、B、C、D、E、F是平面上的6个点，连接AD、AE、BF、BD、CF、CE，∠A+∠B+∠C+∠D+∠E+∠F=720°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(BD)",
+    "segment(CF)",
+    "segment(CE)",
+    "segment(AB)",
+    "segment(FC)",
+    "segment(DE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01363.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "hexagon",
+      "angle_sum",
+      "six_points"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "六个点形成类似六角星结构，六个顶角之和=720°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

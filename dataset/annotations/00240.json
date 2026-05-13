@@ -1,0 +1,25 @@
+{
+  "id": "00240",
+  "text": "在边长为4的正方形ABCD中，Q在AB边上且AQ=1，以AQ为边作正方形AQPG，其中G在对角线AC上",
+  "dsl": [
+    "square(A, B, C, D)",
+    "square(A, Q, P, G)",
+    "on(Q, AB)",
+    "on(G, AC)",
+    "length(AQ)=1",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00240.png",
+  "meta": {
+    "source": "正方形代数恒等式",
+    "difficulty": "easy",
+    "tags": [
+      "square",
+      "algebra"
+    ]
+  }
+}

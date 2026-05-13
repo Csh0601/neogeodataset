@@ -1,0 +1,34 @@
+{
+  "id": "00470",
+  "text": "在菱形ABCD中，点E是BC的中点，以C为圆心、CE为半径作弧，交CD于点F，连接AE、AF，AB=6，∠B=60°，阴影部分的面积为9√3-3π",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "circle(C, radius=CE)",
+    "segment(AE)",
+    "segment(AF)",
+    "on(F, CD)",
+    "on(F, circle_C)",
+    "midpoint(E, BC)",
+    "equal(AB, BC)",
+    "length(AB)=6",
+    "angle(ABC)=60",
+    "shaded(sector_ECF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00470.png",
+  "meta": {
+    "source": "菱形与扇形面积",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "sector",
+      "midpoint",
+      "area"
+    ]
+  }
+}

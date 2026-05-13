@@ -1,0 +1,33 @@
+{
+  "id": "01144",
+  "text": "在矩形ABCD中，AB=10，AD=6，E为BC上一点，把△CDE沿DE折叠，使点C落在AB边上的F处，连接DF，EF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "triangle(C, D, E)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)",
+    "segment(CE)",
+    "on(E, BC)",
+    "on(F, AB)",
+    "fold(C, F, DE)",
+    "length(AB)=10",
+    "length(AD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01144.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["rectangle", "fold", "reflection"]
+  }
+}

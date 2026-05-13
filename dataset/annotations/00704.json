@@ -1,0 +1,34 @@
+{
+  "id": "00704",
+  "text": "在平面直角坐标系xOy中，直线y=-1/2·x+3/2与直线y=x交于点A(1,1)，直线y=-1/2·x+3/2与x轴交于点B(3,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, 1, 1)",
+    "point_coord(B, 3, 0)",
+    "line_function(l1, -0.5, 1.5)",
+    "line_function(l2, 1, 0)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AB)",
+    "on(A, line_l1)",
+    "on(B, line_l1)",
+    "on(A, line_l2)",
+    "on(B, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00704.png",
+  "meta": {
+    "source": "两直线交点与坐标轴",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "intersection"
+    ]
+  }
+}

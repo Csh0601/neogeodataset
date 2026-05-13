@@ -1,0 +1,29 @@
+{
+  "id": "00975",
+  "text": "在△ABC中，AC=3，BC=4，∠C=90°，D为CB的中点，DE⊥AD，DE交AB于点E，EB=7/4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(EB)",
+    "midpoint(D, CB)",
+    "on(E, AB)",
+    "perpendicular(DE, AD)",
+    "angle(ACB)=90",
+    "length(AC)=3",
+    "length(BC)=4",
+    "length(EB)=1.75"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00975.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["right_triangle", "midpoint", "perpendicular"]
+  }
+}

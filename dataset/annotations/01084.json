@@ -1,0 +1,38 @@
+{
+  "id": "01084",
+  "text": "在平行四边形ABCD中，AB=6，AD=2√2，∠A=45°，M是AD边的中点，N是AB边上一点，将△AMN沿MN所在直线翻折得到△A1MN，连接A1C",
+  "dsl": [
+    "point(A_1)",
+    "triangle(A, M, N)",
+    "triangle(A_1, M, N)",
+    "parallelogram(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(MN)",
+    "segment(A_1C)",
+    "segment(A_1M)",
+    "segment(A_1N)",
+    "midpoint(M, AD)",
+    "on(N, AB)",
+    "fold(A, A_1, MN)",
+    "length(AB)=6",
+    "length(AD)=2.828",
+    "angle(DAB)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01084.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

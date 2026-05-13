@@ -1,0 +1,38 @@
+{
+  "id": "01246",
+  "text": "在△ABC中，AB=4，BC=7，∠B=60°，点D在边BC上，CD=3，连接AD，将△ACD沿直线AD翻折，点C的对应点为E",
+  "dsl": [
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, C, D)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(DE)",
+    "on(D, BC)",
+    "fold(E, C, AD)",
+    "angle(ABC)=60",
+    "length(AB)=4",
+    "length(BC)=7",
+    "length(CD)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01246.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "fold",
+      "angle"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "将△ACD沿AD翻折，C对应点为E"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "00286",
+  "text": "△ABC内接于⊙O，长度为6的线段AB是⊙O的直径，BD与⊙O相切于点B，BD交AC的延长线于点D，E为BD的中点，连接CE，CE是⊙O的切线，BD=3√5，CD=5，OE=9/2",
+  "dsl": [
+    "point(D)",
+    "circle(O,r=3)",
+    "triangle(A, B, C)",
+    "segment(CE)",
+    "segment(BD)",
+    "segment(AD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "midpoint(E, BD)",
+    "intersection(D, BD, AC_extended)",
+    "midpoint(O, AB)",
+    "tangent(BD, circle_O)",
+    "tangent(CE, circle_O)",
+    "length(AB)=6",
+    "length(BD)=3√5",
+    "length(CD)=5",
+    "length(OE)=9/2",
+    "on_extended(D, AC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00286.png",
+  "meta": {
+    "source": "圆的直径与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "midpoint"
+    ]
+  }
+}

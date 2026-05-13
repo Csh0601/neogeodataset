@@ -1,0 +1,29 @@
+{
+  "id": "00950",
+  "text": "在平面直角坐标系中，等腰直角三角形ABC的顶点A在x轴上，AB=AC，∠BAC=90°，A(2,0)，B(3,3)，BC交y轴于M",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(M)",
+    "point_coord(A, 2, 0)",
+    "point_coord(B, 3, 3)",
+    "segment(BC)",
+    "segment(AM)",
+    "on(M, BC)",
+    "on(M, axis_y)",
+    "isosceles_right(A, B, C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00950.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "isosceles_right_triangle"
+    ]
+  }
+}

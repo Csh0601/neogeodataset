@@ -1,0 +1,41 @@
+{
+  "id": "01339",
+  "text": "在Rt△ABC中，∠BAC=90°，D为BC的中点，过点D作DE⊥DF，DE交BA的延长线于点E，DF交AC的延长线于点F，CF=7/2，AC=4，AB=2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(DE)",
+    "segment(DF)",
+    "midpoint(D, BC)",
+    "on(E, BA_extended)",
+    "on(F, AC_extended)",
+    "intersection(E, DE, BA_extended)",
+    "intersection(F, DF, AC_extended)",
+    "right_triangle(A, B, C, right_at=A)",
+    "perpendicular(DE, DF)",
+    "length(CF)=3.5",
+    "length(AC)=4",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01339.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "perpendicular"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "CF=7/2已转换为3.5"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

@@ -1,0 +1,39 @@
+{
+  "id": "01015",
+  "text": "在△ABC中，AB=5，AC=7，BC=8，⊙O是△ABC的内切圆，与△ABC的三边分别相切于D、E、F，D在AB上，E在BC上，F在AC上",
+  "dsl": [
+    "triangle(A, B, C)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(OD)",
+    "segment(OE)",
+    "segment(OF)",
+    "on(D, AB)",
+    "on(E, BC)",
+    "on(F, AC)",
+    "tangent(circle_O, AB)",
+    "tangent(circle_O, BC)",
+    "tangent(circle_O, AC)",
+    "length(AB)=5",
+    "length(AC)=7",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01015.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "incircle",
+      "tangent"
+    ]
+  }
+}

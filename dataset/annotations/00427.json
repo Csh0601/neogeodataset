@@ -1,0 +1,29 @@
+{
+  "id": "00427",
+  "text": "在平面直角坐标系中，OC交双曲线y=18/x于点A，且OC:OA=5:3，矩形ABCD的面积是8，且AB∥x轴",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(C)",
+    "hyperbola(h, 18)",
+    "rectangle(A, B, C, D)",
+    "segment(OC)",
+    "segment(OA)",
+    "function_point(A, h)",
+    "ratio(OC, OA)=1.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00427.png",
+  "meta": {
+    "source": "反比例函数与矩形",
+    "difficulty": "middle",
+    "tags": [
+      "hyperbola",
+      "rectangle",
+      "coordinate_system"
+    ]
+  }
+}

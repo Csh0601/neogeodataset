@@ -1,0 +1,31 @@
+{
+  "id": "00472",
+  "text": "在平行四边形ABCD中，E、F分别是AD和BC上的点，∠DAF=∠BCE，BF=DE",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(AF)",
+    "segment(CE)",
+    "segment(BF)",
+    "segment(DE)",
+    "on(E, AD)",
+    "on(F, BC)",
+    "equal_angle(DAF, BCE)",
+    "equal(BF, DE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00472.png",
+  "meta": {
+    "source": "平行四边形等角等线段",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "equal_angle",
+      "equal"
+    ]
+  }
+}

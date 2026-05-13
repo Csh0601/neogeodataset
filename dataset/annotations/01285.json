@@ -1,0 +1,43 @@
+{
+  "id": "01285",
+  "text": "⊙O的半径为√3，△ABC是⊙O的内接等边三角形，将△ABC折叠，使点A落在⊙O上的A_prime处，折痕EF平行于BC，EF长为3/2，E在AB上，F在AC上",
+  "dsl": [
+    "point(A_prime)",
+    "point(E)",
+    "point(F)",
+    "circle(O, r=√3)",
+    "segment(EF)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "on(A_prime, circle_O)",
+    "equilateral(A, B, C)",
+    "fold(A, A_prime, EF)",
+    "parallel(EF, BC)",
+    "inscribed(ABC, circle_O)",
+    "length(EF)=3/2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01285.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "equilateral",
+      "fold",
+      "parallel"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "计算了EF=3/2"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

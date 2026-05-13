@@ -1,0 +1,28 @@
+{
+  "id": "00603",
+  "text": "在坐标系中，圆心为M(4,0)，半径为2，过点P作圆M的切线，切点为Q",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(M, 4, 0)",
+    "circle(M, r=2)",
+    "segment(PQ)",
+    "on(Q, circle_M)",
+    "tangent(Q, circle_M)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00603.png",
+  "meta": {
+    "source": "圆的切线",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "coordinate"
+    ]
+  }
+}

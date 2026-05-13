@@ -1,0 +1,38 @@
+{
+  "id": "01038",
+  "text": "P是等边三角形ABC内一点，将线段AP绕点A顺时针旋转60°得到线段AQ，连接BQ，PA=6，PB=8，PC=10",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AP)",
+    "segment(AQ)",
+    "segment(BQ)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "rotate(Q, source=P, center=A, angle=-60)",
+    "equal(AB, BC)",
+    "equal(AB, AC)",
+    "angle(BAC)=60",
+    "length(AP)=6",
+    "length(PB)=8",
+    "length(PC)=10",
+    "inside(P, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01038.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral_triangle",
+      "rotation",
+      "interior_point"
+    ]
+  }
+}

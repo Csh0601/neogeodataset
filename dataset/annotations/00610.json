@@ -1,0 +1,32 @@
+{
+  "id": "00610",
+  "text": "面积为S的菱形ABCD中，点O为对角线的交点，点E是线段BC的中点，过点E作EF⊥BD于F，EG⊥AC与G，四边形EFOG的面积为S/8",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "quadrilateral(E, F, O, G)",
+    "midpoint(E, BC)",
+    "foot(F, E, BD)",
+    "foot(G, E, AC)",
+    "intersection(O, AC, BD)",
+    "equal(AB, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00610.png",
+  "meta": {
+    "source": "菱形垂足四边形",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "midpoint",
+      "foot",
+      "perpendicular"
+    ]
+  }
+}

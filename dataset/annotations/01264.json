@@ -1,0 +1,34 @@
+{
+  "id": "01264",
+  "text": "在互补四边形ABCD中，∠A与∠C是一组对角，∠B:∠C:∠D=2:3:4，∠A=72°",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AD)",
+    "segment(BD)",
+    "angle(ABC)=80",
+    "angle(BCD)=120",
+    "angle(CDA)=160",
+    "angle(DAB)=72"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01264.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "quadrilateral",
+      "supplementary_angles",
+      "angle_ratio"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "互补四边形：∠A+∠C=180°",
+      "∠B:∠C:∠D=2:3:4，∠A+∠C=180°，∠B+∠D=180°，解出∠A=72°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

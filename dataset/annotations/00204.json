@@ -1,0 +1,25 @@
+{
+  "id": "00204",
+  "text": "在平行四边形ABCD中，AB=4,BC=8, AC与BD相交于点O，OA=OC，OB=OD",
+  "dsl": [
+    "point(O)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "intersection(O, AC, BD)",
+    "equal(OA, OC)",
+    "equal(OB, OD)",
+    "length(AB)=4",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00204.png",
+  "meta": {
+    "source": "平行四边形性质",
+    "difficulty": "easy",
+    "tags": ["parallelogram", "diagonal"]
+  }
+}

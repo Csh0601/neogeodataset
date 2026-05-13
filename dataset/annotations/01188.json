@@ -1,0 +1,33 @@
+{
+  "id": "01188",
+  "text": "在平面直角坐标系中，直线y=x+2与反比例函数y=k/x的图象在第一象限交于点P，OP=√10，k=3",
+  "dsl": [
+    "coordinate_system(O)",
+    "line_function(l, 1, 2)",
+    "hyperbola(h, 3)",
+    "segment(OP)",
+    "function_intersection(P, l, h)",
+    "length(OP)=√10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01188.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "line_function",
+      "hyperbola",
+      "function_intersection"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了k=3的计算结果"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

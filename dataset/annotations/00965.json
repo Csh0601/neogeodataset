@@ -1,0 +1,29 @@
+{
+  "id": "00965",
+  "text": "在△ABC中，∠BAC=90°，AB=AC，BD是∠ABC的平分线，D在AC上，CE⊥BD的延长线于E，BD=2CE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(AD)",
+    "on(D, AC)",
+    "on(E, BD_extended)",
+    "bisector(BD, ABC)",
+    "perpendicular(CE, BD)",
+    "equal(AB, AC)",
+    "angle(BAC)=90",
+    "ratio(BD, CE)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00965.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["isosceles_right_triangle", "angle_bisector", "perpendicular"]
+  }
+}

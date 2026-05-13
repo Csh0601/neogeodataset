@@ -1,0 +1,35 @@
+{
+  "id": "01327",
+  "text": "在△ABC中，AB=AC=3，∠BAC=150°，点P为平面内一点，PA=2，连接PA、PB、PC",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "equal(AB, AC)",
+    "angle(BAC)=150",
+    "length(AB)=3",
+    "length(PA)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01327.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "isosceles"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "多子图题目，选取图3部分标注",
+      "动点P静态化"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

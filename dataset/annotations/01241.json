@@ -1,0 +1,40 @@
+{
+  "id": "01241",
+  "text": "在Rt△ABC中，∠BAC=90°，AB=2√2，AC=6，点E在线段AC上，AE=1，D是线段BC上的一点，连接DE，将四边形ABDE沿直线DE翻折，得到四边形FGDE，点G恰好落在线段AC上",
+  "dsl": [
+    "segment(DE)",
+    "segment(AF)",
+    "segment(FG)",
+    "on(E, AC)",
+    "on(D, BC)",
+    "on(G, AC)",
+    "right_triangle(A, B, C, right_at=A)",
+    "quadrilateral(A, B, D, E)",
+    "quadrilateral(F, G, D, E)",
+    "fold(A, G, DE)",
+    "fold(B, F, DE)",
+    "length(AB)=2√2",
+    "length(AC)=6",
+    "length(AE)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01241.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "fold",
+      "quadrilateral"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "翻折使A到G(落在AC上)，B到F"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

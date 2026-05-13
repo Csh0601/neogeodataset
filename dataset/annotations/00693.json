@@ -1,0 +1,39 @@
+{
+  "id": "00693",
+  "text": "在平面直角坐标系中，直线y=-1/2·x+2与x轴交于点A(4,0)，与y轴交于点B(0,2)，以AB为边在第一象限作矩形ABCD，矩形的对称中心为点M，双曲线y=56/9·1/x经过点C和点M",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(M)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 2)",
+    "rectangle(A, B, C, D)",
+    "line_function(l, -0.5, 2)",
+    "hyperbola(h, 6.222)",
+    "segment(AB)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(A, line_l)",
+    "on(B, line_l)",
+    "on(C, hyperbola_h)",
+    "on(M, hyperbola_h)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00693.png",
+  "meta": {
+    "source": "直线交轴矩形与双曲线",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "line",
+      "rectangle",
+      "hyperbola"
+    ]
+  }
+}

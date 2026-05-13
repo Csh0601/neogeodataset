@@ -1,0 +1,30 @@
+{
+  "id": "00548",
+  "text": "菱形ABCD中，对角线AC、BD相交于点O，E为AB的中点，菱形ABCD的周长为32，OE=4",
+  "dsl": [
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OE)",
+    "midpoint(E, AB)",
+    "intersection(O, AC, BD)",
+    "equal(AB, BC)",
+    "length(OE)=4",
+    "length(AB)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00548.png",
+  "meta": {
+    "source": "菱形中点与对角线",
+    "difficulty": "easy",
+    "tags": [
+      "rhombus",
+      "diagonal",
+      "midpoint"
+    ]
+  }
+}

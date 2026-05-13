@@ -1,0 +1,38 @@
+{
+  "id": "00966",
+  "text": "在平面直角坐标系中，一次函数y=-3/4x+6的图象与x轴交于点A，与y轴交于点B，直线y=5/4x与直线AB交于点C，过B作x轴的平行线l，P是直线l上的一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point_coord(A, 8, 0)",
+    "point_coord(B, 0, 6)",
+    "line_function(l1, -0.75, 6)",
+    "line_function(l2, 1.25, 0)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)",
+    "on(C, line_l1)",
+    "on(C, line_l2)",
+    "on(P, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00966.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "intersection"
+    ]
+  }
+}

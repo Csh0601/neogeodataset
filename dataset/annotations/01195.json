@@ -1,0 +1,43 @@
+{
+  "id": "01195",
+  "text": "在平面直角坐标系中，直线l:y=-x+4分别与x轴、y轴交于点A、B，双曲线y=k/x(k>0,x>0)与直线l不相交，E为双曲线上一点，过点E作EG⊥x轴于点G，EF⊥y轴于点F，分别与直线l交于点C、D，∠COD=45°，k=4",
+  "dsl": [
+    "coordinate_system(O)",
+    "line_function(l, -1, 4)",
+    "hyperbola(h, 4)",
+    "segment(OC)",
+    "segment(OD)",
+    "axis_intersection(A, l, x)",
+    "axis_intersection(B, l, y)",
+    "function_point(E, h)",
+    "foot(G, E, OA)",
+    "foot(F, E, OB)",
+    "intersection(C, EG, l)",
+    "intersection(D, EF, l)",
+    "perpendicular(EG, OA)",
+    "perpendicular(EF, OB)",
+    "angle(COD)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01195.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "line_function",
+      "hyperbola",
+      "perpendicular",
+      "angle"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "动点E静态化，补充了k=4的计算结果"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

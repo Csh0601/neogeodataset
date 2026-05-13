@@ -1,0 +1,35 @@
+{
+  "id": "01302",
+  "text": "在菱形ABCD中，对角线AC=6，BD=8，对角线AC与BD交于点O，E为AB的中点，P为对角线BD上一点，连接PC、PE",
+  "dsl": [
+    "parallelogram(A, B, C, D)",
+    "segment(PC)",
+    "segment(PE)",
+    "intersection(O, AC, BD)",
+    "midpoint(E, AB)",
+    "on(P, BD)",
+    "equal(AB, BC)",
+    "length(AC)=6",
+    "length(BD)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01302.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "rhombus",
+      "diagonal",
+      "midpoint"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "菱形ABCD顶点A在上，B在左，C在下，D在右，对角线交于O，菱形用parallelogram+equal(AB,BC)表示"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00831",
+  "text": "在平面直角坐标系中，直线y=4x+4交x轴于点A，交y轴于点B，直线BC: y=-x+4交x轴于点C，点P为线段BC上一点，角PAB=45度",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 0, 4)",
+    "point_coord(C, 4, 0)",
+    "line_function(l1, 4, 4)",
+    "line_function(l2, -1, 4)",
+    "segment(AP)",
+    "segment(BP)",
+    "on(P, BC)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)",
+    "axis_intersection(C, l2, x)",
+    "angle(PAB)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00831.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "linear_function", "angle"]
+  }
+}

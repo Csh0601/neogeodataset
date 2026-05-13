@@ -1,0 +1,45 @@
+{
+  "id": "01416",
+  "text": "在△ABC中，∠ACB=90°，CD⊥AB于点D，E为BC上一点，AE交CD于点F，EH⊥AB于点H，CF=2FD，EH=√2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(H)",
+    "triangle(A, B, C)",
+    "segment(AE)",
+    "segment(CD)",
+    "segment(EH)",
+    "foot(D, C, AB)",
+    "on(E, BC)",
+    "intersection(F, AE, CD)",
+    "foot(H, E, AB)",
+    "angle(ACB)=90",
+    "ratio(CF, FD)=2",
+    "length(EH)=1.414"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01416.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "right_angle",
+      "perpendicular",
+      "ratio",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "C在顶部，A在左下，B在右下",
+      "D是C到AB的垂足，H是E到AB的垂足",
+      "EH=√2≈1.414"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

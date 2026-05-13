@@ -1,0 +1,30 @@
+{
+  "id": "00960",
+  "text": "在△ABC中，AB=AC，BD平分∠ABC，CD平分∠ACB，D在BC的内部，过D作EF平行于BC，交AB于E，交AC于F",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(EF)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "on(D, EF)",
+    "bisector(BD, ABC)",
+    "bisector(CD, ACB)",
+    "parallel(EF, BC)",
+    "equal(AB, AC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00960.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["isosceles_triangle", "angle_bisector", "parallel"]
+  }
+}

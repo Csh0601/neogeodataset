@@ -1,0 +1,34 @@
+{
+  "id": "01094",
+  "text": "在矩形ABCD中，点E是边AB上一点，将△BCE沿CE折叠，使点B落在AD边上的点F处，连接BF，AD=5，AB=3，EF=CE",
+  "dsl": [
+    "triangle(B, C, E)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(CE)",
+    "segment(BF)",
+    "segment(EF)",
+    "segment(CF)",
+    "on(E, AB)",
+    "on(F, AD)",
+    "fold(B, F, CE)",
+    "equal(CE, EF)",
+    "length(AD)=5",
+    "length(AB)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01094.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "reflection"
+    ]
+  }
+}

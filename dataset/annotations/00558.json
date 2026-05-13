@@ -1,0 +1,38 @@
+{
+  "id": "00558",
+  "text": "在Rt△ABC中，∠ACB=90°，OA平分∠BAC交BC于点O，以O为圆心，OC长为半径作圆交BC于点D，AB与⊙O相切于点E，连接CE交OA于点F，OA=CE，OF:FC=1:2，OC=3",
+  "dsl": [
+    "point(O)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "circle(O, radius=OC)",
+    "segment(CE)",
+    "on(O, BC)",
+    "on(D, BC)",
+    "on(D, circle_O)",
+    "on(E, AB)",
+    "intersection(F, CE, AO)",
+    "angle_bisector(O, B, A, C)",
+    "tangent(E, circle_O)",
+    "equal(OA, CE)",
+    "angle(ACB)=90",
+    "ratio(OF, FC)=0.5",
+    "length(OC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00558.png",
+  "meta": {
+    "source": "直角三角形与圆",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circle",
+      "tangent"
+    ]
+  }
+}

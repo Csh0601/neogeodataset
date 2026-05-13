@@ -1,0 +1,40 @@
+{
+  "id": "00149",
+  "text": "在半径为3的⊙O中，AB是直径，AC是弦，D是AC的中点，AC与BD交于点E，E是BD的中点，AC=3√3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "circle(O, r=3)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "midpoint(D, AC)",
+    "midpoint(E, BD)",
+    "intersection(E, AC, BD)",
+    "collinear(A, O, B)",
+    "length(OA)=3",
+    "length(AC)=3√3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00149.png",
+  "meta": {
+    "source": "圆与中点",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "chord",
+      "midpoint"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "01149",
+  "text": "在正方形ABCD中，边长为2，E是AB的中点，F、G是对角线AC上两点，FG=√2，连接EF，BG",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(EF)",
+    "segment(BG)",
+    "segment(FG)",
+    "midpoint(E, AB)",
+    "on(F, AC)",
+    "on(G, AC)",
+    "length(AB)=2",
+    "length(FG)=1.414"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01149.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["square", "midpoint", "diagonal", "optimization"]
+  }
+}

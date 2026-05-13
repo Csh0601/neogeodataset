@@ -1,0 +1,32 @@
+{
+  "id": "01051",
+  "text": "在△ABC中，∠B=2∠C，AD平分∠BAC，D在BC上，E在AC上，AE=AB，连接DE，AB+BD=AC",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(DE)",
+    "segment(AE)",
+    "on(D, BC)",
+    "on(E, AC)",
+    "equal(AE, AB)",
+    "equal_angle(BAD, DAC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01051.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "isosceles"
+    ]
+  }
+}

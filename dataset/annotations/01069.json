@@ -1,0 +1,32 @@
+{
+  "id": "01069",
+  "text": "在平面直角坐标系xOy中，Rt△ABC中∠ABC=90°，AB=8，BC=4，将直角顶点B放在原点，A在y轴正半轴上，C在x轴正半轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(B, 0, 0)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "on(A, axis_y)",
+    "on(B, axis_x)",
+    "on(C, axis_x)",
+    "perpendicular(AB, BC)",
+    "angle(ABC)=90",
+    "length(AB)=8",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01069.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "right_triangle"
+    ]
+  }
+}

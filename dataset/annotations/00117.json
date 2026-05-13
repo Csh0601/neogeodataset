@@ -1,0 +1,48 @@
+{
+  "id": "00117",
+  "text": "AB是⊙O的直径，E、C是⊙O上两点，∠EOC=∠COB，EC=BC，连接AE、AC，过点C作CD⊥AE交AE的延长线于点D，AB=4，CD=1.732，DC与⊙O相切，连接EO、CO",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(E)",
+    "point(C)",
+    "point(D)",
+    "circle(O, r=2)",
+    "segment(AB)",
+    "segment(AE)",
+    "segment(AC)",
+    "segment(EC)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(EO)",
+    "segment(CO)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(E, circle_O)",
+    "on(C, circle_O)",
+    "foot(D, C, AE)",
+    "tangent(DC, circle_O)",
+    "collinear(A, O, B)",
+    "equal(EC, BC)",
+    "equal_angle(EOC, COB)",
+    "perpendicular(CD, AE)",
+    "length(AB)=4",
+    "length(CD)=1.732",
+    "on_extended(D, AE , towards=E)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00117.png",
+  "meta": {
+    "source": "圆的切线与直径",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "perpendicular"
+    ]
+  }
+}

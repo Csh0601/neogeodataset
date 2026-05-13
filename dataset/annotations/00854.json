@@ -1,0 +1,38 @@
+{
+  "id": "00854",
+  "text": "在平面直角坐标系中，一次函数y=x-2的图象与y轴交于点A，一次函数y=4x+b的图象与y轴交于点B，且与x轴以及一次函数y=x-2的图象分别交于点C、D，点D的坐标为(-2,-4)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 0, -2)",
+    "point_coord(D, -2, -4)",
+    "point_coord(C, -1, 0)",
+    "point_coord(B, 0, 4)",
+    "line_function(l1, 1, -2)",
+    "line_function(l2, 4, 4)",
+    "segment(BC)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(BD)",
+    "on(A, l1)",
+    "on(D, l1)",
+    "on(D, l2)",
+    "on(A, axis_y)",
+    "on(B, axis_y)",
+    "on(C, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00854.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "intersection"
+    ]
+  }
+}

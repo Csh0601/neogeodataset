@@ -1,0 +1,29 @@
+{
+  "id": "01164",
+  "text": "AB∥CD，E、F是AB与CD之间的两点，连接DE，EF，FB，∠CDF=2/3·∠CDE，∠ABF=2/3·∠ABE",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "line(AB)",
+    "line(CD)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(FB)",
+    "segment(DF)",
+    "parallel(AB, CD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01164.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["parallel", "angle_ratio"]
+  }
+}

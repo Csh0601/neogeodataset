@@ -1,0 +1,35 @@
+{
+  "id": "01108",
+  "text": "AB=AD，∠B=∠D，∠BAE=∠DAC，AC=AE，△ABC≅△ADE，连接BC，DE，BD，CE",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(DE)",
+    "congruent(ABC, ADE)",
+    "equal(AB, AD)",
+    "equal(AC, AE)",
+    "equal_angle(ABC, ADE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01108.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["congruent_triangles", "kite"]
+  }
+}

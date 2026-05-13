@@ -1,0 +1,33 @@
+{
+  "id": "00536",
+  "text": "D是矩形AOBC的对称中心，A(0,4)，B(6,0)，一个反比例函数的图象经过点D，交AC于点M，点M的坐标为(1,4)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point(M)",
+    "point_coord(A, 0, 4)",
+    "point_coord(B, 6, 0)",
+    "point_coord(M, 1, 4)",
+    "rectangle(A, O, B, C)",
+    "hyperbola(h, 12)",
+    "segment(AC)",
+    "on(M, AC)",
+    "midpoint(D, OC)",
+    "function_point(D, h)",
+    "function_point(M, h)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00536.png",
+  "meta": {
+    "source": "矩形与反比例函数",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "hyperbola",
+      "coordinate"
+    ]
+  }
+}

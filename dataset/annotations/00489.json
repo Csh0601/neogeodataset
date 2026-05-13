@@ -1,0 +1,32 @@
+{
+  "id": "00489",
+  "text": "在Rt△ABC中，AB=2，∠C=30°，将Rt△ABC绕点A旋转得到Rt△A'B'C'，使点B的对应点B'落在AC上，在B'C'上取点D，使B'D=2，点D到BC的距离等于√3+1",
+  "dsl": [
+    "point(B_prime)",
+    "point(C_prime)",
+    "point(D)",
+    "right_triangle(A, B, C, right_at=B)",
+    "segment(BC)",
+    "on(B_prime, AC)",
+    "on(D, B_primeC_prime)",
+    "rotate(B_prime, source=B, center=A, angle=60)",
+    "rotate(C_prime, source=C, center=A, angle=60)",
+    "length(AB)=2",
+    "angle(BCA)=30",
+    "length(B_primeD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00489.png",
+  "meta": {
+    "source": "直角三角形旋转与距离",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "rotation",
+      "distance"
+    ]
+  }
+}

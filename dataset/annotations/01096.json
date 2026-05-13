@@ -1,0 +1,35 @@
+{
+  "id": "01096",
+  "text": "在四边形ABCD中，E、F分别是AB、AD边上的点，DE与CF交于点G，四边形ABCD是矩形，DE⊥CF，△ADE∽△DCF",
+  "dsl": [
+    "triangle(A, D, E)",
+    "triangle(D, C, F)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(CF)",
+    "on(E, AB)",
+    "on(F, AD)",
+    "intersection(G, DE, CF)",
+    "perpendicular(DE, CF)",
+    "similar(ADE, DCF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01096.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "perpendicular",
+      "similar_triangles",
+      "intersection"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "01044",
+  "text": "在等边三角形ABC中，边长为8√3，D为BC的中点，E是AD上一点，连接EC，将线段EC绕点C逆时针旋转60°得到FC，连接DF",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(EC)",
+    "segment(FC)",
+    "segment(DF)",
+    "midpoint(D, BC)",
+    "on(E, AD)",
+    "rotate(F, source=E, center=C, angle=60)",
+    "equal(AB, BC)",
+    "equal(AB, AC)",
+    "perpendicular(AD, BC)",
+    "angle(BAC)=60",
+    "length(AB)=13.856"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01044.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral_triangle",
+      "rotation",
+      "symmetry_axis"
+    ]
+  }
+}

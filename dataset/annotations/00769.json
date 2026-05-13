@@ -1,0 +1,38 @@
+{
+  "id": "00769",
+  "text": "在矩形ABCD中，面积为36，E、F、G分别为AB、BC、CD的中点，H在AD上，连接EH、EF、FG、GH",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(EH)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, CD)",
+    "on(H, AD)"
+  ],
+  "image_path": "images/00769.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "midpoint",
+      "area",
+      "shaded"
+    ]
+  }
+}

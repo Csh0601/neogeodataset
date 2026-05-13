@@ -1,0 +1,34 @@
+{
+  "id": "00452",
+  "text": "点A、B在竖直线段BC上，AB⊥AD，CD⊥AD，CD=60，∠BCD=30°，∠ACD=60°，AB=40",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(BC)",
+    "segment(AC)",
+    "perpendicular(AB, AD)",
+    "perpendicular(CD, AD)",
+    "length(CD)=60",
+    "angle(BCD)=30",
+    "angle(ACD)=60",
+    "length(AB)=40"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00452.png",
+  "meta": {
+    "source": "无人机测量楼高",
+    "difficulty": "middle",
+    "tags": [
+      "trigonometry",
+      "application",
+      "angle_of_depression"
+    ]
+  }
+}

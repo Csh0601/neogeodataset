@@ -1,0 +1,33 @@
+{
+  "id": "00507",
+  "text": "将矩形ABCD折叠，使点C和点A重合，折痕为EF，EF与AC交于点O，AE=5，BF=3，AO=3√5/2",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "rectangle(A, B, C, D)",
+    "segment(EF)",
+    "segment(AC)",
+    "on(E, AD)",
+    "on(F, BC)",
+    "intersection(O, EF, AC)",
+    "reflect(A, C, EF)",
+    "length(AE)=5",
+    "length(BF)=3",
+    "length(AO)=3.354"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00507.png",
+  "meta": {
+    "source": "矩形折叠",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "reflection"
+    ]
+  }
+}

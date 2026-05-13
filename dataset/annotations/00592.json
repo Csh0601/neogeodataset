@@ -1,0 +1,25 @@
+{
+  "id": "00592",
+  "text": "⊙O的内接三角形ABC中，∠A=60°，∠C=45°，BC=4√3，AB=4√2",
+  "dsl": [
+    "circle(O)",
+    "triangle(A, B, C)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "angle(BAC)=60",
+    "angle(BCA)=45",
+    "length(BC)=6.928",
+    "length(AB)=5.657"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00592.png",
+  "meta": {
+    "source": "正弦定理",
+    "difficulty": "middle",
+    "tags": ["circle", "inscribed", "sine_rule"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "01196",
+  "text": "在平面直角坐标系中，A为反比例函数y=k/x(x>0)图象上的一点，在x轴正半轴上有一点B，OB=4，连接OA、AB，且OA=AB，过点B作BC⊥OB，交反比例函数y=k/x(x>0)的图象于点C，连接OC交AB于点D，AD/DB=√5/2",
+  "dsl": [
+    "coordinate_system(O)",
+    "hyperbola(h, 1)",
+    "segment(OA)",
+    "segment(AB)",
+    "segment(OC)",
+    "on(B, axis_x)",
+    "function_point(A, h)",
+    "function_point(C, h)",
+    "intersection(D, OC, AB)",
+    "equal(OA, AB)",
+    "perpendicular(BC, OB)",
+    "length(OB)=4",
+    "ratio(AD, DB)=√5/2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01196.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["coordinate_system", "hyperbola", "equal", "perpendicular", "ratio"],
+    "annotated_by": "agent-1",
+    "supplements": ["补充了AD/DB=√5/2的计算结果"]
+  },
+  "validated": true,
+  "needs_review": false
+}

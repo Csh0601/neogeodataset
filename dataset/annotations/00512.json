@@ -1,0 +1,39 @@
+{
+  "id": "00512",
+  "text": "在四边形ABCD和Rt△EBF中，AB∥CD，CD>AB，点C在EB上，∠ABC=∠EBF=90°，AB=BE=8，BC=BF=6，延长DC交EF于点M，点P在AC上，过点P作GH⊥AB于点H，交CD于点G",
+  "dsl": [
+    "point(M)",
+    "point(P)",
+    "point(G)",
+    "point(H)",
+    "quadrilateral(A, B, C, D)",
+    "right_triangle(E, B, F, right_at=B)",
+    "on(C, EB)",
+    "on(M, EF)",
+    "on(P, AC)",
+    "on(G, CD)",
+    "foot(H, P, AB)",
+    "parallel(AB, CD)",
+    "collinear(D, C, M)",
+    "perpendicular(GH, AB)",
+    "angle(ABC)=90",
+    "length(AB)=8",
+    "length(BE)=8",
+    "length(BC)=6",
+    "length(BF)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00512.png",
+  "meta": {
+    "source": "四边形动点问题",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "right_triangle",
+      "moving_point"
+    ]
+  }
+}

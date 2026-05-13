@@ -1,0 +1,37 @@
+{
+  "id": "00086",
+  "text": "在正方形ABCD中，边长AB=6，M、N是边CD上的两个三等分点，其中M靠近D而N靠近C,AM=BN，连接AC交BN于点E，连接DE交AM于点F，连接CF",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AM)",
+    "segment(BN)",
+    "segment(AC)",
+    "segment(DE)",
+    "segment(CF)",
+    "trisection(M, CD, near=D)",
+    "trisection(N, CD, near=C)",
+    "intersection(E, AC, BN)",
+    "intersection(F, DE, AM)",
+    "equal(AM, BN)",
+    "length(AB)=6",
+    "length(CN)=2",
+    "length(DM)=2"
+  ],
+  "image_path": "images/00086.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "几何综合",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "equal"
+    ]
+  }
+}

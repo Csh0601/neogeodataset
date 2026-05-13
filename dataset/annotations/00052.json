@@ -1,0 +1,28 @@
+{
+  "id": "00052",
+  "text": "在四边形ABCD中，AB=AD=3，AC=5，∠DAB=90°，∠DCB=90°，连接AC",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "equal(AB, AD)",
+    "length(AC)=5",
+    "angle(DAB)=90",
+    "angle(DCB)=90",
+    "length(AB)=3",
+    "length(AD)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00052.png",
+  "meta": {
+    "source": "四边形与直角",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "right_angle",
+      "equal_segments"
+    ]
+  }
+}

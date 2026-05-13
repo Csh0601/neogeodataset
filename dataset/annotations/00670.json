@@ -1,0 +1,29 @@
+{
+  "id": "00670",
+  "text": "在平面直角坐标系中，直线l: y=-3/2·x+12与x轴交于点A(8,0)，点B(0,-4)在y轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, 8, 0)",
+    "point_coord(B, 0, -4)",
+    "line_function(l, -1.5, 12)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(A, line_l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00670.png",
+  "meta": {
+    "source": "直线平移与坐标",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "translation"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "01077",
+  "text": "正方形ABCD被两条与边平行的线段EF、GH分割成四个小矩形，P是EF与GH的交点，E在AD边上，F在BC边上，G在AB边上，H在CD边上，连接AH，∠HAF=45°",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(EF)",
+    "segment(GH)",
+    "segment(AH)",
+    "segment(AF)",
+    "on(E, AD)",
+    "on(F, BC)",
+    "on(G, AB)",
+    "on(H, CD)",
+    "intersection(P, EF, GH)",
+    "parallel(EF, AB)",
+    "parallel(GH, AD)",
+    "equal(AB, BC)",
+    "angle(HAF)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01077.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "rectangle",
+      "parallel",
+      "angle"
+    ]
+  }
+}

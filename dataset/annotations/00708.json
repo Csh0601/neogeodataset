@@ -1,0 +1,49 @@
+{
+  "id": "00708",
+  "text": "在平面直角坐标系中，抛物线y=x²-2x-3与x轴交于A(-1,0)和B(3,0)两点，与y轴交于点C(0,-3)，抛物线顶点为M(1,-4)，直线BC下方的抛物线上有一点D，过D作DE⊥BC于E点，作DF平行于x轴交直线BC于点F",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, -3)",
+    "point_coord(M, 1, -4)",
+    "parabola(p, 1, -2, -3)",
+    "line(l, B, C)",
+    "segment(BC)",
+    "segment(DE)",
+    "segment(DF)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)",
+    "on(D, parabola_p)",
+    "on(E, line_l)",
+    "on(F, line_l)",
+    "perpendicular(DE, BC)",
+    "parallel(DF, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00708.png",
+  "meta": {
+    "source": "抛物线上点到直线的垂线与平行线",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "perpendicular",
+      "parallel"
+    ]
+  }
+}

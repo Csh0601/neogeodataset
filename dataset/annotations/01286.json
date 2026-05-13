@@ -1,0 +1,35 @@
+{
+  "id": "01286",
+  "text": "在矩形ABCD中，AB=5，BC=12，⊙O1和⊙O2分别是△ABC和△ADC的内切圆，连接O1O2",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "triangle(A, B, C)",
+    "triangle(A, D, C)",
+    "circle(O1)",
+    "circle(O2)",
+    "segment(O1O2)",
+    "segment(AC)",
+    "incenter(O1, A, B, C)",
+    "incenter(O2, A, D, C)",
+    "length(AB)=5",
+    "length(BC)=12"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01286.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "rectangle",
+      "incircle",
+      "triangle"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "00152",
+  "text": "在△ABC中，BC=9，AC=4，AB=7,过AB中点M做AB的垂直平分线MD，交BC边于点D，连接AD",
+  "dsl": [
+    "point(M)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(MD)",
+    "midpoint(M, AB)",
+    "intersection(D, MD, BC)",
+    "perpendicular_bisector(D, AB)",
+    "perpendicular(MD, AB)",
+    "length(BC)=9",
+    "length(AB)=7",
+    "length(AC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00152.png",
+  "meta": {
+    "source": "三角形与垂直平分线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "perpendicular_bisector",
+      "perimeter"
+    ]
+  }
+}

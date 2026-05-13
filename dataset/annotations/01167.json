@@ -1,0 +1,30 @@
+{
+  "id": "01167",
+  "text": "点O为直线AB上一点，过点O作射线OC，使∠AOC=60°，∠BOC=120°，∠MON的一边OM在射线OB上，另一边在直线AB的下方，∠MON=90°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point(N)",
+    "point(O)",
+    "line(AB)",
+    "ray(O, C)",
+    "ray(O, M)",
+    "ray(O, N)",
+    "on(O, AB)",
+    "angle(AOC)=60",
+    "angle(BOC)=120",
+    "angle(MON)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01167.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["ray", "angle", "supplementary"]
+  }
+}

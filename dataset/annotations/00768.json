@@ -1,0 +1,42 @@
+{
+  "id": "00768",
+  "text": "在平面直角坐标系xOy中，二次函数y=x²-(17/4)x+1的图象经过点A(0,1)和B(-3,5/2)，A在y轴上，过点B作BC⊥x轴，垂足为点C，点N是二次函数图象上在线段AB上方的一点，过N作NP⊥x轴，垂足为点P，交AB于点M",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point(N)",
+    "point(P)",
+    "point_coord(A, 0, 1)",
+    "point_coord(B, -3, 2.5)",
+    "point_coord(C, -3, 0)",
+    "parabola(p1, 1, -4.25, 1)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(MN)",
+    "segment(NP)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(N, p1)",
+    "on(C, axis_x)",
+    "on(P, axis_x)",
+    "intersection(M, NP, AB)"
+  ],
+  "image_path": "images/00768.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "perpendicular",
+      "intersection"
+    ]
+  }
+}

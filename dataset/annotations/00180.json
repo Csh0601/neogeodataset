@@ -1,0 +1,29 @@
+{
+  "id": "00180",
+  "text": "⊙O为等边△ABC的外接圆，半径为2，点D在ACB的角平分线并且在圆O上，连接DC，DA",
+  "dsl": [
+    "point(D)",
+    "segment(DA)",
+    "segment(DC)",
+    "on(D, circle_O)",
+    "equilateral(A, B, C)",
+    "angle_bisector(D, A, C, B)",
+    "circumcircle(O, A, B, C)",
+    "length(OA)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00180.png",
+  "meta": {
+    "source": "等边三角形与外接圆",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "equilateral",
+      "circumcircle",
+      "bisector"
+    ]
+  }
+}

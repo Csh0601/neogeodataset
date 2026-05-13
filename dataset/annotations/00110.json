@@ -1,0 +1,38 @@
+{
+  "id": "00110",
+  "text": "AB为⊙O的直径，且AB长度为6，点P在AB的延长线上，PC、PD与⊙O相切，切点分别为C、D，PC=4，∠CAD=53.13°",
+  "dsl": [
+    "circle(O, r=3)",
+    "segment(AB)",
+    "segment(PC)",
+    "segment(PD)",
+    "segment(CA)",
+    "segment(CD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "tangent(PC, circle_O)",
+    "tangent(PD, circle_O)",
+    "collinear(A, O, B)",
+    "length(AB)=6",
+    "length(PC)=4",
+    "angle(CAD)=53.13",
+    "on_extended(P, AB,towards=B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00110.png",
+  "meta": {
+    "source": "圆的切线与直径",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "diameter",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00591",
+  "text": "在等边△ABC中，点P在AB上，点Q在BC上，连接AQ、CP，AQ与CP相交于点M，△ABQ≅△CAP，∠QMC=60°",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "point(M)",
+    "segment(AQ)",
+    "segment(CP)",
+    "on(P, AB)",
+    "on(Q, BC)",
+    "intersection(M, AQ, CP)",
+    "equilateral(A, B, C)",
+    "triangle(A, B, Q)",
+    "triangle(C, A, P)",
+    "congruent(ABQ, CAP)",
+    "angle(QMC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00591.png",
+  "meta": {
+    "source": "等边三角形动点",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "congruent",
+      "moving_point"
+    ]
+  }
+}

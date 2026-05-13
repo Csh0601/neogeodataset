@@ -1,0 +1,39 @@
+{
+  "id": "00326",
+  "text": "在平面直角坐标系中，抛物线y=-0.5x²+2x+1.5与x轴正半轴交于点A，且点A的坐标为(3,0)，过点A作垂直于x轴的直线l，P是该抛物线上一点，坐标为(-2,3.5)，过点P作PQ垂直于x=3，Q是垂足，M是直线上l的一点坐标为(3,4)，以PQ、QM为边作矩形PQMR",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(P)",
+    "point(Q)",
+    "point(M)",
+    "point(R)",
+    "point_coord(A, 3, 0)",
+    "point_coord(P, -2, 3.5)",
+    "point_coord(Q, 3, 0)",
+    "point_coord(M, 3, 4)",
+    "parabola(p, -0.5, 2, 1.5)",
+    "rectangle(P, Q, M, R)",
+    "segment(PQ)",
+    "segment(QM)",
+    "line(l)",
+    "axis_intersection(A, p, x)",
+    "function_point(P, p)",
+    "perpendicular(PQ, l)",
+    "perpendicular(axis_x, l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00326.png",
+  "meta": {
+    "source": "抛物线与矩形",
+    "difficulty": "hard",
+    "tags": [
+      "parabola",
+      "rectangle",
+      "coordinate_system"
+    ]
+  }
+}

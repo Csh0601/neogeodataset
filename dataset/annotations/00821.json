@@ -1,0 +1,27 @@
+{
+  "id": "00821",
+  "text": "三角形ABC内接于圆O，角BAC的平分线交圆O于点D，连接DB、DC",
+  "dsl": [
+    "point(D)",
+    "circle(O)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(DB)",
+    "segment(DC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "bisector(AD, BAC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00821.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["circle", "inscribed", "angle_bisector"]
+  }
+}

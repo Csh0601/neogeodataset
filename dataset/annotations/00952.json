@@ -1,0 +1,34 @@
+{
+  "id": "00952",
+  "text": "在平面直角坐标系中，抛物线y=x^2-4x-5与x轴交于A(-1,0)和B(5,0)两点，与y轴交于点C(0,-5)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 5, 0)",
+    "point_coord(C, 0, -5)",
+    "parabola(p, 1, -4, -5)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p)",
+    "function_point(B, p)",
+    "function_point(C, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00952.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "01222",
+  "text": "正方形ABCD和正方形CEFG的边长分别为a和b，正方形CEFG绕点C旋转，连接BE、DG、DE、BG，BE=DG，BE⊥DG，DE²+BG²=2a²+2b²",
+  "dsl": [
+    "square(A, B, C, D)",
+    "square(C, E, F, G)",
+    "segment(BE)",
+    "segment(DG)",
+    "segment(DE)",
+    "segment(BG)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01222.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["square", "rotation", "perpendicular"],
+    "annotated_by": "annotator-1",
+    "supplements": ["两正方形共顶点C，CEFG绕C旋转，结论BE=DG、BE⊥DG、DE²+BG²=2a²+2b²均正确"]
+  },
+  "validated": false,
+  "needs_review": false
+}

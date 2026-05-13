@@ -1,0 +1,32 @@
+{
+  "id": "00380",
+  "text": "在矩形ABCD中，AD=8，AB=4，折痕BE经过点B交AD于点E，点A翻折后落在点A'处，BA'=BA，EA'=EA",
+  "dsl": [
+    "point(E)",
+    "point(A_prime)",
+    "rectangle(A, B, C, D)",
+    "segment(BE)",
+    "segment(BA_prime)",
+    "segment(EA_prime)",
+    "on(E, AD)",
+    "reflect(A_prime, A, BE)",
+    "equal(BA_prime, BA)",
+    "equal(EA_prime, EA)",
+    "length(AD)=8",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00380.png",
+  "meta": {
+    "source": "矩形折叠问题",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "reflect"
+    ]
+  }
+}

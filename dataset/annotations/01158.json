@@ -1,0 +1,32 @@
+{
+  "id": "01158",
+  "text": "在锐角三角形ABC中，BC=4√2，∠ABC=45°，BD平分∠ABC，M是BD上一点，N是BC上一点，连接CM，MN",
+  "dsl": [
+    "point(D)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CM)",
+    "segment(MN)",
+    "on(D, AC)",
+    "on(M, BD)",
+    "on(N, BC)",
+    "bisect_angle(ABC, BD)",
+    "angle(ABC)=45",
+    "length(BC)=5.657"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01158.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["triangle", "angle_bisector", "optimization"]
+  }
+}

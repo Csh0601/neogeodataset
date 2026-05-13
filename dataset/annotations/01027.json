@@ -1,0 +1,35 @@
+{
+  "id": "01027",
+  "text": "在矩形ABCD中，AB=6，BC=9，以D为圆心，3为半径作⊙D，E为⊙D上一点，连接AE，以AE为直角边作Rt△AEF，∠EAF=90°，tan∠AEF=1/3，F在矩形外部",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "circle(D, radius=3)",
+    "triangle(A, E, F)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(AF)",
+    "segment(FC)",
+    "on(E, circle_D)",
+    "perpendicular(AE, AF)",
+    "angle(EAF)=90",
+    "length(AB)=6",
+    "length(BC)=9"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01027.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "circle",
+      "right_triangle",
+      "trigonometry"
+    ]
+  }
+}

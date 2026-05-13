@@ -1,0 +1,45 @@
+{
+  "id": "00168",
+  "text": "在△ACE中，以长度为6的线段AC为直径的⊙O交CE于点D，连接AD，且∠DAE=∠ACE，连接OD并延长交AE的延长线于点P，PB与⊙O相切于点B，AP是⊙O的切线",
+  "dsl": [
+    "point(D)",
+    "point(P)",
+    "point(B)",
+    "triangle(A, C, E)",
+    "circle(O,r=3)",
+    "segment(AC)",
+    "segment(CE)",
+    "segment(AE)",
+    "segment(AD)",
+    "segment(OD)",
+    "segment(PB)",
+    "segment(AP)",
+    "on(A, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(D, CE)",
+    "on(B, circle_O)",
+    "collinear(A, E, P)",
+    "tangent(PB, circle_O)",
+    "tangent(P, circle_O)",
+    "collinear(A, O, C)",
+    "equal_angle(DAE, ACE)",
+    "collinear(O, D, P)",
+    "length(AC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00168.png",
+  "meta": {
+    "source": "三角形与圆切线",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circle",
+      "tangent",
+      "diameter"
+    ]
+  }
+}

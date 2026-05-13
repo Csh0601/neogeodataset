@@ -1,0 +1,37 @@
+{
+  "id": "00138",
+  "text": "在半径为4的⊙O中，C，A,B，P均在圆上，连接PA,PC,AB,OC,OB,OC⊥AB，∠APC=28°，∠BOC=56°",
+  "dsl": [
+    "point(C)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "circle(O, r=4)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(AB)",
+    "segment(PA)",
+    "segment(PC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(P, circle_O)",
+    "perpendicular(OC, AB)",
+    "angle(APC)=28",
+    "angle(BOC)=56"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00138.png",
+  "meta": {
+    "source": "圆与垂直",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

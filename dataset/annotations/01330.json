@@ -1,0 +1,32 @@
+{
+  "id": "01330",
+  "text": "正五边形ABCDE内接于⊙O，AB=2，连接BD",
+  "dsl": [
+    "regular_polygon(5, A, B, C, D, E)",
+    "circle(O)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01330.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "regular_polygon",
+      "circle"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

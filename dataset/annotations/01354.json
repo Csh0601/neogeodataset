@@ -1,0 +1,41 @@
+{
+  "id": "01354",
+  "text": "在⊙O中，C是劣弧AB的中点，直线CD⊥AB于点E，连接AC、BC，AE=BE",
+  "dsl": [
+    "point(E)",
+    "circle(O)",
+    "arc(A, B, circle_O)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "arc_midpoint(C, AB, circle_O)",
+    "foot(E, C, AB)",
+    "perpendicular(CD, AB)",
+    "equal(AE, BE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01354.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "arc_midpoint",
+      "perpendicular"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "多子图题目，选取图1标注"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "01115",
+  "text": "在菱形ABCD中，∠A=60°，AB=6，折叠该菱形，使点A落在边BC上的点M处，折痕分别与边AB、AD交于点E、F，连接DF，EF，DM，EM",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "parallelogram(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(EF)",
+    "segment(DF)",
+    "segment(DM)",
+    "segment(EM)",
+    "segment(BM)",
+    "on(E, AB)",
+    "on(F, AD)",
+    "on(M, BC)",
+    "fold(A, M, EF)",
+    "equal(AB, BC)",
+    "angle(DAB)=60",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01115.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "fold",
+      "reflection"
+    ]
+  }
+}

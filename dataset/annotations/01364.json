@@ -1,0 +1,41 @@
+{
+  "id": "01364",
+  "text": "△ABC、△DGC、△EGF三个三角形，G在BC上，AG、BF、CE交于G附近，∠A+∠B+∠C+∠D+∠E+∠F=360°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "triangle(A, B, C)",
+    "triangle(D, G, C)",
+    "triangle(E, G, F)",
+    "segment(DG)",
+    "segment(DC)",
+    "segment(EG)",
+    "segment(GF)",
+    "segment(EF)",
+    "segment(BF)",
+    "segment(CE)",
+    "on(G, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01364.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "angle_sum",
+      "shared_vertex"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "三个三角形共享线段BC上的点G，六个顶角之和=360°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00530",
+  "text": "四边形OABC是平行四边形，以点O为圆心，OC为半径的⊙O与AB相切于点B，与AO相交于点D，AO的延长线交⊙O于点E，连接EB交OC于点F",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "parallelogram(O, A, B, C)",
+    "circle(O, radius=OC)",
+    "segment(EB)",
+    "segment(OC)",
+    "segment(AO)",
+    "on(D, circle_O)",
+    "on(D, AO)",
+    "on(E, circle_O)",
+    "intersection(F, EB, OC)",
+    "tangent(B, circle_O)",
+    "on_extended(E, AO, towards=O)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00530.png",
+  "meta": {
+    "source": "平行四边形与圆",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "circle",
+      "tangent"
+    ]
+  }
+}

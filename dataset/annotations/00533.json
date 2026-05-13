@@ -1,0 +1,44 @@
+{
+  "id": "00533",
+  "text": "在矩形ABCD中，AB=3，BC=6，点E、F分别在AB、CD上，且BE=2AE，DF=2FC，G、H分别是AC的三等分点，四边形EHFG的面积为2",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "rectangle(A, B, C, D)",
+    "quadrilateral(E, H, F, G)",
+    "segment(AE)",
+    "segment(BE)",
+    "segment(DF)",
+    "segment(FC)",
+    "segment(EG)",
+    "segment(GH)",
+    "segment(HF)",
+    "segment(FE)",
+    "on(E, AB)",
+    "on(F, CD)",
+    "on(G, AC)",
+    "on(H, AC)",
+    "trisection(G, AC, near=A)",
+    "trisection(H, AC, near=C)",
+    "ratio(BE, AE)=2",
+    "ratio(DF, FC)=2",
+    "length(AB)=3",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00533.png",
+  "meta": {
+    "source": "矩形三等分点",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "trisection",
+      "area"
+    ]
+  }
+}

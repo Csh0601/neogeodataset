@@ -1,0 +1,39 @@
+{
+  "id": "00869",
+  "text": "在平面直角坐标系中，在Rt△ABO中，∠OBA=90°，A(4,4)，点C在边AB上，且AC/CB=1/3，点D为OB的中点，点P为边OA上的动点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(C)",
+    "point(P)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 4, 4)",
+    "point_coord(B, 4, 0)",
+    "segment(OA)",
+    "segment(AB)",
+    "segment(OB)",
+    "segment(PD)",
+    "on(C, AB)",
+    "midpoint(D, OB)",
+    "on(P, OA)",
+    "on(B, axis_x)",
+    "right_triangle(A, B, O)",
+    "ratio(AC, CB)=0.3333",
+    "right_angle(OBA)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00869.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "right_triangle",
+      "midpoint",
+      "moving_point",
+      "optimization"
+    ]
+  }
+}

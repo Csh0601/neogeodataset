@@ -1,0 +1,37 @@
+{
+  "id": "01212",
+  "text": "在△ABC中，AC=3，BC=4，AC、BC边上的中线BE、AD垂直相交于O点，AB=√5",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BE)",
+    "midpoint(D, BC)",
+    "midpoint(E, AC)",
+    "intersection(O, AD, BE)",
+    "perpendicular(AD, BE)",
+    "length(AC)=3",
+    "length(BC)=4",
+    "length(AB)=2.236"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01212.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "perpendicular",
+      "median"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "补充了AB=√5≈2.236的结论"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

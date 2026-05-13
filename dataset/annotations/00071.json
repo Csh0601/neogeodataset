@@ -1,0 +1,32 @@
+{
+  "id": "00071",
+  "text": "在边长AB=2的正方形ABCD中，E是AD的中点，连接BE和AC，将△ABE沿BE折叠得到△FBE，BF与AC交于点G",
+  "dsl": [
+    "square(A, B, C, D)",
+    "triangle(A, B, E)",
+    "triangle(F, B, E)",
+    "segment(BE)",
+    "segment(AC)",
+    "segment(BF)",
+    "segment(AE)",
+    "segment(EF)",
+    "midpoint(E, AD)",
+    "intersection(G, BF, AC)",
+    "fold(A, F, BE)",
+    "length(AB)=2",
+    "length(AE)=1"
+  ],
+  "image_path": "images/00071.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "几何综合",
+    "difficulty": "easy",
+    "tags": [
+      "square",
+      "midpoint"
+    ]
+  }
+}

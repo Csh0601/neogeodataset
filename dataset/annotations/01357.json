@@ -1,0 +1,43 @@
+{
+  "id": "01357",
+  "text": "∠ABD和∠ACD的角平分线交于点P，∠A=55°，∠D=15°，∠P=20°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(BP)",
+    "segment(CP)",
+    "intersection(P, l1, l2)",
+    "bisect_angle(A, B, D, l1)",
+    "bisect_angle(A, C, D, l2)",
+    "angle(BAC)=55",
+    "angle(BDC)=15",
+    "angle(BPC)=20"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01357.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "angle_bisector",
+      "intersection",
+      "angle"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "∠ABD和∠ACD的角平分线交点P的角度由∠A和∠D决定：∠P=(∠A-∠D)/2=20°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

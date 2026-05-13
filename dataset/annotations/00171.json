@@ -1,0 +1,33 @@
+{
+  "id": "00171",
+  "text": "在平面直角坐标系中，直线AB与反比例函数y=6/x的图象交于A、B两点，已知点A的坐标为(6,1),点B坐标为(1,6)，连接OA、OB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(B, 1, 6)",
+    "point_coord(A, 6, 1)",
+    "hyperbola(h, 6)",
+    "line(l, A, B)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OB)",
+    "function_point(A, h)",
+    "function_point(B, h)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00171.png",
+  "meta": {
+    "source": "直线与反比例函数",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "line",
+      "area"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "01225",
+  "text": "△ABC和△DCE都是等边三角形，AC=BC，DC=EC，∠ACB=∠DCE=60°，连接BD、AE",
+  "dsl": [
+    "segment(BD)",
+    "segment(AE)",
+    "equilateral(A, B, C)",
+    "equilateral(D, C, E)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01225.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "equilateral",
+      "congruent",
+      "rotation"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "两个等边三角形共顶点C，△BCD≅△ACE"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

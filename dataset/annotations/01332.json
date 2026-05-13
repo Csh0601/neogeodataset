@@ -1,0 +1,34 @@
+{
+  "id": "01332",
+  "text": "四边形ABCD内接于⊙O，连接AC、BD、AB、BC、CD、DA",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "circle(O)",
+    "segment(AC)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01332.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "quadrilateral",
+      "circle",
+      "inscribed"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "托勒密定理变式题，取图1标注"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

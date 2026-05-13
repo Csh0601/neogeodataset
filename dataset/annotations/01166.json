@@ -1,0 +1,33 @@
+{
+  "id": "01166",
+  "text": "在边长为2√2的正方形ABCD中，点E、F分别是边AB、BC的中点，连接EC、FD，点G、H分别是EC、FD的中点，连接GH",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(EC)",
+    "segment(FD)",
+    "segment(GH)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, EC)",
+    "midpoint(H, FD)",
+    "length(AB)=2.828"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01166.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["square", "midpoint"]
+  }
+}

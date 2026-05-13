@@ -1,0 +1,42 @@
+{
+  "id": "00630",
+  "text": "在△ABC中，AB=AC，以AB为直径的⊙O分别与BC、AC交于点D、E，过点D作DF⊥AC，垂足为点F，⊙O的半径为4√3，∠CDF=15°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "circle(O, r=6.928)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(DF)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, BC)",
+    "on(D, circle_O)",
+    "on(E, AC)",
+    "on(E, circle_O)",
+    "foot(F, D, AC)",
+    "isosceles(A, B, C)",
+    "collinear(A, O, B)",
+    "perpendicular(DF, AC)",
+    "angle(CDF)=15",
+    "shaded(sector_ODE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00630.png",
+  "meta": {
+    "source": "等腰三角形与圆",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles",
+      "circle",
+      "diameter",
+      "perpendicular",
+      "shaded"
+    ]
+  }
+}

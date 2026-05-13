@@ -1,0 +1,31 @@
+{
+  "id": "00150",
+  "text": "在△ABC中，D在边BC上，AB=AD=DC=4，∠BAD=20°，∠C=40°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(DC)",
+    "on(D, BC)",
+    "equal(AB, AD)",
+    "equal(AD, DC)",
+    "length(AB)=4",
+    "length(AD)=4",
+    "length(DC)=4",
+    "angle(BAD)=20",
+    "angle(ACB)=40"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00150.png",
+  "meta": {
+    "source": "等腰三角形角度",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "equal",
+      "angle"
+    ]
+  }
+}

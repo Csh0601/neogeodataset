@@ -1,0 +1,34 @@
+{
+  "id": "01023",
+  "text": "在平面直角坐标系中，直线y=1/2x-2与x轴交于点B(4,0)，与y轴交于点C(0,-2)，二次函数y=1/2x^2+bx+c的图象经过B、C两点，且与x轴的负半轴交于点A，D为直线BC下方抛物线上一点，连接DC，DB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, -2)",
+    "line_function(l1, 0.5, -2)",
+    "parabola(p1, 0.5, -1.5, -2)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(DC)",
+    "segment(DB)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01023.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "linear_function",
+      "area"
+    ]
+  }
+}

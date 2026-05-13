@@ -1,0 +1,36 @@
+{
+  "id": "00114",
+  "text": "在平面直角坐标系中，抛物线y=x²+x-2交x轴于A、B两点，A在B的左侧，交y轴于点C，，点P是第三象限内抛物线上的一个点且纵坐标为-0.5，连接AC,CP,AP",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "coordinate_system(O)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 1, 0)",
+    "point_coord(C, 0, -2)",
+    "parabola(p, 1, 1, -2)",
+    "segment(AC)",
+    "segment(CP)",
+    "segment(AP)",
+    "function_point_constrained(P, p, y=-0.5)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00114.png",
+  "meta": {
+    "source": "坐标系与抛物线",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "axis_intersection"
+    ]
+  }
+}

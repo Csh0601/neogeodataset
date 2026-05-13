@@ -1,0 +1,38 @@
+{
+  "id": "01369",
+  "text": "将分别含有30°和45°角的两个直角三角形重叠，使直角顶点重合，两直角重叠形成的角为65°，角α=10°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "right_triangle(A, B, C, right_at=A)",
+    "right_triangle(A, D, E, right_at=A)",
+    "angle(ABC)=45",
+    "angle(ACB)=45",
+    "angle(ADE)=30",
+    "angle(AED)=60",
+    "angle(DAB)=65"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01369.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "set_square",
+      "overlapping",
+      "angle"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "两三角板直角顶点重合，重叠角65°，α=45°+30°-65°=10°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

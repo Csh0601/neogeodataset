@@ -1,0 +1,35 @@
+{
+  "id": "00775",
+  "text": "在平面直角坐标系xOy中，一次函数y=x+1的图象过点A(1,2)，且与x轴相交于点B(-1,0)，点P是x轴上的一点，△ABP是直角三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "point_coord(A, 1, 2)",
+    "point_coord(B, -1, 0)",
+    "triangle(A, B, P)",
+    "line_function(l1, 1, 1)",
+    "segment(AB)",
+    "segment(AP)",
+    "segment(BP)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "axis_intersection(B, l1, x)",
+    "on(P, axis_x)"
+  ],
+  "image_path": "images/00775.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "right_triangle"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "00044",
+  "text": "AB为⊙O的直径，长度为6，∠BAD大小为60度，AC平分∠BAD，AC与弦BD交于点G，半径OC与BD交于点E，过点C作CF交AB的延长线于点F，∠AFC=∠ACD，CF与⊙O相切于点C，连接CD、AD",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "circle(O, r=3)",
+    "segment(AB)",
+    "segment(BD)",
+    "segment(AC)",
+    "segment(OC)",
+    "segment(CF)",
+    "segment(CD)",
+    "segment(AD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(C, bisector_BAD)",
+    "on(F, AB_extended)",
+    "intersection(G, AC, BD)",
+    "intersection(E, OC, BD)",
+    "tangent(C, circle_O)",
+    "collinear(A, O, B)",
+    "equal_angle(AFC, ACD)",
+    "length(AB)=6",
+    "angle(BAD)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00044.png",
+  "meta": {
+    "source": "圆的直径与角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "bisector",
+      "tangent"
+    ]
+  }
+}

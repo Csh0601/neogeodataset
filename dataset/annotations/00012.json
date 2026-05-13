@@ -1,0 +1,32 @@
+{
+  "id": "00012",
+  "text": "在等腰△ABC中，AB=AC=5，O是BC的中点，以O为圆心作半圆，半圆与AC相切于点D,连接OD",
+  "dsl": [
+    "point(O)",
+    "point(D)",
+    "circle(O, radius=OB)", 
+    "isosceles(A, B, C)",
+    "segment(OD)",
+    "midpoint(O, BC)",
+    "on(D, circle_O)",
+    "on(D, AC)",
+    "tangent(D, circle_O)",
+    "length(AB)=5",
+    "length(AC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00012.png",
+  "meta": {
+    "source": "等腰三角形与半圆相切问题",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles",
+      "semicircle",
+      "tangent",
+      "midpoint"
+    ]
+  }
+}

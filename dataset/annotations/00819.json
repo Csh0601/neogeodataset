@@ -1,0 +1,31 @@
+{
+  "id": "00819",
+  "text": "在平面直角坐标系中，正比例函数y=-3x的图象与一次函数y=-x+2的图象交于点P(-1,3)，一次函数图象经过点B(1,1)，与y轴交于点D，与x轴交于点C",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(B)",
+    "point(P)",
+    "point(D)",
+    "point(C)",
+    "point_coord(B, 1, 1)",
+    "point_coord(P, -1, 3)",
+    "line_function(f1, -3, 0)",
+    "line_function(f2, -1, 2)",
+    "segment(OP)",
+    "segment(BC)",
+    "function_intersection(P, f1, f2)",
+    "function_point(B, f2)",
+    "axis_intersection(D, f2, y)",
+    "axis_intersection(C, f2, x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00819.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "linear_function", "proportional_function"]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "01097",
+  "text": "在△ABC中，AB=AC=5，∠BAC=120°，以CA为边在∠ACB的另一侧作∠ACM=∠ACB，点D为边BC上的任意一点，在射线CM上截取CE=BD，连接AD，DE，AE，AC与DE交于点F",
+  "dsl": [
+    "point(M)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(AE)",
+    "segment(CE)",
+    "segment(BD)",
+    "segment(CF)",
+    "ray(C, M)",
+    "on(D, BC)",
+    "on(E, CM)",
+    "intersection(F, AC, DE)",
+    "equal(CE, BD)",
+    "equal(AB, AC)",
+    "angle(BAC)=120",
+    "length(AB)=5",
+    "length(AC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01097.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "rotation",
+      "ray",
+      "intersection"
+    ]
+  }
+}

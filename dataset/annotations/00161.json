@@ -1,0 +1,33 @@
+{
+  "id": "00161",
+  "text": "在△ABC中，AB=AC=2，∠BAC=120°，BC=2√3，D为BC的中点，AE=0.25·AB",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(ED)",
+    "segment(AE)",
+    "on(E, AB)",
+    "midpoint(D, BC)",
+    "equal(AB, AC)",
+    "ratio(AE, AB)=0.25",
+    "angle(BAC)=120",
+    "length(AB)=2",
+    "length(BC)=2√3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00161.png",
+  "meta": {
+    "source": "等腰三角形与面积",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "midpoint",
+      "area"
+    ]
+  }
+}

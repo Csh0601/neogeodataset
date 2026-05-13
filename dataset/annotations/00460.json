@@ -1,0 +1,33 @@
+{
+  "id": "00460",
+  "text": "在△ABC中，∠ACB=90°，点E在AC的延长线上，ED⊥AB于点D，BC=ED，CE=DB",
+  "dsl": [
+    "point(E)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(ED)",
+    "segment(BC)",
+    "segment(CE)",
+    "segment(DB)",
+    "on(E, AC_extended)",
+    "on(D, AB)",
+    "perpendicular(ED, AB)",
+    "equal(BC, ED)",
+    "equal(CE, DB)",
+    "angle(ACB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00460.png",
+  "meta": {
+    "source": "直角三角形垂线延长",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "perpendicular",
+      "equal"
+    ]
+  }
+}

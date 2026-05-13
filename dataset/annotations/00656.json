@@ -1,0 +1,29 @@
+{
+  "id": "00656",
+  "text": "在平面直角坐标系中，抛物线L: y=-x²+bx+c经过点A(0,1)，对称轴为直线x=1，与对称轴交于点B",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, 0, 1)",
+    "point_coord(B, 1, 2)",
+    "parabola(p, -1, 2, 1)",
+    "on(A, axis_y)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00656.png",
+  "meta": {
+    "source": "抛物线对称轴与顶点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "symmetry"
+    ]
+  }
+}

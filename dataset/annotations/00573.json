@@ -1,0 +1,28 @@
+{
+  "id": "00573",
+  "text": "在坐标系中，点A(4,3)，点C在y轴上，C(0,0.5)，AC⊥BC于点C，连接AB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, 4, 3)",
+    "point_coord(C, 0, 0.5)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "perpendicular(AC, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00573.png",
+  "meta": {
+    "source": "坐标系动点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "perpendicular"
+    ]
+  }
+}

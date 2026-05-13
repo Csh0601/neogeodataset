@@ -1,0 +1,32 @@
+{
+  "id": "00565",
+  "text": "两个含30°角的直角三角形ABC与ACD拼接，点E为AD的中点，连接BE交AC于点F，AF/AC=1/3",
+  "dsl": [
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(A, C, D)",
+    "segment(BE)",
+    "midpoint(E, AD)",
+    "intersection(F, BE, AC)",
+    "collinear(A, E, D)",
+    "angle(ABC)=90",
+    "angle(BAC)=30",
+    "angle(ACD)=90",
+    "angle(CAD)=30",
+    "ratio(AF, AC)=0.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00565.png",
+  "meta": {
+    "source": "三角板拼接",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "intersection"
+    ]
+  }
+}

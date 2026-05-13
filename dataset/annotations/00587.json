@@ -1,0 +1,39 @@
+{
+  "id": "00587",
+  "text": "在半圆O中，AB为直径，点C、D分别是半圆上的三等分点，阴影部分面积为3π/2，半圆的半径OA=3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O)",
+    "semicircle(O, A, B)",
+    "segment(OC)",
+    "segment(OD)",
+    "segment(BC)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "collinear(A, O, B)",
+    "angle(AOC)=60",
+    "angle(COD)=60",
+    "angle(DOB)=60",
+    "length(OA)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00587.png",
+  "meta": {
+    "source": "半圆三等分",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "trisection",
+      "shaded"
+    ]
+  }
+}

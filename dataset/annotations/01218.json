@@ -1,0 +1,30 @@
+{
+  "id": "01218",
+  "text": "在△AOB和△COD中，OA=OB，OC=OD，∠AOB=∠COD=36°，连接AC、BD交于点M，连接OM",
+  "dsl": [
+    "triangle(A, O, B)",
+    "triangle(C, O, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OM)",
+    "intersection(M, AC, BD)",
+    "equal(OA, OB)",
+    "equal(OC, OD)",
+    "angle(AOB)=36",
+    "angle(COD)=36"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01218.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["triangle", "isosceles", "angle", "intersection"],
+    "annotated_by": "annotator-1",
+    "supplements": ["OA=OB和OC=OD构成两个等腰三角形，顶角均为36°"]
+  },
+  "validated": false,
+  "needs_review": false
+}

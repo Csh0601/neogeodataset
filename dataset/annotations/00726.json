@@ -1,0 +1,31 @@
+{
+  "id": "00726",
+  "text": "在平面直角坐标系xOy中，直线y=3/4x-3与x轴交于点A(4,0)，与y轴交于点C(0,-3)，抛物线y=-3/4x^2+mx+n经过点A和点C，点B在y轴正半轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, 4, 0)",
+    "point_coord(C, 0, -3)",
+    "line_function(l1, 0.75, -3)",
+    "parabola(p1, -0.75, 3, -3)",
+    "segment(AC)",
+    "function_point(A, l1)",
+    "function_point(C, l1)",
+    "function_point(A, p1)",
+    "function_point(C, p1)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(C, l1, y)"
+  ],
+  "image_path": "images/00726.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "parabola", "line"]
+  }
+}

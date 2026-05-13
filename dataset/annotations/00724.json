@@ -1,0 +1,35 @@
+{
+  "id": "00724",
+  "text": "在四边形ABCD中，AD平行于BC，∠D=90°，∠CPB=30°，∠DAB的角平分线与∠CBA的角平分线相交于点P，D、P、C在同一条直线上，P是CD的中点",
+  "dsl": [
+    "point(P)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AP)",
+    "segment(BP)",
+    "segment(DP)",
+    "segment(CP)",
+    "segment(CD)",
+    "on(P, CD)",
+    "midpoint(P, CD)",
+    "collinear(D, P, C)",
+    "parallel(AD, BC)",
+    "perpendicular(DA, DC)",
+    "angle(ADC)=90",
+    "angle(CPB)=30"
+  ],
+  "image_path": "images/00724.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "parallel",
+      "angle_bisector",
+      "midpoint"
+    ]
+  }
+}

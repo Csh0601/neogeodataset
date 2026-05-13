@@ -1,0 +1,31 @@
+{
+  "id": "00410",
+  "text": "在Rt△ABC中，∠ACB=90°，D是AB的中点，BE⊥CD，交CD的延长线于点E，AC=2，BC=2√2，BE的长为√6/2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "right_triangle(A, B, C, right_at=C)",
+    "segment(CD)",
+    "segment(BE)",
+    "on(E, CD_extended)",
+    "midpoint(D, AB)",
+    "perpendicular(BE, CD)",
+    "length(AC)=2",
+    "length(BC)=2.828",
+    "length(BE)=1.225"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00410.png",
+  "meta": {
+    "source": "直角三角形中点与垂线",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "perpendicular"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "01226",
+  "text": "在正方形ABCD中，点F在BC边上，连接AF，以AF为对角线作正方形AEFG，边FG与正方形ABCD的对角线AC相交于点H，连接DG，∠EAB=∠GAD，△AFC≅△AGD，DG⊥AC",
+  "dsl": [
+    "triangle(A, F, C)",
+    "triangle(A, G, D)",
+    "square(A, B, C, D)",
+    "square(A, E, F, G)",
+    "segment(AF)",
+    "segment(DG)",
+    "on(F, BC)",
+    "intersection(H, FG, AC)",
+    "congruent(AFC, AGD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01226.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "congruent",
+      "perpendicular",
+      "diagonal"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "正方形AEFG以AF为对角线，结论∠EAB=∠GAD、△AFC≅△AGD、DG⊥AC均正确"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

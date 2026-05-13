@@ -1,0 +1,38 @@
+{
+  "id": "01335",
+  "text": "在⊙O的内接四边形ABCD中，AB=3，AD=5，∠BAD=60°，点C为弧BD的中点，连接AC、BC、CD",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "circle(O)",
+    "arc(B, D, circle_O)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(CD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "arc_midpoint(C, BD, circle_O)",
+    "angle(BAD)=60",
+    "length(AB)=3",
+    "length(AD)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01335.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "circle",
+      "arc_midpoint"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

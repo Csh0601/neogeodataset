@@ -1,0 +1,29 @@
+{
+  "id": "00362",
+  "text": "在△ABC中，∠C=90°，tanA=√3/3，∠ABC的角平分线BD交AC于点D，CD=√3",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(D, AC)",
+    "angle_bisector(D, A, B, C)",
+    "angle(BCA)=90",
+    "angle(CAB)=30",
+    "length(CD)=1.732"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00362.png",
+  "meta": {
+    "source": "直角三角形角平分线",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "angle_bisector",
+      "trigonometry"
+    ]
+  }
+}

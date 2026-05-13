@@ -1,0 +1,29 @@
+{
+  "id": "00995",
+  "text": "在△ABC中，AD是∠BAC的平分线，D在BC上，E、F分别为AB、AC上的点，连接DE和DF，∠EDF+∠BAC=180°，DE=DF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)",
+    "on(D, BC)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "bisector(AD, BAC)",
+    "equal(DE, DF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00995.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "angle_bisector", "equal_length"]
+  }
+}

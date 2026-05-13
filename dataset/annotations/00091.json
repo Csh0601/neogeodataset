@@ -1,0 +1,34 @@
+{
+  "id": "00091",
+  "text": "在四边形ABCD中，∠ACB=90°，∠CAD=90°，点E在BC上，AE∥DC，过E作EF⊥AB，垂足为F，四边形AECD是平行四边形，连接AE、EF,AD=2,AB=6,BC=5",
+  "dsl": [
+    "point(F)",
+    "quadrilateral(A, B, C, D)",
+    "parallelogram(A, E, C, D)",
+    "segment(EF)",
+    "on(E, BC)",
+    "foot(F, E, AB)",
+    "perpendicular(EF, AB)",
+    "angle(ACB)=90",
+    "angle(CAD)=90",
+    "length(AD)=2",
+    "length(AB)=6",
+    "length(BC)=5"
+  ],
+  "image_path": "images/00091.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "平行四边形",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "parallelogram",
+      "parallel",
+      "perpendicular",
+      "foot"
+    ]
+  }
+}

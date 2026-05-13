@@ -1,0 +1,39 @@
+{
+  "id": "00609",
+  "text": "△ABC是⊙O的内接三角形，过点C作⊙O的切线交BA的延长线于点F，AE是⊙O的直径，连接EC，∠ACF=∠B，AB=BC，AD⊥BC于点D，FC=4，FA=2",
+  "dsl": [
+    "point(F)",
+    "point(E)",
+    "point(D)",
+    "circle(O)",
+    "triangle(A, B, C)",
+    "segment(EC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(E, circle_O)",
+    "foot(D, A, BC)",
+    "tangent(C, circle_O)",
+    "collinear(B, A, F)",
+    "collinear(A, O, E)",
+    "equal_angle(ACF, ABC)",
+    "equal(AB, BC)",
+    "length(FC)=4",
+    "length(FA)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00609.png",
+  "meta": {
+    "source": "圆内接三角形与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "inscribed",
+      "tangent",
+      "diameter"
+    ]
+  }
+}

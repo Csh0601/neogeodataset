@@ -1,0 +1,43 @@
+{
+  "id": "01404",
+  "text": "在平面直角坐标系中，正八边形ABCDEFGH的顶点A、B、G、H在坐标轴上，顶点C、D、E、F在第一象限，点F在反比例函数y=k/x(x>0)的图象上，AB=√2",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "regular_polygon(8, A, B, C, D, E, F, G, H)",
+    "hyperbola(h, 1)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(G, axis_y)",
+    "on(H, axis_y)",
+    "function_point(F, h)",
+    "length(AB)=√2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01404.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "regular_polygon",
+      "hyperbola"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "需要确认k的具体值"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

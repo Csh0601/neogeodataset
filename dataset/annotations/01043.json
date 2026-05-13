@@ -1,0 +1,33 @@
+{
+  "id": "01043",
+  "text": "正方形ABCD与正方形CEFG共顶点C，M是AF的中点，连接DM，EM，E在CD上，G在BC的延长线上，DM=EM，DM⊥EM",
+  "dsl": [
+    "square(A, B, C, D)",
+    "square(C, E, F, G)",
+    "segment(AF)",
+    "segment(DM)",
+    "segment(EM)",
+    "segment(BC)",
+    "segment(CD)",
+    "on(E, CD)",
+    "on(G, BC)",
+    "midpoint(M, AF)",
+    "equal(DM, EM)",
+    "perpendicular(DM, EM)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01043.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "midpoint",
+      "perpendicular",
+      "rotation"
+    ]
+  }
+}

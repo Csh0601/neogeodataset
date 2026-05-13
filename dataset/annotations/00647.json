@@ -1,0 +1,35 @@
+{
+  "id": "00647",
+  "text": "在平面直角坐标系中，A(-2,0)，B(4,0)，抛物线y=(1/8)x²+(1/4)x-1过A、B两点，并与过A点的直线y=-1/2·x-1交于点C",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 4, 0)",
+    "parabola(p, 0.125, 0.25, -1)",
+    "line_function(l, -0.5, -1)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(A, line_l)",
+    "on(C, line_l)",
+    "on(C, parabola_p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00647.png",
+  "meta": {
+    "source": "抛物线与直线交点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line"
+    ]
+  }
+}

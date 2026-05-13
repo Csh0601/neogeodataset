@@ -1,0 +1,21 @@
+{
+  "id": "00614",
+  "text": "△OAB和△OBC组成风车图形，AB=2，∠AOB=90°",
+  "dsl": [
+    "point(C)",
+    "triangle(O, A, B)",
+    "triangle(O, B, C)",
+    "length(AB)=2",
+    "angle(AOB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00614.png",
+  "meta": {
+    "source": "风车旋转",
+    "difficulty": "easy",
+    "tags": ["rotation", "arc_length"]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "00146",
+  "text": "在平面直角坐标系中，菱形ABCD的两个顶点A、C在反比例函数y=3/x的图象上，对角线AC、BD的交点恰好是坐标原点O，B(-1,1)，D(1,-1),∠ABC=120°,连接AC,BD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(B, -1, 1)",
+    "point_coord(D, 1, -1)",
+    "parallelogram(A, B, C, D)",
+    "hyperbola(h, 3)",
+    "segment(AC)",
+    "segment(BD)",
+    "intersection(O, AC, BD)",
+    "function_point(A, h)",
+    "function_point(C, h)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DA)",
+    "angle(ABC)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00146.png",
+  "meta": {
+    "source": "菱形与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "rhombus",
+      "hyperbola",
+      "angle"
+    ]
+  }
+}

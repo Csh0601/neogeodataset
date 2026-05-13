@@ -1,0 +1,29 @@
+{
+  "id": "00103",
+  "text": "在平面直角坐标系中，抛物线y=x²-5x-6与x轴交于A、B两点，其中B(6,0)，A(-1,0)，与y轴交于点C(0,-6)，抛物线的对称轴是直线x=2.5",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(B, 6, 0)",
+    "point_coord(A, -1, 0)",
+    "point_coord(C, 0, -6)",
+    "parabola(p, 1, -5, -6)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)",
+    "function_point(B, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00103.png",
+  "meta": {
+    "source": "坐标系与抛物线",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "axis_intersection"
+    ]
+  }
+}

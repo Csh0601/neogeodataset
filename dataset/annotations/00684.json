@@ -1,0 +1,44 @@
+{
+  "id": "00684",
+  "text": "在平面直角坐标系中，直线l₁: y=x-3与x轴交于点A，与y轴交于点B，直线l₂: y=-4x+2与x轴交于点C(0.5,0)，与y轴交于点D(0,2)，直线l₁、l₂交于点E，CD=CE",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, 0, -3)",
+    "point_coord(C, 0.5, 0)",
+    "point_coord(D, 0, 2)",
+    "line_function(l1, 1, -3)",
+    "line_function(l2, -4, 2)",
+    "segment(CD)",
+    "segment(CE)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)",
+    "on(D, axis_y)",
+    "on(A, line_l1)",
+    "on(B, line_l1)",
+    "on(C, line_l2)",
+    "on(D, line_l2)",
+    "equal(CD, CE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00684.png",
+  "meta": {
+    "source": "两条直线交点与等长",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "intersection",
+      "equal"
+    ]
+  }
+}

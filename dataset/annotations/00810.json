@@ -1,0 +1,34 @@
+{
+  "id": "00810",
+  "text": "将菱形ABCD折叠，使点A恰好落在菱形的对角线交点O处，折痕为EF，菱形ABCD的边长为2，角B=60度，E在AB上，F在AD上",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "parallelogram(A, B, C, D)",
+    "segment(EF)",
+    "segment(AC)",
+    "segment(BD)",
+    "intersection(O, AC, BD)",
+    "on(E, AB)",
+    "on(F, AD)",
+    "fold(A, O, EF)",
+    "equal(AB, BC)",
+    "angle(ABC)=60",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00810.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "fold",
+      "diagonal"
+    ]
+  }
+}

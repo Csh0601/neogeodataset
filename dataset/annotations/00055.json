@@ -1,0 +1,36 @@
+{
+  "id": "00055",
+  "text": "在平行四边形ABCD中，AB=4,AD=4,AC=4，E为对角线AC上的中点，连接BE，且BE⊥AC，延长BC至F，使CF=CE，连接EF、FD，EF交CD于点G",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BE)",
+    "segment(EF)",
+    "segment(FD)",
+    "midpoint(E, AC)",
+    "intersection(G, EF, CD)",
+    "perpendicular(BE, AC)",
+    "equal(CF, CE)",
+    "length(AB)=4",
+    "length(AD)=4",
+    "length(AC)=4",
+    "on_extended(F, BC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00055.png",
+  "meta": {
+    "source": "四边形与中点垂线",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "midpoint",
+      "perpendicular"
+    ]
+  }
+}

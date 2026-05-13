@@ -1,0 +1,32 @@
+{
+  "id": "00232",
+  "text": "四边形ABCD是半径为4的⊙O的内接四边形，∠BOD=80°，∠BCD=140°",
+  "dsl": [
+    "circle(O, r=4)",
+    "quadrilateral(A, B, C, D)",
+    "segment(OB)",
+    "segment(OD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "angle(BOD)=80",
+    "angle(BCD)=140",
+    "length(OB)=4",
+    "length(OD)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00232.png",
+  "meta": {
+    "source": "圆内接四边形",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "inscribed_quadrilateral",
+      "central_angle"
+    ]
+  }
+}

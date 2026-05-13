@@ -1,0 +1,37 @@
+{
+  "id": "00553",
+  "text": "在⊙O中，AB是直径，C是⊙O上一点，AD和过点C的切线互相垂直，垂足为D，AD/AB=2/3，AC=2√6，CD=2√2",
+  "dsl": [
+    "point(D)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(CD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "foot(D, A, CD)",
+    "tangent(C, circle_O)",
+    "collinear(A, O, B)",
+    "perpendicular(AD, CD)",
+    "ratio(AD, AB)=0.667",
+    "length(AC)=4.899",
+    "length(CD)=2.828"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00553.png",
+  "meta": {
+    "source": "圆的切线与直径",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "diameter",
+      "perpendicular"
+    ]
+  }
+}

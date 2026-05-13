@@ -1,0 +1,33 @@
+{
+  "id": "00574",
+  "text": "在等腰△ABC中，AB=AC，点D是BC边上一点，连结AD，∠C=60°，点D关于直线AB的对称点为点E，结AE、DE，∠BDE=30°，CD=BE，AC=k(BD+BE)",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "line(l1, A, B)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(DE)",
+    "segment(BE)",
+    "on(D, BC)",
+    "isosceles(A, B, C)",
+    "reflect(E, D, AB)",
+    "equal(CD, BE)",
+    "angle(ACB)=60",
+    "angle(BDE)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00574.png",
+  "meta": {
+    "source": "等腰三角形反射",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles",
+      "reflect",
+      "angle"
+    ]
+  }
+}

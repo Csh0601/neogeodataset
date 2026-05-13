@@ -1,0 +1,36 @@
+{
+  "id": "00620",
+  "text": "正方形ABCD边长为1，点K在AD上，连接BK，过点A、C分别作BK的垂线，垂足分别为M、N，O是正方形ABCD的中心，连接OM、ON，AM=BN",
+  "dsl": [
+    "point(K)",
+    "point(M)",
+    "point(N)",
+    "point(O)",
+    "square(A, B, C, D)",
+    "segment(AM)",
+    "segment(BN)",
+    "segment(BK)",
+    "connect(O, M)",
+    "connect(O, N)",
+    "on(K, AD)",
+    "foot(M, A, BK)",
+    "foot(N, C, BK)",
+    "intersection(O, AC, BD)",
+    "equal(AM, BN)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00620.png",
+  "meta": {
+    "source": "正方形与垂足",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "foot",
+      "perpendicular",
+      "center"
+    ]
+  }
+}

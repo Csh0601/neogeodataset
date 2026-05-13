@@ -1,0 +1,32 @@
+{
+  "id": "00040",
+  "text": "在平面直角坐标系中，二次函数y=7/6x²-7/3x-7/2与x轴交于点A(3,0)、B(-1,0)，与y轴交于点C(0,-3.5)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, -1, 0)",
+    "point_coord(C, 0, -3.5)",
+    "parabola(p, 1.1667, -2.3333, -3.5)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00040.png",
+  "meta": {
+    "source": "二次函数与坐标轴交点",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "axis_intersection"
+    ]
+  }
+}

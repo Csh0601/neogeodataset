@@ -1,0 +1,31 @@
+{
+  "id": "00984",
+  "text": "AD平行于BC，∠PAB的平分线与∠CBA的平分线相交于E，CE的连线交AP于D，AD+BC=AB",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(P)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(AE)",
+    "segment(BE)",
+    "segment(CE)",
+    "segment(AP)",
+    "segment(DE)",
+    "on(D, AP)",
+    "parallel(AD, BC)",
+    "bisector(AE, PAB)",
+    "bisector(BE, CBA)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00984.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel", "angle_bisector", "trapezoid"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "00803",
+  "text": "在平面直角坐标系中，点A的坐标为(2,1)，连接OA，点P是x轴上的一点，三角形OAP是等腰三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point_coord(A, 2, 1)",
+    "point_coord(O, 0, 0)",
+    "segment(OA)",
+    "segment(AP)",
+    "segment(OP)",
+    "on(P, axis_x)",
+    "isosceles(O, A, P)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00803.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "isosceles", "triangle"]
+  }
+}

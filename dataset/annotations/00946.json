@@ -1,0 +1,32 @@
+{
+  "id": "00946",
+  "text": "△ABC中，AB=8，BC=5，AC=7，⊙O是△ABC的外接圆，AD为直径，连接BD、CD",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "circle(O)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(D, circle_O)",
+    "circumcircle(O, A, B, C)",
+    "collinear(A, O, D)",
+    "length(AB)=8",
+    "length(BC)=5",
+    "length(AC)=7"
+  ],
+  "image_path": "images/00946.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形外接圆与直径",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circle",
+      "circumcircle"
+    ]
+  }
+}

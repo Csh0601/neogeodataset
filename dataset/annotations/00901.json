@@ -1,0 +1,25 @@
+{
+  "id": "00901",
+  "text": "在△ABC中，AB=AC，CD垂直于AB，垂足为D，∠BAC=2∠DCB",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(BD)",
+    "segment(AD)",
+    "foot(D, C, AB)",
+    "equal(AB, AC)",
+    "perpendicular(CD, AB)",
+    "angle(BAC)=2*angle(DCB)"
+  ],
+  "image_path": "images/00901.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "等腰三角形与垂线",
+    "difficulty": "middle",
+    "tags": ["triangle", "isosceles", "perpendicular"]
+  }
+}

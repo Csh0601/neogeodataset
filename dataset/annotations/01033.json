@@ -1,0 +1,40 @@
+{
+  "id": "01033",
+  "text": "在直角梯形ABCD中，AB∥DC，∠B=90°，AB=1，BC=2，CD=3，以B为圆心，半径为1的弧交BC于M，E是线段CD上一点，EG⊥AD，垂足为G，F是弧上一点，连接EF，EG",
+  "dsl": [
+    "point(F)",
+    "trapezoid(A, B, C, D)",
+    "circle(B, radius=1)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(EF)",
+    "segment(EG)",
+    "on(E, CD)",
+    "on(M, BC)",
+    "on(M, circle_B)",
+    "foot(G, E, AD)",
+    "perpendicular(EG, AD)",
+    "parallel(AB, DC)",
+    "angle(ABC)=90",
+    "length(AB)=1",
+    "length(BC)=2",
+    "length(CD)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01033.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "trapezoid",
+      "circle",
+      "perpendicular",
+      "optimization"
+    ]
+  }
+}

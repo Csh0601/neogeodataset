@@ -1,0 +1,27 @@
+{
+  "id": "00588",
+  "text": "在平面直角坐标系中，矩形OABC中，对角线OB上有一点D，OB:OD=5:3",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "rectangle(O, A, B, C)",
+    "segment(OB)",
+    "segment(OD)",
+    "on(D, OB)",
+    "ratio(OB, OD)=1.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00588.png",
+  "meta": {
+    "source": "矩形与双曲线",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "hyperbola",
+      "coordinate"
+    ]
+  }
+}

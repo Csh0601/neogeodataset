@@ -1,0 +1,37 @@
+{
+  "id": "00245",
+  "text": "在等腰直角三角形ADC中，∠ADC=90°，AD=4，点E是AD的中点，以DE为边作正方形DEFG，连接AG、CE，将正方形DEFG绕点D顺时针旋转得到正方形DQPK，Q、P、K分别对应E、F、G，旋转角为60",
+  "dsl": [
+    "square(D, E, F, G)",
+    "segment(AG)",
+    "segment(CE)",
+    "segment(DQ)",
+    "segment(DK)",
+    "segment(QP)",
+    "segment(PK)",
+    "midpoint(E, AD)",
+    "isosceles_right(D, A, C)",
+    "rotate(Q, source=E, center=D, angle=-60)",
+    "rotate(P, source=F, center=D, angle=-60)",
+    "rotate(K, source=G, center=D, angle=-60)",
+    "square(D, Q, P, K)",
+    "angle(ADC)=90",
+    "length(AD)=4",
+    "length(DE)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00245.png",
+  "meta": {
+    "source": "等腰直角三角形旋转正方形",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right_triangle",
+      "square",
+      "rotation",
+      "congruent"
+    ]
+  }
+}

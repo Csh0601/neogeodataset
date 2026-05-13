@@ -1,0 +1,37 @@
+{
+  "id": "01131",
+  "text": "在菱形ABCD中，∠ABC=60°，对角线AC平分∠BAD，点P是△ABC内一点，连接PA，PB，PC，PA=6，PB=8，PC=10",
+  "dsl": [
+    "point(P)",
+    "parallelogram(A, B, C, D)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "equal(AB, BC)",
+    "angle(ABC)=60",
+    "length(PA)=6",
+    "length(PB)=8",
+    "length(PC)=10",
+    "inside(P, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01131.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "interior_point",
+      "length"
+    ]
+  }
+}

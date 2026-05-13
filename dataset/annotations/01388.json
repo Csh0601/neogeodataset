@@ -1,0 +1,42 @@
+{
+  "id": "01388",
+  "text": "在正方形ABCD中，将△DAE、△DCF分别沿DE、DF向内折叠，DA与DC重合于DG点，GF=4，EG=6",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "triangle(D, A, E)",
+    "triangle(D, C, F)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EG)",
+    "segment(GF)",
+    "segment(EF)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "fold(A, G, DE)",
+    "fold(C, G, DF)",
+    "length(GF)=4",
+    "length(EG)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01388.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "fold"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "折叠后A和C重合于G点"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

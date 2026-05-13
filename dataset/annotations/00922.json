@@ -1,0 +1,33 @@
+{
+  "id": "00922",
+  "text": "在平面直角坐标系中，点A(5,0)在x轴正半轴上，AB⊥x轴，且AB=10，点C(0,3)在y轴上，点P在线段OA上",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 5, 0)",
+    "point_coord(C, 0, 3)",
+    "segment(AB)",
+    "segment(PB)",
+    "segment(PC)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "on(P, axis_x)",
+    "on(P, OA)",
+    "perpendicular(AB, OA)",
+    "length(AB)=10"
+  ],
+  "image_path": "images/00922.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系垂线与最值",
+    "difficulty": "hard",
+    "tags": ["coordinate", "perpendicular"]
+  }
+}

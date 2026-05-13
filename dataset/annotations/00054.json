@@ -1,0 +1,36 @@
+{
+  "id": "00054",
+  "text": "点A、B、C为⊙O上的三点，⊙O半径为4，∠AOB=(1/3)∠BOC，∠BAC=30°，∠AOC=80°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O, r=4)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CA)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "angle(BAC)=30",
+    "angle(AOC)=80",
+    "angle(BOC)=3*angle(AOB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00054.png",
+  "meta": {
+    "source": "圆心角与圆周角关系",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "central_angle",
+      "inscribed_angle"
+    ]
+  }
+}

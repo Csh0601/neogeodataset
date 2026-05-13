@@ -1,0 +1,37 @@
+{
+  "id": "00646",
+  "text": "在平面直角坐标系中，矩形OABC的边长OA=8，顶点A、C分别在x、y轴的正半轴上，D为对角线OB的中点，反比例函数y=8/x在第一象限内的图像经过点D、E、F，tan∠BOA=1/2",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "rectangle(O, A, B, C)",
+    "hyperbola(h, 8)",
+    "segment(OB)",
+    "segment(CB)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "midpoint(D, OB)",
+    "on(D, hyperbola_h)",
+    "on(E, hyperbola_h)",
+    "on(F, hyperbola_h)",
+    "on(E, OA)",
+    "on(F, CB)",
+    "length(OA)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00646.png",
+  "meta": {
+    "source": "矩形与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "rectangle",
+      "hyperbola"
+    ]
+  }
+}

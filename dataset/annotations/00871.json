@@ -1,0 +1,28 @@
+{
+  "id": "00871",
+  "text": "在△ABC中，BE是△ABC的中线，点F在BE上，延长AF交BC于点D，BF=3EF，BD/DC=3/2",
+  "dsl": [
+    "point(D)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(BE)",
+    "segment(AF)",
+    "segment(BD)",
+    "segment(DC)",
+    "midpoint(E, AC)",
+    "on(F, BE)",
+    "intersection(D, AF, BC)",
+    "ratio(BF, EF)=3",
+    "ratio(BD, DC)=1.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00871.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "median", "ratio", "intersection"]
+  }
+}

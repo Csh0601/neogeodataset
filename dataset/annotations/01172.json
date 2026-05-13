@@ -1,0 +1,37 @@
+{
+  "id": "01172",
+  "text": "在正方形ABCD中，点E、F分别在AD、CD上，AE=DF=2，BE与AF相交于点O，P是BF的中点，连接OP，AB=5",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(CD)",
+    "segment(AE)",
+    "segment(DF)",
+    "segment(BE)",
+    "segment(AF)",
+    "segment(BF)",
+    "segment(OP)",
+    "on(E, AD)",
+    "on(F, CD)",
+    "intersection(O, BE, AF)",
+    "midpoint(P, BF)",
+    "equal(AE, DF)",
+    "length(AE)=2",
+    "length(AB)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01172.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["square", "midpoint", "intersection"]
+  }
+}

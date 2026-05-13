@@ -1,0 +1,55 @@
+{
+  "id": "00166",
+  "text": "长度为6的线段AB是⊙O的直径，直线AM与⊙O相切于点A，直线BN与⊙O相切于点B，点C（异于点A）在AM上，点D在⊙O上，且CD=CA，延长CD与BN相交于点E，连接AD并延长交BN于点F，CE是⊙O的切线，BE=EF，AB=6，AC=4",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(N)",
+    "circle(O,r=3)",
+    "line(l1, A, M)",
+    "line(l2, B, N)",
+    "segment(AB)",
+    "segment(AM)",
+    "segment(BN)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(CE)",
+    "segment(EF)",
+    "segment(BE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "on(C, AM)",
+    "on(E, BN)",
+    "on(F, BN)",
+    "tangent(A, circle_O)",
+    "tangent(B, circle_O)",
+    "tangent(E, circle_O)",
+    "collinear(A, O, B)",   
+    "collinear(C, D, E)",
+    "collinear(A, D, F)",
+    "equal(CD, CA)",
+    "equal(BE, EF)",
+    "length(AB)=6",
+    "length(AC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00166.png",
+  "meta": {
+    "source": "圆与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "diameter"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00982",
+  "text": "在等腰直角三角形ABC中，∠ABC=90°，D为边AC的中点，过点D作DE⊥DF，DE交AB于点E，DF交BC于点F，连接EF，AE=4，FC=3",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)",
+    "segment(AE)",
+    "segment(FC)",
+    "midpoint(D, AC)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "perpendicular(DE, DF)",
+    "equal(AB, BC)",
+    "angle(ABC)=90",
+    "length(AE)=4",
+    "length(FC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00982.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["isosceles_right_triangle", "midpoint", "perpendicular"]
+  }
+}

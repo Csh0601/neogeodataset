@@ -1,0 +1,39 @@
+{
+  "id": "00172",
+  "text": "在平行四边形ABCD中，AB=10，AD=15，∠BAD的平分线交BC于点E，交DC的延长线于点F，BG⊥AE于点G，BG=8",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "segment(AB)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(CF)",
+    "segment(BG)",
+    "on(E, BC)",
+    "intersection(F, AE, DC_extended)",
+    "foot(G, B, AE)",
+    "angle_bisector(E, B, A, D)",
+    "angle_bisector(F, B, A, D)",
+    "collinear(D, C, F)",
+    "length(AB)=10",
+    "length(AD)=15",
+    "length(BG)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00172.png",
+  "meta": {
+    "source": "平行四边形与角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "bisector",
+      "perpendicular",
+      "perimeter"
+    ]
+  }
+}

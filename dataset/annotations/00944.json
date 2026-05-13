@@ -1,0 +1,34 @@
+{
+  "id": "00944",
+  "text": "在Rt△ABC中，∠ABC=90°，∠BAC=30°，AB=4√3，在Rt△ACD中，∠ACD=90°，∠CAD=45°，AC为公共边，P、Q分别是AC、BC上的一点，四边形DPBQ为平行四边形，平行四边形DPBQ的面积是9/2",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "parallelogram(D, P, B, Q)",
+    "segment(DP)",
+    "segment(PB)",
+    "segment(BQ)",
+    "segment(QD)",
+    "on(P, AC)",
+    "on(Q, BC)",
+    "right_triangle(A, B, C, right_at=B)",
+    "right_triangle(A, C, D, right_at=C)",
+    "angle(BAC)=30",
+    "angle(CAD)=45",
+    "length(AB)=4√3"
+  ],
+  "image_path": "images/00944.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角尺拼接平行四边形",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "parallelogram",
+      "angle"
+    ]
+  }
+}

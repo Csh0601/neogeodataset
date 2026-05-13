@@ -1,0 +1,42 @@
+{
+  "id": "00102",
+  "text": "在菱形ABCD中，对角线AC与BD相交于点O，AC=8，BD=12，点E在线段OA中点，AE=2，点F在线段OC上，OF=1，连接BE，点G为BE的中点，连接FG",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(FG)",
+    "on(F, OC)",
+    "midpoint(E, OA)",
+    "midpoint(G, BE)",
+    "intersection(O, AC, BD)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DA)",
+    "perpendicular(AC, BD)",
+    "length(AC)=8",
+    "length(BD)=12",
+    "length(AE)=2",
+    "length(OF)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00102.png",
+  "meta": {
+    "source": "菱形与中点",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "rhombus",
+      "midpoint",
+      "diagonal"
+    ]
+  }
+}

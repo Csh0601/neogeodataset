@@ -1,0 +1,38 @@
+{
+  "id": "01050",
+  "text": "在Rt△ABC中，∠C=90°，AC=BC=8，P为AB的中点，E为BC上一点，过C、E、P三点的⊙O交AC于F点，连接EF",
+  "dsl": [
+    "triangle(A, B, C)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(EF)",
+    "midpoint(P, AB)",
+    "on(E, BC)",
+    "on(C, circle_O)",
+    "on(E, circle_O)",
+    "on(P, circle_O)",
+    "on(F, AC)",
+    "on(F, circle_O)",
+    "circumcircle(O, C, E, P)",
+    "equal(AC, BC)",
+    "angle(ACB)=90",
+    "length(AC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01050.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "circle",
+      "midpoint",
+      "circumcircle"
+    ]
+  }
+}

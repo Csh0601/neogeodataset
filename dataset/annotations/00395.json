@@ -1,0 +1,35 @@
+{
+  "id": "00395",
+  "text": "在△ABC中，M、N分别是AB和AC的中点，连接MN，点E是CN的中点，连接ME并延长，交BC的延长线于点D，BC=4，CD=2",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(E)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(MN)",
+    "segment(ME)",
+    "segment(CD)",
+    "on(D, BC_extended)",
+    "midpoint(M, AB)",
+    "midpoint(N, AC)",
+    "midpoint(E, CN)",
+    "collinear(M, E, D)",
+    "length(BC)=4",
+    "length(CD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00395.png",
+  "meta": {
+    "source": "三角形中点连线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "collinear"
+    ]
+  }
+}

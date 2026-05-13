@@ -1,0 +1,39 @@
+{
+  "id": "00506",
+  "text": "BD是⊙O的直径，点A、C在⊙O上，AB=AD，AC交BD于点G，∠COD=126°，∠AGB=117°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(G)",
+    "circle(O)",
+    "segment(BD)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(AC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "intersection(G, AC, BD)",
+    "equal(AB, AD)",
+    "collinear(B, O, D)",
+    "angle(COD)=126",
+    "angle(AGB)=117"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00506.png",
+  "meta": {
+    "source": "圆直径与弦",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "inscribed_angle"
+    ]
+  }
+}

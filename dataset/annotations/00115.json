@@ -1,0 +1,29 @@
+{
+  "id": "00115",
+  "text": "在矩形ABCD中，点E在边AD上，BE=BC，AB=3，AE=4，CE=3.162，连接BE、CE",
+  "dsl": [
+    "point(E)",
+    "rectangle(A, B, C, D)",
+    "segment(BE)",
+    "segment(CE)",
+    "on(E, AD)",
+    "equal(BE, BC)",
+    "length(AB)=3",
+    "length(AE)=4",
+    "length(CE)=3.162"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00115.png",
+  "meta": {
+    "source": "矩形与等长",
+    "difficulty": "easy",
+    "tags": [
+      "rectangle",
+      "equal",
+      "segment"
+    ]
+  }
+}

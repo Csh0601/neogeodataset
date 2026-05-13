@@ -1,0 +1,32 @@
+{
+  "id": "00566",
+  "text": "E是矩形ABCD的边CB上的一点，AF⊥DE于点F，AB=3，AD=2，CE=1，DF=6√10/5",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(AF)",
+    "segment(DE)",
+    "segment(DF)",
+    "on(E, CB)",
+    "foot(F, A, DE)",
+    "length(AB)=3",
+    "length(AD)=2",
+    "length(CE)=1",
+    "length(DF)=1.897"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00566.png",
+  "meta": {
+    "source": "矩形中的垂足",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "foot",
+      "perpendicular"
+    ]
+  }
+}

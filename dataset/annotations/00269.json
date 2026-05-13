@@ -1,0 +1,24 @@
+{
+  "id": "00269",
+  "text": "在平行四边形ABCD中，对角线AC、BD交于点O，AC=6，BD=8，AB=6，以O为圆心、AC为直径作圆",
+  "dsl": [
+    "parallelogram(A, B, C, D)",
+    "circle(O, r=3)",
+    "segment(AC)",
+    "segment(BD)",
+    "intersection(O, AC, BD)",
+    "length(AC)=6",
+    "length(BD)=8",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00269.png",
+  "meta": {
+    "source": "平行四边形对角线",
+    "difficulty": "easy",
+    "tags": ["parallelogram", "diagonal"]
+  }
+}

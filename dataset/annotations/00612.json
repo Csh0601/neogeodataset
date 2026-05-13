@@ -1,0 +1,34 @@
+{
+  "id": "00612",
+  "text": "△ABC内接于⊙O，AB为⊙O的直径，将△ABC绕点C旋转得到△EDC，△ABC≅△EDC，点E在⊙O上，AE=2，AB=10/3",
+  "dsl": [
+    "point(E)",
+    "point(D)",
+    "circle(O)",
+    "triangle(A, B, C)",
+    "triangle(E, D, C)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(E, circle_O)",
+    "collinear(A, O, B)",
+    "congruent(ABC, EDC)",
+    "length(AE)=2",
+    "length(AB)=3.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00612.png",
+  "meta": {
+    "source": "圆内接三角形旋转",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "inscribed",
+      "rotation",
+      "congruent"
+    ]
+  }
+}

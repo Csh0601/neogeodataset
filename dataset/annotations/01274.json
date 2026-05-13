@@ -1,0 +1,40 @@
+{
+  "id": "01274",
+  "text": "在△ABC中，AB=5，CA=7，BC=6，H为垂心，AD、BE、CF是三条高",
+  "dsl": [
+    "point(H)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "orthocenter(H, A, B, C)",
+    "foot(D, A, BC)",
+    "foot(E, B, AC)",
+    "foot(F, C, AB)",
+    "length(AB)=5",
+    "length(CA)=7",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01274.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "orthocenter",
+      "altitude",
+      "length"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "A在顶部，B在左下，C在右下",
+      "三条高AD、BE、CF交于垂心H"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

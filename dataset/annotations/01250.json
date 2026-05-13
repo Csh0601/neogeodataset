@@ -1,0 +1,38 @@
+{
+  "id": "01250",
+  "text": "矩形ABCD中，AB=3，BC=5，点E在对角线AC上，连接BE，作EF⊥BE，垂足为E，直线EF交线段DC于点F，EF/BE=3/5",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "segment(AC)",
+    "segment(BE)",
+    "segment(EF)",
+    "segment(DC)",
+    "on(E, AC)",
+    "intersection(F, EF, DC)",
+    "perpendicular(EF, BE)",
+    "length(AB)=3",
+    "length(BC)=5",
+    "ratio(EF, BE)=3/5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01250.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "rectangle",
+      "perpendicular",
+      "ratio",
+      "diagonal"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "EF/BE=3/5由相似三角形计算得出"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

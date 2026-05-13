@@ -1,0 +1,35 @@
+{
+  "id": "01058",
+  "text": "在等边△ABC中，AB=3，P为△ABC内部一点，∠PAB=∠ACP，连接PA，PB，PC",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "equal(AB, BC)",
+    "equal(BC, AC)",
+    "angle(ABC)=60",
+    "angle(BAC)=60",
+    "angle(BCA)=60",
+    "length(AB)=3",
+    "inside(P, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01058.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral_triangle",
+      "interior_point",
+      "angle"
+    ]
+  }
+}

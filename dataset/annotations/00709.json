@@ -1,0 +1,29 @@
+{
+  "id": "00709",
+  "text": "在四边形ABCD中，DC∥AB，BC=1，AB=AC=AD=2，BD=√15",
+  "dsl": [
+    "trapezoid(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(DC)",
+    "parallel(DC, AB)",
+    "equal(AB, AC)",
+    "equal(AC, AD)",
+    "length(BC)=1",
+    "length(AB)=2",
+    "length(BD)=3.873"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00709.png",
+  "meta": {
+    "source": "梯形对角线长度",
+    "difficulty": "middle",
+    "tags": ["trapezoid", "parallel", "equal"]
+  }
+}

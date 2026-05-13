@@ -1,0 +1,24 @@
+{
+  "id": "00189",
+  "text": "在△ABC中，∠ABC=19.47°，∠BCA=63.43°，AB=3，AC=√5/2",
+  "dsl": [
+    "triangle(A, B, C)",
+    "length(AB)=3",
+    "length(AC)=√5/2",
+    "angle(ABC)=19.47",
+    "angle(BCA)=63.43"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00189.png",
+  "meta": {
+    "source": "三角形与三角函数",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "trigonometry"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "01200",
+  "text": "在平面直角坐标系中，一次函数y=x+1的图象与反比例函数y=2/x的图象相交于A(1,2)、B(-2,-1)两点，点P在线段AB上，且△AOP的面积与△BOP的面积之比为1:4，点P的坐标为(2/5,7/5)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 1, 2)",
+    "point_coord(B, -2, -1)",
+    "point_coord(P, 2/5, 7/5)",
+    "triangle(A, O, P)",
+    "triangle(B, O, P)",
+    "line_function(l, 1, 1)",
+    "hyperbola(h, 2)",
+    "segment(AB)",
+    "segment(OP)",
+    "function_intersection(A, l, h)",
+    "function_intersection(B, l, h)",
+    "on(P, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01200.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "line_function",
+      "hyperbola",
+      "function_intersection"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了P(2/5,7/5)的计算结果，面积比条件静态化"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

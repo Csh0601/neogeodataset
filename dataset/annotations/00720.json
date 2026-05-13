@@ -1,0 +1,38 @@
+{
+  "id": "00720",
+  "text": "在平面直角坐标系xOy中，二次函数y=-x²+1的图象与x轴交于A、B两点，与y轴正半轴交于点M，以AB为直径的半圆经过点M，二次函数的对称轴与x轴交于点D，线段BM与对称轴交于点E，线段AM与对称轴交于点F，DE/EF=1/3",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(M)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "parabola(p1, -1, 0, 1)",
+    "segment(AB)",
+    "segment(BM)",
+    "segment(AM)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(DF)",
+    "on(A, p1)",
+    "on(B, p1)",
+    "on(M, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(M, p1, y)",
+    "collinear(D, E, F)",
+    "ratio(DE, EF)=0.3333"
+  ],
+  "image_path": "images/00720.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "semicircle", "ratio"]
+  }
+}

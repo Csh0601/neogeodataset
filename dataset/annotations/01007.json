@@ -1,0 +1,31 @@
+{
+  "id": "01007",
+  "text": "直线m平行于直线n，直角△ABC的直角顶点A在直线m上，直线m平分直角∠BAC，∠1=60°，B在直线m和n之间，C在直线n下方，∠2=65°，∠3=45°，∠4=125°，∠5=130°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "line(m, A, D)",
+    "line(n, E, F)",
+    "parallel(m, n)",
+    "right_angle(BAC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01007.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "parallel_lines",
+      "right_triangle",
+      "angle"
+    ]
+  }
+}

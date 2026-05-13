@@ -1,0 +1,29 @@
+{
+  "id": "00282",
+  "text": "直线a∥b，含30°角的三角形ABC，A在a上，B在b上，BC=5，AC=4，∠ABC=30°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "line(a)",
+    "line(b)",
+    "on(A, a)",
+    "on(B, b)",
+    "parallel(a, b)",
+    "length(BC)=5",
+    "length(AC)=4",
+    "angle(ABC)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00282.png",
+  "meta": {
+    "source": "平行线与三角板",
+    "difficulty": "easy",
+    "tags": [
+      "parallel",
+      "angle",
+      "triangle"
+    ]
+  }
+}

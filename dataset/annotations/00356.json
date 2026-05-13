@@ -1,0 +1,48 @@
+{
+  "id": "00356",
+  "text": "在平面直角坐标系中，抛物线y=-x²+2x+3交x轴于点A(-1,0)、B(3,0)，交y轴于点C(0,3)，对称轴交x轴于点E(1,0)，过点C作CD∥x轴交抛物线于点D(2,3)，连接DE并延长交y轴于点F，交抛物线于点G，AF交CD于点H，交抛物线于点K，连接HE、GK，HE∥GK",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(E)",
+    "point(D)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "point(K)",
+    "point_coord(E, 1, 0)",
+    "parabola(p, -1, 2, 3)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(AF)",
+    "segment(HE)",
+    "segment(GK)",
+    "intersection(H, AF, CD)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)",
+    "function_point(D, p)",
+    "function_point(G, p)",
+    "function_point(K, p)",
+    "collinear(D, E, F)",
+    "collinear(D, E, G)",
+    "collinear(A, H, K)",
+    "parallel(HE, GK)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00356.png",
+  "meta": {
+    "source": "抛物线与平行线",
+    "difficulty": "hard",
+    "tags": [
+      "parabola",
+      "coordinate_system",
+      "parallel"
+    ]
+  }
+}

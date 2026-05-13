@@ -1,0 +1,39 @@
+{
+  "id": "00772",
+  "text": "在平面直角坐标系xOy中，直线y=3/4x+c与x轴交于点B(4,0)，与y轴交于点C，抛物线y=3/4x^2+bx+c经过点B和C，与x轴的另一个交点为A，点P是直线BC下方的抛物线上一点，点M是抛物线上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(M)",
+    "point_coord(B, 4, 0)",
+    "line_function(l1, 0.75, -3)",
+    "parabola(p1, 0.75, -4, -3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "function_point(B, l1)",
+    "function_point(C, l1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(A, p1)",
+    "function_point(P, p1)",
+    "function_point(M, p1)",
+    "axis_intersection(B, l1, x)",
+    "axis_intersection(C, l1, y)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)"
+  ],
+  "image_path": "images/00772.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "line", "area"]
+  }
+}

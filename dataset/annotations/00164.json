@@ -1,0 +1,37 @@
+{
+  "id": "00164",
+  "text": "半径为4的⊙O是边长为4√3等边△ABC的外接圆，AD为⊙O的直径，AD⊥BC，垂足为E，连接BO，延长BO交AC于点F",
+  "dsl": [
+    "point(D)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BO)",
+    "segment(BF)",
+    "on(D, circle_O)",
+    "on(F, AC)",
+    "foot(E, A, BC)",
+    "circumcircle(O, A, B, C)",
+    "collinear(A, O, D)",
+    "collinear(A, E, D)",
+    "collinear(B, O, F)",
+    "perpendicular(AD, BC)",
+    "length(AB)=4√3",
+    "length(AD)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00164.png",
+  "meta": {
+    "source": "外接圆与直径",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "circumcircle",
+      "diameter",
+      "perpendicular"
+    ]
+  }
+}

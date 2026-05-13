@@ -1,0 +1,41 @@
+{
+  "id": "00376",
+  "text": "平行四边形ABCD中，AB=5，AD=4，∠DAB=60°，对角线AC、BD相交于点O，过点O作EF⊥AC，分别交AB、DC于点E、F，连接AF、CE，四边形AECF为菱形",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(AF)",
+    "segment(CE)",
+    "segment(AE)",
+    "segment(CF)",
+    "on(E, AB)",
+    "on(F, DC)",
+    "intersection(O, AC, BD)",
+    "perpendicular(EF, AC)",
+    "parallelogram(A, E, C, F)",
+    "equal(AE, EC)",
+    "collinear(E, O, F)",
+    "length(AB)=5",
+    "length(AD)=4",
+    "angle(DAB)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00376.png",
+  "meta": {
+    "source": "平行四边形与菱形",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "rhombus",
+      "perpendicular"
+    ]
+  }
+}

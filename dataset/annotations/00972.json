@@ -1,0 +1,36 @@
+{
+  "id": "00972",
+  "text": "在平面直角坐标系中，直线AB与x轴交于点A(8,0)，与y轴交于点B(0,8)，点D为OA延长线上一点，以BD为直角边在其上方作等腰直角三角形BDE，∠BDE=90°，连接EA",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "point(E)",
+    "point_coord(A, 8, 0)",
+    "point_coord(B, 0, 8)",
+    "line(l, A, B)",
+    "segment(AB)",
+    "segment(BD)",
+    "segment(DE)",
+    "segment(EA)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(D, axis_x)",
+    "isosceles_right(D, B, E)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00972.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "isosceles_right_triangle"
+    ]
+  }
+}

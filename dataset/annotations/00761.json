@@ -1,0 +1,35 @@
+{
+  "id": "00761",
+  "text": "在平面直角坐标系xOy中，抛物线y=-2x²+4x+6经过A(-1,0)和B(3,0)两点，C是抛物线与y轴的交点，P在抛物线第一象限上，线段CP与x轴交于点Q",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "parabola(p1, -2, 4, 6)",
+    "segment(AB)",
+    "segment(CP)",
+    "segment(BC)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(P, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(C, p1, y)"
+  ],
+  "image_path": "images/00761.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "similar"]
+  }
+}

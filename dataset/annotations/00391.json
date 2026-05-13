@@ -1,0 +1,36 @@
+{
+  "id": "00391",
+  "text": "射线BA和射线BC相交于点B，∠ABC=90°，AB=CB，点D在线段BC上，作射线AD，点E在射线AD上，∠AEC=90°，连接CE、BE，∠AEB=45°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(CE)",
+    "segment(BE)",
+    "ray(B, A)",
+    "ray(B, C)",
+    "ray(A, D)",
+    "on(D, BC)",
+    "on(E, AD)",
+    "equal(AB, CB)",
+    "angle(ABC)=90",
+    "angle(AEC)=90",
+    "angle(AEB)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00391.png",
+  "meta": {
+    "source": "射线与等腰三角形",
+    "difficulty": "hard",
+    "tags": [
+      "ray",
+      "isosceles",
+      "angle"
+    ]
+  }
+}

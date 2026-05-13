@@ -1,0 +1,49 @@
+{
+  "id": "00907",
+  "text": "在平面直角坐标系中，直线y=(4/3)x+4分别交x轴、y轴于点A、B两点，C为OB的中点，点D在第二象限，四边形AOCD为矩形，P是CD上一个点，过点P作PH⊥OA，垂足为H，Q是点B关于点A的对称点",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point(H)",
+    "point(Q)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 0, 4)",
+    "point_coord(C, 0, 2)",
+    "point_coord(D, -3, 2)",
+    "line_function(l1, 1.3333, 4)",
+    "rectangle(A, O, C, D)",
+    "segment(PH)",
+    "segment(CD)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_y)",
+    "on(H, OA)",
+    "on(P, CD)",
+    "midpoint(C, OB)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "foot(H, P, OA)",
+    "reflect(Q, B, A)",
+    "perpendicular(PH, OA)"
+  ],
+  "image_path": "images/00907.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系直线与矩形",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "line_function",
+      "rectangle",
+      "reflect"
+    ]
+  }
+}

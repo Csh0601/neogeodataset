@@ -1,0 +1,29 @@
+{
+  "id": "00666",
+  "text": "射线OA、OB、OC、OD从点O出发，AB∥OD，∠AOC=90°，∠BOD=90°",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "ray(O, A)",
+    "ray(O, B)",
+    "ray(O, C)",
+    "ray(O, D)",
+    "segment(AB)",
+    "parallel(AB, OD)",
+    "angle(AOC)=90",
+    "angle(BOD)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00666.png",
+  "meta": {
+    "source": "三角板叠放平行线",
+    "difficulty": "easy",
+    "tags": ["parallel", "right_angle", "triangle_ruler"]
+  }
+}

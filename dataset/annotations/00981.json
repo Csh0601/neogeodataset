@@ -1,0 +1,35 @@
+{
+  "id": "00981",
+  "text": "Rt△ABC与Rt△ACD拼接，∠ACB=90°，∠BAC=30°，∠ADC=90°，∠DAC=45°，AB=2√3，P是AC上的一点",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "triangle(A, C, D)",
+    "segment(AC)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(CD)",
+    "segment(DP)",
+    "on(P, AC)",
+    "angle(ACB)=90",
+    "angle(BAC)=30",
+    "angle(ADC)=90",
+    "angle(DAC)=45",
+    "length(AB)=2√3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00981.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "moving_point",
+      "angle"
+    ]
+  }
+}

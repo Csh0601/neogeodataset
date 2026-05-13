@@ -1,0 +1,30 @@
+{
+  "id": "00133",
+  "text": "在菱形ABCD中，AB=10，E、F分别是AD、BD的中点，EF=5，菱形ABCD的周长为40，连接EF，DB",
+  "dsl": [
+    "parallelogram(A, B, C, D)",
+    "segment(BD)",
+    "segment(EF)",
+    "midpoint(E, AD)",
+    "midpoint(F, BD)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DA)",
+    "length(EF)=5",
+    "length(AB)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00133.png",
+  "meta": {
+    "source": "菱形与中点",
+    "difficulty": "easy",
+    "tags": [
+      "rhombus",
+      "midpoint",
+      "perimeter"
+    ]
+  }
+}

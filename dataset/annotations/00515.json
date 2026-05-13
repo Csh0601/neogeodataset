@@ -1,0 +1,34 @@
+{
+  "id": "00515",
+  "text": "点A、C分别在两条平行的竖直线上，AC⊥CD，BD⊥CD，CD=30，BD=36，过A作AH⊥BD，∠BAH=30°",
+  "dsl": [
+    "point(H)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(AH)",
+    "foot(H, A, BD)",
+    "perpendicular(AC, CD)",
+    "perpendicular(BD, CD)",
+    "length(CD)=30",
+    "length(BD)=36",
+    "angle(BAH)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00515.png",
+  "meta": {
+    "source": "仰角问题",
+    "difficulty": "middle",
+    "tags": [
+      "elevation_angle",
+      "application"
+    ]
+  }
+}

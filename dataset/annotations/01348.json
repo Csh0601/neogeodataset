@@ -1,0 +1,39 @@
+{
+  "id": "01348",
+  "text": "矩形ABCD中，AD=12，AB=8，E是AB上一点，且EB=3，F是BC上一点，将△EBF沿EF对折后，点B落在点P处，连接EP、PF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "rectangle(A, B, C, D)",
+    "triangle(E, B, F)",
+    "segment(EF)",
+    "segment(EP)",
+    "segment(PF)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "fold(B, P, EF)",
+    "length(AD)=12",
+    "length(AB)=8",
+    "length(EB)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01348.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "动点F静态化"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

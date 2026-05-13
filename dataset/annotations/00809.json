@@ -1,0 +1,24 @@
+{
+  "id": "00809",
+  "text": "在三角形ABC中，点D在AC边上，连接BD，角ABC+角BDC=180度，AD=2，CD=4",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(AD)",
+    "segment(CD)",
+    "on(D, AC)",
+    "length(AD)=2",
+    "length(CD)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00809.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "supplementary_angle"]
+  }
+}

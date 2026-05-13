@@ -1,0 +1,31 @@
+{
+  "id": "00910",
+  "text": "在正方形ABCD中，AB=12，点E在边AB上，点F在边BC上，AE=6，将正方形分别沿DE、DF向内折叠，此时DA与DC重合为DG，CF的长度为4",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(DG)",
+    "segment(CF)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "fold(A, G, DE)",
+    "fold(C, G, DF)",
+    "length(AB)=12",
+    "length(AE)=6",
+    "length(CF)=4"
+  ],
+  "image_path": "images/00910.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "正方形折叠",
+    "difficulty": "hard",
+    "tags": ["square", "fold"]
+  }
+}

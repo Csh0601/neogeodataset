@@ -1,0 +1,28 @@
+{
+  "id": "00072",
+  "text": "在矩形ABCD中，AB=3,点E在边AD上，BE=BC，AE=4，连接CE",
+  "dsl": [
+    "point(E)",
+    "rectangle(A, B, C, D)",
+    "segment(BE)",
+    "segment(CE)",
+    "on(E, AD)",
+    "equal(BE, BC)",
+    "length(AB)=3",
+    "length(AE)=4"
+  ],
+  "image_path": "images/00072.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "矩形",
+    "difficulty": "easy",
+    "tags": [
+      "rectangle",
+      "equal",
+      "angle"
+    ]
+  }
+}

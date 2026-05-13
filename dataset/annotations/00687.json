@@ -1,0 +1,40 @@
+{
+  "id": "00687",
+  "text": "在平面直角坐标系中，直线y=-2/3·x+2与x轴交于点A(3,0)，与y轴交于点B(0,2)，抛物线y=-4/3·x²+10/3·x+2经过点A和点B，M为线段OA上一点，过M作垂直于x轴的直线与直线AB交于点P，与抛物线交于点N",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(M)",
+    "point(N)",
+    "point(P)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, 0, 2)",
+    "parabola(p, -1.333, 3.333, 2)",
+    "line_function(l, -0.667, 2)",
+    "segment(OA)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(A, line_l)",
+    "on(B, line_l)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(M, OA)",
+    "on(P, line_l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00687.png",
+  "meta": {
+    "source": "抛物线与直线交点垂线",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line",
+      "perpendicular"
+    ]
+  }
+}

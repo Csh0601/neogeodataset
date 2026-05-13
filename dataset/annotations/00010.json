@@ -1,0 +1,31 @@
+{
+  "id": "00010",
+  "text": "在平面直角坐标系中，半径为3的⊙A经过原点O和点C(1,2)，B是y轴左侧⊙A优弧上一点，tan∠OBC 为根号二比四",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(B)",
+    "point_coord(O, 0, 0)",
+    "point_coord(C, 1, 2)",
+    "circle(A, r=3)",
+    "segment(OB)",
+    "segment(BC)",
+    "segment(OC)",
+    "on(O, circle_A)",
+    "on(C, circle_A)",
+    "on(B, circle_A)",
+    "tan(OBC)=√2/4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00010.png",
+  "meta": {
+    "source": "坐标系中的圆",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "circle"
+    ]
+  }
+}

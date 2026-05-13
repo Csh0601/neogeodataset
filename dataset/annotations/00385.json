@@ -1,0 +1,27 @@
+{
+  "id": "00385",
+  "text": "在等腰直角△ABC中，∠BAC=90°，∠ABC=∠BCA=45°，D、E是△ABC所在平面上的两点，∠ADE=20°，∠DEB=25°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "angle(BAC)=90",
+    "angle(ABC)=45",
+    "angle(BCA)=45",
+    "angle(ADE)=20",
+    "angle(DEB)=25"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00385.png",
+  "meta": {
+    "source": "三角尺与直尺角度",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "angle"
+    ]
+  }
+}

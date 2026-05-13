@@ -1,0 +1,36 @@
+{
+  "id": "00469",
+  "text": "在四边形ABCD中，对角线AC、BD相交于点O，OA=OC，OB=OD+CD，过点A作AE∥DC交BD于点E，AE=BE，将△ABD沿AB翻折得到△ABD'，BD'∥CD，AD'∥BC，CD²=2OD·BD",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(D_prime)",
+    "quadrilateral(A, B, C, D)",
+    "triangle(A, B, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(AE)",
+    "on(E, BD)",
+    "intersection(O, AC, BD)",
+    "reflect(D_prime, D, AB)",
+    "equal(OA, OC)",
+    "parallel(AE, DC)",
+    "equal(AE, BE)",
+    "parallel(BD_prime, CD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00469.png",
+  "meta": {
+    "source": "四边形对角线与翻折",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "diagonal",
+      "fold",
+      "parallel"
+    ]
+  }
+}

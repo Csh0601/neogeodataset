@@ -1,0 +1,32 @@
+{
+  "id": "00018",
+  "text": "在△ABE和△ACD中，AB=AC=5，点D在边AB上，点E在边AC上，CD与BE相交于点O，△ABE≌△ACD",
+  "dsl": [
+    "point(O)",
+    "triangle(A, B, E)",
+    "triangle(A, C, D)",
+    "segment(CD)",
+    "segment(BE)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "intersection(O, CD, BE)",
+    "congruent(ABE, ACD)",
+    "equal(AB, AC)",
+    "length(AB)=5",
+    "length(AC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00018.png",
+  "meta": {
+    "source": "等腰三角形与全等判定",
+    "difficulty": "easy",
+    "tags": [
+      "isosceles",
+      "congruent",
+      "intersection"
+    ]
+  }
+}

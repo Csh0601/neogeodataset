@@ -1,0 +1,35 @@
+{
+  "id": "00983",
+  "text": "△ABC与△ADE是以点A为公共顶点的两个三角形，AD=AE，AB=AC，∠DAE=∠CAB=90°，线段BD与CE交于F",
+  "dsl": [
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(AE)",
+    "intersection(F, BD, CE)",
+    "equal(AD, AE)",
+    "equal(AB, AC)",
+    "congruent(AEC, ADB)",
+    "angle(DAE)=90",
+    "angle(CAB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00983.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "congruent_triangles",
+      "rotation",
+      "intersection"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "01072",
+  "text": "在平面直角坐标系中，△ABC为等腰直角三角形，BC=AC，直角顶点C在x轴上，一锐角顶点B在y轴上，点C的坐标为(2,0)，点A的坐标为(-2,-2)，点B在y轴正半轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(C, 2, 0)",
+    "point_coord(A, -2, -2)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(C, axis_x)",
+    "on(B, axis_y)",
+    "equal(BC, AC)",
+    "angle(ACB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01072.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "isosceles_right_triangle"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00333",
+  "text": "在△ABC中，AB=5，AC=3，∠ABC=50°，点D在边AB上，且BD=CA，过点D作DE∥AC并截取DE=AB，且点C、E在AB同侧，连接BE，△DEB≅△ABC",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(D, E, B)",
+    "on(D, AB)",
+    "equal(BD, CA)",  
+    "equal(DE, AB)",
+    "parallel(DE, AC)",
+    "congruent(DEB, ABC)",
+    "length(AB)=5",
+    "length(AC)=3",
+    "angle(ABC)=50",
+    "same_sides(C, E, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00333.png",
+  "meta": {
+    "source": "三角形全等证明",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "congruent",
+      "parallel"
+    ]
+  }
+}

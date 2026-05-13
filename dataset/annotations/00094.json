@@ -1,0 +1,41 @@
+{
+  "id": "00094",
+  "text": "在正方形ABCD中，边长AB=2，E是BC边的中点，连接DE，将△DCE沿DE翻折到正方形所在平面内得△DFE，延长DF交AB于点G，∠ADG和∠DAG的角平分线DH、AH交于点H，连接GH",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "square(A, B, C, D)",
+    "triangle(D, C, E)",
+    "triangle(D, F, E)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(DH)",
+    "segment(AH)",
+    "segment(GH)",
+    "segment(EF)",
+    "on(G, AB)",
+    "on(H, bisector_ADG)",
+    "on(H, bisector_DAG)",
+    "midpoint(E, BC)",
+    "intersection(H, DH, AH)",
+    "fold(C, F, DE)",
+    "collinear(D, F, G)",
+    "length(AB)=2"
+  ],
+  "image_path": "images/00094.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "几何综合",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "midpoint",
+      "collinear"
+    ]
+  }
+}

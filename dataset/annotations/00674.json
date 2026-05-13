@@ -1,0 +1,30 @@
+{
+  "id": "00674",
+  "text": "等腰梯形ABCD中，AD平行于BC，AB=DC，对角线AC与BD交于点O，E、F分别为AB、DC的中点，EF为中位线，对角线与下底的夹角为45°，中位线长为8，∠ACB=45°",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "trapezoid(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "midpoint(E, AB)",
+    "midpoint(F, DC)",
+    "intersection(O, AC, BD)",
+    "equal(AB, DC)",
+    "parallel(AD, BC)",
+    "angle(ACB)=45",
+    "length(EF)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00674.png",
+  "meta": {
+    "source": "等腰梯形对角线与中位线",
+    "difficulty": "middle",
+    "tags": ["trapezoid", "isosceles", "midpoint", "diagonal"]
+  }
+}

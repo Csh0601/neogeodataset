@@ -1,0 +1,32 @@
+{
+  "id": "01150",
+  "text": "在梯形ABCD中，AB∥CD，∠ABC和∠BCD的平分线的交点E在AD上，E是AD的中点，BC=AB+CD",
+  "dsl": [
+    "point(E)",
+    "trapezoid(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CE)",
+    "midpoint(E, AD)",
+    "parallel(AB, CD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01150.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "trapezoid",
+      "parallel",
+      "angle_bisector",
+      "midpoint",
+      "proof"
+    ]
+  }
+}

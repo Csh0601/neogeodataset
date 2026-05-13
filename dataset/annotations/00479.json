@@ -1,0 +1,41 @@
+{
+  "id": "00479",
+  "text": "AB为⊙O的直径，点C是⊙O上一点，CD与⊙O相切于点C，过点A作AD⊥DC，连接AC、BC，AC是∠DAB的角平分线，AD=2，AB=3，AC的长为√6",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "angle_bisector(C, D, A, B)",
+    "tangent(C, circle_O)",
+    "collinear(A, O, B)",
+    "perpendicular(AD, DC)",
+    "length(AD)=2",
+    "length(AB)=3",
+    "length(AC)=2.449"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00479.png",
+  "meta": {
+    "source": "圆直径与切线角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "angle_bisector"
+    ]
+  }
+}

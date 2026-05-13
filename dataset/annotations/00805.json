@@ -1,0 +1,30 @@
+{
+  "id": "00805",
+  "text": "在平面直角坐标系中，二次函数y=-x^2+bx+c的图象经过点A(-1,0)和B(3,0)，与y轴交于点C",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, 3)",
+    "parabola(f, -1, 2, 3)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AB)",
+    "function_point(A, f)",
+    "function_point(B, f)",
+    "axis_intersection(C, f, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00805.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "quadratic_function"]
+  }
+}

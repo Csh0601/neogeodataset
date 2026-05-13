@@ -1,0 +1,23 @@
+{
+  "id": "00627",
+  "text": "在△ABP中，AB=60，∠PAB=60°，∠PBA=30°，BP=60",
+  "dsl": [
+    "triangle(A, B, P)",
+    "segment(AB)",
+    "segment(BP)",
+    "length(AB)=60",
+    "angle(PAB)=60",
+    "angle(PBA)=30",
+    "length(BP)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00627.png",
+  "meta": {
+    "source": "方向角测量",
+    "difficulty": "middle",
+    "tags": ["angle", "direction"]
+  }
+}

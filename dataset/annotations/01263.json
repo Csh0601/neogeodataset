@@ -1,0 +1,41 @@
+{
+  "id": "01263",
+  "text": "在正方形ABCD中，AC是对角线，直角顶点P在射线AC上移动，直角三角形一边始终经过点B，另一边交DC于Q",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AC)",
+    "segment(PB)",
+    "segment(PQ)",
+    "on(P, AC)",
+    "on(Q, DC)",
+    "foot(E, P, DC)",
+    "foot(F, P, BC)",
+    "angle(BPQ)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01263.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "diagonal",
+      "right_angle",
+      "moving_point"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "图1场景：P在DC边上时，Q也在DC边上",
+      "PE⊥DC，PF⊥BC为辅助构造"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

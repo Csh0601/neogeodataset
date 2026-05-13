@@ -1,0 +1,38 @@
+{
+  "id": "00538",
+  "text": "点A、E、F在直线上，AE=BF，AC∥BF，且AC=BD，CF=DE",
+  "dsl": [
+    "point(A)",
+    "point(E)",
+    "point(F)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CF)",
+    "segment(DE)",
+    "line(l1, A, F)",
+    "on(E, l1)",
+    "equal(AE, BF)",
+    "parallel(AC, BF)",
+    "equal(AC, BD)",
+    "equal(CF, DE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00538.png",
+  "meta": {
+    "source": "平行线与等长",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "equal",
+      "collinear"
+    ]
+  }
+}

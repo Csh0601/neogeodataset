@@ -1,0 +1,35 @@
+{
+  "id": "00899",
+  "text": "在平面直角坐标系中，抛物线y=-(5/6)x^2+(17/6)x+2交x轴于点A、点B，交y轴于点C，直线y=-(1/2)x+2经过点C和点B",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, 2)",
+    "parabola(p1, -0.8333, 2.8333, 2)",
+    "line_function(l1, -0.5, 2)",
+    "segment(AB)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(C, l1)",
+    "function_point(B, l1)"
+  ],
+  "image_path": "images/00899.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线与直线综合",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "line_function"]
+  }
+}

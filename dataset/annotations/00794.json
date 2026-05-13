@@ -1,0 +1,31 @@
+{
+  "id": "00794",
+  "text": "在△ABC中，AB=AC，∠A=100°，BD平分∠ABC，D在AC上，BC=BD+AD",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(AD)",
+    "on(D, AC)",
+    "bisect_angle(A, B, C, BD)",
+    "equal(AB, AC)",
+    "angle(BAC)=100"
+  ],
+  "image_path": "images/00794.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "angle_bisector"
+    ]
+  }
+}

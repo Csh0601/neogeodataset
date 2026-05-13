@@ -1,0 +1,30 @@
+{
+  "id": "00636",
+  "text": "四边形ABCD中，DA⊥AB，CB⊥AB，AD=3，AB=5，BC=2，P是AB上一点，连接PC、PD",
+  "dsl": [
+    "point(P)",
+    "quadrilateral(A, B, C, D)",
+    "segment(PC)",
+    "segment(PD)",
+    "on(P, AB)",
+    "perpendicular(DA, AB)",
+    "perpendicular(CB, AB)",
+    "length(AD)=3",
+    "length(AB)=5",
+    "length(BC)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00636.png",
+  "meta": {
+    "source": "动点最值",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "perpendicular",
+      "minimum"
+    ]
+  }
+}

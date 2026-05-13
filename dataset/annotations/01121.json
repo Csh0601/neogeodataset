@@ -1,0 +1,42 @@
+{
+  "id": "01121",
+  "text": "在△ABC中，∠BAC=90°，AC=8，BC=10，AD是BC边上的高，D为垂足，点E、F分别在边DC、DA上，DE:DF=4:3，射线AE与BF相交于点M，连接CM",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(DC)",
+    "segment(DA)",
+    "ray(A, E)",
+    "segment(BF)",
+    "segment(CM)",
+    "segment(DE)",
+    "segment(DF)",
+    "on(D, BC)",
+    "foot(D, A, BC)",
+    "on(E, DC)",
+    "on(F, DA)",
+    "intersection(M, AE, BF)",
+    "perpendicular(AD, BC)",
+    "angle(BAC)=90",
+    "length(AC)=8",
+    "length(BC)=10",
+    "ratio(DE, DF)=1.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01121.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["right_triangle", "altitude", "ratio", "intersection"]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "00312",
+  "text": "AB为⊙O的直径，C为⊙O上的一点，连接AC，AD⊥CD，垂足为D，AC平分∠DAB，AD=3，DC=√3，⊙O的半径为2",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O, r=2)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(DC)",
+    "segment(AC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "midpoint(O, AB)",
+    "angle_bisector(C, D, A, B)",
+    "perpendicular(AD, CD)",
+    "length(AD)=3",
+    "length(DC)=√3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00312.png",
+  "meta": {
+    "source": "圆的直径与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "angle_bisector"
+    ]
+  }
+}

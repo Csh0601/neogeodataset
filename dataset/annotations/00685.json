@@ -1,0 +1,41 @@
+{
+  "id": "00685",
+  "text": "在平面直角坐标系中，抛物线y=-1/2·x²+3/2·x+2与直线AB交于点A(-1,0)和B(3,2)，抛物线与x轴的另一个交点为C(4,0)，以C为圆心、1为半径作⊙C，D为⊙C上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 2)",
+    "point_coord(C, 4, 0)",
+    "circle(C, r=1)",
+    "parabola(p, -0.5, 1.5, 2)",
+    "line_function(l, 0.5, 0.5)",
+    "segment(AB)",
+    "on(A, axis_x)",
+    "on(C, axis_x)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)",
+    "on(A, line_l)",
+    "on(B, line_l)",
+    "on(D, circle_C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00685.png",
+  "meta": {
+    "source": "抛物线与直线交点及圆",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line",
+      "circle"
+    ]
+  }
+}

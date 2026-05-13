@@ -1,0 +1,35 @@
+{
+  "id": "00501",
+  "text": "AB∥CD∥EF，∠ABC=130°，∠BCE=55°，∠CEF=115°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(EF)",
+    "segment(BC)",
+    "segment(CE)",
+    "parallel(AB, CD)",
+    "parallel(CD, EF)",
+    "angle(ABC)=130",
+    "angle(BCE)=55",
+    "angle(CEF)=115"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00501.png",
+  "meta": {
+    "source": "平行线与同位角",
+    "difficulty": "easy",
+    "tags": [
+      "parallel",
+      "angle"
+    ]
+  }
+}

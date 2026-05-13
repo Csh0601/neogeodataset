@@ -1,0 +1,29 @@
+{
+  "id": "00754",
+  "text": "P是正方形ABCD内一点，CP=CD，AP⊥BP，连接AP、BP、CP、DP",
+  "dsl": [
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(AP)",
+    "segment(BP)",
+    "segment(CP)",
+    "segment(DP)",
+    "equal(CP, CD)",
+    "perpendicular(AP, BP)",
+    "inside(P, square_ABCD)"
+  ],
+  "image_path": "images/00754.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "perpendicular",
+      "equal"
+    ]
+  }
+}

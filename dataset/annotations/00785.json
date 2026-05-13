@@ -1,0 +1,39 @@
+{
+  "id": "00785",
+  "text": "在等边△ABC中，D是BC边上的一点，把△ABC折叠，使点A落在BC边上的点D处，折痕与边AB、AC分别交于点M、N，AM=2，AN=3，BC=5",
+  "dsl": [
+    "point(D)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(MN)",
+    "segment(AM)",
+    "segment(AN)",
+    "on(D, BC)",
+    "on(M, AB)",
+    "on(N, AC)",
+    "fold(A, D, MN)",
+    "equal(AB, BC)",
+    "equal(BC, AC)",
+    "length(AM)=2",
+    "length(AN)=3",
+    "length(BC)=5"
+  ],
+  "image_path": "images/00785.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "equilateral",
+      "fold"
+    ]
+  }
+}

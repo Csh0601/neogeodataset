@@ -1,0 +1,25 @@
+{
+  "id": "00839",
+  "text": "在三角形ABC中，角B=60度，AB=8，BC=5，E在BC上，CE=2，连接AE",
+  "dsl": [
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AE)",
+    "segment(CE)",
+    "on(E, BC)",
+    "angle(ABC)=60",
+    "length(AB)=8",
+    "length(BC)=5",
+    "length(CE)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00839.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["triangle", "cosine_rule"]
+  }
+}

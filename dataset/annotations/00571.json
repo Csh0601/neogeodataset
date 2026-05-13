@@ -1,0 +1,38 @@
+{
+  "id": "00571",
+  "text": "OA=6，OB=8，BC=2，圆P与直线OB、直线AB均相切，点P在线段AC上",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "circle(P)",
+    "line(l1, O, B)",
+    "line(l2, A, B)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(BC)",
+    "segment(AC)",
+    "on(P, AC)",
+    "tangent(P, OB)",
+    "tangent(P, AB)",
+    "length(OA)=6",
+    "length(OB)=8",
+    "length(BC)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00571.png",
+  "meta": {
+    "source": "圆切线与抛物线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "parabola"
+    ]
+  }
+}

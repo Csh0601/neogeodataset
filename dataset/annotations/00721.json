@@ -1,0 +1,30 @@
+{
+  "id": "00721",
+  "text": "在平面直角坐标系xOy中，直线y=2x-6与抛物线y=x²-2x-3交于A、B两点，抛物线的顶点为A(1,-4)，点B在x轴上，点C在y轴负半轴，点D在第三象限",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, 1, -4)",
+    "parabola(p1, 1, -2, -3)",
+    "line_function(l1, 2, -6)",
+    "segment(AB)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "axis_intersection(B, p1, x)"
+  ],
+  "image_path": "images/00721.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "line"]
+  }
+}

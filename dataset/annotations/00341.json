@@ -1,0 +1,37 @@
+{
+  "id": "00341",
+  "text": "在平面直角坐标系中，点A的坐标为(0,2)，点B的坐标为(4,2)，抛物线y=-3/2(x-2)²+3.5与线段AB交于C、D两点，且CD=1/2·AB,",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, 0, 2)",
+    "point_coord(B, 4, 2)",
+    "parabola(p, -1.5, 6, -2.5)",
+    "segment(AB)",
+    "segment(CD)",
+    "on(C, AB)",
+    "on(D, AB)",
+    "intersection(C, p, AB, index=0)",
+    "intersection(D, p, AB, index=1)",
+    "function_point(C, p)",
+    "function_point(D, p)",
+    "ratio(CD, AB)=0.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00341.png",
+  "meta": {
+    "source": "抛物线与线段交点",
+    "difficulty": "hard",
+    "tags": [
+      "parabola",
+      "coordinate_system",
+      "intersection"
+    ]
+  }
+}

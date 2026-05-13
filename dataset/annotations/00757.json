@@ -1,0 +1,29 @@
+{
+  "id": "00757",
+  "text": "在平面直角坐标系xOy中，二次函数y=x^2-4x+4的图象的顶点为A，坐标圆的圆心为P，⊙P经过抛物线与坐标轴的交点，二次函数y=ax^2-4x+4(0<a<1)的图象交x轴于A、B两点，交y轴于点C，与坐标圆的第四个交点为D，连接PC、PD，∠CPD=120°",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "parabola(p1, 1, -4, 4)",
+    "circle(P)",
+    "segment(PC)",
+    "segment(PD)",
+    "on(C, circle_P)",
+    "on(D, circle_P)",
+    "angle(CPD)=120"
+  ],
+  "image_path": "images/00757.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "circle", "angle"]
+  }
+}

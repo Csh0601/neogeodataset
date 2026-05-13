@@ -1,0 +1,26 @@
+{
+  "id": "00289",
+  "text": "在Rt△ABC中，∠C=90°，CD是斜边AB上的中线，∠A=20°，∠BDC=40°",
+  "dsl": [
+    "point(D)",
+    "segment(CD)",
+    "midpoint(D, AB)",
+    "right_triangle(A, B, C, right_at=C)",
+    "angle(CAB)=20",
+    "angle(BDC)=40"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00289.png",
+  "meta": {
+    "source": "直角三角形斜边中线",
+    "difficulty": "easy",
+    "tags": [
+      "right_triangle",
+      "median",
+      "angle"
+    ]
+  }
+}

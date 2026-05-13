@@ -1,0 +1,32 @@
+{
+  "id": "00712",
+  "text": "在矩形ABCD中，BC=12，AB=8，点E在边BC上，点F是边CD的中点，AE=EF，∠AEF=90°",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(AF)",
+    "on(E, BC)",
+    "midpoint(F, CD)",
+    "equal(AE, EF)",
+    "angle(AEF)=90",
+    "length(BC)=12",
+    "length(AB)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00712.png",
+  "meta": {
+    "source": "矩形内等腰直角三角板",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "right_angle",
+      "midpoint"
+    ]
+  }
+}

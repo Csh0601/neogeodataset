@@ -1,0 +1,29 @@
+{
+  "id": "00824",
+  "text": "在平面直角坐标系中，直线y=2x-6与抛物线y=x²-2x-3相交于A、B两点，抛物线的顶点是A(1,-4)，点B在x轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, 1, -4)",
+    "line_function(l, 2, -6)",
+    "parabola(f, 1, -2, -3)",
+    "segment(AB)",
+    "function_point(A, f)",
+    "function_point(B, f)",
+    "function_point(A, l)",
+    "function_point(B, l)",
+    "function_intersection(A, l, f)",
+    "function_intersection(B, l, f)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00824.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "linear_function"]
+  }
+}

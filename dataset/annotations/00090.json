@@ -1,0 +1,30 @@
+{
+  "id": "00090",
+  "text": "在平行四边形ABCD中，AD=5，AB=12，sinA=4/5,过点D作DE⊥AB，垂足为E，连接CE，CE=4",
+  "dsl": [
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "segment(DE)",
+    "segment(CE)",
+    "foot(E, D, AB)",
+    "perpendicular(DE, AB)",
+    "length(AD)=5",
+    "length(AB)=12",
+    "length(CE)=4",
+    "sin(BAD)=0.8"
+  ],
+  "image_path": "images/00090.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "平行四边形",
+    "difficulty": "easy",
+    "tags": [
+      "parallelogram",
+      "perpendicular",
+      "foot"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00746",
+  "text": "在平面直角坐标系xOy中，二次函数y=x²-4x+3的图象交x轴于A(1,0)和B(3,0)，交y轴于点C，E是BC上一点，PE平行于y轴，P在抛物线上，线段BC下方",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(E)",
+    "point(P)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, 3)",
+    "parabola(p1, 1, -4, 3)",
+    "segment(BC)",
+    "segment(PE)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(P, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(C, p1, y)",
+    "on(E, BC)",
+    "parallel(PE, OC)"
+  ],
+  "image_path": "images/00746.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "parallel"]
+  }
+}

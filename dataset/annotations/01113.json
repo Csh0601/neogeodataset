@@ -1,0 +1,35 @@
+{
+  "id": "01113",
+  "text": "在Rt△ABC中，∠ABC=90°，BA=BC，点D为BC边的中点，BE⊥AD于点E，交AC于点F，AF/FC=1/3",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(BF)",
+    "segment(AF)",
+    "segment(FC)",
+    "midpoint(D, BC)",
+    "foot(E, B, AD)",
+    "intersection(F, BE, AC)",
+    "perpendicular(BE, AD)",
+    "equal(BA, BC)",
+    "angle(ABC)=90",
+    "ratio(AF, FC)=0.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01113.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["right_triangle", "isosceles", "midpoint", "perpendicular", "ratio"]
+  }
+}

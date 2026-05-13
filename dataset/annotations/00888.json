@@ -1,0 +1,19 @@
+{
+  "id": "00888",
+  "text": "在△ABC中，BC=2，∠BAC=45°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "angle(BAC)=45",
+    "length(BC)=2"
+  ],
+  "image_path": "images/00888.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形基本条件",
+    "difficulty": "easy",
+    "tags": ["triangle", "angle"]
+  }
+}

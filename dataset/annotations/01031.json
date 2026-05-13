@@ -1,0 +1,34 @@
+{
+  "id": "01031",
+  "text": "在矩形ABCD中，AB=5，AD=10，E是边AD上一点，过E作EF⊥AC，EF与对角线AC交于点O，与BC交于点F，连接EC，AF",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(EF)",
+    "segment(EC)",
+    "segment(AF)",
+    "on(E, AD)",
+    "intersection(O, EF, AC)",
+    "on(F, BC)",
+    "perpendicular(EF, AC)",
+    "length(AB)=5",
+    "length(AD)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01031.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "perpendicular",
+      "intersection"
+    ]
+  }
+}

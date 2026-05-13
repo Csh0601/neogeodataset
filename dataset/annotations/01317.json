@@ -1,0 +1,34 @@
+{
+  "id": "01317",
+  "text": "在四边形ABCD中，∠BAD=130°，∠B=∠D=90°，点M在BC上，点N在CD上，连接AM、AN、MN",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AM)",
+    "segment(AN)",
+    "segment(MN)",
+    "on(M, BC)",
+    "on(N, CD)",
+    "angle(BAD)=130",
+    "angle(ABC)=90",
+    "angle(ADC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01317.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "quadrilateral",
+      "angle"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "与01306类似图形，四边形ABCD，∠B=∠D=90°，∠BAD=130°，M在BC上，N在CD上"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

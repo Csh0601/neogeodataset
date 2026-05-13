@@ -1,0 +1,28 @@
+{
+  "id": "00852",
+  "text": "矩形ABCD的面积为1，取矩形ABCD四条边的中点得到中点四边形A1B1C1D1，再取四边形A1B1C1D1四条边的中点得到中点四边形A2B2C2D2，按此规律继续下去",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "quadrilateral(A1, B1, C1, D1)",
+    "quadrilateral(A2, B2, C2, D2)",
+    "quadrilateral(A3, B3, C3, D3)",
+    "midpoint(A1, AB)",
+    "midpoint(B1, BC)",
+    "midpoint(C1, CD)",
+    "midpoint(D1, DA)",
+    "midpoint(A2, A1B1)",
+    "midpoint(B2, B1C1)",
+    "midpoint(C2, C1D1)",
+    "midpoint(D2, D1A1)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00852.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["rectangle", "midpoint", "quadrilateral", "pattern"]
+  }
+}

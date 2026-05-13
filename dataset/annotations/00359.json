@@ -1,0 +1,35 @@
+{
+  "id": "00359",
+  "text": "在⊙O中，点A在弧BC上，∠BOC=100°，∠BAC=50°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(BA)",
+    "segment(AC)",
+    "segment(BC)",
+    "arc(B, C, circle_O)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "angle(BOC)=100",
+    "angle(BAC)=50"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00359.png",
+  "meta": {
+    "source": "圆心角与圆周角",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "central_angle",
+      "inscribed_angle"
+    ]
+  }
+}

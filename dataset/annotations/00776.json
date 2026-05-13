@@ -1,0 +1,37 @@
+{
+  "id": "00776",
+  "text": "在平面直角坐标系xOy中，点A(1,2)是反比例函数y=2/x图象上的一点，连接AO并延长交双曲线的另一分支于点B(-1,-2)，点P是x轴上一点，△PAB是等腰三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "point_coord(A, 1, 2)",
+    "point_coord(B, -1, -2)",
+    "triangle(P, A, B)",
+    "hyperbola(h1, 2)",
+    "segment(AB)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(AO)",
+    "function_point(A, h1)",
+    "function_point(B, h1)",
+    "on(P, axis_x)",
+    "collinear(A, O, B)"
+  ],
+  "image_path": "images/00776.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "isosceles",
+      "triangle"
+    ]
+  }
+}

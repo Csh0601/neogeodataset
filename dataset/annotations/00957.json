@@ -1,0 +1,36 @@
+{
+  "id": "00957",
+  "text": "在矩形ABCD中，AB=6，AD=8，点E在边CD上，点F在边BC上，∠AFE=90°，△ABF∽△FCE",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "triangle(A, B, F)",
+    "triangle(F, C, E)",
+    "segment(AF)",
+    "segment(FE)",
+    "segment(AE)",
+    "segment(DE)",
+    "on(E, CD)",
+    "on(F, BC)",
+    "perpendicular(AF, FE)",
+    "similar(ABF, FCE)",
+    "angle(AFE)=90",
+    "length(AB)=6",
+    "length(AD)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00957.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "similar_triangles",
+      "perpendicular"
+    ]
+  }
+}

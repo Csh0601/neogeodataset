@@ -1,0 +1,31 @@
+{
+  "id": "00905",
+  "text": "在△ABC中，点D和E分别是边AB和AC的中点，连接DE，DC与BE交于点O，△DOE的面积为1，△ABC的面积为12",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(O)",
+    "triangle(A, B, C)",
+    "triangle(D, O, E)",
+    "segment(DE)",
+    "segment(DC)",
+    "segment(BE)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "intersection(O, DC, BE)"
+  ],
+  "image_path": "images/00905.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形中位线与面积",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "intersection"
+    ]
+  }
+}

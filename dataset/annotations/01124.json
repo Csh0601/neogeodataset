@@ -1,0 +1,32 @@
+{
+  "id": "01124",
+  "text": "在矩形ABCD中，AB=4，AD=2，E为AB的中点，F为EC上一点，P为DF的中点，连接PB",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(DC)",
+    "segment(EC)",
+    "segment(DF)",
+    "segment(PB)",
+    "midpoint(E, AB)",
+    "on(F, EC)",
+    "midpoint(P, DF)",
+    "length(AB)=4",
+    "length(AD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01124.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["rectangle", "midpoint", "optimization"]
+  }
+}

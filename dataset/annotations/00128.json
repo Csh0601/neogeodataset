@@ -1,0 +1,36 @@
+{
+  "id": "00128",
+  "text": "在矩形ABCD中，AB=3，AD=5，E是AB的中点，F为BC上靠近B的三等分点，连接AF交DE于点N，连接BN，tan∠BNF=1.118",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(N)",
+    "rectangle(A, B, C, D)",
+    "segment(AF)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)", 
+    "segment(BN)",
+    "trisection(F, BC, near=B)",
+    "midpoint(E, AB)",
+    "intersection(N, AF, DE)",
+    "length(AB)=3",
+    "length(AD)=5",
+    "tan(BNF)=1.118"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00128.png",
+  "meta": {
+    "source": "矩形与三角函数",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "midpoint",
+      "intersection",
+      "trigonometry"
+    ]
+  }
+}

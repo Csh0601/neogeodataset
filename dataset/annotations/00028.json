@@ -1,0 +1,35 @@
+{
+  "id": "00028",
+  "text": "在△ABC中，AB=AC=5，点D在BC边上，连接AD，点G在线段AD上，GE∥BD且交AB于点E，GF∥AC且交CD于点F",
+  "dsl": [
+    "point(D)",
+    "point(G)",
+    "point(E)",
+    "point(F)",
+    "segment(AD)",
+    "segment(GE)",
+    "segment(GF)",
+    "on(D, BC)",
+    "on(G, AD)",
+    "on(E, AB)",
+    "on(F, CD)",
+    "isosceles(A, B, C)",
+    "parallel(GE, BD)",
+    "parallel(GF, AC)",
+    "length(AB)=5",
+    "length(AC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00028.png",
+  "meta": {
+    "source": "三角形中的平行线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "parallel"
+    ]
+  }
+}

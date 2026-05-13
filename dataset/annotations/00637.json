@@ -1,0 +1,31 @@
+{
+  "id": "00637",
+  "text": "在直角三角形ABC中，∠ACB=90°，D是AB的中点，BE平分∠ABC交AC于点E，连接CD交BE于点O，AC=8，BC=6",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(O)",
+    "triangle(A, B, C)",
+    "on(E, AC)",
+    "midpoint(D, AB)",
+    "intersection(O, CD, BE)",
+    "angle_bisector(E, A, B, C)",
+    "angle(ACB)=90",
+    "length(AC)=8",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00637.png",
+  "meta": {
+    "source": "直角三角形角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "angle_bisector"
+    ]
+  }
+}

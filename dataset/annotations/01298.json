@@ -1,0 +1,42 @@
+{
+  "id": "01298",
+  "text": "在平面直角坐标系中，矩形OACB的顶点O在坐标原点，顶点A、C分别在x轴和y轴的正半轴上，OA=3，OB=4，D为边OB的中点，线段EF在边OA上移动，EF=2",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "rectangle(O, A, C, B)",
+    "segment(EF)",
+    "segment(DE)",
+    "segment(DF)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "midpoint(D, OB)",
+    "on(E, OA)",
+    "on(F, OA)",
+    "length(OA)=3",
+    "length(OB)=4",
+    "length(EF)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01298.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "rectangle",
+      "midpoint"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "动点EF静态化"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "00338",
+  "text": "长度为4的线段AB是⊙O的直径，点C、D在⊙O上且CD在AB不同侧，∠BDC=20°，∠AOC=140°，连接DB,DC,OC",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O , r=2)",
+    "segment(AB)",
+    "segment(OC)",
+    "segment(BD)",
+    "segment(DC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "midpoint(O, AB)",
+    "angle(BDC)=20",
+    "angle(AOC)=140",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00338.png",
+  "meta": {
+    "source": "圆的直径与圆周角",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "inscribed_angle"
+    ]
+  }
+}

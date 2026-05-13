@@ -1,0 +1,40 @@
+{
+  "id": "00187",
+  "text": "在平面直角坐标系中，抛物线L: y=x²-4x+3与x轴交于点A(1,0)和点C(3,0)，与y轴交于点B(0,3)，点P为抛物线顶点，过点P作PE⊥x轴，垂足为E,PE交AB于点D",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(D)",
+    "point(E)",
+    "coordinate_system(O)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 0, 3)",
+    "point_coord(C, 3, 0)",
+    "point_coord(P, 2, 1)",
+    "point_coord(E, 2, 0)",
+    "parabola(p, 1, -4, 3)",
+    "segment(AB)",
+    "segment(PE)",
+    "on(E, axis_x)",
+    "intersection(D, PE, AB)",
+    "function_point(P, p)",
+    "perpendicular(PE, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00187.png",
+  "meta": {
+    "source": "抛物线与直线",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "intersection",
+      "perpendicular"
+    ]
+  }
+}

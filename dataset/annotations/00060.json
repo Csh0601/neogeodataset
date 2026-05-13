@@ -1,0 +1,38 @@
+{
+  "id": "00060",
+  "text": "在平面直角坐标系中，矩形ABOC的顶点B、C分别在x轴、y轴上，B坐标为(-2,0)，C坐标为(0,4)，顶点A在第二象限，将线段OC绕点O逆时针旋转60°至线段OD，反比例函数y=-8/x的图象经过A、D两点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, -2, 0)",
+    "point_coord(C, 0, 4)",
+    "point_coord(A, -2, 4)",
+    "rectangle(A, B, O, C)",
+    "hyperbola(h, -8)",
+    "segment(OC)",
+    "segment(OD)",
+    "segment(AB)",
+    "segment(AC)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, h)",
+    "function_point(D, h)",
+    "rotate(D, source=C, center=O, angle=60)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00060.png",
+  "meta": {
+    "source": "矩形旋转与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "rectangle",
+      "rotation",
+      "hyperbola"
+    ]
+  }
+}

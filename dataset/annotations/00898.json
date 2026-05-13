@@ -1,0 +1,34 @@
+{
+  "id": "00898",
+  "text": "在△ABC中，AB=AC，D、A、E三点都在直线m上，∠BDA=∠AEC=∠BAC，DE=10，BD=3",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "line(m, D, E)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(DE)",
+    "segment(DA)",
+    "segment(AE)",
+    "on(D, m)",
+    "on(A, m)",
+    "on(E, m)",
+    "collinear(D, A, E)",
+    "equal(AB, AC)",
+    "equal_angle(BDA, AEC)",
+    "equal_angle(AEC, BAC)",
+    "length(DE)=10",
+    "length(BD)=3"
+  ],
+  "image_path": "images/00898.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "等腰三角形与等角",
+    "difficulty": "middle",
+    "tags": ["triangle", "isosceles", "collinear", "angle"]
+  }
+}

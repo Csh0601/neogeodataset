@@ -1,0 +1,32 @@
+{
+  "id": "00412",
+  "text": "在正方形ABCD中，E是对角线BD上一点，AE的延长线交CD于点F，连接CE，∠BAE=56°，∠CEF=22°",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(CE)",
+    "segment(EF)",
+    "on(E, BD)",
+    "on(F, CD)",
+    "collinear(A, E, F)",
+    "angle(BAE)=56",
+    "angle(CEF)=22"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00412.png",
+  "meta": {
+    "source": "正方形对角线与角度",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "diagonal",
+      "angle"
+    ]
+  }
+}

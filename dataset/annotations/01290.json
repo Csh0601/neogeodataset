@@ -1,0 +1,35 @@
+{
+  "id": "01290",
+  "text": "AB=2，BC=1，△ABC与△EBD为全等的直角三角形，∠ABC=∠EBD=90°，F为直线AE和直线CD的交点，连接BF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "segment(AE)",
+    "segment(CD)",
+    "segment(BF)",
+    "intersection(F, AE, CD)",
+    "right_triangle(A, B, C, right_at=B)",
+    "right_triangle(E, B, D, right_at=B)",
+    "congruent(ABC, EBD)",
+    "length(AB)=2",
+    "length(BC)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01290.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "congruent",
+      "intersection"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": []
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": "00503",
+  "text": "在直角坐标系中，点A、B的坐标为A(0,2)，B(-1,0)，将△ABO绕点O按顺时针旋转得到△A1B1O，AB⊥OB1，点A1的坐标为(4√5/5, 2√5/5)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A1)",
+    "point(B1)",
+    "point_coord(A, 0, 2)",
+    "point_coord(B, -1, 0)",
+    "point_coord(A1, 1.789, 0.894)",
+    "triangle(A, B, O)",
+    "triangle(A1, B1, O)",
+    "segment(AB)",
+    "segment(OB1)",
+    "perpendicular(AB, OB1)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00503.png",
+  "meta": {
+    "source": "坐标系旋转变换",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "rotation",
+      "perpendicular"
+    ]
+  }
+}

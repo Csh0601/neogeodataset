@@ -1,0 +1,31 @@
+{
+  "id": "00063",
+  "text": "在平行四边形ABCD中，BC=8，AB=4，连接AC，作AC的垂直平分线MN，MN交AD于点M、交BC于点N，N是BC的中点",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(MN)",
+    "perpendicular_bisector(MN, AC)",
+    "intersection(M, MN, AD)",
+    "intersection(N, MN, BC)",
+    "midpoint(N, BC)",
+    "length(BC)=8",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00063.png",
+  "meta": {
+    "source": "平行四边形与垂直平分线",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "circle_intersection",
+      "midpoint"
+    ]
+  }
+}

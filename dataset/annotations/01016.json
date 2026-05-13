@@ -1,0 +1,38 @@
+{
+  "id": "01016",
+  "text": "在平面直角坐标系中，抛物线C1：y=a(x+1)^2-4的顶点为C，与x轴相交于A、B两点，A在B的左边，B的横坐标是1，点P是抛物线C3上直线CE上方的一点，过P作平行于y轴的直线交CE于点F，E在x轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(C)",
+    "point(P)",
+    "point_coord(B, 1, 0)",
+    "point_coord(C, -1, -4)",
+    "point_coord(A, -3, 0)",
+    "parabola(p1, 1, 2, -3)",
+    "segment(AB)",
+    "segment(CE)",
+    "segment(PF)",
+    "line(l1, C, E)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(E, axis_x)",
+    "on(F, CE)",
+    "parallel(PF, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01016.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "symmetry",
+      "parallel"
+    ]
+  }
+}

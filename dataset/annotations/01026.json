@@ -1,0 +1,40 @@
+{
+  "id": "01026",
+  "text": "在平面直角坐标系中，抛物线y=x^2+x-6经过点A(-3,0)和点B(2,0)，与y轴交于点C，P为抛物线上y轴左侧一点，过P作PD⊥x轴于点D，作PE⊥y轴于点E，PD=2PE，连接DC，DB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 2, 0)",
+    "point_coord(C, 0, -6)",
+    "parabola(p1, 1, 1, -6)",
+    "segment(AB)",
+    "segment(PD)",
+    "segment(PE)",
+    "segment(DC)",
+    "segment(DB)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(D, axis_x)",
+    "on(E, axis_y)",
+    "perpendicular(PD, axis_x)",
+    "perpendicular(PE, axis_y)",
+    "ratio(PD, PE)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01026.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "perpendicular",
+      "ratio"
+    ]
+  }
+}

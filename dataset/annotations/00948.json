@@ -1,0 +1,31 @@
+{
+  "id": "00948",
+  "text": "在平面直角坐标系中，直线l1: y=-x+4交x轴于点A(4,0)，交y轴于点B(0,4)",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 4)",
+    "line_function(l1, -1, 4)",
+    "segment(AB)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "function_point(A, l1)",
+    "function_point(B, l1)"
+  ],
+  "image_path": "images/00948.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "直线与坐标轴交点综合",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "line_function"
+    ]
+  }
+}

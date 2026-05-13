@@ -1,0 +1,42 @@
+{
+  "id": "00861",
+  "text": "在正方形ABCD中，AB=6，点E在边CD上，且CD=3DE，将△ADE沿AE对折至△AFE，延长EF交边BC于点G，连接AG、CF，△ABG≅△AFG，BG=CG，AG平行于CF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "triangle(A, D, E)",
+    "triangle(A, F, E)",
+    "triangle(A, B, G)",
+    "triangle(A, F, G)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(AG)",
+    "segment(CF)",
+    "segment(DE)",
+    "on(E, CD)",
+    "on(G, BC)",
+    "intersection(G, EF, BC)",
+    "fold(D, F, AE)",
+    "parallel(AG, CF)",
+    "equal(BG, CG)",
+    "length(AB)=6",
+    "ratio(CD, DE)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00861.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "fold",
+      "congruent",
+      "parallel"
+    ]
+  }
+}

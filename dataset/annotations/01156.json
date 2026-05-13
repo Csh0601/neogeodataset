@@ -1,0 +1,36 @@
+{
+  "id": "01156",
+  "text": "△ABC是边长为5的等边三角形，△BDC是等腰三角形，BD=DC，∠BDC=120°，以点D为顶点作一个60°的角，使其两边分别交AB、AC于点M、N，∠MDN=60",
+  "dsl": [
+    "point(D)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "triangle(B, D, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(DC)",
+    "segment(DM)",
+    "segment(DN)",
+    "segment(MN)",
+    "on(M, AB)",
+    "on(N, AC)",
+    "equilateral(A, B, C)",
+    "equal(BD, DC)",
+    "angle(BDC)=120",
+    "angle(MDN)=60",
+    "length(BC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01156.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["equilateral", "isosceles", "rotation"]
+  }
+}

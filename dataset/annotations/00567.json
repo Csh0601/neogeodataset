@@ -1,0 +1,42 @@
+{
+  "id": "00567",
+  "text": "AB是半圆O的直径，AC是一条弦，D是AC上一点，DE⊥AB于点E，交AC于点F，连结BD交AC于点G，AF=FG，点D平分AC",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "circle(O)",
+    "segment(AC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, AC)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "midpoint(D, AC)",
+    "foot(E, D, AB)",
+    "intersection(G, BD, AC)",
+    "collinear(A, O, B)",
+    "perpendicular(DE, AB)",
+    "equal(AF, FG)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00567.png",
+  "meta": {
+    "source": "半圆与弦",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "perpendicular",
+      "midpoint"
+    ]
+  }
+}

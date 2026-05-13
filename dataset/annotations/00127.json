@@ -1,0 +1,32 @@
+{
+  "id": "00127",
+  "text": "点A、B、S在半径为4的⊙O上，弦AB的长度为5.657，∠ASB=45°，连接AB、BS、AS",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(S)",
+    "circle(O, r=4)",
+    "segment(AB)",
+    "segment(AS)",
+    "segment(BS)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(S, circle_O)",
+    "angle(ASB)=45",
+    "length(AB)=5.657"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00127.png",
+  "meta": {
+    "source": "圆周角与弦",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "inscribed_angle",
+      "chord"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "00980",
+  "text": "在平面直角坐标系中，抛物线y=-x^2+2x+3经过A(-1,0)和B(3,0)两点，与y轴交于点C，点D是抛物线的顶点，抛物线的对称轴交x轴于点E，连接BD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "parabola(p1, -1, 2, 3)",
+    "segment(BD)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(E, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00980.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "vertex"
+    ]
+  }
+}

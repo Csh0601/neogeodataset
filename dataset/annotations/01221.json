@@ -1,0 +1,37 @@
+{
+  "id": "01221",
+  "text": "C为线段BE上一点，在BE同侧分别作等边三角形ABC和等边三角形CDE，AE与BD交于点O，AC与BD交于点M，AE与CD交于点N，连接MN",
+  "dsl": [
+    "segment(BE)",
+    "segment(AE)",
+    "segment(BD)",
+    "segment(MN)",
+    "on(C, BE)",
+    "intersection(O, AE, BD)",
+    "intersection(M, AC, BD)",
+    "intersection(N, AE, CD)",
+    "equilateral(A, B, C)",
+    "equilateral(C, D, E)",
+    "same_sides(A, D, BE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01221.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "intersection",
+      "moving_point"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "C为BE上动点，两个等边三角形在BE同侧"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

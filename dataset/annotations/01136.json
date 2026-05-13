@@ -1,0 +1,33 @@
+{
+  "id": "01136",
+  "text": "在梯形ABCD中，AD∥BC，BC>AD，∠D=90°，BC=CD=12，∠ABE=45°，E在AD上，AE=10",
+  "dsl": [
+    "point(E)",
+    "trapezoid(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(BE)",
+    "segment(CE)",
+    "on(E, AD)",
+    "parallel(AD, BC)",
+    "equal(BC, CD)",
+    "angle(ADC)=90",
+    "angle(ABE)=45",
+    "length(BC)=12",
+    "length(CD)=12",
+    "length(AE)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01136.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["trapezoid", "parallel", "perpendicular", "angle"]
+  }
+}

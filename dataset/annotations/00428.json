@@ -1,0 +1,29 @@
+{
+  "id": "00428",
+  "text": "在△ABC中，∠ACB=90°，AC=BC，点P在斜边AB上，以PC为直角边作等腰直角三角形PCQ，∠PCQ=90°，PA²+PB²=2PC²",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "isosceles_right(P, C, Q)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(CQ)",
+    "on(P, AB)",
+    "equal(AC, BC)",
+    "angle(ACB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00428.png",
+  "meta": {
+    "source": "等腰直角三角形嵌套",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles_right_triangle",
+      "pythagorean"
+    ]
+  }
+}

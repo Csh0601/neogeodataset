@@ -1,0 +1,50 @@
+{
+  "id": "01372",
+  "text": "十个点A、B、C、D、E、F、G、H、I、K构成星形图案，内部有五边形GFIKF，外部五个尖端点为A、B、C、D、E，∠A+∠B+∠C+∠D+∠E+∠F+∠G+∠H+∠I+∠K=1080",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "point(I)",
+    "point(K)",
+    "polygon(A, B, C, D, E, F, G, H, I, K)",
+    "segment(AB)",
+    "segment(BA)",
+    "segment(CK)",
+    "segment(KF)",
+    "segment(FE)",
+    "segment(ED)",
+    "segment(DC)",
+    "segment(CH)",
+    "segment(HI)",
+    "segment(IG)",
+    "segment(GK)",
+    "segment(GA)",
+    "segment(AK)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01372.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "polygon",
+      "angle_sum",
+      "star_polygon"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "计算出十角星形各角之和为1080度"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

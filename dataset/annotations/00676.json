@@ -1,0 +1,25 @@
+{
+  "id": "00676",
+  "text": "在△ABC中，AB=8，BC=5，AC=7，过A作AD垂直BC于点D",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "foot(D, A, BC)",
+    "on(D, BC)",
+    "perpendicular(AD, BC)",
+    "length(AB)=8",
+    "length(BC)=5",
+    "length(AC)=7"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00676.png",
+  "meta": {
+    "source": "三角形高线",
+    "difficulty": "easy",
+    "tags": ["triangle", "altitude", "perpendicular"]
+  }
+}

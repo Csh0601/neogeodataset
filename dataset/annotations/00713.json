@@ -1,0 +1,28 @@
+{
+  "id": "00713",
+  "text": "在菱形ABCD中，AB=6，∠B=60°，点E在边AD上，AE=2，直线l经过点E将该菱形的面积平分，并与菱形的另一边交于点F",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(EF)",
+    "on(E, AD)",
+    "equal(AB, BC)",
+    "length(AB)=6",
+    "length(AE)=2",
+    "angle(ABC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00713.png",
+  "meta": {
+    "source": "菱形面积平分线",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "area"
+    ]
+  }
+}

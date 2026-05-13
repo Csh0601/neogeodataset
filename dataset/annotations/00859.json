@@ -1,0 +1,36 @@
+{
+  "id": "00859",
+  "text": "在平面直角坐标系中，将一个等腰直角△ABC放在第三象限，斜靠在两坐标轴上，点C坐标为(0,-4)，直角顶点B坐标为(-1,0)，一次函数y=(1/4)x-4的图象经过点A、C交x轴于点D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, -1, 0)",
+    "point_coord(C, 0, -4)",
+    "point_coord(A, -4, -3)",
+    "line_function(l, 0.25, -4)",
+    "segment(AC)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(A, l)",
+    "on(C, l)",
+    "on(D, axis_x)",
+    "on(D, l)",
+    "isosceles_right(B, A, C)",
+    "right_angle(ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00859.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "isosceles_right_triangle",
+      "linear_function"
+    ]
+  }
+}

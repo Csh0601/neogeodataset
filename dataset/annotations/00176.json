@@ -1,0 +1,42 @@
+{
+  "id": "00176",
+  "text": "在Rt△ABC中，∠ABC=90°,AB=BC=6,以AB为直径的⊙O交AC于点D，AE与过点D的切线互相垂直，垂足为E，AD平分∠BAE，CD=DE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "circle(O, r=3)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(DE)",
+    "segment(CD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "on(D, AC)",
+    "isosceles_right(B, A, C)",
+    "angle_bisector(D, B, A, E)",
+    "perpendicular(AE, DE)",
+    "tangent(DE, circle_O)",
+    "collinear(A, O, B)",
+    "equal(CD, DE)",
+    "angle(ABC)=90",
+    "length(AB)=6",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00176.png",
+  "meta": {
+    "source": "直角三角形与圆切线",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "right_angle",
+      "circle",
+      "tangent",
+      "bisector"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "00585",
+  "text": "等边三角形ABC和正方形ADEF都内接于⊙O，AD:AB=√2:√3",
+  "dsl": [
+    "circle(O)",
+    "square(A, D, E, F)",
+    "segment(AD)",
+    "segment(AB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "on(F, circle_O)",
+    "equilateral(A, B, C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00585.png",
+  "meta": {
+    "source": "内接图形",
+    "difficulty": "middle",
+    "tags": [
+      "equilateral",
+      "square",
+      "inscribed",
+      "circle"
+    ]
+  }
+}

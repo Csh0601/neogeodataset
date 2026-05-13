@@ -1,0 +1,38 @@
+{
+  "id": "01189",
+  "text": "在平面直角坐标系xOy中，点A、B在反比例函数y=2/x(x>0)的图象上，且点A与点B关于直线y=x对称，C为AB的中点，AB=4，线段OC的长为√2",
+  "dsl": [
+    "coordinate_system(O)",
+    "hyperbola(h, 2)",
+    "line_function(l, 1, 0)",
+    "segment(AB)",
+    "segment(OC)",
+    "function_point(A, h)",
+    "function_point(B, h)",
+    "midpoint(C, AB)",
+    "reflect(B, A, l)",
+    "length(AB)=4",
+    "length(OC)=√2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01189.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "hyperbola",
+      "reflect",
+      "midpoint"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了OC=√2的计算结果"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

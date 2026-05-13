@@ -1,0 +1,29 @@
+{
+  "id": "00135",
+  "text": "在四边形ABCD中，连接AC,AB=AD=4，∠BAC=∠DAC=25°，∠D=80°，∠BCA=75°",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "equal(AB, AD)",
+    "angle(BAC)=25",
+    "angle(DAC)=25",
+    "angle(ADC)=80",
+    "angle(BCA)=75",
+    "length(AB)=4",
+    "length(AD)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00135.png",
+  "meta": {
+    "source": "四边形角度计算",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "equal",
+      "angle"
+    ]
+  }
+}

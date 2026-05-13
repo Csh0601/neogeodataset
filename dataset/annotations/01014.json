@@ -1,0 +1,41 @@
+{
+  "id": "01014",
+  "text": "在平面直角坐标系中，直线y=-1/2x+3与x轴交于A(6,0)，与y轴交于B(0,3)，点C在线段OA上，将线段CB绕着点C顺时针旋转90°得到CD，点D恰好落在直线AB上，过点D作DE⊥x轴于点E，△BOC≅△CED",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 6, 0)",
+    "point_coord(B, 0, 3)",
+    "triangle(B, O, C)",
+    "triangle(C, E, D)",
+    "line_function(l1, -0.5, 3)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(CB)",
+    "segment(CD)",
+    "segment(DE)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, OA)",
+    "on(D, AB)",
+    "on(E, axis_x)",
+    "rotate(D, source=B, center=C, angle=-90)",
+    "perpendicular(DE, axis_x)",
+    "congruent(BOC, CED)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01014.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "rotation",
+      "congruent_triangles",
+      "perpendicular"
+    ]
+  }
+}

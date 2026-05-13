@@ -1,0 +1,33 @@
+{
+  "id": "00880",
+  "text": "在平面直角坐标系中，抛物线y=x^2-4x+3与x轴交于A、B两点，过点A的直线l与抛物线交于点C，A点坐标为(1,0)，C点坐标为(4,3)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 4, 3)",
+    "parabola(p1, 1, -4, 3)",
+    "line(l, A, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)"
+  ],
+  "image_path": "images/00880.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线与直线交点",
+    "difficulty": "middle",
+    "tags": ["coordinate", "parabola", "line_function"]
+  }
+}

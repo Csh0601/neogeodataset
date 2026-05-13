@@ -1,0 +1,38 @@
+{
+  "id": "01032",
+  "text": "△ABD和△AEC都是等边三角形，连接BE，DC，BE与DC交于点O，∠BOC=120°",
+  "dsl": [
+    "triangle(A, B, D)",
+    "triangle(A, E, C)",
+    "segment(BE)",
+    "segment(DC)",
+    "segment(AB)",
+    "segment(BD)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(EC)",
+    "segment(AC)",
+    "intersection(O, BE, DC)",
+    "equal(AB, BD)",
+    "equal(AB, AD)",
+    "equal(AE, EC)",
+    "equal(AE, AC)",
+    "angle(ABD)=60",
+    "angle(AEC)=60",
+    "angle(BOC)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01032.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "equilateral_triangle",
+      "intersection",
+      "angle"
+    ]
+  }
+}

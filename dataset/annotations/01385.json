@@ -1,0 +1,40 @@
+{
+  "id": "01385",
+  "text": "在正方形ABCD中，点E、F分别是BC、CD上的点，∠EAF=45，AE、AF与对角线BD分别相交于点G、H，连接EH、EF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "square(A, B, C, D)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(EF)",
+    "segment(BD)",
+    "segment(EH)",
+    "on(E, BC)",
+    "on(F, CD)",
+    "intersection(G, AE, BD)",
+    "intersection(H, AF, BD)",
+    "angle(EAF)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01385.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "diagonal",
+      "angle",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

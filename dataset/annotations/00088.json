@@ -1,0 +1,43 @@
+{
+  "id": "00088",
+  "text": "在等腰△ABC中，AB=AC=6，点O在边AC上，以OC为半径作⊙O，⊙O与AB相切于点D，与BC交于点E，EF是⊙O的直径，连接FD，FD与AC交于点G，∠EFD=45°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "circle(O, radius=OC)",
+    "segment(EF)",
+    "segment(FD)",
+    "on(O, AC)",
+    "on(D, circle_O)",
+    "on(D, AB)",
+    "on(E, circle_O)",
+    "on(E, BC)",
+    "on(F, circle_O)",
+    "intersection(G, FD, AC)",
+    "isosceles(A, B, C)",
+    "collinear(E, O, F)",
+    "equal(EO, OF)",
+    "tangent(D, circle_O)",
+    "angle(EFD)=45",
+    "length(AB)=6",
+    "length(AC)=6"
+  ],
+  "image_path": "images/00088.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆的切线",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "triangle",
+      "tangent",
+      "equal",
+      "angle"
+    ]
+  }
+}

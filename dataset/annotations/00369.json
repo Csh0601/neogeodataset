@@ -1,0 +1,37 @@
+{
+  "id": "00369",
+  "text": "在△ABC中，AB=6，BC=5，AC=4，D、E、F分别是各边的中点，连接DE、EF、AE，四边形ADEF为平行四边形",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "parallelogram(A, D, E, F)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(AE)",
+    "segment(DF)",
+    "segment(AD)",
+    "segment(AF)",
+    "midpoint(D, AB)",
+    "midpoint(E, BC)",
+    "midpoint(F, AC)",
+    "length(AB)=6",
+    "length(BC)=5",
+    "length(AC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00369.png",
+  "meta": {
+    "source": "三角形中点平行四边形",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "parallelogram"
+    ]
+  }
+}

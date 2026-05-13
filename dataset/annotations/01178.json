@@ -1,0 +1,33 @@
+{
+  "id": "01178",
+  "text": "在Rt△ACB中，∠ACB=90°，AC=4，BC=3，点D为AC中点，连接BD，作CE⊥BD交AB于点E，垂足为F",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, C, B)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(DE)",
+    "midpoint(D, AC)",
+    "on(E, AB)",
+    "foot(F, C, BD)",
+    "perpendicular(CE, BD)",
+    "angle(ACB)=90",
+    "length(AC)=4",
+    "length(BC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01178.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["right_triangle", "midpoint", "perpendicular"]
+  }
+}

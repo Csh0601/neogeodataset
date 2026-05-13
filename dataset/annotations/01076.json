@@ -1,0 +1,38 @@
+{
+  "id": "01076",
+  "text": "在长方形ABCD中，AB=4，AD=6，E是AB的中点，F是AD边上一点，将△AEF沿EF所在直线翻折，得到△GEF，连接GC",
+  "dsl": [
+    "point(G)",
+    "triangle(A, E, F)",
+    "triangle(G, E, F)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(GC)",
+    "segment(GE)",
+    "segment(GF)",
+    "midpoint(E, AB)",
+    "on(F, AD)",
+    "fold(A, G, EF)",
+    "length(AB)=4",
+    "length(AD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01076.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

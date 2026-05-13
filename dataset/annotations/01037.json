@@ -1,0 +1,42 @@
+{
+  "id": "01037",
+  "text": "C为线段AE上一点，在AE同侧分别作正三角形ABC和正三角形CDE，AD与BE交于点O，AD与BC交于点P，BE与CD交于点Q，连接PQ，AD=BE，AP=BQ，∠AOB=60°，△CPQ为正三角形",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(C, D, E)",
+    "segment(AE)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(PQ)",
+    "on(C, AE)",
+    "intersection(O, AD, BE)",
+    "intersection(P, AD, BC)",
+    "intersection(Q, BE, CD)",
+    "equilateral(C, P, Q)",
+    "equal(AB, BC)",
+    "equal(AB, AC)",
+    "equal(CD, DE)",
+    "equal(CD, CE)",
+    "equal(AD, BE)",
+    "equal(AP, BQ)",
+    "angle(ABC)=60",
+    "angle(CDE)=60",
+    "angle(AOB)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01037.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral_triangle",
+      "intersection",
+      "hand_in_hand"
+    ]
+  }
+}

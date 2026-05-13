@@ -1,0 +1,40 @@
+{
+  "id": "00978",
+  "text": "在矩形ABCD中，AB=4，AD=6，点E为BC上一点，将△ABE沿AE折叠得到△AEF，点H为CD上一点，将△CEH沿EH折叠得到△EHG，F落在线段EG上，GF=GH",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "triangle(A, B, E)",
+    "triangle(A, E, F)",
+    "triangle(C, E, H)",
+    "triangle(E, H, G)",
+    "rectangle(A, B, C, D)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(AF)",
+    "segment(EH)",
+    "segment(EG)",
+    "segment(GH)",
+    "segment(GF)",
+    "on(E, BC)",
+    "on(H, CD)",
+    "on(F, EG)",
+    "fold(B, F, AE)",
+    "fold(C, G, EH)",
+    "equal(GF, GH)",
+    "length(AB)=4",
+    "length(AD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00978.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["rectangle", "fold", "equal_length"]
+  }
+}

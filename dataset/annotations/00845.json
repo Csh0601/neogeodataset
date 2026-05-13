@@ -1,0 +1,28 @@
+{
+  "id": "00845",
+  "text": "在直角△ABC中，AB⊥BC，AB=6，BC=4，P是△ABC内部一点，∠PAB+∠PBA=90°，连接CP",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AP)",
+    "segment(BP)",
+    "segment(CP)",
+    "perpendicular(AB, BC)",
+    "length(AB)=6",
+    "length(BC)=4",
+    "inside(P, triangle_ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00845.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "moving_point"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "01237",
+  "text": "△ABC和△DCE都是等边三角形，∠ACD=30°，AD=3，CD=2，连接AE、BD，AE与BD交于点O",
+  "dsl": [
+    "segment(AE)",
+    "segment(BD)",
+    "segment(AD)",
+    "intersection(O, AE, BD)",
+    "equilateral(A, B, C)",
+    "equilateral(D, C, E)",
+    "angle(ACD)=30",
+    "length(AD)=3",
+    "length(CD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01237.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "intersection"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "取图1(B、C、E不共线)为基准标注",
+      "补充了AD=3, CD=2的长度条件"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

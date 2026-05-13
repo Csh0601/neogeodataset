@@ -1,0 +1,46 @@
+{
+  "id": "00692",
+  "text": "在平面直角坐标系中，抛物线y=-x²+2x+3与x轴交于A(-1,0)和B(3,0)两点，与y轴交于点C(0,3)，P为线段BC上方的抛物线上一点，PD平行于y轴交BC于D点，过D点作DE⊥AC于E点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(P)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, 3)",
+    "parabola(p, -1, 2, 3)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(PD)",
+    "segment(DE)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)",
+    "on(P, parabola_p)",
+    "on(D, BC)",
+    "perpendicular(PD, AB)",
+    "perpendicular(DE, AC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00692.png",
+  "meta": {
+    "source": "抛物线上点到直线的垂线",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "parallel",
+      "perpendicular"
+    ]
+  }
+}

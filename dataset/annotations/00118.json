@@ -1,0 +1,43 @@
+{
+  "id": "00118",
+  "text": "在平面直角坐标系中，矩形OABC的顶点A在（-2,0），顶点C在（0，1），B(-2,1)，将△OAB绕点O顺时针旋转，点B落在y轴正半轴上的点D处，得到△OED，OE交BC于点G，反比例函数y=-1/x(x<0)的图象经过点G",
+  "dsl": [
+    "point(E)",
+    "point(G)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -2, 0)",
+    "point_coord(C, 0, 1)",
+    "point_coord(B, -2, 1)",
+    "rectangle(O, A, B, C)",
+    "triangle(O, A, B)",
+    "triangle(O, E, D)",
+    "hyperbola(h, -1)",
+    "segment(OE)",
+    "segment(OD)",
+    "segment(ED)",
+    "segment(OG)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "on(D, axis_y)",
+    "intersection(G, OE, BC)",
+    "function_point(G, h)",
+    "rotate(E, source=A, center=O, angle=-90)",
+    "rotate(D, source=B, center=O, angle=-90)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00118.png",
+  "meta": {
+    "source": "坐标系旋转与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "rectangle",
+      "rotation",
+      "hyperbola"
+    ]
+  }
+}

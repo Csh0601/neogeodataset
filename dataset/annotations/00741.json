@@ -1,0 +1,32 @@
+{
+  "id": "00741",
+  "text": "在Rt△ABC中，∠C=90°，∠B=45°，AD平分∠BAC交BC于点D，DE⊥AB于点E，AB=AC+CD",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(DE)",
+    "on(D, BC)",
+    "foot(E, D, AB)",
+    "bisector(AD, BAC)",
+    "perpendicular(DE, AB)",
+    "angle(ACB)=90",
+    "angle(ABC)=45"
+  ],
+  "image_path": "images/00741.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "right_triangle",
+      "angle_bisector",
+      "perpendicular"
+    ]
+  }
+}

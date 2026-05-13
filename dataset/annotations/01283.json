@@ -1,0 +1,33 @@
+{
+  "id": "01283",
+  "text": "在等腰Rt△ABC中，∠ACB=90°，AC=BC，点D是△ABC的重心，将线段CD绕点C逆时针旋转90°得到线段CE，连接DE",
+  "dsl": [
+    "point(E)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(DE)",
+    "centroid(D, A, B, C)",
+    "isosceles_right(A, C, B)",
+    "rotate(E, source=D, center=C, angle=90)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01283.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right",
+      "centroid",
+      "rotation"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "原题有周长条件和求值，已简化为纯几何构型"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

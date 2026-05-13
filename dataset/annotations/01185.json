@@ -1,0 +1,38 @@
+{
+  "id": "01185",
+  "text": "在平面直角坐标系中，Rt△ABC的直角边BC在x轴正半轴上，斜边AC上的中线BD反向延长线交y轴负半轴于E，反比例函数y=k/x(x>0)的图象经过点A，△BEC的面积为8，k=8",
+  "dsl": [
+    "coordinate_system(O)",
+    "triangle(B, E, C)",
+    "hyperbola(h, 8)",
+    "segment(BD)",
+    "on(B, axis_x)",
+    "on(C, axis_x)",
+    "midpoint(D, AC)",
+    "on(E, axis_y)",
+    "function_point(A, h)",
+    "right_triangle(A, B, C, right_at=B)",
+    "extend(DB, E)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01185.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "right_triangle",
+      "median",
+      "hyperbola"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了k=8的计算结果，△BEC面积=8作为已知条件"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

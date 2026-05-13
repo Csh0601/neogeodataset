@@ -1,0 +1,33 @@
+{
+  "id": "00562",
+  "text": "E是直线CA上一点，∠FEA=40°，射线EB平分∠CEF，GE⊥EF，∠GEB=20°",
+  "dsl": [
+    "point(C)",
+    "point(A)",
+    "point(E)",
+    "point(F)",
+    "point(B)",
+    "point(G)",
+    "segment(EF)",
+    "line(l1, C, A)",
+    "ray(E, B)",
+    "segment(EG)",
+    "on(E, l1)",
+    "perpendicular(GE, EF)",
+    "angle(FEA)=40",
+    "angle(GEB)=20"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00562.png",
+  "meta": {
+    "source": "角度计算",
+    "difficulty": "easy",
+    "tags": [
+      "angle",
+      "perpendicular"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "00835",
+  "text": "在平面直角坐标系中，抛物线y=-x²-2x+3经过A(-3,0)、B(0,3)、C(1,0)三点，点P是线段AB上方的抛物线上一点，过P作x轴的垂线，垂足为F，交线段AB于点E，作PD垂直于AB于点D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(E)",
+    "point(F)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 0, 3)",
+    "point_coord(C, 1, 0)",
+    "parabola(f, -1, -2, 3)",
+    "line_function(l, 1, 3)",
+    "segment(AB)",
+    "segment(PD)",
+    "segment(PF)",
+    "segment(PE)",
+    "function_point(P, f)",
+    "on(E, l)",
+    "foot(F, P, AC)",
+    "foot(D, P, AB)",
+    "collinear(P, E, F)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00835.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "moving_point", "perpendicular"]
+  }
+}

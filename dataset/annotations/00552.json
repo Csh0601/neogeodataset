@@ -1,0 +1,32 @@
+{
+  "id": "00552",
+  "text": "点A、B、C、D共面，BC⊥BD，AD⊥BD，∠CAD=30°，∠DAB=45°，AD=60，BC=95",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(BC)",
+    "segment(AD)",
+    "perpendicular(BC, BD)",
+    "perpendicular(AD, BD)",
+    "angle(CAD)=30",
+    "angle(DAB)=45",
+    "length(AD)=60",
+    "length(BC)=95"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00552.png",
+  "meta": {
+    "source": "仰角俯角应用",
+    "difficulty": "middle",
+    "tags": [
+      "elevation_angle",
+      "depression_angle",
+      "application"
+    ]
+  }
+}

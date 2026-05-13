@@ -1,0 +1,35 @@
+{
+  "id": "00508",
+  "text": "在正方形ABCD中，对角线AC与BD交于点O，点E在CD的延长线上，连接AE，点F是AE的中点，连接OF交AD于点G，DE=2，OF=3，点A到DF的距离为3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(OF)",
+    "segment(DF)",
+    "midpoint(F, AE)",
+    "intersection(O, AC, BD)",
+    "intersection(G, OF, AD)",
+    "length(DE)=2",
+    "length(OF)=3",
+    "on_extended(E, CD, towards=D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00508.png",
+  "meta": {
+    "source": "正方形对角线与中点",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "diagonal",
+      "midpoint"
+    ]
+  }
+}

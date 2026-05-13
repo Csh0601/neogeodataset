@@ -1,0 +1,24 @@
+{
+  "id": "00389",
+  "text": "在△ABC中，AB=80，∠CAB=75°，∠CBA=60°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "length(AB)=80",
+    "angle(CAB)=75",
+    "angle(CBA)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00389.png",
+  "meta": {
+    "source": "方位角应用题",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "angle",
+      "application"
+    ]
+  }
+}

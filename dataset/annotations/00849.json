@@ -1,0 +1,31 @@
+{
+  "id": "00849",
+  "text": "在平面直角坐标系中，二次函数y=1/2x^2+bx+c的图象与x轴交于A(-2,0)和B(4,0)两点，交y轴于点C，点P是第四象限内抛物线上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 4, 0)",
+    "parabola(f, 0.5, -1, -4)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AB)",
+    "axis_intersection(C, f, y)",
+    "function_point(A, f)",
+    "function_point(B, f)",
+    "function_point(P, f)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00849.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "circle", "moving_point"]
+  }
+}

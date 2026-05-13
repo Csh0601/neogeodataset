@@ -1,0 +1,36 @@
+{
+  "id": "01351",
+  "text": "⊙O是等边△ABC的外接圆，P是弧AB上一点，连接PA、PB、PC，∠APC=120°，∠BPC=60°",
+  "dsl": [
+    "point(P)",
+    "circle(O)",
+    "arc(A, B, circle_O)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "circumcircle(O, A, B, C)",
+    "on(P, circle_O)",
+    "equilateral(A, B, C)",
+    "angle(APC)=120",
+    "angle(BPC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01351.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "circumcircle"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "P在弧AB上，∠APC和∠BPC由圆周角确定"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

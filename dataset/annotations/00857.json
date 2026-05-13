@@ -1,0 +1,33 @@
+{
+  "id": "00857",
+  "text": "在平面直角坐标系中，直线y=(3/4)x+6与坐标轴分别交于点A、点B，且点B的坐标为(0,6)，将直线AB绕点B逆时针旋转45°交x轴于点C",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, 0, 6)",
+    "point_coord(A, -8, 0)",
+    "line_function(l, 0.75, 6)",
+    "segment(AB)",
+    "segment(BC)",
+    "on(A, l)",
+    "on(B, l)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00857.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "rotation"
+    ]
+  }
+}

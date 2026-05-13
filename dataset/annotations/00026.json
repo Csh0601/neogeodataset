@@ -1,0 +1,31 @@
+{
+  "id": "00026",
+  "text": "在平面直角坐标系中，抛物线y=-1/2x²+3/2x+2经过点A(-1,0)、B(4,0)、C(0,2)三点，点D与点C关于x轴对称",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, 2)",
+    "point_coord(D, 0, -2)",
+    "parabola(p, -0.5, 1.5, 2)",
+    "function_point(A, p)",
+    "function_point(B, p)",
+    "function_point(C, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00026.png",
+  "meta": {
+    "source": "抛物线与坐标系综合",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "symmetry"
+    ],
+    "note": "P在x轴上通过共线约束表达"
+  }
+}

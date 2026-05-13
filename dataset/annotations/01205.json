@@ -1,0 +1,40 @@
+{
+  "id": "01205",
+  "text": "在平面直角坐标系中，抛物线y=-1/2x²+2x+6与x轴交于点A(-2,0)和B(6,0)，与y轴交于点C(0,6)，顶点为D(2,8)，直线AD交y轴于点E(0,4)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 6, 0)",
+    "point_coord(C, 0, 6)",
+    "point_coord(D, 2, 8)",
+    "point_coord(E, 0, 4)",
+    "parabola(p, -1/2, 2, 6)",
+    "line_function(ad, 2, 4)",
+    "segment(AD)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)",
+    "axis_intersection(E, ad, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01205.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "parabola",
+      "line_function",
+      "axis_intersection"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了抛物线解析式和各点坐标"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

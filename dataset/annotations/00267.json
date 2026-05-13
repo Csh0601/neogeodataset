@@ -1,0 +1,42 @@
+{
+  "id": "00267",
+  "text": "长度为8的线段AB是⊙O的直径，AC是⊙O的切线，BC交⊙O于点E，点D为AC的中点，DE是⊙O的切线，CA=6，CE=3.6",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "circle(O ,r=4)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(DE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(E, circle_O)",
+    "midpoint(D, AC)",
+    "intersection(E, BC, circle_O)",
+    "midpoint(O, AB)",
+    "tangent(AC, circle_O)",
+    "tangent(DE, circle_O)",
+    "length(AB)=8",
+    "length(CA)=6",
+    "length(CE)=3.6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00267.png",
+  "meta": {
+    "source": "圆的直径与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "midpoint"
+    ]
+  }
+}

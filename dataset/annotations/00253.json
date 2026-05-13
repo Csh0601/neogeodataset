@@ -1,0 +1,30 @@
+{
+  "id": "00253",
+  "text": "在直角三角形DPA中，∠D=90°，点B在DA的延长线上，∠DPA=30°，AP=10，AD=5，DP=5√3，∠DPB=45°，连接PB",
+  "dsl": [
+    "point(B)",
+    "segment(PB)",
+    "right_triangle(D, P, A , right_at=D)",
+    "collinear(D, A, B)",
+    "angle(DPA)=30",
+    "angle(DPB)=45",
+    "length(AP)=10",
+    "length(AD)=5",
+    "length(DP)=5√3",
+    "on_extended(B, DA, towards=A)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00253.png",
+  "meta": {
+    "source": "火箭发射仰角测量",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "angle",
+      "application"
+    ]
+  }
+}

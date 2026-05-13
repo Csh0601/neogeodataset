@@ -1,0 +1,29 @@
+{
+  "id": "00625",
+  "text": "在平面直角坐标系中，点A在第一象限，过点A作AC⊥x轴，垂足为点C，D为AC的中点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(C)",
+    "point(D)",
+    "segment(AO)",
+    "segment(OD)",
+    "segment(AC)",
+    "midpoint(D, AC)",
+    "foot(C, A, OC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00625.png",
+  "meta": {
+    "source": "反比例函数与三角形",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "midpoint"
+    ]
+  }
+}

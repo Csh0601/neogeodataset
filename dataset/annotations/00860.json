@@ -1,0 +1,29 @@
+{
+  "id": "00860",
+  "text": "在平面直角坐标系中，菱形OABC的顶点A(5,0)，OB=4√5，点P是对角线OB上的一个动点，D(0,1)，当CP+DP最短时，点P的坐标为(10/7,5/7)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 5, 0)",
+    "point_coord(D, 0, 1)",
+    "parallelogram(O, A, B, C)",
+    "segment(OB)",
+    "segment(CP)",
+    "segment(DP)",
+    "on(P, OB)",
+    "equal(OA, AB)",
+    "equal(AB, BC)",
+    "equal(BC, OC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00860.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "rhombus", "moving_point", "optimization"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00305",
+  "text": "在△ABC中，点D、E分别是边AB、AC的中点，连接BE，过点C作CF∥BE，交DE的延长线于点F，EF=3，DE=1.5",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "segment(BE)",
+    "segment(CF)",
+    "intersection(F, CF, DE_extended)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "parallel(CF, BE)",
+    "length(EF)=3",
+    "length(DE)=1.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00305.png",
+  "meta": {
+    "source": "三角形中位线与平行线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "parallel"
+    ]
+  }
+}

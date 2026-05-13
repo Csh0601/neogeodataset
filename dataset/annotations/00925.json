@@ -1,0 +1,42 @@
+{
+  "id": "00925",
+  "text": "在平面直角坐标系xOy中，直线y=-x+m（m≠0）分别交x轴、y轴于A、B两点，已知点C(2,0)，设点P为线段OB的中点，连接PA、PC，∠CPA=45°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(C, 2, 0)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 4)",
+    "point_coord(P, 0, 2)",
+    "line_function(l1, -1, 4)",
+    "segment(PA)",
+    "segment(PC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)",
+    "on(P, axis_y)",
+    "midpoint(P, OB)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "angle(CPA)=45"
+  ],
+  "image_path": "images/00925.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系直线中点与角度",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "line_function",
+      "midpoint",
+      "angle"
+    ]
+  }
+}

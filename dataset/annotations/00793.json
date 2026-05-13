@@ -1,0 +1,49 @@
+{
+  "id": "00793",
+  "text": "在平面直角坐标系xOy中，直线y=0.5x+0.5与抛物线y=0.5x²-x-1.5相交于A(-1,0)和B两点，抛物线交y轴于点C(0,-1.5)，交x轴正半轴于D点，抛物线的顶点为M，点P为线段AB下方的抛物线上一点，点Q为x轴上一点，点N在抛物线上且位于对称轴右侧",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(M)",
+    "point(P)",
+    "point(Q)",
+    "point(N)",
+    "point_coord(A, -1, 0)",
+    "point_coord(C, 0, -1.5)",
+    "line_function(l1, 0.5, 0.5)",
+    "parabola(p1, 0.5, -1, -1.5)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(P, p1)",
+    "function_point(N, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(D, p1, x)",
+    "axis_intersection(C, p1, y)",
+    "on(Q, axis_x)"
+  ],
+  "image_path": "images/00793.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line",
+      "area",
+      "similar"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "01047",
+  "text": "在△ABC中，∠ABC=90°，BA=BC，△BEF为等腰直角三角形，∠BEF=90°，BE=BF，M为AF的中点，连接ME，CF，ME=CF/2",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(B, E, F)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(BE)",
+    "segment(BF)",
+    "segment(EF)",
+    "segment(AF)",
+    "segment(ME)",
+    "segment(CF)",
+    "midpoint(M, AF)",
+    "equal(BA, BC)",
+    "equal(BE, BF)",
+    "perpendicular(AB, BC)",
+    "perpendicular(BE, BF)",
+    "angle(ABC)=90",
+    "angle(BEF)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01047.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "isosceles",
+      "midpoint",
+      "rotation"
+    ]
+  }
+}

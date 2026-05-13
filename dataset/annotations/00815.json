@@ -1,0 +1,23 @@
+{
+  "id": "00815",
+  "text": "在平面直角坐标系中，直线l1过原点，直线l2的解析式为y=-√3/3 x+2，l1与l2互相垂直，l1与l2交于点P",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "line_function(l1, 1.7321, 0)",
+    "line_function(l2, -0.5774, 2)",
+    "segment(OP)",
+    "function_intersection(P, l1, l2)",
+    "perpendicular(l1, l2)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00815.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["coordinate", "linear_function", "perpendicular"]
+  }
+}

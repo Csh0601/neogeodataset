@@ -1,0 +1,44 @@
+{
+  "id": "00892",
+  "text": "在平面直角坐标系中，一次函数y=-(1/2)x+2的图象与x轴、y轴分别交于点A(4,0)、B(0,2)，O为坐标原点，D为AB的中点，OC=1，P为y轴上的一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 2)",
+    "point_coord(C, 1, 0)",
+    "point_coord(D, 2, 1)",
+    "line_function(l1, -0.5, 2)",
+    "segment(AB)",
+    "segment(PC)",
+    "segment(PD)",
+    "segment(OC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)",
+    "on(P, axis_y)",
+    "midpoint(D, AB)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)",
+    "length(OC)=1"
+  ],
+  "image_path": "images/00892.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "一次函数与最值",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line_function",
+      "midpoint"
+    ]
+  }
+}

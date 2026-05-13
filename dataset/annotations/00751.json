@@ -1,0 +1,34 @@
+{
+  "id": "00751",
+  "text": "在平面直角坐标系xOy中，抛物线y=-1/2x^2+bx+c与x轴交于A、B两点，与y轴交于点C，直线y=-1/2x+2过B、C两点，连接AC，P在抛物线上直线BC上方",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "parabola(p1, -0.5, 1.5, 2)",
+    "line_function(l1, -0.5, 2)",
+    "segment(AC)",
+    "segment(BC)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(B, l1)",
+    "function_point(C, l1)",
+    "function_point(P, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(C, p1, y)"
+  ],
+  "image_path": "images/00751.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "line", "area"]
+  }
+}

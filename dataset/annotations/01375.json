@@ -1,0 +1,49 @@
+{
+  "id": "01375",
+  "text": "线段AB与CD相交于点O，连接AC、BD，∠CAB和∠BDC的平分线AP和DP相交于点P，AP与CD交于点M，DP与AB交于点N，∠B=76，∠C=80，∠P=78",
+  "dsl": [
+    "point(O)",
+    "point(P)",
+    "point(M)",
+    "point(N)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(AP)",
+    "segment(DP)",
+    "intersection(O, AB, CD)",
+    "intersection(P, AP, DP)",
+    "intersection(M, AP, CD)",
+    "intersection(N, DP, AB)",
+    "equal_angle(CAP, PAB)",
+    "equal_angle(BDN, NDC)",
+    "angle(ABC)=76",
+    "angle(ACD)=80",
+    "angle(APD)=78"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01375.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "intersection",
+      "angle_bisector",
+      "figure_eight"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "设定∠B=76，∠C=80，计算出∠P=(∠B+∠C)/2=78"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

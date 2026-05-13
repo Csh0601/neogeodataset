@@ -1,0 +1,37 @@
+{
+  "id": "00760",
+  "text": "在平面直角坐标系xOy中，抛物线y=-1/2x^2-3/2x向上平移2个单位后，分别交x轴于A、B两点，交y轴于点C，△ABC是等腰直角三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "parabola(p1, -0.5, -1.5, 0)",
+    "parabola(p2, -0.5, -1.5, 2)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "function_point(A, p2)",
+    "function_point(B, p2)",
+    "function_point(C, p2)",
+    "axis_intersection(A, p2, x)",
+    "axis_intersection(B, p2, x)",
+    "axis_intersection(C, p2, y)"
+  ],
+  "image_path": "images/00760.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "translation",
+      "triangle"
+    ]
+  }
+}

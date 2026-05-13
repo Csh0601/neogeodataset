@@ -1,0 +1,33 @@
+{
+  "id": "01231",
+  "text": "以△ABC的边AB、AC为腰分别向外作等腰直角△ABE和△ACD，连接ED、BD、EC，过点A的直线l分别交线段DE、BC于点M、N",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(ED)",
+    "segment(BD)",
+    "segment(EC)",
+    "line(l)",
+    "on(A, l)",
+    "intersection(M, l, DE)",
+    "intersection(N, l, BC)",
+    "isosceles_right(A, B, E)",
+    "isosceles_right(A, C, D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01231.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right",
+      "congruent_triangles"
+    ],
+    "annotated_by": "agent-2",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

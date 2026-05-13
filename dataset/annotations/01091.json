@@ -1,0 +1,33 @@
+{
+  "id": "01091",
+  "text": "在四边形ABCD中，AB//DC，点E为AD上一点，连接BE，CE，BE平分∠ABC，CE平分∠BCD，BC=AB+DC",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CE)",
+    "on(E, AD)",
+    "on(E, l1)",
+    "on(E, l2)",
+    "bisect_angle(A, B, C, l1)",
+    "bisect_angle(B, C, D, l2)",
+    "parallel(AB, DC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01091.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "trapezoid",
+      "angle_bisector",
+      "parallel"
+    ]
+  }
+}

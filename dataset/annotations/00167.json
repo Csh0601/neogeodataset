@@ -1,0 +1,40 @@
+{
+  "id": "00167",
+  "text": "在平面直角坐标系中，抛物线y=-3/16(x-2)²+3经过点A(-2,0)和点C(0,2.25)，与x轴交于另一点B，顶点D的坐标为(2,3)，点E、F分别在线段AB、BD上，∠DEF=∠DAB，DE=EF，线段BE的长为5",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, -2, 0)",
+    "point_coord(C, 0, 2.25)",
+    "point_coord(D, 2, 3)",
+    "parabola(p, -0.1875, 0.75, 2.25)",
+    "segment(AB)",
+    "segment(BD)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(BE)",
+    "on(B, axis_x)",
+    "on(E, AB)",
+    "on(F, BD)",
+    "function_point(A, p)",
+    "function_point(C, p)",
+    "function_point(B, p)",
+    "equal_angle(DEF, DAB)",
+    "equal(DE, EF)",
+    "length(BE)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00167.png",
+  "meta": {
+    "source": "抛物线与等腰三角形",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "equal_angle",
+      "isosceles"
+    ]
+  }
+}

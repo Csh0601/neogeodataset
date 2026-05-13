@@ -1,0 +1,40 @@
+{
+  "id": "01362",
+  "text": "△ABF与△CDE重叠形成六角星图案，BF与CE交叉，AB与DC交叉，AF与DE交叉，∠A+∠B+∠C+∠D+∠E+∠F=720°",
+  "dsl": [
+    "triangle(A, B, F)",
+    "triangle(C, D, E)",
+    "segment(AB)",
+    "segment(BF)",
+    "segment(AF)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(CE)",
+    "angle(FAB)=120",
+    "angle(ABF)=120",
+    "angle(BFA)=120",
+    "angle(DCE)=120",
+    "angle(CDE)=120",
+    "angle(DEC)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01362.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "star_of_david",
+      "angle_sum",
+      "overlapping_triangles"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "两个三角形各内角和均为180°，六角之和=2×360°=720°，图中为等角正六角星情形"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

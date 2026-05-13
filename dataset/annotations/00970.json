@@ -1,0 +1,26 @@
+{
+  "id": "00970",
+  "text": "在平面直角坐标系中，⊙P的半径为2，圆心P在抛物线y=1/2x^2-1上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(P)",
+    "circle(P, r=2)",
+    "parabola(p1, 0.5, 0, -1)",
+    "function_point(P, p1)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00970.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "circle",
+      "parabola"
+    ]
+  }
+}

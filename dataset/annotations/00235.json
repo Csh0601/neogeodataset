@@ -1,0 +1,37 @@
+{
+  "id": "00235",
+  "text": "在四边形GBFC中，A是BG的中点，E在BF上，AE=1.4，BF=1.8，CG=15.8，点M、N在CG上，N是CG上靠近G的三等分点，D是CN上靠近C的三等分点，过F作FN⊥CG",
+  "dsl": [
+    "point(A)",
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "quadrilateral(G, B, F, C)",
+    "segment(AE)",
+    "segment(BF)",
+    "on(E, BF)",
+    "on(M, CG)",
+    "midpoint(A, BG)",
+    "trisection(N, CG, near=G)",
+    "trisection(D, CN, near=C)",
+    "perpendicular(FN, CG)",
+    "length(AE)=1.4",
+    "length(BF)=1.8",
+    "length(CG)=15.8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00235.png",
+  "meta": {
+    "source": "仰角测量应用题",
+    "difficulty": "hard",
+    "tags": [
+      "angle",
+      "trigonometry",
+      "application"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00752",
+  "text": "四边形ABCD的对角线AC、BD交于点O，OB=OD，OC=OA+AB，AD=m，BC=n，∠ABD+∠ADB=∠ACB，将△ACD沿CD翻折得到△A'CD，连接BA'，与CD相交于点P，CD=(√5+1)/2",
+  "dsl": [
+    "point(O)",
+    "point(P)",
+    "point(A_prime)",
+    "quadrilateral(A, B, C, D)",
+    "triangle(A, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(BA_prime)",
+    "segment(CD)",
+    "segment(CP)",
+    "intersection(O, AC, BD)",
+    "intersection(P, BA_prime, CD)",
+    "fold(A, A_prime, CD)",
+    "equal(OB, OD)",
+    "length(CD)=1.618"
+  ],
+  "image_path": "images/00752.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "diagonal",
+      "fold",
+      "golden_ratio"
+    ]
+  }
+}

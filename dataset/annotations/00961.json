@@ -1,0 +1,30 @@
+{
+  "id": "00961",
+  "text": "△ABC与△A_primeB_primeC_prime位置关系B、B_prime、C在同一直线上，AB平行于A_primeB_prime，AC平行于A_primeC_prime",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A_prime, B_prime, C_prime)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(A_primeB_prime)",
+    "segment(A_primeC_prime)",
+    "segment(B_primeC_prime)",
+    "collinear(B, B_prime, C)",
+    "parallel(AB, A_primeB_prime)",
+    "parallel(AC, A_primeC_prime)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00961.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "similar_triangles",
+      "parallel"
+    ]
+  }
+}

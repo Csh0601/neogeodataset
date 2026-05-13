@@ -1,0 +1,30 @@
+{
+  "id": "00718",
+  "text": "在△ABC中，AD是中线，D是BC的中点，延长AD到E，使DE=AD，DF是△DCE的中线，F是CE的中点，△ABC的面积为2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(D, C, E)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(CE)",
+    "segment(BE)",
+    "midpoint(D, BC)",
+    "on(E, AD_extended)",
+    "midpoint(F, CE)",
+    "equal(DE, AD)"
+  ],
+  "image_path": "images/00718.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "midpoint", "median", "area"]
+  }
+}

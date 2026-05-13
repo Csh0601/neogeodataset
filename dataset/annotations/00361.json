@@ -1,0 +1,39 @@
+{
+  "id": "00361",
+  "text": "在平面直角坐标系中，点A(5,2)，B(5,4)，C(8,1)，直线MK⊥x轴，垂足为点M(2,0)，△A'B'C'与△ABC关于直线MK对称，且△A'B'C'有两个顶点在函数y=8/x的图像上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point(K)",
+    "point(A_prime)",
+    "point(B_prime)",
+    "point(C_prime)",
+    "point_coord(A, 5, 2)",
+    "point_coord(B, 5, 4)",
+    "point_coord(C, 8, 1)",
+    "point_coord(M, 2, 0)",
+    "triangle(A, B, C)",
+    "hyperbola(h, 8)",
+    "line(MK)",
+    "reflect(A_prime, A, MK)",
+    "reflect(B_prime, B, MK)",
+    "reflect(C_prime, C, MK)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00361.png",
+  "meta": {
+    "source": "三角形对称与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "reflect",
+      "hyperbola"
+    ]
+  }
+}

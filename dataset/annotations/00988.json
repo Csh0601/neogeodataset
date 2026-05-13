@@ -1,0 +1,31 @@
+{
+  "id": "00988",
+  "text": "在四边形ABCD中，AB=8，CD=6，∠ADB=∠BCA=90°，以AD和AC为边作平行四边形DACE，连接BE",
+  "dsl": [
+    "point(E)",
+    "quadrilateral(A, B, C, D)",
+    "parallelogram(D, A, C, E)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(BE)",
+    "segment(DC)",
+    "segment(DE)",
+    "segment(CE)",
+    "angle(ADB)=90",
+    "angle(BCA)=90",
+    "length(AB)=8",
+    "length(CD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00988.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["quadrilateral", "parallelogram", "right_angle"]
+  }
+}

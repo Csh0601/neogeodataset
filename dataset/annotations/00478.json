@@ -1,0 +1,32 @@
+{
+  "id": "00478",
+  "text": "在平行四边形ABCD中，对角线AC、BD相交于点O，过点O的一条直线分别交AD、BC于点E、F，AE=CF",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "line(l1, E, F)",
+    "on(E, AD)",
+    "on(F, BC)",
+    "intersection(O, AC, BD)",
+    "collinear(E, O, F)",
+    "equal(AE, CF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00478.png",
+  "meta": {
+    "source": "平行四边形对角线交点",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "diagonal",
+      "collinear"
+    ]
+  }
+}

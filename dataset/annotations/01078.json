@@ -1,0 +1,29 @@
+{
+  "id": "01078",
+  "text": "直线AB平行于直线CD，E为AB与CD之间的一点，连接AE，CE，∠C=44°，∠AEC=90°，∠BAE=134°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "line(AB)",
+    "line(CD)",
+    "segment(AE)",
+    "segment(CE)",
+    "parallel(AB, CD)",
+    "angle(DCA)=44",
+    "angle(AEC)=90",
+    "angle(BAE)=134"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01078.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel_lines", "angle", "perpendicular"]
+  }
+}

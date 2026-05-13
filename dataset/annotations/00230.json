@@ -1,0 +1,38 @@
+{
+  "id": "00230",
+  "text": "在直角三角形ABC中，AB长度为6，∠ABC=90°，以AB的中点O为圆心，AB为直径的圆交AC于D，E是BC的中点，DE交BA的延长线于F，BC=4，FB=8，FD是⊙O的切线",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "circle(O ,r=3)",
+    "segment(DE)",
+    "segment(FD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "intersection(D, AC, circle_O)",
+    "intersection(F, ED_extended, BA_extended)",
+    "midpoint(O, AB)",
+    "midpoint(E, BC)",
+    "right_triangle(A, B, C, right_at=B)",
+    "tangent(FD, circle_O)",
+    "length(BC)=4",
+    "length(FB)=8",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00230.png",
+  "meta": {
+    "source": "直角三角形与圆的切线",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "circle",
+      "tangent",
+      "midpoint"
+    ]
+  }
+}

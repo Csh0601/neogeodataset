@@ -1,0 +1,37 @@
+{
+  "id": "00153",
+  "text": "线段AE与线段BF平行，AE=BF=8，点D在AE上，点C在BF上，BD平分∠ABC，BC=AB=AD=CD=6，四边形ABCD是菱形，连接AB、CD",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(AE)",
+    "segment(BF)",
+    "segment(BD)",
+    "on(D, AE)",
+    "on(C, BF)",
+    "on(D, bisector_ABC)",
+    "parallel(AE, BF)",
+    "equal(BC, AB)",
+    "equal(AB, AD)",
+    "equal(CD, DA)",
+    "length(AE)=8",
+    "length(BF)=8",
+    "length(AD)=6",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00153.png",
+  "meta": {
+    "source": "平行线与菱形",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "bisector",
+      "rhombus"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00663",
+  "text": "△AOB和△COD均为等腰直角三角形，∠AOB=∠COD=90°，D在AB上，△AOC≅△BOD，AD=1，∠ADC=60°",
+  "dsl": [
+    "point(D)",
+    "triangle(A, O, B)",
+    "triangle(C, O, D)",
+    "triangle(A, O, C)",
+    "triangle(B, O, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(AD)",
+    "on(D, AB)",
+    "congruent(AOC, BOD)",
+    "equal(AO, OB)",
+    "equal(CO, OD)",
+    "angle(AOB)=90",
+    "angle(COD)=90",
+    "angle(ADC)=60",
+    "length(AD)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00663.png",
+  "meta": {
+    "source": "两个等腰直角三角形全等",
+    "difficulty": "middle",
+    "tags": ["isosceles", "right_triangle", "congruent"]
+  }
+}

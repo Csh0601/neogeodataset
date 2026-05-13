@@ -1,0 +1,34 @@
+{
+  "id": "00148",
+    "text": "在平面直角坐标系中，一次函数y=0.5x-2与反比例函数y=6/x的图象在第一象限交于A(6,1)，在第三象限交于B(-2,-3)，连接OA、OB、AB",
+    "dsl": [
+    "point(A)",
+    "point(B)",
+    "coordinate_system(O)",
+    "point_coord(A, 6, 1)",
+    "point_coord(B, -2, -3)",
+    "line_function(l, 0.5, -2)",
+    "hyperbola(h, 6)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AB)",
+    "intersection(A, l, h)",
+    "intersection(B, l, h)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00148.png",
+  "meta": {
+    "source": "一次函数与反比例函数",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "hyperbola",
+      "intersection",
+      "area"
+    ]
+  }
+}

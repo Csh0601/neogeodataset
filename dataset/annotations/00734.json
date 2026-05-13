@@ -1,0 +1,29 @@
+{
+  "id": "00734",
+  "text": "在平面直角坐标系xOy中，抛物线C: y=-1/4x^2+bx+c与x轴交于A、B两点，其中A(-4√2,0)，B(4√2,0)，顶点为D，F(m,0)是x轴正半轴上一点，将抛物线C绕点F旋转180°得到新的抛物线C'",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "point(F)",
+    "point_coord(A, -5.6569, 0)",
+    "point_coord(B, 5.6569, 0)",
+    "parabola(p1, -0.25, 0, 8)",
+    "segment(AB)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)"
+  ],
+  "image_path": "images/00734.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "rotation"]
+  }
+}

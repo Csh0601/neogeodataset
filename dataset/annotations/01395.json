@@ -1,0 +1,44 @@
+{
+  "id": "01395",
+  "text": "BC∥DE，BC<DE，AD=BC=4，AB+DE=10，线段BD和CE相交于点A",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(BC)",
+    "segment(DE)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(AE)",
+    "intersection(A, BD, CE)",
+    "parallel(BC, DE)",
+    "equal(AD, BC)",
+    "length(AD)=4",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01395.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "parallel",
+      "intersection",
+      "ratio"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "AB+DE=10作为约束"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

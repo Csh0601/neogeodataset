@@ -1,0 +1,35 @@
+{
+  "id": "00934",
+  "text": "在平面直角坐标系中，抛物线y=x^2-2x-3与x轴交于A、B两点（点A在点B左侧），经过点A的直线l与y轴交于点C，与抛物线的另一个交点为D，且CD=4AC",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "parabola(p1, 1, -2, -3)",
+    "segment(AC)",
+    "segment(CD)",
+    "segment(BD)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)"
+  ],
+  "image_path": "images/00934.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线直线交点比例",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line_function"
+    ]
+  }
+}

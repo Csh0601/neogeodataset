@@ -1,0 +1,28 @@
+{
+  "id": "00999",
+  "text": "在矩形ABCD中，M为对角线BD的中点，在正方形CEFG中，E在BC的延长线上，F在矩形外部，连接DF和MF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(M)",
+    "rectangle(A, B, C, D)",
+    "square(C, E, F, G)",
+    "segment(BD)",
+    "segment(DF)",
+    "segment(MF)",
+    "segment(BM)",
+    "midpoint(M, BD)",
+    "on(E, BC_extended)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00999.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["rectangle", "square", "midpoint"]
+  }
+}

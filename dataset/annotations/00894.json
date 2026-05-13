@@ -1,0 +1,40 @@
+{
+  "id": "00894",
+  "text": "在平面直角坐标系中，点C(1,0)，直线y=-x+7与两坐标轴分别交于A、B两点，D、E分别是线段AB、OA上的一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(O, 0, 0)",
+    "point_coord(C, 1, 0)",
+    "point_coord(A, 0, 7)",
+    "point_coord(B, 7, 0)",
+    "line_function(l1, -1, 7)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(DE)",
+    "on(D, AB)",
+    "on(E, OA)",
+    "axis_intersection(A, l1, y)",
+    "axis_intersection(B, l1, x)"
+  ],
+  "image_path": "images/00894.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系中三角形周长最值",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line_function",
+      "moving_point"
+    ]
+  }
+}

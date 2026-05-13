@@ -1,0 +1,41 @@
+{
+  "id": "01065",
+  "text": "在正方形ABCD中，E在BC边上，F在CD的延长线上，BE=DF，连接EF交AD于点G，过A作AN⊥EF垂足为M，AN交CD于点N，BE=5，CN=8",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(DF)",
+    "segment(EF)",
+    "segment(AN)",
+    "segment(CN)",
+    "on(E, BC)",
+    "on(F, CD_extended)",
+    "on(N, CD)",
+    "intersection(G, EF, AD)",
+    "foot(M, A, EF)",
+    "perpendicular(AN, EF)",
+    "equal(BE, DF)",
+    "equal(AB, BC)",
+    "length(BE)=5",
+    "length(CN)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01065.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "perpendicular",
+      "extension",
+      "intersection"
+    ]
+  }
+}

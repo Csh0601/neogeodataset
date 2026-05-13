@@ -1,0 +1,34 @@
+{
+  "id": "01260",
+  "text": "在四边形ABCD中，AD平分∠BAC，∠ABD+∠ACD=180°，∠ABD<90°，DB=DC",
+  "dsl": [
+    "point(D)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(DC)",
+    "segment(AC)",
+    "equal_angle(BAD, DAC)",
+    "equal(DB, DC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01260.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "angle_bisector",
+      "supplementary_angles"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "图2场景：AD平分∠BAC，∠ABD+∠ACD=180°，求证DB=DC"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

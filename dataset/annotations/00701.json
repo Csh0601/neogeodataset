@@ -1,0 +1,30 @@
+{
+  "id": "00701",
+  "text": "在平面直角坐标系中，反比例函数y=12/x经过点E(3,4)，在反比例函数y=12/x上取一点P，使得∠POE=45°",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(E)",
+    "point(P)",
+    "point_coord(E, 3, 4)",
+    "hyperbola(h, 12)",
+    "segment(OE)",
+    "segment(OP)",
+    "on(E, hyperbola_h)",
+    "on(P, hyperbola_h)",
+    "angle(POE)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00701.png",
+  "meta": {
+    "source": "反比例函数上的角度条件",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "00381",
+  "text": "在Rt△ABC中，∠ACB=90°，顶点A、B都在反比例函数y=4/x（x>0）的图象上，AC⊥x轴，垂足为D，连结OA、OC，并延长OC交AB于点E，当AB=2OA时，点E恰为AB的中点，∠AOD=45°，OA=2√2",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point(E)",
+    "point_coord(D, 2, 0)",
+    "right_triangle(A, B, C, right_at=C)",
+    "hyperbola(h, 4)",
+    "segment(OA)",
+    "segment(OC)",
+    "on(E, AB)",
+    "midpoint(E, AB)",
+    "function_point(A, h)",
+    "function_point(B, h)",
+    "collinear(O, C, E)",
+    "angle(AOD)=45",
+    "length(OA)=2.828"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00381.png",
+  "meta": {
+    "source": "直角三角形与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "hyperbola",
+      "coordinate_system"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "00013",
+  "text": "在△ABC中，AD是BC边上的中线，AF=DC,E是AD的中点，过点A作BC的平行线交BE的延长线于点F，连接CF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(AF)",
+    "segment(CF)",
+    "segment(BE)",
+    "segment(EF)",
+    "midpoint(E, AD)",
+    "midpoint(D, BC)",
+    "parallel(AF, BC)",
+    "equal(AF, DC)",
+    "on_extended(F, BE, towards=E)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00013.png",
+  "meta": {
+    "source": "三角形中线与平行线问题",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "median",
+      "midpoint",
+      "parallel"
+    ]
+  }
+}

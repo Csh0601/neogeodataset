@@ -1,0 +1,38 @@
+{
+  "id": "00163",
+  "text": "在菱形ABCD中，对角线AC、BD相交于点O，点E在线段BO上，连接AE，CD=2BE，∠DAE=∠DEA，EO=1，线段AE的长为2√2",
+  "dsl": [
+    "point(E)",
+    "point(O)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(AE)",
+    "segment(CD)",
+    "segment(EO)",
+    "intersection(O, AC, BD)",
+    "on(E, BO)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DA)",
+    "equal_angle(DAE, DEA)",
+    "ratio(CD, BE)=2",
+    "length(EO)=1",
+    "length(AE)=2√2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00163.png",
+  "meta": {
+    "source": "菱形与等角",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "diagonal",
+      "equal_angle"
+    ]
+  }
+}

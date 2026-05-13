@@ -1,0 +1,41 @@
+{
+  "id": "01366",
+  "text": "A、B、C、D、E五个点形成五角星，连接AC、CE、EB、BD、DA，∠A+∠B+∠C+∠D+∠E=180°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(AC)",
+    "segment(CE)",
+    "segment(EB)",
+    "segment(BD)",
+    "segment(DA)",
+    "angle(DAC)=36",
+    "angle(ACE)=36",
+    "angle(CEB)=36",
+    "angle(EBD)=36",
+    "angle(BDA)=36"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01366.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "pentagram",
+      "angle_sum",
+      "star"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "五角星五个顶角之和=180°，正五角星情形每个顶角=36°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

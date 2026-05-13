@@ -1,0 +1,27 @@
+{
+  "id": "00178",
+  "text": "在平面直角坐标系中，一次函数y=x+1的图象与反比例函数y=6/x的图象相交，其中一个交点A的坐标是(2,3)",
+  "dsl": [
+    "point(A)",
+    "coordinate_system(O)",
+    "point_coord(A, 2, 3)",
+    "line_function(l, 1, 1)",
+    "hyperbola(h, 6)",
+    "function_intersection(A, l, h)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00178.png",
+  "meta": {
+    "source": "一次函数与反比例函数",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "hyperbola",
+      "intersection"
+    ]
+  }
+}

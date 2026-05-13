@@ -1,0 +1,40 @@
+{
+  "id": "01122",
+  "text": "AB=AC，DC=DE，∠BAC=∠CDE=90°，连接BE，F为BE的中点，连接AF，FD，FA=FD，FA⊥FD",
+  "dsl": [
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(C, D, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(DC)",
+    "segment(DE)",
+    "segment(BE)",
+    "segment(AF)",
+    "segment(FD)",
+    "segment(AD)",
+    "midpoint(F, BE)",
+    "equal(AB, AC)",
+    "equal(DC, DE)",
+    "perpendicular(AF, FD)",
+    "equal(AF, FD)",
+    "angle(BAC)=90",
+    "angle(CDE)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01122.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles",
+      "right_triangle",
+      "midpoint",
+      "proof"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "00953",
+  "text": "在等腰直角三角形ABC中，∠BAC=90°，AB=AC，将△ABC沿CD对折，展平后将点B沿EF折叠到边AC上的点M，CD与EM交于点P，连接PF，BC=4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(P)",
+    "segment(CD)",
+    "segment(EF)",
+    "segment(EM)",
+    "segment(PF)",
+    "segment(BC)",
+    "on(D, AB)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "on(M, AC)",
+    "midpoint(D, AB)",
+    "intersection(P, CD, EM)",
+    "isosceles_right(A, B, C)",
+    "fold(B, M, EF)",
+    "perpendicular(CD, AB)",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00953.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right_triangle",
+      "fold",
+      "intersection"
+    ]
+  }
+}

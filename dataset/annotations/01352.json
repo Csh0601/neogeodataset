@@ -1,0 +1,39 @@
+{
+  "id": "01352",
+  "text": "A、B、C、D是⊙O上的四点，弧CD=弧BD，AC是四边形ABCD的对角线，连接BD，∠CDB=60°，AC是∠DAB的平分线",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "circle(O)",
+    "arc(B, D, circle_O)",
+    "arc(C, D, circle_O)",
+    "segment(AC)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "bisector(AC, DAB)",
+    "angle(CDB)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01352.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "circle",
+      "bisector"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "弧CD=弧BD隐含等弧条件",
+      "选取图1标注"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

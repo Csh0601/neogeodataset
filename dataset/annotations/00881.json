@@ -1,0 +1,33 @@
+{
+  "id": "00881",
+  "text": "在△AEF中，直线a过点A、B，直线b过点C、D，直线a平行于直线b，∠EAB=60°，∠AEF=45°，∠FDB=75°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, E, F)",
+    "line(a, A, B)",
+    "line(b, C, D)",
+    "parallel(a, b)",
+    "angle(EAB)=60",
+    "angle(AEF)=45",
+    "angle(FDB)=75"
+  ],
+  "image_path": "images/00881.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角板与平行线",
+    "difficulty": "easy",
+    "tags": [
+      "parallel",
+      "angle",
+      "triangle"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "00969",
+  "text": "在平面直角坐标系xOy中，直线y=-(4/3)x+8与x轴交于点A，与y轴交于点B，A点坐标为(6,0)，点C在直线AB上，横坐标为3，点D是x轴正半轴上的一点，连接CD，以CD为直角边构造等腰Rt△CDE，∠CDE=90°",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(A, 6, 0)",
+    "line_function(l1, -1.3333, 8)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(DE)",
+    "segment(OC)",
+    "segment(OE)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, AB)",
+    "on(D, axis_x)",
+    "isosceles_right(D, C, E)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00969.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "isosceles_right_triangle"
+    ]
+  }
+}

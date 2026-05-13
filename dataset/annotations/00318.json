@@ -1,0 +1,33 @@
+{
+  "id": "00318",
+  "text": "线段AB长为8，在AB中点E连接线段外一点C，CE=3，过点C作CD⊥AB于点D，角EDC大小为60°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(AB)",
+    "segment(CE)",
+    "segment(CD)",
+    "midpoint(E, AB)",
+    "foot(D, C, AB)",
+    "perpendicular(CD, AB)",
+    "length(AB)=8",
+    "length(CE)=3",
+    "angle(EDC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00318.png",
+  "meta": {
+    "source": "垂线段最短应用",
+    "difficulty": "easy",
+    "tags": [
+      "perpendicular",
+      "application"
+    ]
+  }
+}

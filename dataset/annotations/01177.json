@@ -1,0 +1,40 @@
+{
+  "id": "01177",
+  "text": "∠BAD=∠CAE=90°，AB=AD，AE=AC，AF⊥CB，垂足为F，连接CD，AF交CD于点G，∠FAE=45",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(CB)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(BF)",
+    "foot(F, A, CB)",
+    "intersection(G, AF, CD)",
+    "equal(AB, AD)",
+    "equal(AE, AC)",
+    "perpendicular(AF, CB)",
+    "angle(BAD)=90",
+    "angle(CAE)=90",
+    "angle(FAE)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01177.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["congruent", "perpendicular", "rotation"]
+  }
+}

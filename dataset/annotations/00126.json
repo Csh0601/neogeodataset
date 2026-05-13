@@ -1,0 +1,37 @@
+{
+  "id": "00126",
+  "text": "在△ABC中，BC=120，高AD=60，正方形EFGH一边在BC上，点E、F分别在AB、AC上，AD交EF于点N，AN=20",
+  "dsl": [
+    "point(D)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "square(E, F, G, H)",
+    "segment(AD)",
+    "segment(AN)",
+    "on(H, BC)",
+    "on(G, BC)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "foot(D, A, BC)",
+    "intersection(N, AD, EF)",
+    "perpendicular(AD, BC)",
+    "length(BC)=120",
+    "length(AD)=60",
+    "length(AN)=20"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00126.png",
+  "meta": {
+    "source": "三角形内接正方形",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "square",
+      "inscribed",
+      "intersection"
+    ]
+  }
+}

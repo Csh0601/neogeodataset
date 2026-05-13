@@ -1,0 +1,30 @@
+{
+  "id": "00747",
+  "text": "在平面直角坐标系xOy中，一次函数y=-2x+4的图象与x轴交于点A(2,0)，与y轴交于点B(0,4)，将直线AB绕点B顺时针旋转45°，交x轴于点C",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, 2, 0)",
+    "point_coord(B, 0, 4)",
+    "line_function(l1, -2, 4)",
+    "segment(AB)",
+    "segment(BC)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)",
+    "rotate(C, source=A, center=B, angle=-45)"
+  ],
+  "image_path": "images/00747.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "line", "rotation"]
+  }
+}

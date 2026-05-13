@@ -1,0 +1,42 @@
+{
+  "id": "00388",
+  "text": "四边形ABCD是矩形，AB=1，AD=2，延长DA到点E，使AE=DA，连接EB，点F1是CD的中点，连接EF1、BF1，得到△EF1B；点F2是CF1的中点，连接EF2、BF2，得到△EF2B；点F3是CF2的中点，连接EF3、BF3，得到△EF3B",
+  "dsl": [
+    "point(E)",
+    "point(F1)",
+    "point(F2)",
+    "point(F3)",
+    "rectangle(A, B, C, D)",
+    "triangle(E, F1, B)",
+    "triangle(E, F2, B)",
+    "triangle(E, F3, B)",
+    "segment(EB)",
+    "segment(EF1)",
+    "segment(BF1)",
+    "segment(EF2)",
+    "segment(BF2)",
+    "segment(EF3)",
+    "segment(BF3)",
+    "on(E, DA_extended)",
+    "midpoint(F1, CD)",
+    "midpoint(F2, CF1)",
+    "midpoint(F3, CF2)",
+    "equal(AE, DA)",
+    "length(AB)=1",
+    "length(AD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00388.png",
+  "meta": {
+    "source": "矩形递归中点问题",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "midpoint",
+      "sequence"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "01117",
+  "text": "在△ABC中，AD⊥BC，D在BC上，AB+BD=DC，∠B=54°，∠C=63°",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(DC)",
+    "on(D, BC)",
+    "foot(D, A, BC)",
+    "perpendicular(AD, BC)",
+    "angle(ABC)=54",
+    "angle(ACB)=63"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01117.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "altitude", "perpendicular", "angle"]
+  }
+}

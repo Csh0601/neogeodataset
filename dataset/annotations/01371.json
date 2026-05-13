@@ -1,0 +1,37 @@
+{
+  "id": "01371",
+  "text": "六个点A、B、C、D、E、F构成星形图案，线段AC、CE、EB、BD、DF、FA两两相交，∠A+∠B+∠C+∠D+∠E+∠F=360",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(AC)",
+    "segment(CE)",
+    "segment(EB)",
+    "segment(BD)",
+    "segment(DF)",
+    "segment(FA)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01371.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "star_polygon",
+      "angle_sum"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "计算出六角星形尖端角之和为360度"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

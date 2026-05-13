@@ -1,0 +1,31 @@
+{
+  "id": "00727",
+  "text": "在△ABC中，AC=BC，D是AB边上一点，将∠B沿过点D的直线折叠，使点B落在AC边上的点P处，折痕交BC边于点E，∠C=60°，D是AB的中点，AP=AC/2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "segment(DP)",
+    "segment(AP)",
+    "on(D, AB)",
+    "on(E, BC)",
+    "on(P, AC)",
+    "midpoint(D, AB)",
+    "fold(B, P, DE)",
+    "equal(AC, BC)",
+    "ratio(AP, AC)=0.5",
+    "angle(ACB)=60"
+  ],
+  "image_path": "images/00727.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "isosceles", "fold", "midpoint"]
+  }
+}

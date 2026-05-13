@@ -1,0 +1,39 @@
+{
+  "id": "01346",
+  "text": "在边长为8的正方形ABCD中，E、F分别是边AB、BC上的点，且EF=6，M为EF中点，P是边AD上的一个点，连接CP、PM",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(EF)",
+    "segment(CP)",
+    "segment(PM)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "on(P, AD)",
+    "midpoint(M, EF)",
+    "length(AB)=8",
+    "length(EF)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01346.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "midpoint"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "动点E、F、P静态化"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

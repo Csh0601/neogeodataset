@@ -1,0 +1,35 @@
+{
+  "id": "00264",
+  "text": "直线DE∥BC，A在直线DE上，BC=5，BA⊥AC，∠ABC=54°，∠EAC=36°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "line(DE)",
+    "segment(BC)",
+    "segment(BA)",
+    "segment(AC)",
+    "on(A, DE)",
+    "parallel(DE, BC)",
+    "perpendicular(BA, AC)",
+    "angle(ABC)=54",
+    "angle(EAC)=36",
+    "length(BC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00264.png",
+  "meta": {
+    "source": "平行线与垂直",
+    "difficulty": "easy",
+    "tags": [
+      "parallel",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

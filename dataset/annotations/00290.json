@@ -1,0 +1,50 @@
+{
+  "id": "00290",
+  "text": "线段AB为半圆O的直径，AB=8，M、C是半圆弧上的三等分点，BD与半圆O相切于点B，P为弧AM上一点，PC交BD于点D，BE⊥OC于点E，延长BE交PC于点F，PB=PD，∠DBE=45°，△BCF∽△PFB",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(M)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point(E)",
+    "point(F)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(BE)",
+    "segment(PC)",
+    "segment(BD)",
+    "arc(A, M, circle_O)",
+    "triangle(B, C, F)",
+    "triangle(P, F, B)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(M, circle_O)",
+    "on(C, circle_O)",
+    "on(P, circle_O)",
+    "foot(E, B, OC)",
+    "intersection(F, BE_extended, PC)",
+    "midpoint(O, AB)",
+    "tangent(BD, circle_O)",
+    "equal(PB, PD)",
+    "similar(BCF, PFB)",
+    "length(AB)=8",
+    "angle(DBE)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00290.png",
+  "meta": {
+    "source": "半圆切线与动点问题",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "moving_point",
+      "similar"
+    ]
+  }
+}

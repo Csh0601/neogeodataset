@@ -1,0 +1,27 @@
+{
+  "id": "00550",
+  "text": "在平行四边形ABCD中，过点C作CE⊥AB，垂足为E，∠EAD=40°，∠BCE=50°",
+  "dsl": [
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "segment(CE)",
+    "foot(E, C, AB)",
+    "perpendicular(CE, AB)",
+    "angle(EAD)=40",
+    "angle(BCE)=50"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00550.png",
+  "meta": {
+    "source": "平行四边形垂线",
+    "difficulty": "easy",
+    "tags": [
+      "parallelogram",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

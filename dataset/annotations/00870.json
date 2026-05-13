@@ -1,0 +1,41 @@
+{
+  "id": "00870",
+  "text": "在平面直角坐标系中，抛物线y=-1/2 x²+3/2 x+2交x轴于点A、B，交y轴于点C，点M是第一象限内抛物线上一点，过点M作MN垂直于x轴于点N，△MON与△BOC相似",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(M)",
+    "point(N)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, 2)",
+    "parabola(f, -0.5, 1.5, 2)",
+    "segment(MN)",
+    "on(A, f)",
+    "on(B, f)",
+    "on(M, f)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "axis_intersection(C, f, y)",
+    "foot(N, M, AB)",
+    "perpendicular(MN, AB)",
+    "triangle(M, O, N)",
+    "triangle(B, O, C)",
+    "similar(MON, BOC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00870.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "similar",
+      "perpendicular"
+    ]
+  }
+}

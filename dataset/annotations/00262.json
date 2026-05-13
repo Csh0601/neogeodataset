@@ -1,0 +1,38 @@
+{
+  "id": "00262",
+  "text": "半径为2的⊙O中，P是圆O外一点，PA、PB为切线，PA=PB=3，切点分别为A、B，PO交AB于点C，PO的延长线交⊙O于点D，△BPA为等腰三角形，AB与PD相互垂直平分，点A、B都在以PO为直径的圆上，PC为△BPA的边AB上的中线",
+  "dsl": [
+    "point(C)",
+    "point(D)",
+    "circle(O, r=2)",
+    "segment(PO)",
+    "segment(PD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "midpoint(C, AB)",
+    "intersection(C, PO, AB)",
+    "intersection(D, PO_extended, circle_O)",
+    "perpendicular_bisector(PD, AB)",
+    "perpendicular_bisector(AB, PD)",
+    "isosceles(P, B, A)",
+    "tangent(PA, circle_O)",
+    "tangent(PB, circle_O)",
+    "length(PA)=3",
+    "length(PB)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00262.png",
+  "meta": {
+    "source": "圆的切线性质",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "isosceles_triangle"
+    ]
+  }
+}

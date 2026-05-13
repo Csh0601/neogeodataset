@@ -1,0 +1,30 @@
+{
+  "id": "00340",
+  "text": "在△ABC中，∠ABC=90°，AB=BC=2，以点C为圆心，线段CA的长为半径作弧AD，交CB的延长线于点D",
+  "dsl": [
+    "point(D)",
+    "circle(C, radius=CA)",
+    "segment(CD)",
+    "arc(A, D, circle_C)",
+    "on(D, CB_extended)",
+    "on(D, circle_C)",
+    "intersection(D, circle_C, CB_extended)",
+    "right_triangle(A, B, C, right_at=B)",
+    "length(AB)=2",
+    "length(BC)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00340.png",
+  "meta": {
+    "source": "直角三角形与扇形面积",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "sector",
+      "area"
+    ]
+  }
+}

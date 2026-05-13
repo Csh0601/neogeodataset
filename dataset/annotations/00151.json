@@ -1,0 +1,42 @@
+{
+  "id": "00151",
+  "text": "在△ABC中，AB=AC=4，∠B的平分线交AC于D，AE∥BC交BD的延长线于点E，AF⊥AB交BE于点F，∠BAC=40°，∠AFE=110°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(BE)",
+    "on(D, bisector_ABC)",
+    "on(D, AC)",
+    "on(F, BE)",
+    "intersection(F, AF, BE)",
+    "intersection(D, AC, BE)",
+    "equal(AB, AC)",
+    "parallel(AE, BC)",
+    "perpendicular(AF, AB)",
+    "length(AB)=4",
+    "length(AC)=4",
+    "angle(BAC)=40",
+    "angle(AFE)=110",
+    "on_extended(E, BD, towards=D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00151.png",
+  "meta": {
+    "source": "等腰三角形与角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "bisector",
+      "parallel",
+      "perpendicular"
+    ]
+  }
+}

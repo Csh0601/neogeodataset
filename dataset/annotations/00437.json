@@ -1,0 +1,29 @@
+{
+  "id": "00437",
+  "text": "在平行四边形ABCD中，点E是AD的中点，连接CE并延长，交BA的延长线于点F，FA=AB",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(CE)",
+    "segment(FA)",
+    "on(F, BA_extended)",
+    "midpoint(E, AD)",
+    "collinear(C, E, F)",
+    "equal(FA, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00437.png",
+  "meta": {
+    "source": "平行四边形中点延长线",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "midpoint",
+      "collinear"
+    ]
+  }
+}

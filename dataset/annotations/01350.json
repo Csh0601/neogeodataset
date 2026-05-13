@@ -1,0 +1,41 @@
+{
+  "id": "01350",
+  "text": "在⊙O中，AB=AC，点D是弧CMB上一点（不与C、B重合），连接DA、DB、DC，∠BAC=120°，AC=4",
+  "dsl": [
+    "point(D)",
+    "point(M)",
+    "triangle(A, B, C)",
+    "circle(O)",
+    "arc(C, B, circle_O)",
+    "segment(DA)",
+    "segment(DB)",
+    "segment(DC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "equal(AB, AC)",
+    "angle(BAC)=120",
+    "length(AC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01350.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "isosceles",
+      "inscribed"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "动点D静态化到弧上一个位置"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

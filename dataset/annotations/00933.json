@@ -1,0 +1,33 @@
+{
+  "id": "00933",
+  "text": "在平面直角坐标系中，抛物线y=x^2-4x+3与x轴正半轴分别交于A、B（A在B的右边），与y轴的正半轴交于点C，连接BC，tan∠BCO=1/3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, 1, 0)",
+    "point_coord(C, 0, 3)",
+    "parabola(p1, 1, -4, 3)",
+    "segment(BC)",
+    "segment(AC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)"
+  ],
+  "image_path": "images/00933.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线与x轴交点角度",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "angle"]
+  }
+}

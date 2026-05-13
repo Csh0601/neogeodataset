@@ -1,0 +1,44 @@
+{
+  "id": "00436",
+  "text": "在△ABC中，∠C=84°，分别以点A、B为圆心，以大于1/2·AB的长为半径画弧，两弧分别交于点M、P，作直线MP交AC于点D；以点B为圆心，适当长为半径画弧，分别交BA、BC于点E、F，再分别以点E、F为圆心，大于1/2·EF的长为半径画弧，两弧交于点K，作射线BK，此时射线BK恰好经过点D，∠A=48°",
+  "dsl": [
+    "point(M)",
+    "point(P)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(K)",
+    "triangle(A, B, C)",
+    "circle(A, r=5)",
+    "circle(B, r=5)",
+    "circle(E, r=3)",
+    "circle(F, r=3)",
+    "line(l1, M, P)",
+    "ray(B, K)",
+    "on(E, BA)",
+    "on(F, BC)",
+    "intersection(M, circle_A, circle_B)",
+    "intersection(P, circle_A, circle_B, index=1)",
+    "intersection(D, MP, AC)",
+    "intersection(K, circle_E, circle_F)",
+    "equal(BE, BF)",
+    "collinear(B, K, D)",
+    "angle(BCA)=84",
+    "angle(CAB)=48"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00436.png",
+  "meta": {
+    "source": "尺规作图垂直平分线与角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circle_intersection",
+      "angle_bisector",
+      "construction"
+    ]
+  }
+}

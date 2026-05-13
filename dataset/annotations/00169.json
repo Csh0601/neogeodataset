@@ -1,0 +1,37 @@
+{
+  "id": "00169",
+  "text": "在△ABC中，AB=6,AC=4,BC=5,点D在BC上靠近B的三等分点，点E在AC上靠近C的三等分点，连接AD，过点E作EF∥BC，交AD于点F，过点E作EG∥AB，交BC于点G",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(EF)",
+    "segment(EG)",
+    "trisection(D, BC, near=B)",
+    "trisection(E, AC, near=C)",
+    "intersection(F, EF, AD)",
+    "intersection(G, EG, BC)",
+    "parallel(EF, BC)",
+    "parallel(EG, AB)",
+    "length(AB)=6",
+    "length(AC)=4",
+    "length(BC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00169.png",
+  "meta": {
+    "source": "三角形与平行线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "parallel",
+      "ratio"
+    ]
+  }
+}

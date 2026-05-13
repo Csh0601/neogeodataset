@@ -1,0 +1,32 @@
+{
+  "id": "00379",
+  "text": "AB∥CD，∠ABE=30°，∠AEF=65°，∠FEG=65°，∠EGC=35°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(EF)",
+    "segment(EG)",
+    "parallel(AB, CD)",
+    "angle(AEF)=65",
+    "angle(FEG)=65",
+    "angle(EGC)=35",
+    "angle(ABE)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00379.png",
+  "meta": {
+    "source": "平行线与角度",
+    "difficulty": "middle",
+    "tags": ["parallel", "angle"]
+  }
+}

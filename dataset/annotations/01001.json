@@ -1,0 +1,39 @@
+{
+  "id": "01001",
+  "text": "∠BAD=∠CAE=90°，AB=AD，AE=AC，AF⊥CB，垂足为F，△ABC≌△ADE",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(BD)",
+    "segment(CE)",
+    "segment(CB)",
+    "segment(CD)",
+    "segment(BF)",
+    "foot(F, A, CB)",
+    "perpendicular(AF, CB)",
+    "equal(AB, AD)",
+    "equal(AE, AC)",
+    "congruent(ABC, ADE)",
+    "angle(BAD)=90",
+    "angle(CAE)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01001.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "congruent_triangles",
+      "perpendicular",
+      "rotation"
+    ]
+  }
+}

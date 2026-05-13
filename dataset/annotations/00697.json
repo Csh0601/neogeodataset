@@ -1,0 +1,39 @@
+{
+  "id": "00697",
+  "text": "在Rt△ABC中，∠ABC=90°，CD平分∠ACB交AB于点D，DE⊥AC于点E，BF∥DE交CD于点F，DE=BF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(BF)",
+    "segment(AB)",
+    "segment(AC)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "intersection(F, BF, CD)",
+    "bisect_angle(A, C, B, CD)",
+    "perpendicular(DE, AC)",
+    "parallel(BF, DE)",
+    "equal(DE, BF)",
+    "angle(ABC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00697.png",
+  "meta": {
+    "source": "直角三角形角平分线与平行线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "right_angle",
+      "bisector",
+      "parallel",
+      "perpendicular"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00393",
+  "text": "四边形ABCD是菱形，对角线AC、BD相交于点O，AC=8，BD=6，点E是CD上一点，连接OE，OE=CE，OE的长是5/2",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OE)",
+    "on(E, CD)",
+    "intersection(O, AC, BD)",
+    "equal(OE, CE)",
+    "equal(AB, BC)",
+    "length(AC)=8",
+    "length(BD)=6",
+    "length(OE)=2.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00393.png",
+  "meta": {
+    "source": "菱形对角线与等长",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "diagonal",
+      "equal"
+    ]
+  }
+}

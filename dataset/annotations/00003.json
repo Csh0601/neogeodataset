@@ -1,0 +1,35 @@
+{
+  "id": "00003",
+  "text": "平行四边形ABDC中，P是BC上一点，Q是BC延长线上一点，H是从Q到BD的垂足，连接PH、QH",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "point(H)",
+    "parallelogram(A, B, D, C)",
+    "segment(AD)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(QH)",
+    "segment(PH)",
+    "on(P, BC)",
+    "foot(H, Q, BD)",
+    "perpendicular(DB, QH)",
+    "on_extended(Q, BC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00003.png",
+  "meta": {
+    "source": "平行四边形与面积问题",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "height",
+      "extended_line",
+      "shaded_area"
+    ]
+  }
+}

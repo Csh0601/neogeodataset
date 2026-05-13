@@ -1,0 +1,33 @@
+{
+  "id": "00270",
+  "text": "在矩形ABCD中，AB=4，AD=5，E是CD的中点，△ABE是等腰三角形，对角线AC交BE于点F，过F作FG⊥AB，垂足为G",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "rectangle(A, B, C, D)",
+    "segment(AC)",
+    "segment(FG)",
+    "midpoint(E, CD)",
+    "intersection(F, AC, BE)",
+    "foot(G, F, AB)",
+    "isosceles(E, A, B)",
+    "perpendicular(FG, AB)",
+    "length(AB)=4",
+    "length(AD)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00270.png",
+  "meta": {
+    "source": "矩形内等边三角形",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "equilateral_triangle",
+      "ratio"
+    ]
+  }
+}

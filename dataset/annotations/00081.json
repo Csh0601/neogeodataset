@@ -1,0 +1,48 @@
+{
+  "id": "00081",
+  "text": "AB是⊙O的直径，长度为16，点C在⊙O上，连接AC。以AC为边作菱形ACDE，CD交⊙O于点F，AB⊥CD垂足为G。连接AD，交⊙O于点H，连接EH。AG=12，GF=5",
+  "dsl": [
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "circle(O,r=8)",
+    "parallelogram(A, C, D, E)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(EH)",
+    "segment(CF)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(F, circle_O)",
+    "on(H, circle_O)",
+    "on(F, CD)",
+    "on(H, AD)",
+    "intersection(G, AB, CD)",
+    "intersection(H, AD, circle_O)",
+    "collinear(A, O, B)",
+    "equal(AC, CD)",
+    "equal(CD, DE)",
+    "equal(DE, EA)",
+    "perpendicular(AB, CD)",
+    "length(AG)=12",
+    "length(GF)=5",
+    "length(AB)=16"
+  ],
+  "image_path": "images/00081.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆与直径",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "parallel",
+      "perpendicular",
+      "equal",
+      "collinear"
+    ]
+  }
+}

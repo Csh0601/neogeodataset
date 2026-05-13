@@ -1,0 +1,46 @@
+{
+  "id": "01245",
+  "text": "AB是⊙O的直径，BC是⊙O的弦，先将BC弧沿BC翻折交AB于点D，再将BD弧沿AB翻折交BC于点E，弧BE=弧DE，设∠ABC=α",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "circle(O)",
+    "arc(B, E, circle_O)",
+    "arc(D, E, circle_O)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, AB)",
+    "on(E, BC)",
+    "fold(C, D, BC)",
+    "fold(D, E, AB)",
+    "collinear(A, O, B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01245.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "fold",
+      "arc"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "圆的翻折问题，弧BC翻折交AB于D，弧BD翻折交BC于E，弧BE=弧DE"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "00696",
+  "text": "在平面直角坐标系中，抛物线y=x²-2x-3与x轴交于A(-1,0)和B(3,0)两点，与y轴交于点C(0,-3)，OB=OC，点P在线段BC上，过P作x轴的垂线交抛物线于M点，连接CM",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point(P)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, -3)",
+    "parabola(p, 1, -2, -3)",
+    "segment(BC)",
+    "segment(CM)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)",
+    "on(P, BC)",
+    "on(M, parabola_p)",
+    "equal(OB, OC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00696.png",
+  "meta": {
+    "source": "抛物线上动点与折叠",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "fold"
+    ]
+  }
+}

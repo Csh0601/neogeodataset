@@ -1,0 +1,39 @@
+{
+  "id": "01242",
+  "text": "在矩形ABCD中，点E是AD的中点，连接BE，将△ABE沿BE翻折得到△FBE，EF交BC于点H，延长BF交DC的延长线于点G，DG=√15，BC=6",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "triangle(A, B, E)",
+    "triangle(F, B, E)",
+    "segment(BE)",
+    "midpoint(E, AD)",
+    "intersection(H, EF, BC)",
+    "on(G, DC_extended)",
+    "extend(BF, G)",
+    "fold(A, F, BE)",
+    "length(DG)=√15",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01242.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "midpoint",
+      "extend"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "翻折△ABE沿BE得到△FBE，A映射为F",
+      "DG=√15, BC=6"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

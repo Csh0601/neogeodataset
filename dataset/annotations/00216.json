@@ -1,0 +1,34 @@
+{
+  "id": "00216",
+  "text": "在平面直角坐标系中，抛物线y=x²+4x-2与x轴交于点A、B（点A在点B的左侧），与y轴交于点C，顶点为点D，延长DC交x轴于点E",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "parabola(p, 1, 4, -2)",
+    "segment(DC)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)",
+    "function_point(D, p)",
+    "function_point(C, p)",
+    "on_extended(E, DC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00216.png",
+  "meta": {
+    "source": "抛物线综合问题",
+    "difficulty": "hard",
+    "tags": [
+      "parabola",
+      "coordinate",
+      "vertex"
+    ]
+  }
+}

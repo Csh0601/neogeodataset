@@ -1,0 +1,34 @@
+{
+  "id": "00511",
+  "text": "在平行四边形ABCD中，对角线AC与BD相交于点O，点E、F分别在BD和DB的延长线上，且DE=BF，连接AE、CF，△ADE≌△CBF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "triangle(A, D, E)",
+    "triangle(C, B, F)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(CF)",
+    "intersection(O, AC, BD)",
+    "equal(DE, BF)",
+    "congruent(ADE, CBF)",
+    "on_extended(E, BD, towards=D)",
+    "on_extended(F, DB, towards=B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00511.png",
+  "meta": {
+    "source": "平行四边形全等三角形",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "congruent",
+      "diagonal"
+    ]
+  }
+}

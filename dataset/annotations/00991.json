@@ -1,0 +1,28 @@
+{
+  "id": "00991",
+  "text": "在△ABC中，∠B=2∠C，∠BAC的角平分线交BC于D，AB+BD=AC",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(DC)",
+    "on(D, BC)",
+    "bisector(AD, BAC)",
+    "angle(ABC)=2*angle(ACB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00991.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "angle_ratio"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "00903",
+  "text": "在△ABC中，BD、CD分别平分∠ABC、∠ACB，过点D作直线分别交AB、AC于点E、F，AE=AF，BE=4，CF=2，ED=FD，∠BDC=90°+∠A/2，EF=2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(BE)",
+    "segment(CF)",
+    "segment(ED)",
+    "segment(FD)",
+    "segment(EF)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "on(D, EF)",
+    "on(D, l1)",
+    "on(D, l2)",
+    "bisect_angle(A, B, C, l1)",
+    "bisect_angle(A, C, B, l2)",
+    "equal(AE, AF)",
+    "equal(ED, FD)",
+    "length(BE)=4",
+    "length(CF)=2",
+    "length(EF)=2"
+  ],
+  "image_path": "images/00903.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "角平分线与等长",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "equal"
+    ]
+  }
+}

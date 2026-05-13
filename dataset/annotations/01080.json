@@ -1,0 +1,42 @@
+{
+  "id": "01080",
+  "text": "△ABC和△ADE均为等腰直角三角形，∠BAC=90°，∠DAE=90°，AB=AC，AD=AE，D、E、C三点共线，连接CD，BE，F为DE的中点，G为BE的中点，连接FG，AB=3，AD=2，FG的长为5/2",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(DE)",
+    "segment(BE)",
+    "segment(CD)",
+    "segment(FG)",
+    "midpoint(F, DE)",
+    "midpoint(G, BE)",
+    "collinear(D, E, C)",
+    "equal(AB, AC)",
+    "equal(AD, AE)",
+    "perpendicular(AB, AC)",
+    "perpendicular(AD, AE)",
+    "angle(BAC)=90",
+    "angle(DAE)=90",
+    "length(AB)=3",
+    "length(AD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01080.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right_triangle",
+      "midpoint",
+      "collinear"
+    ]
+  }
+}

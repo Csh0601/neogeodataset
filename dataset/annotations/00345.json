@@ -1,0 +1,34 @@
+{
+  "id": "00345",
+  "text": "线段AB∥CD，AB=CD=4，AB和CD之间的距离是5，连接BC，BF=CE=3，BC=8，△ABF≅△DCE，AF∥DE",
+  "dsl": [
+    "segment(BC)",
+    "triangle(A, B, F)",
+    "triangle(D, C, E)",
+    "parallel(AB, CD)",
+    "parallel(AF, DE)",
+    "equal(AB, CD)",
+    "equal(BC, CE)",
+    "congruent(ABF, DCE)",
+    "length(AB)=4",
+    "length(CD)=4",
+    "distance(AB, CD)=5",
+    "length(BF)=3",
+    "length(CE)=3",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00345.png",
+  "meta": {
+    "source": "平行线与全等三角形",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "congruent",
+      "triangle"
+    ]
+  }
+}

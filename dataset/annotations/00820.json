@@ -1,0 +1,38 @@
+{
+  "id": "00820",
+  "text": "在平面直角坐标系中，四边形OABC的顶点A在x轴的正半轴上，OA=4，OC=2，点D、E、F、G分别为边OA、AB、BC、CO的中点，连结DE、EF、FG、GD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "quadrilateral(O, A, B, C)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GD)",
+    "segment(OB)",
+    "midpoint(D, OA)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, CO)",
+    "on(A, axis_x)",
+    "length(OA)=4",
+    "length(OC)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00820.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "quadrilateral",
+      "midpoint"
+    ]
+  }
+}

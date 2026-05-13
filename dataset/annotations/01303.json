@@ -1,0 +1,35 @@
+{
+  "id": "01303",
+  "text": "点A、B在直线MN外的同侧，A到MN的距离AC=16，B到MN的距离BD=10，CD=8，C、D为垂足，点P在直线MN上",
+  "dsl": [
+    "line(MN)",
+    "segment(PA)",
+    "segment(PB)",
+    "foot(C, A, MN)",
+    "foot(D, B, MN)",
+    "on(P, MN)",
+    "length(AC)=16",
+    "length(BD)=10",
+    "length(CD)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01303.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "line",
+      "foot",
+      "distance"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "A、B在直线MN上方同侧，C、D是A、B到MN的垂足，P在直线MN上的D与C之间"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

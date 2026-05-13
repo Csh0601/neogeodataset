@@ -1,0 +1,34 @@
+{
+  "id": "00145",
+  "text": "在矩形ABCD中，AB=2，BC=2√5，E是BC的中点，将△ABE沿AE翻折，点B落在矩形外一点F处，连结CF，cos∠ECF=√5/3",
+  "dsl": [
+    "point(F)",
+    "point(E)",
+    "rectangle(A, B, C, D)",
+    "triangle(A, B, E)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(EF)",
+    "segment(CF)",
+    "midpoint(E, BC)",
+    "fold(B, F, AE)",
+    "length(AB)=2",
+    "length(BC)=2√5",
+    "outside(F, rectangle_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00145.png",
+  "meta": {
+    "source": "矩形翻折",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "midpoint",
+      "cosine"
+    ]
+  }
+}

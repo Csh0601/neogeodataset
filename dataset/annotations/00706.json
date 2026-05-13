@@ -1,0 +1,36 @@
+{
+  "id": "00706",
+  "text": "在平面直角坐标系中，直线l: y=3/4·x+6与x轴交于点B(-8,0)，与y轴交于点C(0,6)，点A(-6,0)在x轴上，点P在直线l上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point_coord(A, -6, 0)",
+    "point_coord(B, -8, 0)",
+    "point_coord(C, 0, 6)",
+    "line_function(l, 0.75, 6)",
+    "segment(AC)",
+    "segment(AP)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(B, line_l)",
+    "on(C, line_l)",
+    "on(P, line_l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00706.png",
+  "meta": {
+    "source": "直线上动点与三角形面积",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line"
+    ]
+  }
+}

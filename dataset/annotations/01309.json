@@ -1,0 +1,34 @@
+{
+  "id": "01309",
+  "text": "在平面直角坐标系中，Rt△OAB的顶点A在x轴的正半轴上，顶点B的坐标为(3,√3)，∠OAB=90°，点C的坐标为(1/2,0)，点P在斜边OB上，连接PA、PC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(B, 3, 1.732)",
+    "point_coord(C, 0.5, 0)",
+    "segment(PA)",
+    "segment(PC)",
+    "on(A, axis_x)",
+    "on(P, OB)",
+    "right_triangle(O, A, B, right_at=A)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01309.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "right_triangle",
+      "point_coord"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "O为原点，A在x轴正半轴上，B在(3,√3)，∠OAB=90°，C在(1/2,0)，P在OB上"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

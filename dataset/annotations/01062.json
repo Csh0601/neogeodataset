@@ -1,0 +1,42 @@
+{
+  "id": "01062",
+  "text": "在Rt△ABC中，∠BAC=90°，AB=AC，D为BC中点，E在AB边上，连接DE，过D作DF⊥DE交AC于点F，△AED≅△CFD，EF=AD",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A, E, D)",
+    "triangle(C, F, D)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(DE)",
+    "segment(DF)",
+    "segment(EF)",
+    "midpoint(D, BC)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "foot(F, D, DE)",
+    "perpendicular(DF, DE)",
+    "congruent(AED, CFD)",
+    "equal(AB, AC)",
+    "equal(EF, AD)",
+    "angle(BAC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01062.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "isosceles",
+      "midpoint",
+      "congruent",
+      "perpendicular"
+    ]
+  }
+}

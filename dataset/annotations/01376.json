@@ -1,0 +1,44 @@
+{
+  "id": "01376",
+  "text": "在正方形ABCD中，将△ABC绕点A逆时针旋转得到△AB_primeC_prime，AB_prime与AC_prime分别交对角线BD于点E、F，AE=4",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(B_prime)",
+    "point(C_prime)",
+    "square(A, B, C, D)",
+    "triangle(A, B, C)",
+    "segment(BD)",
+    "segment(AB_prime)",
+    "segment(AC_prime)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(AF)",
+    "intersection(E, AB_prime, BD)",
+    "intersection(F, AC_prime, BD)",
+    "rotate(B_prime, source=B, center=A, angle=90)",
+    "rotate(C_prime, source=C, center=A, angle=90)",
+    "length(AE)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01376.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "rotation",
+      "diagonal",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "旋转角度设为90度（逆时针）"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

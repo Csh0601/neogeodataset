@@ -1,0 +1,23 @@
+{
+  "id": "01171",
+  "text": "AB∥EF，折线连接A到B之间经过若干折点，其中折角分别标记为α、x、β、γ，x=180°-α-γ+β",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(E)",
+    "point(F)",
+    "line(AB)",
+    "line(EF)",
+    "parallel(AB, EF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01171.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel", "zigzag_angles"]
+  }
+}

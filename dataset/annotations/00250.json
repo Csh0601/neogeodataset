@@ -1,0 +1,33 @@
+{
+  "id": "00250",
+  "text": "在三角形ABC中，AB=AC=2，P是BC上靠近C的三等分点，PE⊥AB于点E，PF⊥AC于点F，连接EF",
+  "dsl": [
+    "point(P)",
+    "point(E)",
+    "point(F)",
+    "segment(PE)",
+    "segment(PF)",
+    "segment(EF)",
+    "trisection(P, BC, near=C)",
+    "foot(E, P, AB)",
+    "foot(F, P, AC)",
+    "isosceles(A, B, C)",
+    "perpendicular(PE, AB)",
+    "perpendicular(PF, AC)",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00250.png",
+  "meta": {
+    "source": "等腰三角形垂线段和",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles_triangle",
+      "perpendicular",
+      "area"
+    ]
+  }
+}

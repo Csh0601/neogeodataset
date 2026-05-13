@@ -1,0 +1,37 @@
+{
+  "id": "00370",
+  "text": "O为线段PB上一点，PO=2，OB=3，以O为圆心OB长为半径的⊙O交PB于点A，点C在⊙O上，连接PC，满足PC²=PA·PB，PC是⊙O的切线",
+  "dsl": [
+    "point(P)",
+    "point(B)",
+    "point(O)",
+    "point(A)",
+    "point(C)",
+    "circle(O, radius=OB)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(PA)",
+    "segment(OC)",
+    "on(O, PB)",
+    "on(A, PB)",
+    "on(A, circle_O)",
+    "on(C, circle_O)",
+    "tangent(C, circle_O)",
+    "length(PO)=2",
+    "length(OB)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00370.png",
+  "meta": {
+    "source": "圆与切线",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "power_of_point"
+    ]
+  }
+}

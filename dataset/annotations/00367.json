@@ -1,0 +1,28 @@
+{
+  "id": "00367",
+  "text": "在⊙O内接四边形ABCD中，∠ABC=100°，∠ADC=80°",
+  "dsl": [
+    "circle(O)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "angle(ABC)=100",
+    "angle(ADC)=80"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00367.png",
+  "meta": {
+    "source": "圆内接四边形",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "inscribed_quadrilateral"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "01219",
+  "text": "在△ABC中，∠A=90°，AB=AC=√2+1，点D、E分别在边AB、AC上，且AD=AE=1，连接DE，将△ADE绕点A顺时针方向旋转角为α，连接CE、BD、CD",
+  "dsl": [
+    "triangle(A, D, E)",
+    "segment(DE)",
+    "segment(CE)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "right_triangle(A, B, C, right_at=A)",
+    "equal(AB, AC)",
+    "equal(AD, AE)",
+    "length(AB)=2.414",
+    "length(AD)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01219.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "isosceles",
+      "rotation"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "AB=AC=√2+1≈2.414，AD=AE=1，旋转问题基础图为α=0时的情形"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

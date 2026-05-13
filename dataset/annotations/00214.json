@@ -1,0 +1,43 @@
+{
+  "id": "00214",
+  "text": "在平面直角坐标系中，边长为4的菱形ABCD的对角线相交于坐标原点O，四个顶点分别在双曲线y=4/x和y=k/x上，AC/BD=2/3，平行于x轴的线段与两双曲线分别交于点E、F，连接OE、OF",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "hyperbola(h1, 4)",
+    "hyperbola(h2, k)",
+    "segment(OE)",
+    "segment(OF)",
+    "segment(EF)",
+    "intersection(O, AC, BD)",
+    "function_point(A, h1)",
+    "function_point(C, h1)",
+    "function_point(B, h2)",
+    "function_point(D, h2)",
+    "function_point(E, h1)",
+    "function_point(F, h2)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DA)",
+    "length(AB)=4",
+    "ratio(AC, BD)=0.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00214.png",
+  "meta": {
+    "source": "菱形与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "hyperbola",
+      "coordinate"
+    ],
+    "needs_review": true,
+    "review_reason": "hyperbola(h2, k) 中 k 值无法从给定条件干净地计算出整数/简单分数值，需人工核实原题"
+  }
+}

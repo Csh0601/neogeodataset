@@ -1,0 +1,33 @@
+{
+  "id": "01092",
+  "text": "AB//CD，∠ABF=(2/3)∠ABE，∠CDF=(2/3)∠CDE，连接BF，DF，BF与DF交于点F，E在BD之间，∠E=∠F",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(BE)",
+    "segment(BF)",
+    "segment(DE)",
+    "segment(DF)",
+    "parallel(AB, CD)",
+    "angle(ABE)=90",
+    "angle(ABF)=60",
+    "angle(CDE)=90",
+    "angle(CDF)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01092.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel_lines", "angle", "ratio"]
+  }
+}

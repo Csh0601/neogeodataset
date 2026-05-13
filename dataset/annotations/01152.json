@@ -1,0 +1,31 @@
+{
+  "id": "01152",
+  "text": "∠MON=90°，长方形ABCD的顶点B、C分别在射线OM、ON上，CD=5，BC=24",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(O)",
+    "rectangle(A, B, C, D)",
+    "ray(O, M)",
+    "ray(O, N)",
+    "segment(OC)",
+    "segment(CD)",
+    "segment(BC)",
+    "segment(OD)",
+    "on(B, OM)",
+    "collinear(O, C, N)",
+    "angle(MON)=90",
+    "length(CD)=5",
+    "length(BC)=24"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01152.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["rectangle", "perpendicular", "optimization"]
+  }
+}

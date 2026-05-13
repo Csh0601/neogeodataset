@@ -1,0 +1,33 @@
+{
+  "id": "00738",
+  "text": "在平面直角坐标系中，O为原点，A(0,4)，C(8,0)，E(8,2)，P在OC上，Q在OC上，PQ=2，P的坐标为(3,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(C)",
+    "point(E)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 0, 4)",
+    "point_coord(C, 8, 0)",
+    "point_coord(E, 8, 2)",
+    "point_coord(P, 3, 0)",
+    "segment(AP)",
+    "segment(PQ)",
+    "segment(QE)",
+    "on(P, OC)",
+    "on(Q, OC)",
+    "length(PQ)=2"
+  ],
+  "image_path": "images/00738.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "quadrilateral", "perimeter"]
+  }
+}

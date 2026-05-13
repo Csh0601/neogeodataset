@@ -1,0 +1,42 @@
+{
+  "id": "00762",
+  "text": "在平面直角坐标系xOy中，一次函数y=x+4的图象与x轴交于点A(-4,0)，与y轴交于点B(0,4)，C(-2,0)在x轴上，E在直线y=x+4上，F在y轴上，当△CEF周长最小时，E(-5/2,3/2)，F(0,2)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(E)",
+    "point(F)",
+    "point_coord(A, -4, 0)",
+    "point_coord(B, 0, 4)",
+    "point_coord(C, -2, 0)",
+    "point_coord(E, -2.5, 1.5)",
+    "point_coord(F, 0, 2)",
+    "triangle(C, E, F)",
+    "line_function(l1, 1, 4)",
+    "segment(CE)",
+    "segment(EF)",
+    "segment(CF)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "function_point(E, l1)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(B, l1, y)"
+  ],
+  "image_path": "images/00762.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "perimeter",
+      "reflection"
+    ]
+  }
+}

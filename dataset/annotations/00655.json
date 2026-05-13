@@ -1,0 +1,30 @@
+{
+  "id": "00655",
+  "text": "在正方形ABCD中，边长为2，点E在BC边上，点F在CD上，CE=DF，AF与DE相交于点O，BO=BA",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "square(A, B, C, D)",
+    "segment(AF)",
+    "segment(DE)",
+    "segment(BO)",
+    "segment(OC)",
+    "on(E, BC)",
+    "on(F, CD)",
+    "intersection(O, AF, DE)",
+    "equal(CE, DF)",
+    "equal(BO, BA)",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00655.png",
+  "meta": {
+    "source": "正方形中等长与交点",
+    "difficulty": "middle",
+    "tags": ["square", "intersection", "equal"]
+  }
+}

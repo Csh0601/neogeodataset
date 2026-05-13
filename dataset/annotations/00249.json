@@ -1,0 +1,34 @@
+{
+  "id": "00249",
+  "text": "在扇形OCD中，角COD的大小为120度，OC长度为50，A在OC上，B在OD上，OA=20，AC=30，以O为圆心，OA为半径做圆弧AB",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "sector(O, C, D, angle=120)",
+    "circle(O, r=20)",
+    "segment(OC)",
+    "segment(OD)",
+    "segment(OA)",
+    "segment(AC)",
+    "arc(A, B, circle_O)",
+    "intersection(A, circle_O, OC)",
+    "intersection(B, circle_O, OD)",
+    "length(OA)=20",
+    "length(AC)=30",
+    "length(OC)=50"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00249.png",
+  "meta": {
+    "source": "扇形弦长计算",
+    "difficulty": "middle",
+    "tags": [
+      "sector",
+      "circle",
+      "chord"
+    ]
+  }
+}

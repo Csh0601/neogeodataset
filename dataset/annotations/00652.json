@@ -1,0 +1,33 @@
+{
+  "id": "00652",
+  "text": "在平面直角坐标系中，抛物线y=x²-2x-3与y轴交于点C，点D的坐标为(0,-1)，在第四象限抛物线上有一点P，△PCD是以CD为底边的等腰三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "triangle(P, C, D)",
+    "point_coord(D, 0, -1)",
+    "point_coord(C, 0, -3)",
+    "parabola(p, 1, -2, -3)",
+    "on(C, axis_y)",
+    "on(D, axis_y)",
+    "on(C, parabola_p)",
+    "on(P, parabola_p)",
+    "equal(PC, PD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00652.png",
+  "meta": {
+    "source": "抛物线上等腰三角形",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "isosceles"
+    ]
+  }
+}

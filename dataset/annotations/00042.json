@@ -1,0 +1,35 @@
+{
+  "id": "00042",
+  "text": "在正方形ABCD中，边长AB=6，点E在AB边三等分点中靠近B的点，连接CE，过点B作BG⊥CE，垂足为G，点P为AE中点，连接PD、PG",
+  "dsl": [
+    "point(E)",
+    "point(G)",
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(BG)",
+    "segment(CE)",
+    "segment(PD)",
+    "segment(PG)",
+    "trisection(E, AB, near=B)",
+    "midpoint(P, AE)",
+    "foot(G, B, CE)",
+    "perpendicular(BG, CE)",
+    "length(AB)=6",
+    "length(BE)=2",
+    "length(AP)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00042.png",
+  "meta": {
+    "source": "正方形动点与垂线",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "perpendicular",
+      "moving_point"
+    ]
+  }
+}

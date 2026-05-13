@@ -1,0 +1,36 @@
+{
+  "id": "00259",
+  "text": "在平面直角坐标系中，点O为坐标原点，菱形OABC的顶点A的坐标为(3,4)，B的坐标为（8,4），点C的坐标为（5,0）连接OB，过点B作BD⊥OB交x轴于点D，反比例函数y=32/x的图象过点B",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 4)",
+    "point_coord(B, 8, 4)",
+    "point_coord(C, 5, 0)",
+    "parallelogram(O, A, B, C)",
+    "hyperbola(h, 32)",
+    "segment(OB)",
+    "segment(BD)",
+    "intersection(D, BD, axis_x)",
+    "function_point(B, h)",
+    "perpendicular(BD, OB)",
+    "equal(OA, AB)",
+    "length(OA)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00259.png",
+  "meta": {
+    "source": "菱形与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "hyperbola",
+      "coordinate",
+      "perpendicular"
+    ]
+  }
+}

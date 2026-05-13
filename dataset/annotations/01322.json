@@ -1,0 +1,39 @@
+{
+  "id": "01322",
+  "text": "在菱形ABCD中，∠A=60°，边长为4，E是AD的中点，F在AB上，EG=EF，∠GEF=60°，连接GB、GC",
+  "dsl": [
+    "parallelogram(A, B, C, D)",
+    "segment(EF)",
+    "segment(EG)",
+    "segment(GB)",
+    "segment(GC)",
+    "midpoint(E, AD)",
+    "on(F, AB)",
+    "rotate(G, source=F, center=E, angle=60)",
+    "equal(AB, BC)",
+    "equal(EG, EF)",
+    "angle(DAB)=60",
+    "angle(GEF)=60",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01322.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "rotation",
+      "midpoint"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "与01312相同图形，菱形ABCD，A左下B右下D左上C右上，∠A=60°，E是AD中点，F在AB上，EG=EF且∠GEF=60°"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": "01151",
+  "text": "在△ABC中，AB=6，BD平分∠ABC，D在AC上，点M在BD上，点N在BC上，连接CM，MN",
+  "dsl": [
+    "point(D)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CM)",
+    "segment(MN)",
+    "segment(AD)",
+    "on(D, AC)",
+    "on(M, BD)",
+    "on(N, BC)",
+    "bisect_angle(ABC, BD)",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01151.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "optimization"
+    ]
+  }
+}

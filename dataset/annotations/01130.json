@@ -1,0 +1,34 @@
+{
+  "id": "01130",
+  "text": "在直角△ABC中，∠ABC=90°，AD平分∠BAC，E、F分别为线段AD、AB上的点，AB=8，AC=10，BD=8/3，连接BE，EF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(EF)",
+    "on(D, BC)",
+    "on(E, AD)",
+    "on(F, AB)",
+    "angle(ABC)=90",
+    "length(AB)=8",
+    "length(AC)=10",
+    "length(BD)=2.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01130.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["right_triangle", "angle_bisector", "optimization"]
+  }
+}

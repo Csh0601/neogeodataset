@@ -1,0 +1,30 @@
+{
+  "id": "00306",
+  "text": "在平面直角坐标系Oxy中，四边形OABC为矩形，点A、C分别在x轴、y轴上，点B在反比例函数y1=3/x的图象上，边AB与函数y2=2/x（x>0）的图象交于点D,连接线段OD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "rectangle(O, A, B, C)",
+    "hyperbola(h1, 3)",
+    "hyperbola(h2, 2)",
+    "segment(OD)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "intersection(D, AB, h2)",
+    "function_point(B, h1)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00306.png",
+  "meta": {
+    "source": "反比例函数与矩形",
+    "difficulty": "hard",
+    "tags": [
+      "hyperbola",
+      "rectangle",
+      "coordinate_system"
+    ]
+  }
+}

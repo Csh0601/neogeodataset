@@ -1,0 +1,40 @@
+{
+  "id": "00668",
+  "text": "在平面直角坐标系中，直线y=3/4·x+3经过A、B两点，A在x轴上，B在y轴上，点C在x轴上，点P在直线AB上方，过点P作PF⊥x轴于点F，交直线AB于点D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(D)",
+    "point(F)",
+    "line_function(l, 0.75, 3)",
+    "segment(PF)",
+    "segment(PD)",
+    "on(A, axis_x)",
+    "on(C, axis_x)",
+    "on(B, axis_y)",
+    "on(A, line_l)",
+    "on(B, line_l)",
+    "on(D, line_l)",
+    "on(F, axis_x)",
+    "collinear(P, D, F)",
+    "perpendicular(PF, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00668.png",
+  "meta": {
+    "source": "抛物线与直线动点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line",
+      "perpendicular"
+    ]
+  }
+}

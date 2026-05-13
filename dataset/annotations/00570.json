@@ -1,0 +1,30 @@
+{
+  "id": "00570",
+  "text": "点P是菱形ABCD的对角线AC延长线上一点，过点P分别作AD、DC延长线的垂线，垂足分别为点E、F，∠ABC=120°，AB=2，PE-PF=√3",
+  "dsl": [
+    "point(P)",
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "foot(E, P, AD)",
+    "foot(F, P, DC)",
+    "collinear(A, C, P)",
+    "equal(AB, BC)",
+    "angle(ABC)=120",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00570.png",
+  "meta": {
+    "source": "菱形对角线延长",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "foot",
+      "perpendicular"
+    ]
+  }
+}

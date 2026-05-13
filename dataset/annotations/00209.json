@@ -1,0 +1,35 @@
+{
+  "id": "00209",
+  "text": "在三角形ABC中，∠BAC=90°，AB=AC=4，点D在边BC上靠近B的三等分点，DE⊥DA且DE=DA，连接AE交边BC于点F，连接CE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "segment(DA)",
+    "segment(AE)",
+    "segment(CE)",
+    "trisection(D, BC, near=B)",
+    "on(D, BC)",
+    "intersection(F, AE, BC)",
+    "equal(AB, AC)",
+    "perpendicular(DE, DA)",
+    "equal(DE, DA)",
+    "angle(BAC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00209.png",
+  "meta": {
+    "source": "等腰直角三角形旋转问题",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right_triangle",
+      "rotation",
+      "perpendicular"
+    ]
+  }
+}

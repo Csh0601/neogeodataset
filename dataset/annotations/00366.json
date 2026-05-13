@@ -1,0 +1,30 @@
+{
+  "id": "00366",
+  "text": "在△ABC中，∠BAC=90°，∠ABC=45°，∠BCA=45°；在△DEF中，∠DEF=30°，∠DFE=60°，∠EDF=90°，AC与DF交于点G，∠CGF=75°",
+  "dsl": [
+    "point(G)",
+    "triangle(A, B, C)",
+    "triangle(D, E, F)",
+    "intersection(G, AC, DF)",
+    "angle(BAC)=90",
+    "angle(ABC)=45",
+    "angle(BCA)=45",
+    "angle(DEF)=30",
+    "angle(DFE)=60",
+    "angle(EDF)=90",
+    "angle(CGF)=75"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00366.png",
+  "meta": {
+    "source": "三角板重叠角度",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "01165",
+  "text": "△ACD和△BCE都是等腰直角三角形，∠ACD=∠BCE=90°，AE交CD于点F，BD交CE于点G，BD交AE于点H，AE=BD，AE⊥BD",
+  "dsl": [
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "triangle(A, C, D)",
+    "triangle(B, C, E)",
+    "segment(AC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(CE)",
+    "segment(BE)",
+    "segment(AE)",
+    "segment(BD)",
+    "intersection(F, AE, CD)",
+    "intersection(G, BD, CE)",
+    "intersection(H, BD, AE)",
+    "isosceles_right(A, C, D)",
+    "isosceles_right(B, C, E)",
+    "equal(AE, BD)",
+    "perpendicular(AE, BD)",
+    "angle(ACD)=90",
+    "angle(BCE)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01165.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["isosceles_right", "perpendicular", "intersection"]
+  }
+}

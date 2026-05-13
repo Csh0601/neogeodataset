@@ -1,0 +1,43 @@
+{
+  "id": "00830",
+  "text": "在平面直角坐标系中，抛物线y=x^2+bx+c与x轴交于A(-1,0)和B(3,0)两点，过点A的直线l交抛物线于点C(2,m)，点P是线段AC上一点，过P作x轴的垂线交抛物线于点E，过点P作PH垂直于x轴于点H",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "point(E)",
+    "point(H)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 2, -3)",
+    "parabola(f, 1, -2, -3)",
+    "line(l, A, C)",
+    "segment(AC)",
+    "segment(PE)",
+    "segment(PH)",
+    "function_point(A, f)",
+    "function_point(B, f)",
+    "function_point(C, f)",
+    "function_point(C, l)",
+    "on(P, AC)",
+    "function_point(E, f)",
+    "foot(H, P, AB)",
+    "perpendicular(PH, AB)",
+    "collinear(P, H, E)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00830.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "moving_point"
+    ]
+  }
+}

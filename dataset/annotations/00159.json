@@ -1,0 +1,44 @@
+{
+  "id": "00159",
+  "text": "在△ABC中，AB=AC=6，以AB为直径的⊙O交BC于点D，过点D的EF交AC于点F，交AB的延长线于点E，DF是⊙O的切线，CF=2，BE=3",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "circle(O , r=3)",
+    "segment(EF)",
+    "segment(CF)",
+    "segment(BE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "on(D, BC)",
+    "on(F, AC)",
+    "intersection(D, EF, BC)",
+    "midpoint(O,AB)",
+    "tangent(DF, circle_O)",
+    "equal(AB, AC)",
+    "collinear(A, O, B)",
+    "collinear(E, D, F)",
+    "length(CF)=2",
+    "length(BE)=3",
+    "length(AB)=6",
+    "on_extended(E, AB,towards=B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00159.png",
+  "meta": {
+    "source": "等腰三角形与圆切线",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "isosceles",
+      "circle",
+      "tangent"
+    ]
+  }
+}

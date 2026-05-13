@@ -1,0 +1,39 @@
+{
+  "id": "00319",
+  "text": "存在三条线段AB,CD,EF,AB∥CD∥EF，AC/CE=1/2，BD=5，DF=10",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(EF)",
+    "segment(AC)",
+    "segment(CE)",
+    "segment(BD)",
+    "segment(DF)",
+    "parallel(AB, CD)",
+    "parallel(CD, EF)",
+    "collinear(A, C, E)",
+    "collinear(B, D, F)",
+    "ratio(AC, CE)=0.5",
+    "length(BD)=5",
+    "length(DF)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00319.png",
+  "meta": {
+    "source": "平行线与比例",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "ratio"
+    ]
+  }
+}

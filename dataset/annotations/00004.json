@@ -1,0 +1,40 @@
+{
+  "id": "00004",
+  "text": "在菱形ABCD中，边长AB=1，∠ABC=60°，点E在边AB上，连接CE、EF，CE的垂直平分线与对角线BD交于点F、与CE交于点G，M是线段AE的中点，N是EF的中点，连接MN、NG",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(M)",
+    "point(N)",
+    "parallelogram(A, B, C, D)",
+    "segment(CE)",
+    "segment(EF)",
+    "segment(BD)",
+    "segment(MN)",
+    "segment(NG)",
+    "on(E, AB)",
+    "on(F, BD)",
+    "midpoint(M, AE)",
+    "midpoint(N, EF)",
+    "midpoint(G, CE)",
+    "perpendicular_bisector(F, CE)",
+    "equal(AB, BC)",
+    "length(AB)=1",
+    "angle(ABC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00004.png",
+  "meta": {
+    "source": "菱形与垂直平分线问题",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "perpendicular_bisector",
+      "midpoint"
+    ]
+  }
+}

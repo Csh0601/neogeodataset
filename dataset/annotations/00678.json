@@ -1,0 +1,28 @@
+{
+  "id": "00678",
+  "text": "在梯形ABCD中，AD平行于BC，BD为对角线，中位线EF交BD于O点，FO-EO=3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "trapezoid(A, B, C, D)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(EO)",
+    "segment(FO)",
+    "midpoint(E, AB)",
+    "midpoint(F, DC)",
+    "intersection(O, EF, BD)",
+    "parallel(AD, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00678.png",
+  "meta": {
+    "source": "梯形中位线与对角线",
+    "difficulty": "middle",
+    "tags": ["trapezoid", "midpoint", "diagonal"]
+  }
+}

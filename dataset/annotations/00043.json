@@ -1,0 +1,36 @@
+{
+  "id": "00043",
+  "text": "在平面直角坐标系xOy中，△ABC为等边三角形，边长为6，点A在Y轴上，点B在X轴上，与△A'B'C'相似，点C在A'B'上，BC:B'C'=1:2，B点坐标为(3,0)，B'点坐标为（9,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(C)",
+    "point(A_prime)",
+    "point(C_prime)",
+    "point_coord(A, 0, 5.196)",
+    "point_coord(B, 3, 0)",
+    "point_coord(B_prime, 9, 0)",
+    "triangle(A, B, C)",
+    "triangle(A_prime, B_prime, C_prime)",
+    "on(C, A_primeB_prime)",
+    "equal(AB, BC)",
+    "equal(BC, CA)",
+    "equal(A_primeB_prime, B_primeC_prime)",
+    "equal(B_primeC_prime, C_primeA_prime)",
+    "ratio(BC, B_primeC_prime)=0.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00043.png",
+  "meta": {
+    "source": "位似变换与坐标",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "similar",
+      "homothety"
+    ],
+    "note": "原题中A'B'C'改为DEF以符合DSL规范"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "00193",
+  "text": "在边长为4的菱形ABCD中，∠A=30°，E为AD中点，以E为圆心，ED为半径做圆，连接BE",
+  "dsl": [
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "circle(E, r=2)",
+    "segment(BE)",
+    "segment(BD)",
+    "midpoint(E, AD)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, DA)",
+    "angle(DAB)=30",
+    "length(AB)=4",
+    "length(ED)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00193.png",
+  "meta": {
+    "source": "菱形与角度",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "angle",
+      "perpendicular_bisector"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00688",
+  "text": "在矩形ABCD中，AB=4，BC=√5，E为CD边上一点，将△BCE沿BE折叠，使得C落到矩形内点F的位置，连接AF，tan∠BAF=1/2",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "triangle(B, C, E)",
+    "segment(BE)",
+    "segment(AF)",
+    "segment(CE)",
+    "segment(EF)",
+    "segment(BF)",
+    "on(E, CD)",
+    "fold(C, F, BE)",
+    "length(AB)=4",
+    "length(BC)=2.236",
+    "tan(BAF)=0.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00688.png",
+  "meta": {
+    "source": "矩形折叠求线段长",
+    "difficulty": "middle",
+    "tags": ["rectangle", "fold", "tangent"]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "01353",
+  "text": "等腰△ABC内接于⊙O，AB=AC=4，BC=3，点D为弧AC上一点，∠ABD=45°，AE⊥BD于点E，连接AE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "circle(O)",
+    "arc(A, C, circle_O)",
+    "segment(BD)",
+    "segment(AE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "foot(E, A, BD)",
+    "isosceles(A, B, C)",
+    "perpendicular(AE, BD)",
+    "angle(ABD)=45",
+    "length(AB)=4",
+    "length(BC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01353.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles",
+      "circle",
+      "perpendicular"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "多子图题目，选取图3部分标注"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "00938",
+  "text": "在四边形ABCD中，AC⊥BD，AC=6，BD=8，顺次连接四边形ABCD各边中点，得到四边形A1B1C1D1，再顺次连接四边形A1B1C1D1各边中点，得到四边形A2B2C2D2",
+  "dsl": [
+    "point(A1)",
+    "point(B1)",
+    "point(C1)",
+    "point(D1)",
+    "point(A2)",
+    "point(B2)",
+    "point(C2)",
+    "point(D2)",
+    "quadrilateral(A, B, C, D)",
+    "quadrilateral(A1, B1, C1, D1)",
+    "quadrilateral(A2, B2, C2, D2)",
+    "segment(AC)",
+    "segment(BD)",
+    "midpoint(A1, AB)",
+    "midpoint(B1, BC)",
+    "midpoint(C1, CD)",
+    "midpoint(D1, DA)",
+    "midpoint(A2, A1B1)",
+    "midpoint(B2, B1C1)",
+    "midpoint(C2, C1D1)",
+    "midpoint(D2, D1A1)",
+    "perpendicular(AC, BD)",
+    "length(AC)=6",
+    "length(BD)=8"
+  ],
+  "image_path": "images/00938.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "四边形中点迭代",
+    "difficulty": "hard",
+    "tags": ["quadrilateral", "midpoint", "perpendicular"]
+  }
+}

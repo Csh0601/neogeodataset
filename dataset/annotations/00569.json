@@ -1,0 +1,34 @@
+{
+  "id": "00569",
+  "text": "直线l1、l2、l3两两相交，且l1⊥l3，α=50°，β=140°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "line(l1, A, B)",
+    "line(l2, C, D)",
+    "line(l3, E, F)",
+    "intersection(G, l1, l2)",
+    "perpendicular(l1, l3)",
+    "angle(DGA)=50",
+    "angle(EGD)=140"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00569.png",
+  "meta": {
+    "source": "直线相交角度",
+    "difficulty": "easy",
+    "tags": [
+      "angle",
+      "perpendicular",
+      "intersection"
+    ]
+  }
+}

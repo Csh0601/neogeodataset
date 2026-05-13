@@ -1,0 +1,40 @@
+{
+  "id": "00109",
+  "text": "在平行四边形ABCD中，AB=8,AD=6,对角线AC与BD交于点O，点M、N分别在边AD、BC上，且AM=CN，点E、F分别是BD与AN、CM的交点",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(AN)",
+    "segment(CM)",
+    "segment(EF)",
+    "on(M, AD)",
+    "on(N, BC)",
+    "intersection(O, AC, BD)",
+    "intersection(E, BD, AN)",
+    "intersection(F, BD, CM)",
+    "equal(AM, CN)",
+    "length(AB)=8",
+    "length(AD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00109.png",
+  "meta": {
+    "source": "平行四边形对角线",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "diagonal",
+      "intersection"
+    ],
+    "note": "原图包含3个子图，此annotation仅描述图1的基本结构"
+  }
+}

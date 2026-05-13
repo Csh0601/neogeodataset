@@ -1,0 +1,35 @@
+{
+  "id": "00215",
+  "text": "在平行四边形ABCD中，AB=6,AD=8,点E在AB的延长线上EB=2,点F在CD的延长线上，BE=DF，连接EF，EF分别与BC、AD交于点G、H，EG=FH",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "parallelogram(A, B, C, D)",
+    "segment(EF)",
+    "intersection(G, EF, BC)",
+    "intersection(H, EF, AD)",
+    "equal(BE, DF)",
+    "equal(EG, FH)",
+    "length(AB)=6",
+    "length(AD)=8",
+    "length(BE)=2",
+    "on_extended(E, AB, towards=B)",
+    "on_extended(F, CD, towards=D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00215.png",
+  "meta": {
+    "source": "平行四边形延长线问题",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "extension",
+      "equal_segments"
+    ]
+  }
+}

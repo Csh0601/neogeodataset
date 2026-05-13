@@ -1,0 +1,36 @@
+{
+  "id": "00083",
+  "text": "在平面直角坐标系中，直线y=-x+1与x轴交于点A(1,0)，与y轴交于点B(0,1)，与反比例函数y=-2/x的图象在第二象限交于点C(-1,2)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 0, 1)",
+    "point_coord(C, -1, 2)",
+    "line_function(l, -1, 1)",
+    "hyperbola(h, -2)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(AB)",
+    "segment(BC)",
+    "function_point(A, l)",
+    "function_point(B, l)",
+    "function_point(C, l)",
+    "function_point(C, h)",
+    "function_intersection(C, l, h)"
+  ],
+  "image_path": "images/00083.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系与函数",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "linear_function"
+    ]
+  }
+}

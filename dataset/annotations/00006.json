@@ -1,0 +1,31 @@
+{
+  "id": "00006",
+  "text": "点P在⊙O外，射线PC是⊙O的切线，C为切点，直线PO与⊙O相交于点A、B，其中B更靠近P点，连接AC ， BC ，∠OAC=30°",
+  "dsl": [
+    "point(P)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O)",
+    "segment(AC)",
+    "segment(BC)",
+    "ray(P,C)",
+    "line(PO)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "tangent(C, circle_O)",
+    "collinear(P, B, O, A)",
+    "angle(OAC)=30",
+    "outside(P, circle_O)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00006.png",
+  "meta": {
+    "source": "圆的切线与割线问题",
+    "difficulty": "middle",
+    "tags": ["circle", "tangent", "secant"]
+  }
+}

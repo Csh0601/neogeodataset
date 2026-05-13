@@ -1,0 +1,38 @@
+{
+  "id": "01075",
+  "text": "点D是等边△ABC内部一点，BD=1，DC=2，AD=√3，∠ADB=150°",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(DC)",
+    "equal(AB, BC)",
+    "equal(BC, AC)",
+    "angle(ABC)=60",
+    "angle(BAC)=60",
+    "angle(BCA)=60",
+    "length(BD)=1",
+    "length(DC)=2",
+    "length(AD)=1.732",
+    "angle(ADB)=150",
+    "inside(D, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01075.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral_triangle",
+      "interior_point",
+      "angle"
+    ]
+  }
+}

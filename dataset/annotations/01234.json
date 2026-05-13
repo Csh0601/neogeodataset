@@ -1,0 +1,42 @@
+{
+  "id": "01234",
+  "text": "在△AOC和△BOD中，∠AOB=∠COD=36°，OA=OC，OB=OD，AC=BD，连接AB、BC、CD、AD，M是OB和AC的交点，G是OA上一点使OG⊥AM，垂足为G，H是OD上一点使OH⊥DM，垂足为H，MO平分∠AMD",
+  "dsl": [
+    "triangle(A, O, C)",
+    "triangle(B, O, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "intersection(M, OB, AC)",
+    "foot(G, M, OA)",
+    "foot(H, M, OD)",
+    "equal(OA, OC)",
+    "equal(OB, OD)",
+    "equal(AC, BD)",
+    "angle(AOB)=36",
+    "angle(COD)=36"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01234.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "congruent",
+      "foot",
+      "intersection"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "从证明过程补充了MO平分∠AMD的结论",
+      "G是M到OA的垂足，H是M到OD的垂足"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

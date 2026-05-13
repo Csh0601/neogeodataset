@@ -1,0 +1,31 @@
+{
+  "id": "00823",
+  "text": "在三角形ABC中，AD是边BC上的高线，CE是边AB上的中线，DG垂直于CE于点G，CD=AE，AD=6，BD=8",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(G)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(CE)",
+    "segment(DG)",
+    "on(D, BC)",
+    "midpoint(E, AB)",
+    "foot(G, D, CE)",
+    "perpendicular(AD, BC)",
+    "perpendicular(DG, CE)",
+    "equal(CD, AE)",
+    "length(AD)=6",
+    "length(BD)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00823.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["triangle", "altitude", "median", "perpendicular"]
+  }
+}

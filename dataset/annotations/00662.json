@@ -1,0 +1,37 @@
+{
+  "id": "00662",
+  "text": "在平面直角坐标系中，将直角三角形OAB放置于坐标系中，点O在原点，点A(2,0)，点B在第一象限，∠OAB=90°，∠AOB=30°，点P在边OB上，折叠使折痕经过点P并与x轴正半轴交于点Q，OQ=OP，点O的对应点为O'",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "point(Q)",
+    "point(O_prime)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 2, 0)",
+    "triangle(O, A, B)",
+    "segment(OB)",
+    "segment(PQ)",
+    "on(P, OB)",
+    "on(Q, axis_x)",
+    "fold(O, O_prime, PQ)",
+    "equal(OQ, OP)",
+    "angle(OAB)=90",
+    "angle(AOB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00662.png",
+  "meta": {
+    "source": "坐标系中直角三角形折叠",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "right_triangle",
+      "fold"
+    ]
+  }
+}

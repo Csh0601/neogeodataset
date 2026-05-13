@@ -1,0 +1,36 @@
+{
+  "id": "00855",
+  "text": "在平面直角坐标系中，抛物线y=1/2 x²+bx+c经过点A(-2,0)和B(0,-4)，与x轴交于另一点C，连接BC，P是第一象限内抛物线上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(P)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 0, -4)",
+    "point_coord(C, 4, 0)",
+    "parabola(f, 0.5, -1, -4)",
+    "segment(BC)",
+    "segment(AB)",
+    "on(A, f)",
+    "on(B, f)",
+    "on(C, f)",
+    "on(A, axis_x)",
+    "on(C, axis_x)",
+    "on(P, f)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00855.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "triangle",
+      "moving_point"
+    ]
+  }
+}

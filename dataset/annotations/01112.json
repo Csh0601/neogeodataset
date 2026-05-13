@@ -1,0 +1,39 @@
+{
+  "id": "01112",
+  "text": "矩形ABCD中，AB=8，AD=12，将矩形折叠，使点A落在点P处，折痕为DE，P在BC上，E是AB的中点，连接AP，DP，EP的延长线交BC于点F",
+  "dsl": [
+    "point(E)",
+    "point(P)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(AP)",
+    "segment(DP)",
+    "segment(EP)",
+    "segment(BF)",
+    "on(P, BC)",
+    "midpoint(E, AB)",
+    "intersection(F, EP, BC)",
+    "fold(A, P, DE)",
+    "length(AB)=8",
+    "length(AD)=12"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01112.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

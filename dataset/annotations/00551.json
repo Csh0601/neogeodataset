@@ -1,0 +1,38 @@
+{
+  "id": "00551",
+  "text": "AB为⊙O的直径，弦CD⊥AB于点H，AB=10，CD=8，OH=3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(H)",
+    "circle(O)",
+    "segment(CD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "intersection(H, CD, AB)",
+    "perpendicular(CD, AB)",
+    "collinear(A, O, B)",
+    "length(AB)=10",
+    "length(CD)=8",
+    "length(OH)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00551.png",
+  "meta": {
+    "source": "圆直径与垂弦",
+    "difficulty": "easy",
+    "tags": [
+      "circle",
+      "diameter",
+      "chord",
+      "perpendicular"
+    ]
+  }
+}

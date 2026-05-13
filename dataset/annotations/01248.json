@@ -1,0 +1,25 @@
+{
+  "id": "01248",
+  "text": "在四边形ABCD中，∠A=∠C=90°，AB=AD，四边形ABCD的面积为12",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(BD)",
+    "equal(AB, AD)",
+    "angle(DAB)=90",
+    "angle(BCD)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01248.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": ["quadrilateral", "right_angle", "equal_sides"],
+    "annotated_by": "annotator-1",
+    "supplements": ["面积为12的条件无法用DSL表达，作为supplements记录"]
+  },
+  "validated": true,
+  "needs_review": false
+}

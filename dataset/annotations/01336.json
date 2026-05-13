@@ -1,0 +1,35 @@
+{
+  "id": "01336",
+  "text": "在等腰△ABC中，AB=AC=4，BC=6，点D在底边BC上，且∠DAC=∠ACD，将△ACD沿着AD所在直线翻折，使得点C落到点E处，连接BE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "segment(AD)",
+    "segment(BE)",
+    "on(D, BC)",
+    "isosceles(A, B, C)",
+    "triangle(A, C, D)",
+    "fold(C, E, AD)",
+    "equal_angle(DAC, ACD)",
+    "length(AB)=4",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01336.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles",
+      "fold",
+      "angle_bisector"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

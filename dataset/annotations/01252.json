@@ -1,0 +1,36 @@
+{
+  "id": "01252",
+  "text": "在平面直角坐标系中，正方形ABCD顶点A的坐标为(0,2)，B点在x轴上，对角线AC、BD交于点M，OM=3√2",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 0, 2)",
+    "square(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OM)",
+    "intersection(M, AC, BD)",
+    "on(B, axis_x)",
+    "length(OM)=4.243"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01252.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "square",
+      "diagonal"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "OM=3√2≈4.243",
+      "O为坐标原点"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

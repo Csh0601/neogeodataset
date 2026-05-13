@@ -1,0 +1,37 @@
+{
+  "id": "01345",
+  "text": "△ABC内接于⊙O，AC>BC，点D为弧ACB的中点，连接AD、BD、CD",
+  "dsl": [
+    "triangle(A, B, C)",
+    "circle(O)",
+    "arc(A, B, circle_O)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "arc_midpoint(D, AB, circle_O, arc_type='major')"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01345.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circle",
+      "arc_midpoint"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "D为弧ACB（经过C的优弧AB）的中点"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

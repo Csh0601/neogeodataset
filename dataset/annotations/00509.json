@@ -1,0 +1,34 @@
+{
+  "id": "00509",
+  "text": "在△ABC中，O为BC边上的一点，以O为圆心的半圆分别与AB、AC相切于点M、N，已知∠BAC=120°，AB+AC=16，MN的长为π",
+  "dsl": [
+    "point(O)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "circle(O)",
+    "segment(MN)",
+    "on(O, BC)",
+    "on(M, AB)",
+    "on(N, AC)",
+    "tangent(M, circle_O)",
+    "tangent(N, circle_O)",
+    "angle(BAC)=120",
+    "shaded(sector_OMN)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00509.png",
+  "meta": {
+    "source": "三角形内切半圆",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "semicircle",
+      "tangent",
+      "shaded"
+    ]
+  }
+}

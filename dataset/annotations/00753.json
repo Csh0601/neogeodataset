@@ -1,0 +1,27 @@
+{
+  "id": "00753",
+  "text": "在四边形ABCD中，∠BAD=∠BCD=90°，∠ACD=30°，AD=2，E是AC的中点，连接DE",
+  "dsl": [
+    "point(E)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(DE)",
+    "segment(BD)",
+    "segment(BE)",
+    "midpoint(E, AC)",
+    "angle(BAD)=90",
+    "angle(BCD)=90",
+    "angle(ACD)=30",
+    "length(AD)=2"
+  ],
+  "image_path": "images/00753.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["quadrilateral", "midpoint", "angle"]
+  }
+}

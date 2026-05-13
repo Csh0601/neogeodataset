@@ -1,0 +1,38 @@
+{
+  "id": "01198",
+  "text": "在平面直角坐标系中，菱形ABCD的四个顶点均在坐标轴上，对角线AC、BD交于原点O，AE⊥BC于E点，交BD于M点，反比例函数y=√3/(3x)(x>0)的图象经过线段DC的中点N，BD=4，ME的长为√3",
+  "dsl": [
+    "coordinate_system(O)",
+    "parallelogram(A, B, C, D)",
+    "hyperbola(h, √3/3)",
+    "segment(AE)",
+    "segment(ME)",
+    "on(A, axis_x)",
+    "on(C, axis_x)",
+    "on(B, axis_y)",
+    "on(D, axis_y)",
+    "intersection(O, AC, BD)",
+    "midpoint(N, DC)",
+    "foot(E, A, BC)",
+    "intersection(M, AE, BD)",
+    "function_point(N, h)",
+    "equal(AB, BC)",
+    "perpendicular(AE, BC)",
+    "length(BD)=4",
+    "length(ME)=√3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01198.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["coordinate_system", "parallelogram", "rhombus", "hyperbola", "foot"],
+    "annotated_by": "agent-1",
+    "supplements": ["菱形=parallelogram+equal(AB,BC)，补充了ME=√3的计算结果"]
+  },
+  "validated": true,
+  "needs_review": false
+}

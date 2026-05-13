@@ -1,0 +1,46 @@
+{
+  "id": "01414",
+  "text": "在△ABC中，D、E是BC边上的点，BD:DE:EC=3:2:1，M在AC边上，CM:MA=1:2，BM交AD于H，BM交AE于G",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(H)",
+    "point(G)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(BM)",
+    "on(D, BC)",
+    "on(E, BC)",
+    "on(M, AC)",
+    "intersection(H, BM, AD)",
+    "intersection(G, BM, AE)",
+    "ratio(BD, DE)=1.5",
+    "ratio(DE, EC)=2",
+    "ratio(CM, MA)=0.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01414.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "cevian",
+      "ratio",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "A在顶部，B在左下，C在右下",
+      "D和E在BC上，BD:DE:EC=3:2:1",
+      "M在AC上，CM:MA=1:2"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

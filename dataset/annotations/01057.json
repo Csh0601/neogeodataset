@@ -1,0 +1,34 @@
+{
+  "id": "01057",
+  "text": "在△ABC中，∠ACB=90°，AB=4，O是AB的中点，以BC为直角边向外作等腰Rt△BCD，∠BCD=90°，BC=CD，连接OD",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(B, C, D)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CD)",
+    "segment(OD)",
+    "midpoint(O, AB)",
+    "equal(BC, CD)",
+    "perpendicular(BC, CD)",
+    "angle(ACB)=90",
+    "angle(BCD)=90",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01057.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "isosceles",
+      "midpoint"
+    ]
+  }
+}

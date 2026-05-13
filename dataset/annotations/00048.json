@@ -1,0 +1,42 @@
+{
+  "id": "00048",
+  "text": "△ABC内接于⊙O，AB为⊙O的直径且长度为8，∠OAC大小为30度，点D在AB的延长线上，连接CD，∠BCD=∠A，过点B作BE⊥AD，交CD于点E，CD与⊙O相切",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "circle(O, r=4)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(BE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, AB_extended)",
+    "on(E, CD)",
+    "foot(E, B, AD)",
+    "inscribed(ABC, circle_O)",
+    "collinear(A, O, B)",
+    "perpendicular(BE, AD)",
+    "equal_angle(BCD, CAB)",
+    "tangent(C, circle_O)",
+    "length(AB)=8",
+    "angle(OAC)=30",
+    "angle(OCD)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00048.png",
+  "meta": {
+    "source": "圆的直径与切线证明",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "perpendicular"
+    ]
+  }
+}

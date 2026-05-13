@@ -1,0 +1,41 @@
+{
+  "id": "00700",
+  "text": "在平面直角坐标系中，直线y=-2x+4与x轴交于点A(2,0)，与y轴交于点B(0,4)，直线y=1/2·x+4过点B与x轴交于点C(-8,0)，点M在直线BC上，∠MAB=∠ABO",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point_coord(A, 2, 0)",
+    "point_coord(B, 0, 4)",
+    "point_coord(C, -8, 0)",
+    "line_function(l1, -2, 4)",
+    "line_function(l2, 0.5, 4)",
+    "segment(AB)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)",
+    "on(A, line_l1)",
+    "on(B, line_l1)",
+    "on(B, line_l2)",
+    "on(C, line_l2)",
+    "on(M, line_l2)",
+    "equal_angle(MAB, ABO)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00700.png",
+  "meta": {
+    "source": "两条直线交点与等角条件",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "angle"
+    ]
+  }
+}

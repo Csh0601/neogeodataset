@@ -1,0 +1,38 @@
+{
+  "id": "00516",
+  "text": "在矩形ABCD中，对角线AC的中点为O，点G、H在对角线AC上，AG=CH，线段GH绕点O逆时针旋转90°，与边AB、CD分别相交于点E、F（点E不与点A、B重合），AB=9，AD=3，四边形EHFG是平行四边形",
+  "dsl": [
+    "point(G)",
+    "point(H)",
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "parallelogram(E, H, F, G)",
+    "segment(AC)",
+    "segment(GH)",
+    "segment(EF)",
+    "on(G, AC)",
+    "on(H, AC)",
+    "on(E, AB)",
+    "on(F, CD)",
+    "midpoint(O, AC)",
+    "equal(AG, CH)",
+    "collinear(E, O, F)",
+    "length(AB)=9",
+    "length(AD)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00516.png",
+  "meta": {
+    "source": "矩形旋转与平行四边形",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "rotation",
+      "parallelogram"
+    ]
+  }
+}

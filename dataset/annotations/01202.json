@@ -1,0 +1,36 @@
+{
+  "id": "01202",
+  "text": "在平面直角坐标系中，点A(-1,0)和点B(1,2)，在y轴正半轴上确定点P，使得△ABP为直角三角形，点P的坐标为(0,1+√2)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 1, 2)",
+    "point_coord(P, 0, 1+√2)",
+    "triangle(A, B, P)",
+    "segment(AB)",
+    "segment(AP)",
+    "segment(BP)",
+    "on(P, axis_y)",
+    "right_angle(APB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01202.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "right_angle",
+      "triangle"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了P(0,1+√2)的计算结果，直角在P处"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

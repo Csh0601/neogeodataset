@@ -1,0 +1,40 @@
+{
+  "id": "01106",
+  "text": "在菱形ABCD中，AB=AC=10，对角线AC、BD相交于点O，点M在线段AC上，AM=3，点P在线段BD上，连接MP",
+  "dsl": [
+    "point(M)",
+    "point(O)",
+    "point(P)",
+    "parallelogram(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(MP)",
+    "segment(PB)",
+    "intersection(O, AC, BD)",
+    "on(M, AC)",
+    "on(P, BD)",
+    "equal(AB, BC)",
+    "equal(AB, AC)",
+    "length(AB)=10",
+    "length(AC)=10",
+    "length(AM)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01106.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "diagonal",
+      "optimization"
+    ]
+  }
+}

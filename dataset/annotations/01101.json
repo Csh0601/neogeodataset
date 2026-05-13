@@ -1,0 +1,31 @@
+{
+  "id": "01101",
+  "text": "AM//CN，E、F在AM与CN之间，A、M在同一直线上，C、N在同一直线上，连接AE，EF，FC，∠MAB+∠ABC+∠BCN=360°，∠MAE+∠AEF+∠EFC+∠FCN=540°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(N)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(FC)",
+    "ray(A, M)",
+    "ray(C, N)",
+    "parallel(AM, CN)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01101.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel_lines", "angle_sum", "zigzag"]
+  }
+}

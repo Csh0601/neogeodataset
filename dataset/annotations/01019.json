@@ -1,0 +1,37 @@
+{
+  "id": "01019",
+  "text": "在△ABC中，点D在边AB上，AD=9，BD=7，AC=12，△ABC的角平分线AE交CD于点F，E在BC上，△ACD∽△ABC",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A, C, D)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(D, AB)",
+    "on(E, BC)",
+    "intersection(F, AE, CD)",
+    "bisect_angle(B, A, C, AE)",
+    "similar(ACD, ABC)",
+    "length(AD)=9",
+    "length(BD)=7",
+    "length(AC)=12"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01019.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "similar_triangles"
+    ]
+  }
+}

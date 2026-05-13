@@ -1,0 +1,30 @@
+{
+  "id": "00638",
+  "text": "在三角形ABC中，点D是BC上的中点，连接AD并延长到点E，使DE=AD，连接CE，△ABD≅△ECD",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, B, D)",
+    "triangle(E, C, D)",
+    "segment(CE)",
+    "midpoint(D, BC)",
+    "collinear(A, D, E)",
+    "equal(DE, AD)",
+    "congruent(ABD, ECD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00638.png",
+  "meta": {
+    "source": "三角形全等",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "congruent"
+    ]
+  }
+}

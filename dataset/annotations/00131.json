@@ -1,0 +1,30 @@
+{
+  "id": "00131",
+  "text": "在平面直角坐标系中，矩形ABCD的边AB在y轴上，点C坐标为(2,-2)，并且AO:BO=1:2，点A坐标为（0，1），点B坐标为（0，-2）， 点D坐标为（2，1），点D在函数y=2/x(x>0)的图象上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 0, 1)",
+    "point_coord(B, 0, -2)",
+    "point_coord(D, 2, 1)",
+    "point_coord(C, 2, -2)",
+    "rectangle(A, B, C, D)",
+    "hyperbola(h, 2)",
+    "on(A, axis_y)",
+    "on(B, axis_y)",
+    "function_point(D, h)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00131.png",
+  "meta": {
+    "source": "坐标系矩形与反比例函数",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "rectangle",
+      "hyperbola"
+    ]
+  }
+}

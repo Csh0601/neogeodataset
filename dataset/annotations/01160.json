@@ -1,0 +1,38 @@
+{
+  "id": "01160",
+  "text": "在平面直角坐标系xOy中，点A在y轴正半轴上，点B在x轴正半轴上，OA=OB，点C在第三象限，点D在第二象限，OC⊥OD，OC=OD，点C的坐标为(-4,-2)，连接AC，BD，AE交OB于E",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(C, -4, -2)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(OD)",
+    "on(A, axis_y)",
+    "on(B, axis_x)",
+    "equal(OA, OB)",
+    "perpendicular(OC, OD)",
+    "equal(OC, OD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01160.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "perpendicular",
+      "congruent"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "00559",
+  "text": "△ABC内接于⊙O，MH⊥BC于点H，AC=10，AH=8，⊙O的半径为7，AB=56/5",
+  "dsl": [
+    "point(M)",
+    "point(H)",
+    "circle(O, r=7)",
+    "triangle(A, B, C)",
+    "segment(AC)",
+    "segment(AH)",
+    "segment(AB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(H, BC)",
+    "foot(H, M, BC)",
+    "length(AC)=10",
+    "length(AH)=8",
+    "length(AB)=11.2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00559.png",
+  "meta": {
+    "source": "圆内接三角形",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "inscribed",
+      "triangle"
+    ]
+  }
+}

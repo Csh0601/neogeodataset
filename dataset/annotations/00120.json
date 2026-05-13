@@ -1,0 +1,54 @@
+{
+  "id": "00120",
+  "text": "在平面直角坐标系中，点B是反比例函数y=16/x(x>0)图象上一点，坐标为（4,4），过点B分别向y轴，x轴作垂线，垂足为A、C，反比例函数y=4/x(x>0)的图象经过OB的中点M（2,2），与AB、BC分别相交于点D、E，连接DE并延长交x轴于点F，点G与点O关于点C对称，连接BF、BG，四边形BDFG为平行四边形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(B)",
+    "point(A)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(M)",
+    "point_coord(B, 4, 4)",
+    "point_coord(A, 0, 4)",
+    "point_coord(C, 4, 0)",
+    "point_coord(M, 2, 2)",
+    "hyperbola(h1, 16)",
+    "hyperbola(h2, 4)",
+    "parallelogram(B, D, F, G)",
+    "segment(BA)",
+    "segment(BC)",
+    "segment(OB)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(BF)",
+    "segment(CG)",
+    "intersection(D, BA, h2)",
+    "intersection(E, BC, h2)",
+    "midpoint(M, OB)",
+    "function_point(B, h1)",
+    "function_point(M, h2)",
+    "function_point(D, h2)",
+    "function_point(E, h2)",
+    "collinear(D, E, F)",
+    "collinear(O, C, G)",
+    "equal(OC, CG)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00120.png",
+  "meta": {
+    "source": "反比例函数与平行四边形",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "parallelogram",
+      "midpoint"
+    ]
+  }
+}

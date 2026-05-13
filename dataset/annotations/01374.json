@@ -1,0 +1,40 @@
+{
+  "id": "01374",
+  "text": "在△ABC中，线段AB、CD相交于点E，线段AC、BD延长后相交于点F，∠ABC=100，∠DEF=130，∠A+∠C+∠D+∠F=130",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(BD)",
+    "segment(AC)",
+    "segment(EF)",
+    "intersection(E, AB, CD)",
+    "intersection(F, AC_extended, BD_extended)",
+    "angle(ABC)=100",
+    "angle(DEF)=130",
+    "inside(E, triangle_ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01374.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "intersection",
+      "angle_sum"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "计算出∠A+∠C+∠D+∠F=360-100-130=130"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

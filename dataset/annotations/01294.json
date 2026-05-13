@@ -1,0 +1,41 @@
+{
+  "id": "01294",
+  "text": "在平面直角坐标系中，∠AOB的边OB与x轴正半轴重合，点P在射线OA上，点N(5,0)是OB上的定点，点M是ON的中点，∠AOB=30°",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(P)",
+    "point(M)",
+    "point_coord(N, 5, 0)",
+    "ray(O, A)",
+    "ray(O, B)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(PM)",
+    "segment(PN)",
+    "on(B, axis_x)",
+    "on(P, ray_OA)",
+    "point_coord(M, 2.5, 0)",
+    "angle(AOB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01294.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "angle",
+      "midpoint"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "动点P静态化，P取OA上一合理位置"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

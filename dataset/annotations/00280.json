@@ -1,0 +1,32 @@
+{
+  "id": "00280",
+  "text": "在△ABC中，AB=10，AC=8，BC=6， E、F分别在AB和AC上，EF∥BC，AE/EB=2/3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(EF)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "parallel(EF, BC)",
+    "ratio(AE, EB)=2/3",
+    "length(AB)=10",
+    "length(AC)=8",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00280.png",
+  "meta": {
+    "source": "平行线分割三角形",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "parallel",
+      "ratio",
+      "area"
+    ]
+  }
+}

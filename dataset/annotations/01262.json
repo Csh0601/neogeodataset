@@ -1,0 +1,35 @@
+{
+  "id": "01262",
+  "text": "在等边△ABC中，M是BC上的任意一点，以AM为边作等腰△AMN，使顶角∠AMN=∠ABC，连接CN，BM=CN",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "segment(AM)",
+    "segment(CN)",
+    "on(M, BC)",
+    "equilateral(A, B, C)",
+    "triangle(A, M, N)",
+    "equal_angle(AMN, ABC)",
+    "equal(AM, AN)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01262.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "equilateral_triangle",
+      "isosceles",
+      "rotation"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "图1场景：等边三角形ABC，M在BC上，以AM为边构造等腰三角形AMN"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": "00035",
+  "text": "以△ABC的边BC为直径作⊙O，BC长度为5，圆心O是BC的中点，点A在⊙O上，点D在BC的延长线上，AD=AB，∠ADB=30°，AD与⊙O相切于点A，连接AD、AB、BC、AC",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "circle(O, r=2.5)",
+    "segment(AD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "midpoint(O, BC)",
+    "tangent(AD, circle_O)",
+    "equal(AD, AB)",
+    "angle(ADB)=30",
+    "right_angle(BAC)",
+    "length(BC)=5",
+    "on_extended(D, BC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00035.png",
+  "meta": {
+    "source": "圆的直径与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "isosceles"
+    ]
+  }
+}

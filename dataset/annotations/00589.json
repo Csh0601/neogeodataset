@@ -1,0 +1,35 @@
+{
+  "id": "00589",
+  "text": "△ABC是一块锐角三角形的材料，边BC=120mm，高AD=80mm，正方形EFGH一边在BC上，其余两个顶点分别在AB、AC上，正方形边长为48mm",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "triangle(A, B, C)",
+    "square(E, F, G, H)",
+    "on(G, BC)",
+    "on(H, BC)",
+    "on(E, AB)",
+    "on(F, AC)",
+    "foot(D, A, BC)",
+    "length(BC)=120",
+    "length(AD)=80",
+    "length(EF)=48"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00589.png",
+  "meta": {
+    "source": "三角形内接正方形",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "square",
+      "inscribed"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00851",
+  "text": "在平面直角坐标系中，抛物线C: y=-x²-4x经过点A(-4,0)和B(-1,3)两点，G是其顶点，将抛物线C绕点O旋转180°，得到新的抛物线C'，直线l: y=(3/5)x-(12/5)经过点A，D是抛物线C上的一点，D点的横坐标为m(m<-2)，连接DO并延长，交抛物线C'于点E，交直线l于点M",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(G)",
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -4, 0)",
+    "point_coord(B, -1, 3)",
+    "parabola(C, -1, -4, 0)",
+    "line_function(l, 0.6, -2.4)",
+    "segment(DO)",
+    "segment(AG)",
+    "segment(AB)",
+    "on(A, C)",
+    "on(B, C)",
+    "on(A, l)",
+    "on(D, C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00851.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "rotation", "linear_function"]
+  }
+}

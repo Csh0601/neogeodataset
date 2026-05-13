@@ -1,0 +1,38 @@
+{
+  "id": "01090",
+  "text": "P是等边三角形ABC内部的一点，PA=3，PB=4，PC=5，以BC为边在△ABC外侧作△BQC≅△BPA，连接PQ，∠APB=150°，∠APC=120°",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(PQ)",
+    "segment(BQ)",
+    "segment(CQ)",
+    "triangle(B, P, A)",
+    "triangle(B, Q, C)",
+    "equilateral(A, B, C)",
+    "congruent(BQC, BPA)",
+    "length(PA)=3",
+    "length(PB)=4",
+    "length(PC)=5",
+    "angle(APB)=150",
+    "angle(APC)=120",
+    "inside(P, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01090.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral_triangle",
+      "congruent",
+      "interior_point"
+    ]
+  }
+}

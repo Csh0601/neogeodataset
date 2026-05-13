@@ -1,0 +1,35 @@
+{
+  "id": "01390",
+  "text": "在正方形ABCD中，点E、F分别是BC、CD边上的点，∠EAF=45，连接AE、AF，正方形边长为6，AE=3√5",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(EF)",
+    "on(E, BC)",
+    "on(F, CD)",
+    "angle(EAF)=45",
+    "length(AB)=6",
+    "length(AE)=3√5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01390.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "square",
+      "angle",
+      "length"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

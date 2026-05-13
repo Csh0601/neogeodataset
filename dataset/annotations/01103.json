@@ -1,0 +1,39 @@
+{
+  "id": "01103",
+  "text": "在菱形ABCD中，AB=4，∠A=60°，点E为AB上一点，连接DE，以DE为斜边作等腰直角三角形EDF，∠EFD=90°，连接BF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "triangle(E, D, F)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(DF)",
+    "segment(BF)",
+    "on(E, AB)",
+    "equal(AB, BC)",
+    "equal(EF, DF)",
+    "perpendicular(EF, DF)",
+    "angle(DAB)=60",
+    "angle(EFD)=90",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01103.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "isosceles_right_triangle",
+      "rotation"
+    ]
+  }
+}

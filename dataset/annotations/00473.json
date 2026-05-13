@@ -1,0 +1,28 @@
+{
+  "id": "00473",
+  "text": "AB∥CD，AD⊥AC，∠BAD=35°，∠ACD=55°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "parallel(AB, CD)",
+    "perpendicular(AD, AC)",
+    "angle(BAD)=35",
+    "angle(ACD)=55"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00473.png",
+  "meta": {
+    "source": "平行线与垂直",
+    "difficulty": "easy",
+    "tags": ["parallel", "perpendicular", "angle"]
+  }
+}

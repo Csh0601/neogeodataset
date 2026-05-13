@@ -1,0 +1,40 @@
+{
+  "id": "01355",
+  "text": "在⊙O中，AB和BC是两条弦，折线ABC是圆的一条折弦，BC>AB，M是弧ABC的中点，从M向BC所作垂线的垂足为D，CD=DB+BA",
+  "dsl": [
+    "circle(O)",
+    "arc(A, C, circle_O)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(MD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(M, circle_O)",
+    "foot(D, M, BC)",
+    "arc_midpoint(M, AC, circle_O)",
+    "perpendicular(MD, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01355.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "chord",
+      "arc_midpoint",
+      "perpendicular",
+      "Archimedes_broken_chord"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "阿基米德折弦定理的图1"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

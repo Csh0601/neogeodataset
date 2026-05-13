@@ -1,0 +1,31 @@
+{
+  "id": "01125",
+  "text": "正方形ABCD的边长为4，点E、F分别在AB、AD上，CE=5，∠ECF=45°，连接CF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(CE)",
+    "segment(CF)",
+    "segment(EF)",
+    "on(E, AB)",
+    "on(F, AD)",
+    "angle(ECF)=45",
+    "length(AB)=4",
+    "length(CE)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01125.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["square", "angle", "length"]
+  }
+}

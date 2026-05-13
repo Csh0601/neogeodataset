@@ -1,0 +1,35 @@
+{
+  "id": "00920",
+  "text": "在平面直角坐标系中，直线y=x+4与x轴、y轴分别交于点D、C，直线AB与y轴交于点B(0,-2)，与直线CD交于点A(-2,2)",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -2, 2)",
+    "point_coord(B, 0, -2)",
+    "point_coord(C, 0, 4)",
+    "point_coord(D, -4, 0)",
+    "line_function(l1, 1, 4)",
+    "segment(AB)",
+    "segment(CD)",
+    "on(B, axis_y)",
+    "on(C, axis_y)",
+    "on(D, axis_x)",
+    "function_point(C, l1)",
+    "function_point(D, l1)",
+    "function_point(A, l1)"
+  ],
+  "image_path": "images/00920.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系直线交点",
+    "difficulty": "hard",
+    "tags": ["coordinate", "line_function"]
+  }
+}

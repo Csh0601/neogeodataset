@@ -1,0 +1,38 @@
+{
+  "id": "01244",
+  "text": "菱形ABCD中，将菱形纸片分别沿AM、AN所在直线进行折叠，使得菱形的两边AB、AD重合于AO，∠MON=80°，∠AMO=70°",
+  "dsl": [
+    "parallelogram(A, B, C, D)",
+    "segment(AM)",
+    "segment(AN)",
+    "segment(AO)",
+    "on(M, BC)",
+    "on(N, CD)",
+    "fold(B, O, AM)",
+    "fold(D, O, AN)",
+    "equal(AB, BC)",
+    "angle(MON)=80",
+    "angle(AMO)=70"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01244.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "parallelogram",
+      "fold",
+      "rhombus"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "菱形用parallelogram+equal(AB,BC)表示",
+      "补充了∠AMO=70°的计算结果"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

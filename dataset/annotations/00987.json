@@ -1,0 +1,30 @@
+{
+  "id": "00987",
+  "text": "点P为∠AOB的平分线上一点，PC⊥OA于C，∠OAP+∠OBP=180°，OA+OB=2OC",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(OP)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "on(C, OA)",
+    "foot(C, P, OA)",
+    "perpendicular(PC, OA)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00987.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["angle_bisector", "perpendicular"]
+  }
+}

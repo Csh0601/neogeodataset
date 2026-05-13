@@ -1,0 +1,39 @@
+{
+  "id": "00080",
+  "text": "在四边形ABCD中，AB∥CD，AB≠CD，AB=4,CD=8,∠ABC=∠BCD=90°，点E、F分别在线段BC、AD中点，且EF∥CD，AB=AF，CD=DF，CF⊥FB",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "quadrilateral(A, B, C, D)",
+    "segment(EF)",
+    "segment(CF)",
+    "segment(FB)",
+    "midpoint(E, BC)",
+    "midpoint(F, AD)",
+    "parallel(AB, CD)",
+    "parallel(EF, CD)",
+    "equal(AB, AF)",
+    "equal(CD, DF)",
+    "perpendicular(CF, FB)",
+    "angle(ABC)=90",
+    "angle(BCD)=90",
+    "length(AB)=4",
+    "length(CD)=8"
+  ],
+  "image_path": "images/00080.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "四边形",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "parallel",
+      "perpendicular",
+      "equal",
+      "angle"
+    ]
+  }
+}

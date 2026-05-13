@@ -1,0 +1,40 @@
+{
+  "id": "01273",
+  "text": "在锐角△ABC中，H是垂心，AD、BE、CF是三条高，AH=BC，∠BAC=60°",
+  "dsl": [
+    "point(H)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AH)",
+    "orthocenter(H, A, B, C)",
+    "foot(D, A, BC)",
+    "foot(E, B, AC)",
+    "foot(F, C, AB)",
+    "equal(AH, BC)",
+    "angle(BAC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01273.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "orthocenter",
+      "altitude",
+      "acute"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "锐角三角形ABC，H为三条高交点（垂心）",
+      "AH=BC推出∠BAC=60°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

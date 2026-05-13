@@ -1,0 +1,37 @@
+{
+  "id": "01061",
+  "text": "在△ABC中，AB=AC，BC=24，AD⊥BC于点D，AD=5，以A为圆心、3为半径作⊙A，P为⊙A上一点，E为PC的中点，连接PC，DE",
+  "dsl": [
+    "triangle(A, B, C)",
+    "circle(A, r=3)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(PC)",
+    "segment(DE)",
+    "on(D, BC)",
+    "on(P, circle_A)",
+    "foot(D, A, BC)",
+    "midpoint(E, PC)",
+    "perpendicular(AD, BC)",
+    "equal(AB, AC)",
+    "length(BC)=24",
+    "length(AD)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01061.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "circle",
+      "midpoint",
+      "perpendicular"
+    ]
+  }
+}

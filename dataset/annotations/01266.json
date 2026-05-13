@@ -1,0 +1,33 @@
+{
+  "id": "01266",
+  "text": "在等邻边互补四边形ABCD中，AD=CD，AD∥BC，BC=2AD",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "equal(AD, CD)",
+    "parallel(AD, BC)",
+    "ratio(BC, AD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01266.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "trapezoid",
+      "isosceles",
+      "parallel"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "AD∥BC为梯形，AD=CD为等邻边",
+      "图1场景"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

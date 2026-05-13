@@ -1,0 +1,40 @@
+{
+  "id": "00123",
+  "text": "正方形ABCD的边长为6，点E在边AB三等分点中靠近B的点上，∠DAM=45°，点F在射线AM上，且AF=2.828，CF与AD相交于点G，连接EC、EF、EG，G是线段AD的中点，∠ECF=45°",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(M)",
+    "square(A, B, C, D)",
+    "segment(AM)",
+    "ray(A, M)",
+    "segment(CF)",
+    "segment(EC)",
+    "segment(EF)",
+    "segment(EG)",
+    "trisection(E, AB, near=B)",
+    "on(F, ray_AM)",
+    "midpoint(G, AD)",
+    "angle(DAM)=45",
+    "angle(ECF)=45",
+    "length(AB)=6",
+    "length(BE)=2",
+    "length(AF)=2.828"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00123.png",
+  "meta": {
+    "source": "正方形与角度",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "angle",
+      "midpoint",
+      "intersection"
+    ]
+  }
+}

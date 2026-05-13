@@ -1,0 +1,34 @@
+{
+  "id": "00030",
+  "text": "在四边形ABCD中，AB=6，AD=8，对角线AC、BD相交于点E，AC⊥BD，作BF⊥CD，垂足为点F，BF与AC交于点G，∠BGE=∠ADE",
+  "dsl": [
+    "point(F)",
+    "point(G)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(BF)",
+    "intersection(E, AC, BD)",
+    "foot(F, B, CD)",
+    "intersection(G, BF, AC)",
+    "perpendicular(AC, BD)",
+    "perpendicular(BF, CD)",
+    "equal_angle(BGE, ADE)",
+    "length(AB)=6",
+    "length(AD)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00030.png",
+  "meta": {
+    "source": "四边形对角线垂直问题",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "perpendicular",
+      "diagonal"
+    ]
+  }
+}

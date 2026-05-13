@@ -1,0 +1,32 @@
+{
+  "id": "00480",
+  "text": "在等腰△ABC中，AC=BC，△ADE是直角三角形，∠DAE=90°，连接BD、BE，点F是BD的中点，连接CF，当∠CAB=45°时，∠EAB=∠ABC，CF=1/2·BE",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(BD)",
+    "segment(BE)",
+    "segment(CF)",
+    "midpoint(F, BD)",
+    "equal(AC, BC)",
+    "angle(DAE)=90",
+    "angle(CAB)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00480.png",
+  "meta": {
+    "source": "等腰三角形与直角三角形",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "right_triangle",
+      "midpoint"
+    ]
+  }
+}

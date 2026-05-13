@@ -1,0 +1,39 @@
+{
+  "id": "01145",
+  "text": "O是等边△ABC内一点，OA=3，OB=4，OC=5，将线段BO以点B为旋转中心逆时针旋转60°得到线段BO'",
+  "dsl": [
+    "point(O)",
+    "point(O_prime)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(BO_prime)",
+    "segment(OO_prime)",
+    "rotate(O_prime, source=O, center=B, angle=60)",
+    "equal(AB, BC)",
+    "equal(BC, AC)",
+    "length(OA)=3",
+    "length(OB)=4",
+    "length(OC)=5",
+    "inside(O, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01145.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "interior_point",
+      "rotation",
+      "angle"
+    ]
+  }
+}

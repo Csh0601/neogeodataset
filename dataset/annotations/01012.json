@@ -1,0 +1,33 @@
+{
+  "id": "01012",
+  "text": "在平面直角坐标系中，直线y=(1/2)x+2与x轴交于点A(-4,0)，与y轴交于点B(0,2)，抛物线y=-(1/2)x^2-(3/2)x+2经过A、B两点，与x轴的另一个交点为C(1,0)，D为直线AB上方抛物线上的一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(D)",
+    "point_coord(A, -4, 0)",
+    "point_coord(B, 0, 2)",
+    "point_coord(C, 1, 0)",
+    "line_function(l1, 0.5, 2)",
+    "parabola(p1, -0.5, -1.5, 2)",
+    "segment(AB)",
+    "segment(AC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01012.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "linear_function"
+    ]
+  }
+}

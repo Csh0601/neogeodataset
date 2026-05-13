@@ -1,0 +1,37 @@
+{
+  "id": "00619",
+  "text": "⊙O的半径为2，A、B、C在⊙O上，AB为直径，∠BAC的平分线交⊙O于点D，过点D作DE⊥AC，交AC延长线于点E，延长ED交AB延长线于点F，直线EF是⊙O的切线",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "circle(O, r=2)",
+    "line(l1, E, F)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "angle_bisector(D, B, A, C)",
+    "tangent(F, circle_O)",
+    "collinear(A, O, B)",
+    "perpendicular(DE, AC)",
+    "length(DF)=5.657"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00619.png",
+  "meta": {
+    "source": "圆与角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "angle_bisector",
+      "tangent"
+    ]
+  }
+}

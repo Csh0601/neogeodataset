@@ -1,0 +1,40 @@
+{
+  "id": "00935",
+  "text": "在平面直角坐标系xOy中，多边形OABCDE的顶点坐标分别是O(0,0)，A(0,6)，B(4,6)，C(4,4)，D(6,4)，E(6,0)，直线l经过点M(2,3)，且将多边形OABCDE分割成面积相等的两部分",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(P)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 0, 6)",
+    "point_coord(B, 4, 6)",
+    "point_coord(C, 4, 4)",
+    "point_coord(D, 6, 4)",
+    "point_coord(E, 6, 0)",
+    "point_coord(M, 2, 3)",
+    "polygon(O, A, B, C, D, E)",
+    "segment(OA)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(DE)",
+    "segment(EO)",
+    "line(l, M, P)",
+    "on(M, line_l)"
+  ],
+  "image_path": "images/00935.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "多边形面积等分",
+    "difficulty": "hard",
+    "tags": ["coordinate", "polygon"]
+  }
+}

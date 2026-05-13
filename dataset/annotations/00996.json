@@ -1,0 +1,33 @@
+{
+  "id": "00996",
+  "text": "在△ABC中，点D、E、F分别是BC、AD、CE的中点，△ABC的面积为8，△BEF的面积为2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(B, E, F)",
+    "segment(AD)",
+    "segment(BE)",
+    "segment(CE)",
+    "segment(BF)",
+    "segment(EF)",
+    "midpoint(D, BC)",
+    "midpoint(E, AD)",
+    "midpoint(F, CE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00996.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "area"
+    ]
+  }
+}

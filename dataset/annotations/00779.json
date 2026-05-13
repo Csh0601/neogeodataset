@@ -1,0 +1,35 @@
+{
+  "id": "00779",
+  "text": "在平面直角坐标系xOy中，抛物线y=x²-√3x-3与x轴交于A、B两点，与y轴的负半轴交于点C，抛物线的对称轴为x=√3/2，B(2√3,0)，C(0,-3)，点P为线段BC下方的抛物线上一点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point_coord(B, 3.464, 0)",
+    "point_coord(C, 0, -3)",
+    "parabola(p1, 1, -1.732, -3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(PB)",
+    "segment(PC)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(P, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(C, p1, y)"
+  ],
+  "image_path": "images/00779.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "triangle", "area"]
+  }
+}

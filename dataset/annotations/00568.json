@@ -1,0 +1,34 @@
+{
+  "id": "00568",
+  "text": "在平行四边形ABCD中，点P在对角线AC所在直线上，分别过点A、C向直线BP作垂线，垂足分别为点E、F，点O为AC的中点，OE=OF",
+  "dsl": [
+    "point(P)",
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(OE)",
+    "segment(OF)",
+    "line(l1, B, P)",
+    "on(P, AC)",
+    "midpoint(O, AC)",
+    "foot(E, A, BP)",
+    "foot(F, C, BP)",
+    "equal(OE, OF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00568.png",
+  "meta": {
+    "source": "平行四边形动点",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "foot",
+      "midpoint",
+      "equal"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "00755",
+  "text": "在平面直角坐标系xOy中，⊙C经过坐标原点O，与x轴交于M(4,0)，与y轴交于N(0,3)，P为抛物线的顶点，抛物线的对称轴经过点C且垂直于x轴，交x轴于点D，抛物线与⊙C交于N、H、P三点，连接NH",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(M)",
+    "point(N)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point(H)",
+    "point_coord(M, 4, 0)",
+    "point_coord(N, 0, 3)",
+    "circle(C)",
+    "segment(NH)",
+    "segment(CD)",
+    "on(O, circle_C)",
+    "on(M, circle_C)",
+    "on(N, circle_C)",
+    "on(H, circle_C)",
+    "function_expr(p1, \"a*(x-2)^2+k\")",
+    "function_point(N, p1)",
+    "function_point(H, p1)",
+    "function_point(P, p1)",
+    "point_coord(D, 2, 0)"
+  ],
+  "image_path": "images/00755.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "circle",
+      "parabola"
+    ]
+  }
+}

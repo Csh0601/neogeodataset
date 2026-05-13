@@ -1,0 +1,27 @@
+{
+  "id": "00224",
+  "text": "在三角形ABC中，∠ABC=60°，∠ACB=60°，BC=48，AC=48",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "angle(ABC)=60",
+    "angle(ACB)=60",
+    "length(BC)=48",
+    "length(AC)=48"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00224.png",
+  "meta": {
+    "source": "等边三角形测量应用",
+    "difficulty": "easy",
+    "tags": [
+      "equilateral_triangle",
+      "application"
+    ]
+  }
+}

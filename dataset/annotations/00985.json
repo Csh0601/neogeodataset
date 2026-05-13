@@ -1,0 +1,40 @@
+{
+  "id": "00985",
+  "text": "在平面直角坐标系xOy中，四边形OABC是边长为3的正方形，A在x轴的正半轴上，C在y轴的正半轴上，抛物线y=-x^2+2x+3经过A和C两点，与x轴交于另一个点D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, 3, 3)",
+    "point_coord(C, 0, 3)",
+    "square(O, A, B, C)",
+    "parabola(p1, -1, 2, 3)",
+    "segment(OA)",
+    "segment(BC)",
+    "segment(AP)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "on(D, axis_x)",
+    "on(P, BC)",
+    "length(OA)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00985.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "square",
+      "parabola"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00916",
+  "text": "在正方形ABCD中，AB=4，E为AB边上一点，点F在BC边上，且BF=1，将点E绕着点F顺时针旋转90°得到点G，连接DG",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(DG)",
+    "segment(EF)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "rotate(G, source=E, center=F, angle=-90)",
+    "length(AB)=4",
+    "length(BF)=1"
+  ],
+  "image_path": "images/00916.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "正方形旋转最值",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "rotate"
+    ]
+  }
+}

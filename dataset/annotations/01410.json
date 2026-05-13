@@ -1,0 +1,38 @@
+{
+  "id": "01410",
+  "text": "在△ABC中，M是AC的中点，E是AB上一点，AE=(1/4)AB，连接EM并延长，交BC的延长线于D",
+  "dsl": [
+    "point(M)",
+    "point(E)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(EM)",
+    "midpoint(M, AC)",
+    "on(E, AB)",
+    "intersection(D, EM_extended, BC_extended)",
+    "ratio(AE, AB)=0.25"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01410.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "ratio",
+      "extension",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "A在顶部，B在左下，C在右下，D在BC延长线上（C的右侧）",
+      "E在AB上靠近A的位置"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

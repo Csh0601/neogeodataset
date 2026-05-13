@@ -1,0 +1,47 @@
+{
+  "id": "00453",
+  "text": "点C在以AB为直径的⊙O上，点D是半圆的中点，连接AC、BC、AD、BD，过点D作DH∥AB，交CB的延长线于点H，直线DH是⊙O的切线，AB=10，BC=6，AD=5√2，BH=25/4",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(H)",
+    "circle(O)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(BD)",
+    "line(l1, D, H)",
+    "segment(DH)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(H, CB_extended)",
+    "tangent(D, circle_O)",
+    "parallel(DH, AB)",
+    "collinear(A, O, B)",
+    "midpoint(O, AB)",
+    "length(AB)=10",
+    "length(BC)=6",
+    "length(AD)=7.071",
+    "length(BH)=6.25"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00453.png",
+  "meta": {
+    "source": "半圆直径与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "tangent",
+      "parallel"
+    ]
+  }
+}

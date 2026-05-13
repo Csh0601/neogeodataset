@@ -1,0 +1,37 @@
+{
+  "id": "01095",
+  "text": "在△ABC中，∠BAC=60°，∠ACB=40°，P在BC上，Q在CA上，AP平分∠BAC，BQ平分∠ABC，BQ=CQ",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AP)",
+    "segment(BQ)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AB)",
+    "segment(CQ)",
+    "on(P, BC)",
+    "on(Q, AC)",
+    "on(P, l1)",
+    "on(Q, l2)",
+    "bisect_angle(B, A, C, l1)",
+    "bisect_angle(A, B, C, l2)",
+    "equal(BQ, CQ)",
+    "angle(BAC)=60",
+    "angle(ACB)=40",
+    "angle(ABC)=80"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01095.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "equal_length"
+    ]
+  }
+}

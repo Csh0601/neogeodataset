@@ -1,0 +1,40 @@
+{
+  "id": "00471",
+  "text": "在矩形ABCD中，将AB沿BM翻折，使点A落在BC上的点N处，BM为折痕，连接MN，再将CD沿CE翻折，使点D恰好落在MN上的点F处，CE为折痕，连接EF并延长交BM于点P，AD=8，AB=5，线段PE的长等于20/3",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "rectangle(A, B, C, D)",
+    "segment(BM)",
+    "segment(MN)",
+    "segment(CE)",
+    "segment(EF)",
+    "on(M, AD)",
+    "on(N, BC)",
+    "on(E, AD)",
+    "on(F, MN)",
+    "intersection(P, EF_extended, BM)",
+    "reflect(N, A, BM)",
+    "reflect(F, D, CE)",
+    "length(AD)=8",
+    "length(AB)=5",
+    "length(PE)=6.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00471.png",
+  "meta": {
+    "source": "矩形双重折叠",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "reflect"
+    ]
+  }
+}

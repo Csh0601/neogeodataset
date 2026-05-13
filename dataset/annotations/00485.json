@@ -1,0 +1,31 @@
+{
+  "id": "00485",
+  "text": "在△ABC中，AB=AC，点P在BC上，作△PCD使△PCD∽△ABP，∠APC=2∠ABC，PD∥AB",
+  "dsl": [
+    "point(P)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "triangle(A, B, P)",
+    "triangle(P, C, D)",
+    "segment(PD)",
+    "on(P, BC)",
+    "on(D, AC)",
+    "equal(AB, AC)",
+    "similar(PCD, ABP)",
+    "parallel(PD, AB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00485.png",
+  "meta": {
+    "source": "等腰三角形与相似",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "similar",
+      "parallel"
+    ]
+  }
+}

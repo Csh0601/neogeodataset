@@ -1,0 +1,37 @@
+{
+  "id": "00324",
+  "text": "在平面直角坐标系中，O为坐标原点，点A、B在函数y=8/x（x>0）的图象上（点B的横坐标大于点A的横坐标），点A的坐标为(2,4)，点B的坐标为(4,2),过点A作AD⊥x轴于点D，过点B作BC⊥x轴于点C，连接OA、AB，D为OC中点,连接AD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "point(C)",
+    "point_coord(A, 2, 4)",
+    "point_coord(B, 4, 2)",
+    "hyperbola(h, 8)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(AB)",
+    "segment(OA)",
+    "midpoint(D, OC)",
+    "function_point(A, h)",
+    "function_point(B, h)",
+    "perpendicular(BC, axis_x)",
+    "perpendicular(AD, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00324.png",
+  "meta": {
+    "source": "反比例函数与坐标系",
+    "difficulty": "hard",
+    "tags": [
+      "hyperbola",
+      "coordinate_system",
+      "midpoint"
+    ]
+  }
+}

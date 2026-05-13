@@ -1,0 +1,33 @@
+{
+  "id": "01269",
+  "text": "O是△ABC的外心，连接OB，∠OBA=17°，∠C=73°",
+  "dsl": [
+    "point(O)",
+    "triangle(A, B, C)",
+    "segment(OB)",
+    "circumcircle(O, A, B, C)",
+    "angle(OBA)=17",
+    "angle(ACB)=73"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01269.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "circumcenter",
+      "angle"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "O是外心即circumcircle(O,A,B,C)",
+      "∠OBA=17°，由外心性质计算∠C=73°"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

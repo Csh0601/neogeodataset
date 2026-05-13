@@ -1,0 +1,35 @@
+{
+  "id": "01321",
+  "text": "在平面直角坐标系中，线段CD的长为2，点D在点C右侧，CD在x轴上，点A的坐标为(0,2)，点B的坐标为(0,4)，连接AC、BD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 0, 2)",
+    "point_coord(B, 0, 4)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(C, axis_x)",
+    "on(D, axis_x)",
+    "length(CD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01321.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "point_coord",
+      "segment"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "坐标系中A(0,2)和B(0,4)在y轴上，CD是x轴上长为2的线段，D在C右侧"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

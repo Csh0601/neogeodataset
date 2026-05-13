@@ -1,0 +1,37 @@
+{
+  "id": "01203",
+  "text": "在平面直角坐标系中，直线y=-3/4x+6与x轴、y轴分别相交于点A和点B，A(8,0)，B(0,6)，点C在线段AO上，将△ABO沿BC折叠后，点O恰好落在AB边上点D处",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 8, 0)",
+    "point_coord(B, 0, 6)",
+    "line_function(l, -3/4, 6)",
+    "triangle(A, B, O)",
+    "axis_intersection(A, l, x)",
+    "axis_intersection(B, l, y)",
+    "on(C, AO)",
+    "on(D, AB)",
+    "fold(O, D, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01203.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "line_function",
+      "fold",
+      "triangle"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "折叠问题，O沿BC折叠落在AB上的D处"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "01253",
+  "text": "直角三角形ABC中，∠ABC=90°，AB=3，BC=4，直角三角形MPN中，∠MPN=90°，点P在AC上，PM交AB于点E，PN交BC于点F，PE=2PF",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(M, P, N)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(PM)",
+    "segment(PN)",
+    "segment(PE)",
+    "segment(PF)",
+    "on(P, AC)",
+    "intersection(E, PM, AB)",
+    "intersection(F, PN, BC)",
+    "angle(ABC)=90",
+    "angle(MPN)=90",
+    "length(AB)=3",
+    "length(BC)=4",
+    "ratio(PE, PF)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01253.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["right_triangle", "intersection", "ratio"],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "两个直角三角形嵌套，P在AC上滑动",
+      "PE=2PF是给定条件"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

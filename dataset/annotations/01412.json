@@ -1,0 +1,39 @@
+{
+  "id": "01412",
+  "text": "在△ABC中，AD是BC边上的中线，F是AD边上一点，射线CF交AB于点E，AE/EB=1/6",
+  "dsl": [
+    "point(D)",
+    "point(F)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(CF)",
+    "midpoint(D, BC)",
+    "on(F, AD)",
+    "on(E, AB)",
+    "intersection(E, CF_extended, AB)",
+    "ratio(AE, EB)=1/6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01412.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "median",
+      "cevian",
+      "ratio"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "A在顶部，B在左下，C在右下，D是BC中点",
+      "F在AD上，射线CF交AB于E"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

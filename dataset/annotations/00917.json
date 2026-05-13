@@ -1,0 +1,26 @@
+{
+  "id": "00917",
+  "text": "边长为4的正方形ABCD，内切圆记为⊙O，P为⊙O上一点，连接PA、PB",
+  "dsl": [
+    "point(P)",
+    "square(A, B, C, D)",
+    "circle(O, r=2)",
+    "segment(PA)",
+    "segment(PB)",
+    "on(P, circle_O)",
+    "length(AB)=4"
+  ],
+  "image_path": "images/00917.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "正方形内切圆上动点",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "circle"
+    ]
+  }
+}

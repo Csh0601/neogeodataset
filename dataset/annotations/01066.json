@@ -1,0 +1,36 @@
+{
+  "id": "01066",
+  "text": "∠AOD=160°，OB、OC、OM、ON是∠AOD内的射线，OM平分∠AOB，ON平分∠BOD，∠MON=80°",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point(N)",
+    "point(D)",
+    "ray(O, A)",
+    "ray(O, B)",
+    "ray(O, C)",
+    "ray(O, D)",
+    "ray(O, M)",
+    "ray(O, N)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(OD)",
+    "segment(OM)",
+    "angle(AOD)=160",
+    "angle(MON)=80"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01066.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["angle", "bisector", "ray"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "01224",
+  "text": "△ABC和△ADE是以点A为直角顶点的等腰直角三角形，把△ADE以A为中心顺时针旋转，点M为射线BD、CE的交点，AB=√3，AD=1，BD=CE，BD⊥CE",
+  "dsl": [
+    "segment(BD)",
+    "segment(CE)",
+    "intersection(M, BD, CE)",
+    "isosceles_right(A, B, C)",
+    "isosceles_right(A, D, E)",
+    "length(AB)=1.732",
+    "length(AD)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01224.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right",
+      "rotation",
+      "perpendicular",
+      "congruent"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "AB=√3≈1.732，AD=1，旋转后BD=CE且BD⊥CE"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

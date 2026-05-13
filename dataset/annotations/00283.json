@@ -1,0 +1,40 @@
+{
+  "id": "00283",
+  "text": "在平面直角坐标系中，正比例函数y=-x与反比例函数y=-9/x的图象交于A、C两点，过点A作AB⊥x轴于点B，过点C作CD⊥x轴于点D，连接AD、AC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(C)",
+    "point(B)",
+    "point(D)",
+    "point_coord(C, 3, -3)",
+    "point_coord(A, -3, 3)",
+    "point_coord(B, -3, 0)",
+    "point_coord(D, 3, 0)",
+    "line_function(l, -1, 0)",
+    "hyperbola(h, -9)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AC)",
+    "segment(AD)",
+    "function_intersection(A, l, h)",
+    "function_intersection(C, l, h)",
+    "perpendicular(AB, axis_x)",
+    "perpendicular(CD, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00283.png",
+  "meta": {
+    "source": "正比例与反比例函数交点",
+    "difficulty": "middle",
+    "tags": [
+      "line_function",
+      "hyperbola",
+      "coordinate",
+      "area"
+    ]
+  }
+}

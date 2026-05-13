@@ -1,0 +1,34 @@
+{
+  "id": "01201",
+  "text": "在平面直角坐标系中，A(4,0)，B(0,3)，以AB为一边在△AOB外部作等腰直角△ABC，∠ACB=90°，点C的坐标为(7/2,7/2)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 0, 3)",
+    "point_coord(C, 7/2, 7/2)",
+    "triangle(A, O, B)",
+    "segment(AB)",
+    "isosceles_right(A, C, B)",
+    "outside(C, triangle_AOB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01201.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "isosceles_right",
+      "triangle"
+    ],
+    "annotated_by": "agent-1",
+    "supplements": [
+      "补充了C(7/2,7/2)的计算结果"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

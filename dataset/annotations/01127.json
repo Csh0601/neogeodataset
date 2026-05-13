@@ -1,0 +1,32 @@
+{
+  "id": "01127",
+  "text": "在矩形ABCD中，AB=2，BC=6，点E、F分别在BC、CD上，AE=√5，∠EAF=45°，连接AF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(EF)",
+    "on(E, BC)",
+    "on(F, CD)",
+    "angle(EAF)=45",
+    "length(AB)=2",
+    "length(BC)=6",
+    "length(AE)=2.236"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01127.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["rectangle", "angle", "length"]
+  }
+}

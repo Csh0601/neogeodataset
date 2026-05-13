@@ -1,0 +1,31 @@
+{
+  "id": "00458",
+  "text": "在菱形OABC中，OB是对角线，OA=OB=2，⊙O与边AB相切于点D，图中阴影部分的面积为2√3-π",
+  "dsl": [
+    "point(D)",
+    "parallelogram(O, A, B, C)",
+    "circle(O)",
+    "segment(OB)",
+    "on(D, AB)",
+    "tangent(D, circle_O)",
+    "equal(OA, AB)",
+    "length(OA)=2",
+    "length(OB)=2",
+    "shaded(triangle_OAB)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00458.png",
+  "meta": {
+    "source": "菱形与内切圆",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "circle",
+      "tangent",
+      "area"
+    ]
+  }
+}

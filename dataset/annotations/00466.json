@@ -1,0 +1,33 @@
+{
+  "id": "00466",
+  "text": "在矩形ABCD中，AB=5，AD=12，点P在对角线BD上，且BP=BA，连接AP并延长，交DC的延长线于点Q，连接BQ，BQ的长为3√17",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "rectangle(A, B, C, D)",
+    "segment(BD)",
+    "segment(AP)",
+    "segment(BQ)",
+    "on(P, BD)",
+    "on(Q, DC_extended)",
+    "equal(BP, BA)",
+    "collinear(A, P, Q)",
+    "length(AB)=5",
+    "length(AD)=12",
+    "length(BQ)=12.369"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00466.png",
+  "meta": {
+    "source": "矩形对角线与延长线",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "diagonal",
+      "collinear"
+    ]
+  }
+}

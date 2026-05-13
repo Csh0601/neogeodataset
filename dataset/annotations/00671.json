@@ -1,0 +1,34 @@
+{
+  "id": "00671",
+  "text": "在平面直角坐标系中，一次函数y=2x-2的图象分别交x、y轴于点A、B，直线BC与x轴正半轴交于点C，∠ABC=45°",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, 0, -2)",
+    "line_function(l, 2, -2)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(C, axis_x)",
+    "on(A, line_l)",
+    "on(B, line_l)",
+    "angle(ABC)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00671.png",
+  "meta": {
+    "source": "一次函数与角度",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "angle"
+    ]
+  }
+}

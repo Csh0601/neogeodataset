@@ -1,0 +1,31 @@
+{
+  "id": "01233",
+  "text": "在△ABC中，∠CAB=55°，∠ABC=25°，将△ABC绕A点逆时针旋转70°得到△ADE，连接EC",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(EC)",
+    "rotate(D, source=B, center=A, angle=70)",
+    "rotate(E, source=C, center=A, angle=70)",
+    "angle(CAB)=55",
+    "angle(ABC)=25"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01233.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "rotation",
+      "triangle",
+      "angle"
+    ],
+    "annotated_by": "agent-2",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

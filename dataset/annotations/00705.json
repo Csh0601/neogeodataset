@@ -1,0 +1,41 @@
+{
+  "id": "00705",
+  "text": "在平面直角坐标系xOy中，抛物线y=1/2·x²-3/2·x-2与x轴交于A(-1,0)和B(4,0)两点，与y轴交于点C(0,-2)，点D为第四象限抛物线上一点，连接AD与BC交于点E",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 4, 0)",
+    "point_coord(C, 0, -2)",
+    "parabola(p, 0.5, -1.5, -2)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(AC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)",
+    "on(D, parabola_p)",
+    "intersection(E, AD, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00705.png",
+  "meta": {
+    "source": "抛物线上动点与线段交点比",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "intersection"
+    ]
+  }
+}

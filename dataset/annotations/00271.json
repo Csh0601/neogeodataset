@@ -1,0 +1,32 @@
+{
+  "id": "00271",
+  "text": "线段AB、CD、AE的长度均为5，AB∥CD，AB⊥AE，连接CA，∠CAE=42°，∠ACD=132°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AE)",
+    "segment(AC)",
+    "parallel(AB, CD)",
+    "perpendicular(AB, AE)",
+    "angle(CAE)=42",
+    "angle(ACD)=132",
+    "length(AB)=5",
+    "length(CD)=5",
+    "length(AE)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00271.png",
+  "meta": {
+    "source": "平行线与垂直",
+    "difficulty": "easy",
+    "tags": ["parallel", "perpendicular", "angle"]
+  }
+}

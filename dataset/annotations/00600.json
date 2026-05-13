@@ -1,0 +1,37 @@
+{
+  "id": "00600",
+  "text": "四边形ABCD各边中点分别是E、F、G、H，对角线AC=24，BD=18",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(HE)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, CD)",
+    "midpoint(H, DA)",
+    "length(AC)=24",
+    "length(BD)=18"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00600.png",
+  "meta": {
+    "source": "四边形中点四边形",
+    "difficulty": "easy",
+    "tags": [
+      "quadrilateral",
+      "midpoint",
+      "diagonal"
+    ]
+  }
+}

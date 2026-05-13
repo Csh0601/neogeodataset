@@ -1,0 +1,30 @@
+{
+  "id": "01169",
+  "text": "在Rt△ABC中，∠C=90°，AD是∠BAC的平分线，点E是AB上任意一点，CD=5",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(CD)",
+    "segment(DE)",
+    "on(D, BC)",
+    "on(E, AB)",
+    "bisect_angle(BAC, AD)",
+    "angle(ACB)=90",
+    "length(CD)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01169.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["right_triangle", "angle_bisector"]
+  }
+}

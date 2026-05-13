@@ -1,0 +1,32 @@
+{
+  "id": "01249",
+  "text": "正方形ABCD的对角线AC与BD相交于点O，E、F分别是AB、BC上的点，连接EF，AE=4，CF=3，OE⊥OF",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(OE)",
+    "segment(OF)",
+    "intersection(O, AC, BD)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "perpendicular(OE, OF)",
+    "length(AE)=4",
+    "length(CF)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01249.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": ["square", "diagonal", "perpendicular"],
+    "annotated_by": "annotator-1",
+    "supplements": ["正方形对角线交于O，E在AB上，F在BC上，OE⊥OF"]
+  },
+  "validated": true,
+  "needs_review": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "00939",
+  "text": "在梯形ABCD中，AD∥BC，∠DBC=30°，DB=12√3，AC=2√43，EF为梯形的中位线",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "trapezoid(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "midpoint(E, AB)",
+    "midpoint(F, CD)",
+    "parallel(AD, BC)",
+    "angle(DBC)=30",
+    "length(DB)=20.7846",
+    "length(AC)=13.1149"
+  ],
+  "image_path": "images/00939.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "梯形中位线与对角线",
+    "difficulty": "hard",
+    "tags": ["trapezoid", "midpoint", "angle"]
+  }
+}

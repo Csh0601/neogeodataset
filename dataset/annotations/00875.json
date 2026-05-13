@@ -1,0 +1,25 @@
+{
+  "id": "00875",
+  "text": "在平面直角坐标系中，矩形AOBC的顶点A的坐标为(-2,1)，点C的纵坐标为4，B在第一象限，点O为原点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -2, 1)",
+    "point_coord(B, 1.5, 3)",
+    "point_coord(C, -0.5, 4)",
+    "rectangle(A, O, B, C)"
+  ],
+  "image_path": "images/00875.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系中的矩形",
+    "difficulty": "easy",
+    "tags": [
+      "coordinate",
+      "rectangle"
+    ]
+  }
+}

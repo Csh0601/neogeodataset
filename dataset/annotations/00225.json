@@ -1,0 +1,38 @@
+{
+  "id": "00225",
+  "text": "在矩形ABCD中，AB=9，BC=5，E在CD上且CE为CD的三等分段中靠近C的点，F为AB的中点，连接EF，延长DB至H使BH=0.25·DB，连接FH，点G在EF的延长线上，FG=0.5·EF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "rectangle(A, B, C, D)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(FH)",
+    "trisection(E, CD, near=C)",
+    "midpoint(F, AB)",
+    "collinear(C, E, D)",
+    "ratio(BH, DB)=0.25",
+    "ratio(FG, EF)=0.5",
+    "length(AB)=9",
+    "length(BC)=5",
+    "length(CE)=3",
+    "on_extended(G, EF,towards=F)",
+    "on_extended(H, DB,towards=B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00225.png",
+  "meta": {
+    "source": "光的折射与平行线",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "angle",
+      "refraction"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "00787",
+  "text": "在矩形ABCD中，AB=3，BC=4，点P在BC边上，连接AP，作点B关于AP的对称点M，连接MC",
+  "dsl": [
+    "point(P)",
+    "point(M)",
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AP)",
+    "segment(MC)",
+    "segment(BP)",
+    "on(P, BC)",
+    "reflect(M, B, AP)",
+    "length(AB)=3",
+    "length(BC)=4"
+  ],
+  "image_path": "images/00787.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "reflect",
+      "minimum"
+    ]
+  }
+}

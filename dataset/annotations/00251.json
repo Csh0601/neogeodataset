@@ -1,0 +1,33 @@
+{
+  "id": "00251",
+  "text": "平行四边形ABCD中，AB=30，AD=20，∠DAB=120°，线段BE⊥AB，且BE=50，∠CBE=20°，连接AE，AE与BC交于点F，连接FD",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(BE)",
+    "segment(AE)",
+    "segment(FD)",
+    "intersection(F, AE, BC)",
+    "perpendicular(BE, AB)",
+    "length(AB)=30",
+    "length(AD)=20",
+    "angle(DAB)=120",
+    "length(BE)=50",
+    "angle(CBE)=20"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00251.png",
+  "meta": {
+    "source": "平行四边形视觉应用",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "perpendicular",
+      "application"
+    ]
+  }
+}

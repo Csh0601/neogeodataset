@@ -1,0 +1,39 @@
+{
+  "id": "00284",
+  "text": "在平面直角坐标系中，AO=10,B坐标为（10,0），A在第一象限，∠AOB=60°，在∠AOB内有一点P(4,3)，M、N分别是OA、OB边上靠近O的三等分点和中点，连接PM、PN、MN",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "point(M)",
+    "point(N)",
+    "point_coord(P, 4, 3)",
+    "point_coord(B, 10, 0)",
+    "segment(PM)",
+    "segment(PN)",
+    "segment(MN)",
+    "segment(OA)",
+    "segment(OB)",
+    "trisection(M, OA, near=O)",
+    "midpoint(N, OB)",
+    "angle(AOB)=60",
+    "length(OA)=10",
+    "length(OB)=10"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00284.png",
+  "meta": {
+    "source": "角内动点最短路径",
+    "difficulty": "hard",
+    "tags": [
+      "angle",
+      "coordinate",
+      "minimum_path",
+      "reflection"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "00517",
+  "text": "含30°角的直角三角形ABC与直线DE放置，∠CDE=50°，∠BCD=100°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "right_triangle(A, B, C, right_at=C)",
+    "line(l1, D, E)",
+    "angle(ABC)=30",
+    "angle(CDE)=50",
+    "angle(BCD)=100"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00517.png",
+  "meta": {
+    "source": "三角板与直尺角度",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "angle",
+      "ruler"
+    ]
+  }
+}

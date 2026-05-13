@@ -1,0 +1,41 @@
+{
+  "id": "01157",
+  "text": "在△ABC中，∠BAC=90°，AB=AC，点D和点E均在边BC上，∠DAE=45°，将△ABD绕点A顺时针旋转90°至△ACG，连接EG，△DAE≅△GAE，BD+DE=EC",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(G)",
+    "triangle(A, B, C)",
+    "triangle(A, B, D)",
+    "triangle(A, C, G)",
+    "triangle(D, A, E)",
+    "triangle(G, A, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(AG)",
+    "segment(BD)",
+    "segment(DE)",
+    "segment(EC)",
+    "segment(EG)",
+    "on(D, BC)",
+    "on(E, BC)",
+    "rotate(G, source=D, center=A, angle=90)",
+    "equal(AB, AC)",
+    "congruent(DAE, GAE)",
+    "angle(BAC)=90",
+    "angle(DAE)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01157.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["right_triangle", "isosceles", "rotation", "congruent"]
+  }
+}

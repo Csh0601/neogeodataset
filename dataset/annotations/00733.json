@@ -1,0 +1,39 @@
+{
+  "id": "00733",
+  "text": "在平面直角坐标系xOy中，直线y=1/2x-5与x轴交于点B(10,0)，与y轴交于点C(0,-5)，A在y轴正半轴上，△ABC的面积为75，D是AB的中点，M在OA上，N在OB上，连接DM、DN、BM",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "point_coord(B, 10, 0)",
+    "point_coord(C, 0, -5)",
+    "line_function(l1, 0.5, -5)",
+    "segment(AB)",
+    "segment(DM)",
+    "segment(DN)",
+    "segment(BM)",
+    "function_point(B, l1)",
+    "function_point(C, l1)",
+    "axis_intersection(B, l1, x)",
+    "axis_intersection(C, l1, y)",
+    "on(A, axis_y)",
+    "midpoint(D, AB)",
+    "on(M, OA)",
+    "on(N, OB)"
+  ],
+  "image_path": "images/00733.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "line", "midpoint", "area"]
+  }
+}

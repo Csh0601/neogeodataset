@@ -1,0 +1,35 @@
+{
+  "id": "00744",
+  "text": "在平面直角坐标系xOy中，点C(1,0)，直线y=-x+7与x轴交于点B(7,0)，与y轴交于点A(0,7)，D是AB上一点，E是OA上一点，连接CD、DE",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(C, 1, 0)",
+    "point_coord(A, 0, 7)",
+    "point_coord(B, 7, 0)",
+    "line_function(l1, -1, 7)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(DE)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "axis_intersection(A, l1, y)",
+    "axis_intersection(B, l1, x)",
+    "on(D, AB)",
+    "on(E, OA)"
+  ],
+  "image_path": "images/00744.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "line", "perimeter"]
+  }
+}

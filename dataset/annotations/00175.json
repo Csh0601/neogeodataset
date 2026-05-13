@@ -1,0 +1,34 @@
+{
+  "id": "00175",
+  "text": "在平面直角坐标系中，点A是反比例函数y=3/x图象上一点，坐标（3,1），过点A分别作x轴、y轴的垂线，垂足为B、C",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "coordinate_system(O)",
+    "point_coord(A, 3, 1)",
+    "hyperbola(h, 3)",
+    "segment(AB)",
+    "segment(AC)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, h)",
+    "perpendicular(AB, axis_x)",
+    "perpendicular(AC, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00175.png",
+  "meta": {
+    "source": "反比例函数与面积",
+    "difficulty": "easy",
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "area",
+      "rectangle"
+    ]
+  }
+}

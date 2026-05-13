@@ -1,0 +1,34 @@
+{
+  "id": "00641",
+  "text": "在矩形ABCD中，AB=8，BC=4，将矩形沿对角线AC折叠，点D落在D'处，AD'交BC于点F，AF=CF",
+  "dsl": [
+    "point(D_prime)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(AC)",
+    "segment(AF)",
+    "segment(CF)",
+    "segment(AD_prime)",
+    "segment(CD_prime)",
+    "on(F, AB)",
+    "intersection(F, AD_prime, BC)",
+    "fold(D, D_prime, AC)",
+    "equal(AF, CF)",
+    "length(AB)=8",
+    "length(BC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00641.png",
+  "meta": {
+    "source": "矩形沿对角线折叠",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "diagonal"
+    ]
+  }
+}

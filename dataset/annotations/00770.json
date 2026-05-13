@@ -1,0 +1,34 @@
+{
+  "id": "00770",
+  "text": "在矩形ABCD中，AB=8，BC=12，点E为BC的中点，将△ABE沿AE折叠，使点B落在矩形内点F处，连接CF，CF=18/5",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "triangle(A, B, E)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AE)",
+    "segment(CF)",
+    "segment(EF)",
+    "segment(AF)",
+    "midpoint(E, BC)",
+    "fold(B, F, AE)",
+    "length(AB)=8",
+    "length(BC)=12"
+  ],
+  "image_path": "images/00770.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

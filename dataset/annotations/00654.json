@@ -1,0 +1,38 @@
+{
+  "id": "00654",
+  "text": "在平面直角坐标系中，二次函数y=-x²+2x+3的图象交x轴于点A、B，交y轴于点C，顶点为D，AB=4，∠ABC=45°，OA:OB=1:3",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "parabola(p, -1, 2, 3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "on(A, parabola_p)",
+    "on(B, parabola_p)",
+    "on(C, parabola_p)",
+    "angle(ABC)=45",
+    "length(AB)=4",
+    "ratio(OA, OB)=0.333"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00654.png",
+  "meta": {
+    "source": "抛物线与x轴交点角度",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "angle"
+    ]
+  }
+}

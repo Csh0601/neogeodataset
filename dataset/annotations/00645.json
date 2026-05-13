@@ -1,0 +1,30 @@
+{
+  "id": "00645",
+  "text": "在平面直角坐标系xOy中，抛物线y=-x²-2x+3经过A(-3,0)、B(0,3)、C(1,0)三点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 0, 3)",
+    "point_coord(C, 1, 0)",
+    "parabola(p, -1, -2, 3)",
+    "on(A, axis_x)",
+    "on(C, axis_x)",
+    "on(B, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00645.png",
+  "meta": {
+    "source": "坐标系中抛物线过三点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola"
+    ]
+  }
+}

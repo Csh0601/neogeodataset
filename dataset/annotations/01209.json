@@ -1,0 +1,36 @@
+{
+  "id": "01209",
+  "text": "在平面直角坐标系中，抛物线y=-x²+bx+c与x轴交于A(2,0)、B(-4,0)两点，交y轴于点C(0,8)，抛物线解析式为y=-x²-2x+8",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 2, 0)",
+    "point_coord(B, -4, 0)",
+    "point_coord(C, 0, 8)",
+    "parabola(p, -1, -2, 8)",
+    "segment(AC)",
+    "segment(BC)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01209.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "parabola",
+      "axis_intersection"
+    ],
+    "annotated_by": "annotator-1",
+    "supplements": [
+      "补充了抛物线解析式y=-x²-2x+8和C点坐标(0,8)"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

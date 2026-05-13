@@ -1,0 +1,34 @@
+{
+  "id": "00537",
+  "text": "在正方形ABCD中，AB=8，AC与BD交于点O，N是AO的中点，点M在BC边上，且BM=6，P为对角线BD上一点",
+  "dsl": [
+    "point(N)",
+    "point(M)",
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(PM)",
+    "segment(PN)",
+    "on(M, BC)",
+    "on(P, BD)",
+    "midpoint(N, AO)",
+    "intersection(O, AC, BD)",
+    "length(AB)=8",
+    "length(BM)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00537.png",
+  "meta": {
+    "source": "正方形对角线与中点",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "diagonal",
+      "midpoint"
+    ]
+  }
+}

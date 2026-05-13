@@ -1,0 +1,44 @@
+{
+  "id": "00274",
+  "text": "半径为3的⊙O中，OM是半径，过点M作⊙O的切线AB，∠OMA=∠OMB=90°，且MA=MB=5，OA、OB分别交⊙O于点C、D，AC=BD",
+  "dsl": [
+    "point(M)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O, r=3)",
+    "segment(OM)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(MA)",
+    "segment(MB)",
+    "on(M, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "intersection(C, OA, circle_O)",
+    "intersection(D, OB, circle_O)",
+    "tangent(AB, circle_O)",
+    "equal(MA, MB)",
+    "equal(AC, BD)",
+    "angle(OMA)=90",
+    "angle(OMB)=90",
+    "length(MA)=5",
+    "length(MB)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00274.png",
+  "meta": {
+    "source": "圆的切线与半径",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "radius"
+    ]
+  }
+}

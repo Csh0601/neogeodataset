@@ -1,0 +1,37 @@
+{
+  "id": "01393",
+  "text": "在Rt△ABC中，∠ACB=90，AC=BC=5，正方形DEFG的边长为√5，顶点D、E、G分别在△ABC的边上",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "square(D, E, F, G)",
+    "segment(BG)",
+    "on(D, AC)",
+    "on(E, CB)",
+    "on(G, AB)",
+    "right_triangle(A, C, B, right_at=C)",
+    "equal(AC, BC)",
+    "length(AC)=5",
+    "length(DE)=√5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01393.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "square",
+      "inscribed"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

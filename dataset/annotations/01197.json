@@ -1,0 +1,39 @@
+{
+  "id": "01197",
+  "text": "在平面直角坐标系中，点A在反比例函数y=2k/x第一象限内图象上，点B在反比例函数y=k/x第三象限内图象上，AC⊥y轴于点C，BD⊥y轴于点D，AC=BD=k/3，AB、CD交于点E，BO=CE，k=6",
+  "dsl": [
+    "point(C)",
+    "point(D)",
+    "coordinate_system(O)",
+    "hyperbola(h1, 12)",
+    "hyperbola(h2, 6)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(OB)",
+    "segment(CE)",
+    "function_point(A, h1)",
+    "function_point(B, h2)",
+    "on(C, axis_y)",
+    "on(D, axis_y)",
+    "intersection(E, AB, CD)",
+    "perpendicular(AC, axis_y)",
+    "perpendicular(BD, axis_y)",
+    "equal(AC, BD)",
+    "equal(OB, CE)",
+    "length(AC)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01197.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["coordinate_system", "hyperbola", "perpendicular", "intersection"],
+    "annotated_by": "agent-1",
+    "supplements": ["补充了k=6的计算结果，AC=BD=k/3=2"]
+  },
+  "validated": true,
+  "needs_review": false
+}

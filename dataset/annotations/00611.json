@@ -1,0 +1,26 @@
+{
+  "id": "00611",
+  "text": "直线AB和直线CD交于点O，∠AOC=38°，∠COB=38°",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "line(l1, A, B)",
+    "line(l2, C, D)",
+    "intersection(O, l1, l2)",
+    "angle(AOC)=38",
+    "angle(COB)=38"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00611.png",
+  "meta": {
+    "source": "对顶角",
+    "difficulty": "easy",
+    "tags": ["angle", "intersection"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "01235",
+  "text": "在△ABC和△AED中，AB=AE，∠BAE=∠CAD，AC=AD，连接BC、BE、CD、DE，△ABC≌△AED",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(A, E, D)",
+    "segment(BE)",
+    "segment(CD)",
+    "equal(AB, AE)",
+    "equal(AC, AD)",
+    "equal_angle(BAE, CAD)",
+    "congruent(ABC, AED)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01235.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "congruent",
+      "triangle"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "从证明结论补充了全等关系 △ABC≌△AED(SAS)"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

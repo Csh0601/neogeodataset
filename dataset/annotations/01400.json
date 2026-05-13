@@ -1,0 +1,42 @@
+{
+  "id": "01400",
+  "text": "△ABC内接于⊙O，AB为⊙O的直径，D为⊙O上一点位于AB下方，CD交AB于点E，∠BDC=45，BC=6√2，CE=2DE",
+  "dsl": [
+    "point(E)",
+    "point(D)",
+    "circle(O)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(DE)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "midpoint(O, AB)",
+    "intersection(E, CD, AB)",
+    "angle(BDC)=45",
+    "length(BC)=6√2",
+    "ratio(CE, DE)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01400.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "inscribed_angle",
+      "intersection"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

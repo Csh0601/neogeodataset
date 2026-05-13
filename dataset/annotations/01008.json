@@ -1,0 +1,44 @@
+{
+  "id": "01008",
+  "text": "在正方形ABCD中，AB=6，点E在边CD上，CE=2DE，将△ADE沿AE折叠至△AFE，延长EF交BC于点G，连接AG，CF，△ABG≅△AFG",
+  "dsl": [
+    "square(A, B, C, D)",
+    "triangle(A, B, G)",
+    "triangle(A, F, G)",
+    "triangle(A, D, E)",
+    "triangle(A, F, E)",
+    "segment(AB)",
+    "segment(AE)",
+    "segment(AG)",
+    "segment(CF)",
+    "segment(CD)",
+    "segment(EF)",
+    "segment(BC)",
+    "segment(BG)",
+    "segment(GC)",
+    "segment(DE)",
+    "segment(CE)",
+    "on(E, CD)",
+    "on(G, BC)",
+    "intersection(G, EF, BC)",
+    "fold(D, F, AE)",
+    "congruent(ABG, AFG)",
+    "ratio(CE, DE)=2",
+    "length(AB)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01008.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "fold",
+      "congruent_triangles",
+      "ratio"
+    ]
+  }
+}

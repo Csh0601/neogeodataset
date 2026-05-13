@@ -1,0 +1,41 @@
+{
+  "id": "00702",
+  "text": "在直角坐标系中，矩形OABC的顶点O在坐标原点，顶点A在x轴负半轴上，C在y轴正半轴上，B(-4,6)，D(0,4)在y轴上，线段EF在边OA上，EF=3",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, -4, 6)",
+    "point_coord(D, 0, 4)",
+    "point_coord(A, -4, 0)",
+    "point_coord(C, 0, 6)",
+    "rectangle(O, A, B, C)",
+    "segment(EF)",
+    "segment(BD)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "on(D, axis_y)",
+    "on(E, OA)",
+    "on(F, OA)",
+    "length(EF)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00702.png",
+  "meta": {
+    "source": "矩形上线段移动最小周长",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "rectangle",
+      "segment"
+    ]
+  }
+}

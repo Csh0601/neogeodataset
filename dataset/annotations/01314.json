@@ -1,0 +1,35 @@
+{
+  "id": "01314",
+  "text": "在平面直角坐标系中，点P的坐标为(4,5)，点Q的坐标为(0,2)，等腰直角三角形ABC的直角顶点A在x轴上，腰长为2，B在x轴上，C在A的上方，连接AQ、PC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(P, 4, 5)",
+    "point_coord(Q, 0, 2)",
+    "segment(AQ)",
+    "segment(PC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "isosceles_right(A, B, C)",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01314.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "isosceles_right_triangle",
+      "point_coord"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "与01313相同图片内容"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "00928",
+  "text": "在正方形ABCD中，边长为4，M是CD的中点，点P是BC上一点，连接DP、PM",
+  "dsl": [
+    "point(M)",
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(DP)",
+    "segment(PM)",
+    "midpoint(M, CD)",
+    "on(P, BC)",
+    "length(AB)=4"
+  ],
+  "image_path": "images/00928.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "正方形中点与动点角度最值",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "midpoint",
+      "angle"
+    ]
+  }
+}

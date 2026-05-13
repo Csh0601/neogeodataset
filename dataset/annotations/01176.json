@@ -1,0 +1,28 @@
+{
+  "id": "01176",
+  "text": "在三角形ABC中，∠ACB=90°，AC=3，BC=4，P为AB上一点，CP⊥AB，PC=12/5",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(PC)",
+    "on(P, AB)",
+    "foot(P, C, AB)",
+    "angle(ACB)=90",
+    "length(AC)=3",
+    "length(BC)=4",
+    "length(PC)=2.4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01176.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "easy",
+    "tags": ["right_triangle", "foot", "minimum_distance"]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "00739",
+  "text": "菱形ABCD的对角线AC、BD相交于点O，E是AD的中点，F和G在AB上，EF⊥AB，OG平行于EF，四边形OEFG是矩形，AD=10，EF=4",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "rectangle(O, E, F, G)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(OG)",
+    "segment(OE)",
+    "segment(FG)",
+    "intersection(O, AC, BD)",
+    "midpoint(E, AD)",
+    "on(F, AB)",
+    "on(G, AB)",
+    "perpendicular(EF, AB)",
+    "parallel(OG, EF)",
+    "equal(AB, BC)",
+    "length(AD)=10",
+    "length(EF)=4"
+  ],
+  "image_path": "images/00739.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "midpoint",
+      "perpendicular",
+      "parallel",
+      "rectangle"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "01403",
+  "text": "在平面直角坐标系中，抛物线y=ax²+bx+5与x轴交于A、B两点，与y轴交于点C，AB=4，抛物线的对称轴x=3，经过点A的直线y=kx-1与抛物线交于点D，与x轴交于点E，以B为圆心、半径为2的⊙B上有点P",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(P)",
+    "parabola(p, 1, -6, 5)",
+    "line_function(l, 4, -1)",
+    "circle(B, r=2)",
+    "segment(AB)",
+    "segment(AD)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)",
+    "function_intersection(D, l, p)",
+    "axis_intersection(E, l, x)",
+    "on(P, circle_B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01403.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate_system",
+      "parabola",
+      "circle",
+      "line_function"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "计算出抛物线为y=x²-6x+5，直线为y=4x-1"
+    ]
+  },
+  "validated": true,
+  "needs_review": true
+}

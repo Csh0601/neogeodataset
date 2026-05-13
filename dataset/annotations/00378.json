@@ -1,0 +1,42 @@
+{
+  "id": "00378",
+  "text": "点O在四边形ABCD的边AB上，且OA=OB=OC=OD=2，∠AOD=120°，OC平分∠BOD，与BD交于点G，AC分别与BD、OD交于点E、F",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "quadrilateral(A, B, C, D)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "segment(OD)",
+    "segment(AC)",
+    "segment(BD)",
+    "on(O, AB)",
+    "on(G, OC)",
+    "intersection(G, OC, BD)",
+    "intersection(E, AC, BD)",
+    "intersection(F, AC, OD)",
+    "angle_bisector(G, B, O, D)",
+    "equal(OA, OB)",
+    "equal(OB, OC)",
+    "equal(OC, OD)",
+    "length(OA)=2",
+    "angle(AOD)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00378.png",
+  "meta": {
+    "source": "四边形等距点与角平分线",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "equal_distance",
+      "angle_bisector"
+    ]
+  }
+}

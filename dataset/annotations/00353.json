@@ -1,0 +1,30 @@
+{
+  "id": "00353",
+  "text": "存在三角形ACE和三角形BCD，AC⊥BC，DC⊥EC，AC=BC=4，DC=EC=5，AE与BD交于点F，AE=BD，∠AFD=90°",
+  "dsl": [
+    "triangle(A, C, E)",
+    "triangle(B, C, D)",
+    "perpendicular(AC, BC)",
+    "perpendicular(DC, EC)",
+    "equal(AC, BC)",
+    "equal(DC, EC)",
+    "equal(AE, BD)",
+    "angle(AFD)=90",
+    "length(AC)=4",
+    "length(DC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00353.png",
+  "meta": {
+    "source": "垂直等腰三角形交点",
+    "difficulty": "middle",
+    "tags": [
+      "perpendicular",
+      "equal",
+      "intersection"
+    ]
+  }
+}

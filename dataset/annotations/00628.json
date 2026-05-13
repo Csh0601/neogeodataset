@@ -1,0 +1,27 @@
+{
+  "id": "00628",
+  "text": "在△ABC中，点D、E分别是AB、AC的中点，DE∥BC",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(DE)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "parallel(DE, BC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00628.png",
+  "meta": {
+    "source": "三角形中位线面积",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "area"
+    ]
+  }
+}

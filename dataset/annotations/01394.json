@@ -1,0 +1,30 @@
+{
+  "id": "01394",
+  "text": "在平面直角坐标系中，A(2,0)，B(0,1)，AC由AB绕点A顺时针旋转90而得",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 2, 0)",
+    "point_coord(B, 0, 1)",
+    "point(C)",
+    "segment(AB)",
+    "segment(AC)",
+    "rotate(C, source=B, center=A, angle=-90)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01394.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "rotation"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

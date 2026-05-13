@@ -1,0 +1,41 @@
+{
+  "id": "01365",
+  "text": "在△ABC中，M在AB上，N在BC上，将△BMN沿MN折叠，使点B落在点B_prime处，∠B=35°，∠BNM=28°，∠AMB_prime=63°",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(B_prime)",
+    "triangle(A, B, C)",
+    "triangle(B, M, N)",
+    "segment(MN)",
+    "segment(MB_prime)",
+    "segment(NB_prime)",
+    "segment(AM)",
+    "on(M, AB)",
+    "on(N, BC)",
+    "fold(B, B_prime, MN)",
+    "angle(ABC)=35",
+    "angle(BNM)=28",
+    "angle(AMB_prime)=63"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01365.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "fold",
+      "angle"
+    ],
+    "annotated_by": "annotator-4",
+    "supplements": [
+      "折叠后∠MB_primeN=∠B=35°，∠MNB_prime=∠BNM=28°，∠BMN=180°-35°-28°=117°，∠AMB_prime=180°-117°=63°... 需验证：∠AMB'=360°-∠AMB-∠BMB'中的关系"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

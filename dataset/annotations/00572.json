@@ -1,0 +1,29 @@
+{
+  "id": "00572",
+  "text": "在Rt△ABC中，∠C=90°，∠ABC=60°，∠BAC=30°，AB=4，点P在直线AB上，∠PCB=30°",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "line(l1, A, B)",
+    "segment(CP)",
+    "on(P, l1)",
+    "angle(ACB)=90",
+    "angle(ABC)=60",
+    "angle(BAC)=30",
+    "length(AB)=4",
+    "angle(PCB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00572.png",
+  "meta": {
+    "source": "直角三角形动点",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "angle"
+    ]
+  }
+}

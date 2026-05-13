@@ -1,0 +1,33 @@
+{
+  "id": "01054",
+  "text": "正方形ABCD与正方形AEFG共顶点A，正方形AEFG绕点A旋转，连接BG，CF，E在CD上，AE=6",
+  "dsl": [
+    "square(A, B, C, D)",
+    "square(A, E, F, G)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(AG)",
+    "segment(BG)",
+    "segment(CF)",
+    "on(E, CD)",
+    "length(AE)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01054.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "rotation"
+    ]
+  }
+}

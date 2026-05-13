@@ -1,0 +1,37 @@
+{
+  "id": "01088",
+  "text": "在四边形ABCD中，AC平分∠BAD，CE⊥AB于点E，∠B+∠D=180°，BE=3，CE=4，S△ACE=14，S△ACD=49/3",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "triangle(A, C, E)",
+    "triangle(A, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(AC)",
+    "segment(CE)",
+    "segment(BE)",
+    "on(E, AB)",
+    "foot(E, C, AB)",
+    "bisect_angle(B, A, D, AC)",
+    "perpendicular(CE, AB)",
+    "length(BE)=3",
+    "length(CE)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01088.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "angle_bisector",
+      "perpendicular",
+      "area"
+    ]
+  }
+}

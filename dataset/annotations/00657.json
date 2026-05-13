@@ -1,0 +1,33 @@
+{
+  "id": "00657",
+  "text": "在平面直角坐标系中，函数y=√3/3·x+√3的图象与x轴交于点A，与y轴交于点B，点P是x轴上一点，△PAB为等腰三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 0, 1.732)",
+    "line_function(l, 0.577, 1.732)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(P, axis_x)",
+    "on(A, line_l)",
+    "on(B, line_l)",
+    "triangle(P, A, B)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00657.png",
+  "meta": {
+    "source": "直线与等腰三角形",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "isosceles"
+    ]
+  }
+}

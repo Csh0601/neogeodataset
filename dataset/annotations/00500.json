@@ -1,0 +1,35 @@
+{
+  "id": "00500",
+  "text": "在四边形ABCD中，AC与BD相交于点O，且AO=CO，点E在BD上，满足∠EAO=∠DCO，AB=BC，CD=5，AC=8，四边形AECD的面积为24",
+  "dsl": [
+    "point(E)",
+    "quadrilateral(A, B, C, D)",
+    "quadrilateral(A, E, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(EC)",
+    "segment(ED)",
+    "on(E, BD)",
+    "intersection(O, AC, BD)",
+    "equal(AO, CO)",
+    "equal_angle(EAO, DCO)",
+    "equal(AB, BC)",
+    "length(CD)=5",
+    "length(AC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00500.png",
+  "meta": {
+    "source": "四边形等角条件",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "equal_angle",
+      "area"
+    ]
+  }
+}

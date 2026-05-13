@@ -1,0 +1,40 @@
+{
+  "id": "01413",
+  "text": "在△ABC中，D是AB边上的一点，AD=3BD，E是CD的中点，连接BE，∠ACD=∠BED=45°，CD=6√2",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(BE)",
+    "on(D, AB)",
+    "midpoint(E, CD)",
+    "ratio(AD, BD)=3",
+    "angle(ACD)=45",
+    "angle(BED)=45",
+    "length(CD)=8.485"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01413.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "midpoint",
+      "ratio",
+      "angle"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "A在左下，B在右下，C在顶部",
+      "D在AB上靠近B的位置，AD=3BD",
+      "CD=6√2≈8.485"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

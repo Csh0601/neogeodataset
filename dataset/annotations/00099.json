@@ -1,0 +1,30 @@
+{
+  "id": "00099",
+  "text": "在平面直角坐标系中，过原点的直线y=x与反比例函数y=9/x的图象交于A(3,3)和B(-3,-3)两点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point_coord(A, 3, 3)",
+    "point_coord(B, -3, -3)",
+    "hyperbola(h, 9)",
+    "line_function(l, 1, 0)",
+    "segment(AB)",
+    "function_point(A, h)",
+    "function_point(B, h)",
+    "collinear(O, A, B)"
+  ],
+  "image_path": "images/00099.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "坐标系与函数",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "hyperbola"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "00015",
+  "text": "在平面直角坐标系中，直线y=x+1与x轴、y轴分别交于点P、Q，与反比例函数y=2/x的图像交于点A(-2,-1)和点B(1,2)，连接OA、OB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(A)",
+    "point(B)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(A, -2, -1)",
+    "point_coord(B, 1, 2)",
+    "line_function(l, 1, 1)",
+    "hyperbola(h, 2)",
+    "segment(OA)",
+    "segment(OB)",
+    "axis_intersection(P, l, x)",
+    "axis_intersection(Q, l, y)",
+    "function_point(A, h)",
+    "function_point(B, h)",
+    "function_point(A, l)",
+    "function_point(B, l)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00015.png",
+  "meta": {
+    "source": "一次函数与反比例函数性质综合",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "hyperbola"
+    ],
+    "note": "A(-2,m)和B(1,n)中的m,n需要通过函数约束确定"
+  }
+}

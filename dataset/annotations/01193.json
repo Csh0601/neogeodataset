@@ -1,0 +1,32 @@
+{
+  "id": "01193",
+  "text": "在平面直角坐标系中，在△ABC中，边AB在x轴上，边AC交y轴于点E，反比例函数y=k/x(x>0)的图象恰好经过点C，与边BC交于点D，AE=CE，CD=2BD，△ABC的面积为6，k=4",
+  "dsl": [
+    "coordinate_system(O)",
+    "triangle(A, B, C)",
+    "hyperbola(h, 4)",
+    "segment(AC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "intersection(E, AC, axis_y)",
+    "on(D, BC)",
+    "function_point(C, h)",
+    "function_point(D, h)",
+    "equal(AE, CE)",
+    "ratio(CD, BD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01193.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["coordinate_system", "triangle", "hyperbola", "ratio"],
+    "annotated_by": "agent-1",
+    "supplements": ["补充了k=4的计算结果，△ABC面积=6作为已知条件"]
+  },
+  "validated": true,
+  "needs_review": false
+}

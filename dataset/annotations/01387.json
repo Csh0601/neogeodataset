@@ -1,0 +1,47 @@
+{
+  "id": "01387",
+  "text": "在△ABC中，∠BAC=45，AD⊥BC于D，将△ACD沿AC折叠为△ACF，将△ABD沿AB折叠为△ABG，延长FC和GB相交于点H，BD=6，CD=4",
+  "dsl": [
+    "point(D)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "triangle(A, B, C)",
+    "triangle(A, B, D)",
+    "triangle(A, B, G)",
+    "triangle(A, C, D)",
+    "triangle(A, C, F)",
+    "segment(AD)",
+    "segment(FC)",
+    "segment(GB)",
+    "segment(AF)",
+    "segment(AG)",
+    "foot(D, A, BC)",
+    "intersection(H, FC_extended, GB_extended)",
+    "fold(D, F, AC)",
+    "fold(D, G, AB)",
+    "perpendicular(AD, BC)",
+    "angle(BAC)=45",
+    "length(BD)=6",
+    "length(CD)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01387.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "fold",
+      "perpendicular",
+      "angle"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}

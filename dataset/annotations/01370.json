@@ -1,0 +1,42 @@
+{
+  "id": "01370",
+  "text": "在△ABC中，P是△ABC内部一点，BQ平分∠ABP，CQ平分∠ACP，∠BAC=50，∠BPC=100，∠BQC=75",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "triangle(A, B, C)",
+    "segment(BP)",
+    "segment(CP)",
+    "segment(BQ)",
+    "segment(CQ)",
+    "segment(AP)",
+    "segment(AQ)",
+    "equal_angle(ABQ, QBP)",
+    "equal_angle(ACQ, QCP)",
+    "angle(BAC)=50",
+    "angle(BPC)=100",
+    "angle(BQC)=75",
+    "inside(P, triangle_ABC)",
+    "inside(Q, triangle_ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01370.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "angle_bisector",
+      "interior_point"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "设定∠BAC=50，∠BPC=100，计算出∠BQC=75"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

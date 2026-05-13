@@ -1,0 +1,30 @@
+{
+  "id": "00842",
+  "text": "在平面直角坐标系中，抛物线y=2x²+2x-4交x轴于A、B两点(A在B的左侧)，交y轴于点C，OA=OC=2OB",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "parabola(f, 2, 2, -4)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "function_point(A, f)",
+    "function_point(B, f)",
+    "axis_intersection(A, f, x)",
+    "axis_intersection(C, f, y)",
+    "equal(OA, OC)",
+    "ratio(OA, OB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00842.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola"]
+  }
+}

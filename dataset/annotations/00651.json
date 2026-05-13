@@ -1,0 +1,32 @@
+{
+  "id": "00651",
+  "text": "AD与BF相交于点O，AB平行于DF，AB=DF，点E与点C在BF上，BE=CF，△ABC≅△DFE，O为BF的中点",
+  "dsl": [
+    "point(E)",
+    "point(O)",
+    "triangle(A, B, C)",
+    "triangle(D, F, E)",
+    "segment(AD)",
+    "segment(BF)",
+    "segment(BE)",
+    "segment(CF)",
+    "intersection(O, AD, BF)",
+    "on(E, BF)",
+    "on(C, BF)",
+    "midpoint(O, BF)",
+    "parallel(AB, DF)",
+    "congruent(ABC, DFE)",
+    "equal(AB, DF)",
+    "equal(BE, CF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00651.png",
+  "meta": {
+    "source": "全等三角形与平行线",
+    "difficulty": "middle",
+    "tags": ["congruent", "parallel", "midpoint"]
+  }
+}

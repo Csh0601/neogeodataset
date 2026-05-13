@@ -1,0 +1,32 @@
+{
+  "id": "01093",
+  "text": "在正方形ABCD中，E、F分别是AB、BC的中点，CE与DF交于点G，连接AG，CE=DF，CE⊥DF，∠AGE=∠CDF",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CE)",
+    "segment(DF)",
+    "segment(AG)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "intersection(G, CE, DF)",
+    "equal(CE, DF)",
+    "perpendicular(CE, DF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01093.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "midpoint",
+      "perpendicular",
+      "intersection"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "00836",
+  "text": "在三角形ABC中，角ABC=60度，AD、CE分别平分角BAC、角ACB，AD与CE交于点O，D在BC上，E在AB上",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(O)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(CE)",
+    "on(D, BC)",
+    "on(E, AB)",
+    "intersection(O, AD, CE)",
+    "bisector(AD, BAC)",
+    "bisector(CE, ACB)",
+    "angle(ABC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00836.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "angle_bisector"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "01163",
+  "text": "△ABD和△AEC都是等边三角形，O是对角线BE与DC的交点，∠BOC=120",
+  "dsl": [
+    "point(O)",
+    "triangle(A, B, D)",
+    "triangle(A, E, C)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(AC)",
+    "segment(EC)",
+    "segment(BE)",
+    "segment(DC)",
+    "intersection(O, BE, DC)",
+    "equilateral(A, B, D)",
+    "equilateral(A, E, C)",
+    "angle(BOC)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01163.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["equilateral", "intersection", "rotation"]
+  }
+}

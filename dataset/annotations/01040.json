@@ -1,0 +1,33 @@
+{
+  "id": "01040",
+  "text": "在正方形ABCD中，边长为4，E在边BC上，F在边CD上，BE=CF，连接BF，DE，BF与DE交于点G",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(BF)",
+    "segment(DE)",
+    "segment(BE)",
+    "segment(CF)",
+    "on(E, BC)",
+    "on(F, CD)",
+    "intersection(G, BF, DE)",
+    "equal(BE, CF)",
+    "length(AB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01040.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "rotation",
+      "optimization"
+    ]
+  }
+}

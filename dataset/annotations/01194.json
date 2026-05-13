@@ -1,0 +1,39 @@
+{
+  "id": "01194",
+  "text": "在平面直角坐标系中，菱形ABCD的对角线相交于坐标原点O，四个顶点分别在双曲线y=4/x和y=k/x(k<0)上，AC/BD=2/3，平行于x轴的直线与两双曲线分别交于点E、F，连接OE、OF，△OEF的面积为6",
+  "dsl": [
+    "coordinate_system(O)",
+    "triangle(O, E, F)",
+    "parallelogram(A, B, C, D)",
+    "hyperbola(h1, 4)",
+    "hyperbola(h2, -9)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OE)",
+    "segment(OF)",
+    "intersection(O, AC, BD)",
+    "function_point(A, h1)",
+    "function_point(C, h1)",
+    "function_point(B, h2)",
+    "function_point(D, h2)",
+    "function_point(E, h1)",
+    "function_point(F, h2)",
+    "parallel(EF, axis_x)",
+    "equal(AB, BC)",
+    "ratio(AC, BD)=2/3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01194.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": ["coordinate_system", "parallelogram", "hyperbola", "rhombus"],
+    "annotated_by": "agent-1",
+    "supplements": ["菱形=parallelogram+equal(AB,BC)，补充了k=-9和△OEF面积=6的计算结果"]
+  },
+  "validated": true,
+  "needs_review": false
+}

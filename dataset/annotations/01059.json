@@ -1,0 +1,45 @@
+{
+  "id": "01059",
+  "text": "直线AB平行于直线CD，E、F在直线AB上，G、H、M在AB与CD之间，N在直线CD上，P在直线CD下方，∠EFA=30°，∠FGH=90°，∠HMN=30°，∠CNP=40°，∠GHM=50°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(G)",
+    "point(H)",
+    "point(M)",
+    "point(P)",
+    "line(AB)",
+    "line(CD)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(HM)",
+    "segment(MN)",
+    "segment(NP)",
+    "on(E, AB)",
+    "on(F, AB)",
+    "on(N, CD)",
+    "parallel(AB, CD)",
+    "angle(EFA)=30",
+    "angle(FGH)=90",
+    "angle(HMN)=30",
+    "angle(CNP)=40",
+    "angle(GHM)=50"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01059.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "parallel_lines",
+      "angle",
+      "zigzag"
+    ]
+  }
+}

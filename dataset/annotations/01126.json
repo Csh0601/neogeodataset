@@ -1,0 +1,39 @@
+{
+  "id": "01126",
+  "text": "在等腰△ABC中，AB=AC，∠BAC=120°，AQ⊥BC于点Q，连接AQ，D、E、C三点在同一条直线上，△ABC和△ADE都是等腰三角形，∠DAE=120°，连接BD，△ADB≅△AEC",
+  "dsl": [
+    "point(Q)",
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, D, B)",
+    "triangle(A, E, C)",
+    "triangle(A, D, E)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(AE)",
+    "segment(BD)",
+    "segment(AQ)",
+    "on(Q, BC)",
+    "foot(Q, A, BC)",
+    "collinear(D, E, C)",
+    "equal(AB, AC)",
+    "equal(AD, AE)",
+    "perpendicular(AQ, BC)",
+    "congruent(ADB, AEC)",
+    "angle(BAC)=120",
+    "angle(DAE)=120"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01126.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["isosceles", "congruent", "perpendicular", "proof"]
+  }
+}

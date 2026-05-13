@@ -1,0 +1,35 @@
+{
+  "id": "00243",
+  "text": "在矩形ABCD中，AD=4，AB=8，连接BD，过BD中点O做BD的垂直平分线EF，分别交CD和AB于点E和F，以O为圆心，OE为半径做圆O，连接BE、DF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "rectangle(A, B, C, D)",
+    "circle(O, radius=OE)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(BE)",
+    "segment(DF)",
+    "midpoint(O, BD)",
+    "on(E, CD)",
+    "on(F, AB)",
+    "perpendicular_bisector(EF, BD)",
+    "length(AD)=4",
+    "length(AB)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00243.png",
+  "meta": {
+    "source": "矩形垂直平分线作图",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "perpendicular_bisector",
+      "construction"
+    ]
+  }
+}

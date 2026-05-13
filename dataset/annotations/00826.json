@@ -1,0 +1,30 @@
+{
+  "id": "00826",
+  "text": "在平面直角坐标系中，一次函数y=-2/3 x+2的图象分别与x轴、y轴交于A、B，以线段AB为边在第一象限内作等腰直角三角形ABC，角BAC=90度",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "line_function(l, -0.6667, 2)",
+    "isosceles_right(A, B, C)",
+    "segment(AC)",
+    "segment(BC)",
+    "axis_intersection(A, l, x)",
+    "axis_intersection(B, l, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00826.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "isosceles_right_triangle"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "00807",
+  "text": "边长为4的正方形ABCD外有一点E，角AEB=90度，F为DE的中点，连接CF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "square(A, B, C, D)",
+    "segment(AE)",
+    "segment(BE)",
+    "segment(DE)",
+    "segment(CF)",
+    "midpoint(F, DE)",
+    "angle(AEB)=90",
+    "length(AB)=4",
+    "outside(E, square_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00807.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["square", "right_angle", "midpoint"]
+  }
+}

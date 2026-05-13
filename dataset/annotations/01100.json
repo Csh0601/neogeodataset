@@ -1,0 +1,33 @@
+{
+  "id": "01100",
+  "text": "矩形ABCD中，AB=6，BC=8，将矩形ABCD对折，使点B和点D重合，折痕为MN，M在AD上，N在BC上",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(MN)",
+    "segment(BN)",
+    "segment(DN)",
+    "segment(BM)",
+    "segment(DM)",
+    "on(M, AD)",
+    "on(N, BC)",
+    "fold(B, D, MN)",
+    "length(AB)=6",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01100.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "symmetry"
+    ]
+  }
+}

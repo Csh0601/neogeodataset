@@ -1,0 +1,28 @@
+{
+  "id": "00155",
+  "text": "在平面直角坐标系中，二次函数y=x²+x-2的图象与x轴相交于A(-2,0)、B(1,0)两点，对称轴为x=-1/2",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "coordinate_system(O)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 1, 0)",
+    "parabola(p, 1, 1, -2)",
+    "function_point(A, p)",
+    "function_point(B, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00155.png",
+  "meta": {
+    "source": "抛物线与x轴交点",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "intersection"
+    ]
+  }
+}

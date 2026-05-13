@@ -1,0 +1,42 @@
+{
+  "id": "00804",
+  "text": "圆O的直径AB的长为10，弦BD的长为6，点C为弧AB上的一点，过点B的切线EF与圆O相切，连接AD、CD、CB，角CDB=角CBF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "circle(O, r=5)",
+    "arc(A, B, circle_O)",
+    "segment(AB)",
+    "segment(BD)",
+    "segment(AD)",
+    "segment(CD)",
+    "segment(CB)",
+    "line(EF)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "midpoint(O, AB)",
+    "on(B, EF)",
+    "tangent(EF, circle_O)",
+    "collinear(E, B, F)",
+    "equal_angle(CDB, CBF)",
+    "length(AB)=10",
+    "length(BD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00804.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "tangent",
+      "diameter",
+      "chord"
+    ]
+  }
+}

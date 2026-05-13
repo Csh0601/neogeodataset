@@ -1,0 +1,30 @@
+{
+  "id": "00598",
+  "text": "在Rt△ABC中，∠ACB=90°，DE垂直平分AB交BC于点D，E在AB上",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AC)",
+    "segment(CD)",
+    "segment(AD)",
+    "on(D, BC)",
+    "on(E, AB)",
+    "midpoint(E, AB)",
+    "perpendicular(DE, AB)",
+    "angle(ACB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00598.png",
+  "meta": {
+    "source": "直角三角形垂直平分线",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "perpendicular_bisector"
+    ]
+  }
+}

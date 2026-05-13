@@ -1,0 +1,34 @@
+{
+  "id": "00434",
+  "text": "在等腰直角三角形ABC中，∠C=90°，AC=√2，以点C为圆心画弧与斜边AB相切于点D，交AC于点E，交BC于点F，图中阴影部分的面积是1-π/4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "isosceles_right(C, A, B)",
+    "circle(C, radius=CD)",
+    "on(D, AB)",
+    "on(E, AC)",
+    "on(E, circle_C)",
+    "on(F, BC)",
+    "on(F, circle_C)",
+    "tangent(D, circle_C)",
+    "length(AC)=1.414",
+    "shaded(sector_EDF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00434.png",
+  "meta": {
+    "source": "等腰直角三角形与切圆",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles_right_triangle",
+      "circle",
+      "tangent",
+      "area"
+    ]
+  }
+}

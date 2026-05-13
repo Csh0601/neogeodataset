@@ -1,0 +1,37 @@
+{
+  "id": "00387",
+  "text": "在△ABC中，AB=AC，点A(1,2.5)在反比例函数y=2.5/x的图象上，点B(2.5,0)、C(0.5,0)在x轴上，OC=1/5·OB，延长AC交y轴于点D，连接BD，△BCD的面积等于1",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point_coord(A, 1, 2.5)",
+    "point_coord(B, 2.5, 0)",
+    "point_coord(C, 0.5, 0)",
+    "triangle(A, B, C)",
+    "triangle(B, C, D)",
+    "hyperbola(h, 2.5)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(B, axis_x)",
+    "on(C, axis_x)",
+    "on(D, axis_y)",
+    "function_point(A, h)",
+    "equal(AB, AC)",
+    "collinear(A, C, D)",
+    "ratio(OC, OB)=0.2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00387.png",
+  "meta": {
+    "source": "等腰三角形与反比例函数",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "hyperbola",
+      "coordinate_system"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00876",
+  "text": "已知AB=AC=AD，∠CBD=2∠BDC，∠BAC=44°，连接BC、BD、CD",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(BD)",
+    "segment(CD)",
+    "equal(AB, AC)",
+    "equal(AC, AD)",
+    "angle(BAC)=44",
+    "angle(CBD)=2*angle(BDC)"
+  ],
+  "image_path": "images/00876.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "等长线段与角度关系",
+    "difficulty": "middle",
+    "tags": [
+      "equal_length",
+      "angle"
+    ]
+  }
+}

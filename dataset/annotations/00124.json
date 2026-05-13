@@ -1,0 +1,32 @@
+{
+  "id": "00124",
+  "text": "在平面直角坐标系中，长为2的线段CD（点D在点C右侧）在x轴上，其中C的坐标（1,0），D的坐标（3,0），A(0,2)，B(0,4)，连接AC、BD，",
+  "dsl": [
+    "point(C)",
+    "point(D)",
+    "point(A)",
+    "point(B)",
+    "coordinate_system(O)",
+    "point_coord(A, 0, 2)",
+    "point_coord(B, 0, 4)",
+    "point_coord(C, 1, 0)",
+    "point_coord(D, 3, 0)",
+    "segment(AC)",
+    "segment(BD)",
+    "length(CD)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00124.png",
+  "meta": {
+    "source": "坐标系与线段最值",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "segment",
+      "optimization"
+    ]
+  }
+}

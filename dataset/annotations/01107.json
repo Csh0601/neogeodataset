@@ -1,0 +1,36 @@
+{
+  "id": "01107",
+  "text": "O为直线ED上一点，过点O作射线OC，∠AOC=120°，∠AOB=90°，∠OAB=30°，OA在射线OD上，连接OP，OQ",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(Q)",
+    "point(E)",
+    "point(D)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OP)",
+    "segment(OQ)",
+    "line(l, E, D)",
+    "ray(O, C)",
+    "ray(O, D)",
+    "ray(O, E)",
+    "on(O, ED)",
+    "angle(AOC)=120",
+    "angle(AOB)=90",
+    "angle(OAB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01107.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["angle", "ray", "rotation", "right_triangle"]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "00841",
+  "text": "三角形ABC和三角形ADE均为等腰三角形，角BAC=角DAE，AB=AC，AD=AE，E在BC上，连接BD",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(BD)",
+    "segment(BE)",
+    "on(E, BC)",
+    "equal(AB, AC)",
+    "equal(AD, AE)",
+    "equal_angle(BAC, DAE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00841.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["isosceles", "triangle", "congruent"]
+  }
+}

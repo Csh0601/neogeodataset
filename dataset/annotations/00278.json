@@ -1,0 +1,26 @@
+{
+  "id": "00278",
+  "text": "在三角形ABC和三角形BCD中，AB=DC=4，BC=5，∠ABC=∠DCB=60°，△ABC≌△DCB",
+  "dsl": [
+    "triangle(A, B, C)",
+    "triangle(D, B, C)",
+    "equal(AB, DC)",
+    "equal_angle(ABC, DCB)",
+    "congruent(ABC, DCB)",
+    "length(AB)=4",
+    "length(DC)=4",
+    "length(BC)=5",
+    "angle(ABC)=60",
+    "angle(DCB)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00278.png",
+  "meta": {
+    "source": "三角形全等判定",
+    "difficulty": "easy",
+    "tags": ["congruent", "SAS"]
+  }
+}

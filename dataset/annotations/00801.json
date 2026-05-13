@@ -1,0 +1,25 @@
+{
+  "id": "00801",
+  "text": "在四边形ABCD中，角ABC=角ACD=角ADC=45度，连接AC、BD，角BAC=90度",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(BC)",
+    "segment(AD)",
+    "angle(ABC)=45",
+    "angle(ACD)=45",
+    "angle(ADC)=45",
+    "angle(BAC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00801.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["quadrilateral", "angle"]
+  }
+}

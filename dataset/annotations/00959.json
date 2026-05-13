@@ -1,0 +1,34 @@
+{
+  "id": "00959",
+  "text": "在△ABC中，AB=AC，D、E分别是AB、AC的中点，AM⊥CD于M，AN⊥BE于N，AM=AN",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(BE)",
+    "segment(AM)",
+    "segment(AN)",
+    "segment(DE)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "foot(M, A, CD)",
+    "foot(N, A, BE)",
+    "equal(AB, AC)",
+    "perpendicular(AM, CD)",
+    "perpendicular(AN, BE)",
+    "equal(AM, AN)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00959.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["isosceles_triangle", "midpoint", "perpendicular"]
+  }
+}

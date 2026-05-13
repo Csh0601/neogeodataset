@@ -1,0 +1,33 @@
+{
+  "id": "01319",
+  "text": "在平行四边形ABCD中，AB=3，BC=6，∠D=60°，点M在AC上，点N在BC上，连接BM、MN",
+  "dsl": [
+    "parallelogram(A, B, C, D)",
+    "segment(BM)",
+    "segment(MN)",
+    "on(M, AC)",
+    "on(N, BC)",
+    "length(AB)=3",
+    "length(BC)=6",
+    "angle(ADC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01319.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "parallelogram",
+      "dynamic_point"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "平行四边形ABCD，A左上D右上B左下C右下，∠D=60°，M在对角线AC上，N在BC上"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

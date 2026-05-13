@@ -1,0 +1,35 @@
+{
+  "id": "00407",
+  "text": "在△ABC和△ADE中，BA=BC，DA=DE，且∠ABC=∠ADE=α，点E在△ABC的内部，连接EC、EB和BD，并且∠ACE+∠ABE=90°，当α=60°时，线段BD与CE的数量关系为BD=CE，线段EA、EB、EC的数量关系为EA=EB=EC",
+  "dsl": [
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(EC)",
+    "segment(EB)",
+    "segment(BD)",
+    "segment(EA)",
+    "equal(BA, BC)",
+    "equal(DA, DE)",
+    "equal(BD, CE)",
+    "equal(EA, EB)",
+    "equal(EB, EC)",
+    "angle(ABC)=60",
+    "angle(ADE)=60",
+    "inside(E, triangle_ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00407.png",
+  "meta": {
+    "source": "等腰三角形嵌套",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "equal",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00868",
+  "text": "在平面直角坐标系中，抛物线y=-x²-2x+3与x轴交于点A(1,0)和点B(-3,0)，与y轴交于点C，点M在抛物线的对称轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(M)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 1, 0)",
+    "point_coord(B, -3, 0)",
+    "point_coord(C, 0, 3)",
+    "parabola(f, -1, -2, 3)",
+    "segment(AC)",
+    "on(A, f)",
+    "on(B, f)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "axis_intersection(C, f, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00868.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "symmetry_axis",
+      "isosceles"
+    ]
+  }
+}

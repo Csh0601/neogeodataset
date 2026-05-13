@@ -1,0 +1,38 @@
+{
+  "id": "00186",
+  "text": "在四边形ABCD中，AD∥BC，∠DAB=90°，长度为2.5的线段AB是⊙O的直径，CO平分∠BCD，CD与⊙O相切于点E，AD=1，BC=2，DC=3",
+  "dsl": [
+    "point(E)",
+    "quadrilateral(A, B, C, D)",
+    "circle(O, r=1.25)",
+    "segment(CO)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(E, CD)",
+    "angle_bisector(O, B, C, D)",
+    "tangent(E, circle_O)",
+    "parallel(AD, BC)",
+    "collinear(A, O, B)",
+    "angle(DAB)=90",
+    "length(AD)=1",
+    "length(BC)=2",
+    "length(DC)=3",
+    "length(AB)=2.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00186.png",
+  "meta": {
+    "source": "梯形与圆切线",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "circle",
+      "tangent",
+      "bisector",
+      "parallel"
+    ]
+  }
+}

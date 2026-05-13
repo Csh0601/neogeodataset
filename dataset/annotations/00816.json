@@ -1,0 +1,32 @@
+{
+  "id": "00816",
+  "text": "在矩形ABCD中，将矩形沿AF折叠，使点D落在BC边上的点E处，过点E作EG平行于CD交AF于点G，连接DG",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "rectangle(A, B, C, D)",
+    "segment(AF)",
+    "segment(EG)",
+    "segment(DG)",
+    "segment(AE)",
+    "on(E, BC)",
+    "intersection(G, EG, AF)",
+    "fold(D, E, AF)",
+    "parallel(EG, CD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00816.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "parallel"
+    ]
+  }
+}

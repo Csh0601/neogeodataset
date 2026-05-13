@@ -1,0 +1,34 @@
+{
+  "id": "00418",
+  "text": "在△ABC中，D为BC的中点，以D为圆心，BD长为半径画一弧交AC于E点，∠A=60°，∠B=100°，BC=4，扇形BDE的面积为4π/9",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "circle(D, radius=BD)",
+    "sector(D, B, E)",
+    "segment(DE)",
+    "segment(BE)",
+    "on(E, AC)",
+    "on(E, circle_D)",
+    "midpoint(D, BC)",
+    "angle(CAB)=60",
+    "angle(ABC)=100",
+    "length(BC)=4",
+    "shaded(sector_BDE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00418.png",
+  "meta": {
+    "source": "三角形与扇形面积",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "sector",
+      "midpoint"
+    ]
+  }
+}

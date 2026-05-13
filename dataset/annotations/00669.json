@@ -1,0 +1,42 @@
+{
+  "id": "00669",
+  "text": "在平面直角坐标系中，A(0,4)，B(6,0)为坐标轴上的点，点C为线段AB的中点，过点C作DC⊥x轴，垂足为D，点E为y轴负半轴上一点，连接CE交x轴于点F，CF=FE",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point_coord(A, 0, 4)",
+    "point_coord(B, 6, 0)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(CE)",
+    "segment(CF)",
+    "segment(FE)",
+    "on(A, axis_y)",
+    "on(B, axis_x)",
+    "midpoint(C, AB)",
+    "on(D, axis_x)",
+    "on(E, axis_y)",
+    "on(F, axis_x)",
+    "perpendicular(CD, axis_x)",
+    "equal(CF, FE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00669.png",
+  "meta": {
+    "source": "坐标系中点与垂线",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "midpoint",
+      "perpendicular"
+    ]
+  }
+}

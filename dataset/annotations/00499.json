@@ -1,0 +1,37 @@
+{
+  "id": "00499",
+  "text": "在直角坐标系中，矩形OABC的顶点O在坐标原点，顶点A、C分别在x轴、y轴上，B(-4,6)、D(0,4)，线段EF在OA上，EF=3，点E的坐标为(-0.4,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point_coord(B, -4, 6)",
+    "point_coord(D, 0, 4)",
+    "point_coord(E, -0.4, 0)",
+    "rectangle(O, A, B, C)",
+    "segment(EF)",
+    "on(A, axis_x)",
+    "on(C, axis_y)",
+    "on(E, OA)",
+    "on(F, OA)",
+    "length(EF)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00499.png",
+  "meta": {
+    "source": "坐标系矩形动点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "rectangle",
+      "moving_point"
+    ]
+  }
+}

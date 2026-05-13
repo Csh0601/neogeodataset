@@ -1,0 +1,34 @@
+{
+  "id": "00246",
+  "text": "点E、F在矩形ABCD的对角线BD的延长线上,BD和AC交于点O,其中E靠近点B，F靠近点D，其中AB=6,AD=8,BE=DF=5，四边形AECF是平行四边形",
+  "dsl": [
+    "point(O)",
+    "rectangle(A, B, C, D)",
+    "parallelogram(A, E, C, F)",
+    "segment(BD)",
+    "segment(AC)",
+    "segment(EF)",
+    "intersection(O, BD, AC)",
+    "equal(BE, DF)",
+    "length(AB)=6",
+    "length(AD)=8",
+    "length(BE)=5",
+    "length(DF)=5",
+    "on_extended(E, BD, towards=B)",
+    "on_extended(F, BD, towards=D)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00246.png",
+  "meta": {
+    "source": "矩形对角线上的点",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "diagonal",
+      "parallelogram"
+    ]
+  }
+}

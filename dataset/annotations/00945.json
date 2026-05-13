@@ -1,0 +1,41 @@
+{
+  "id": "00945",
+  "text": "在平面直角坐标系中，直线y=-(2/3)x+c与x轴交于点A(3,0)，与y轴交于点B，抛物线y=-(4/3)x²+bx+c经过点A、B，M为线段OA上一点，过点M且垂直于x轴的直线与直线AB及抛物线分别交于点P、N",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(M)",
+    "point(N)",
+    "point(P)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 0)",
+    "point_coord(B, 0, 2)",
+    "line_function(l1, -0.6667, 2)",
+    "parabola(p1, -1.3333, 4, 0)",
+    "segment(AB)",
+    "segment(MN)",
+    "segment(MP)",
+    "on(A, axis_x)",
+    "on(B, axis_y)",
+    "on(M, OA)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "function_point(A, p1)",
+    "function_point(B, p1)"
+  ],
+  "image_path": "images/00945.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "直线与抛物线截距综合",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line_function"
+    ]
+  }
+}

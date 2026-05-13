@@ -1,0 +1,35 @@
+{
+  "id": "00829",
+  "text": "在菱形ABCD中，边长为8，角A=60度，M是边AD的中点，N是AB上一点，将三角形AMN沿MN所在的直线翻折得到三角形A_primeMN，连接A_primeB",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(A_prime)",
+    "parallelogram(A, B, C, D)",
+    "triangle(A, M, N)",
+    "segment(MN)",
+    "segment(A_primeB)",
+    "segment(A_primeM)",
+    "segment(A_primeN)",
+    "midpoint(M, AD)",
+    "on(N, AB)",
+    "fold(A, A_prime, MN)",
+    "equal(AB, BC)",
+    "angle(DAB)=60",
+    "length(AB)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00829.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

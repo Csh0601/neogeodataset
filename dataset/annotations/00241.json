@@ -1,0 +1,31 @@
+{
+  "id": "00241",
+  "text": "在平面直角坐标系中，将△AOB以点O为旋转中心，逆时针旋转60度，得到△A₁OB₁，已知A(2,3)，B（3,1）",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A1)",
+    "point(B1)",
+    "point_coord(A, 2, 3)",
+    "point_coord(B, 3, 1)",
+    "triangle(A, O, B)",
+    "segment(OA1)",
+    "segment(OB1)",
+    "segment(A1B1)",
+    "rotate(A1, source=A, center=O, angle=60)",
+    "rotate(B1, source=B, center=O, angle=60)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00241.png",
+  "meta": {
+    "source": "位似变换",
+    "difficulty": "middle",
+    "tags": [
+      "similar",
+      "coordinate",
+      "transformation"
+    ]
+  }
+}

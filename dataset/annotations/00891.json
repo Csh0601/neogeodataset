@@ -1,0 +1,34 @@
+{
+  "id": "00891",
+  "text": "在平面直角坐标系中，直线l1: y=x+3与过点A(3,0)的直线l2: y=-2x+6交于点C(1,4)，l2与x轴交于点B",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 3, 0)",
+    "point_coord(C, 1, 4)",
+    "line_function(l1, 1, 3)",
+    "line_function(l2, -2, 6)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "function_point(A, l2)",
+    "function_point(C, l1)",
+    "function_point(C, l2)",
+    "function_intersection(C, l1, l2)"
+  ],
+  "image_path": "images/00891.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "两直线交点问题",
+    "difficulty": "middle",
+    "tags": ["coordinate", "line_function", "intersection"]
+  }
+}

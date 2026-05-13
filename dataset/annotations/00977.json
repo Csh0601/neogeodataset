@@ -1,0 +1,34 @@
+{
+  "id": "00977",
+  "text": "在平面直角坐标系中，△ABC的三个顶点坐标分别为A(0,4)，B(-2,-2)，C(3,0)，点P在线段AC上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point(P)",
+    "point(Q)",
+    "point_coord(A, 0, 4)",
+    "point_coord(B, -2, -2)",
+    "point_coord(C, 3, 0)",
+    "triangle(A, B, C)",
+    "segment(AC)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(PQ)",
+    "on(P, AC)",
+    "on(Q, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00977.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "triangle",
+      "moving_point"
+    ]
+  }
+}

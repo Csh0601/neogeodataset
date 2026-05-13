@@ -1,0 +1,35 @@
+{
+  "id": "00994",
+  "text": "△ABC和△ADE均为等边三角形，D在BC上，DE与AC相交于点F，AB=9，BD=3，CF=1",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "triangle(A, D, E)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(AE)",
+    "segment(BD)",
+    "segment(CF)",
+    "on(D, BC)",
+    "intersection(F, DE, AC)",
+    "equal(AB, BC)",
+    "equal(BC, CA)",
+    "equal(AD, DE)",
+    "equal(DE, EA)",
+    "length(AB)=9",
+    "length(BD)=3",
+    "length(CF)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00994.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["equilateral_triangle", "intersection"]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "00076",
+  "text": "A是圆O上一点，BC是直径，长度为5，AC=3，AB=4，点D在圆O上且平分弧BC",
+  "dsl": [
+    "circle(O,r=2.5)",
+    "segment(BC)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(DC)",
+    "segment(BD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "arc(B, C, circle_O)",
+    "arc_midpoint(D, BC, circle_O)",
+    "collinear(B, O, C)",
+    "equal(BD, DC)",
+    "length(AC)=3",
+    "length(AB)=4",
+    "length(BC)=5"
+  ],
+  "image_path": "images/00076.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆与直径",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "equal",
+      "collinear"
+    ]
+  }
+}

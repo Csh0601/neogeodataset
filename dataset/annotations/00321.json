@@ -1,0 +1,38 @@
+{
+  "id": "00321",
+  "text": "在四边形ABCD中，AB=CB，AD=CD（筝形），对角线AC、BD相交于点O，以点B为圆心，BO长为半径画弧，分别交AB、BC于点E、F，∠ABD=∠ACD=30°，AD=1，AB=3",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "quadrilateral(A, B, C, D)",
+    "circle(B, radius=BO)",
+    "segment(AC)",
+    "segment(BD)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "on(E, circle_B)",
+    "on(F, circle_B)",
+    "intersection(O, AC, BD)",
+    "equal(AB, CB)",
+    "equal(AD, CD)",
+    "angle(ABD)=30",
+    "angle(ACD)=30",
+    "length(AD)=1",
+    "length(AB)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00321.png",
+  "meta": {
+    "source": "筝形与圆弧",
+    "difficulty": "hard",
+    "tags": [
+      "kite",
+      "arc",
+      "circle"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "01085",
+  "text": "在Rt△ABC中，∠ACB=90°，AC=BC=1，M、N为斜边AB上两点，∠MCN=45°，连接CM，CN",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(CM)",
+    "segment(CN)",
+    "segment(MN)",
+    "on(M, AB)",
+    "on(N, AB)",
+    "equal(AC, BC)",
+    "angle(ACB)=90",
+    "angle(MCN)=45",
+    "length(AC)=1",
+    "length(BC)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01085.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right_triangle",
+      "angle",
+      "optimization"
+    ]
+  }
+}

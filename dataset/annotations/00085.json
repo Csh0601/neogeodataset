@@ -1,0 +1,28 @@
+{
+  "id": "00085",
+  "text": "在正方形ABCD中，边长AB=4，E是AB的中点，点F在AD上，EF⊥EC，连接EF、EC、CF",
+  "dsl": [
+    "square(A, B, C, D)",
+    "segment(EF)",
+    "segment(EC)",
+    "segment(CF)",
+    "on(F, AD)",
+    "midpoint(E, AB)",
+    "perpendicular(EF, EC)",
+    "length(AB)=4"
+  ],
+  "image_path": "images/00085.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "几何综合",
+    "difficulty": "easy",
+    "tags": [
+      "square",
+      "perpendicular",
+      "midpoint"
+    ]
+  }
+}

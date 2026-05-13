@@ -1,0 +1,30 @@
+{
+  "id": "00732",
+  "text": "在Rt△ABC中，∠B=90°，AB=2√5，BC=3，D、E分别是AB、AC的中点，延长BC至点F，CF=BC/2，连接DF、EF",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(DF)",
+    "segment(EF)",
+    "segment(DE)",
+    "midpoint(D, AB)",
+    "midpoint(E, AC)",
+    "on(F, BC_extended)",
+    "angle(ABC)=90",
+    "length(AB)=4.4721",
+    "length(BC)=3",
+    "ratio(CF, BC)=0.5"
+  ],
+  "image_path": "images/00732.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "right_triangle", "midpoint", "extension"]
+  }
+}

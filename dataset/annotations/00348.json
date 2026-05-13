@@ -1,0 +1,34 @@
+{
+  "id": "00348",
+  "text": "在Rt△ABC中，∠ABC=90°，D、E、F分别为AB、BC、CA的中点，连接DE和BF，BF=5，DE=5，AC=10,AB=8,BC=6",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "segment(DE)",
+    "segment(BF)",
+    "midpoint(D, AB)",
+    "midpoint(E, BC)",
+    "midpoint(F, CA)",
+    "right_triangle(A, B, C, right_at=B)",
+    "length(BF)=5",
+    "length(DE)=5",
+    "length(AC)=10",
+    "length(AB)=8",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00348.png",
+  "meta": {
+    "source": "直角三角形中点",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "median"
+    ]
+  }
+}

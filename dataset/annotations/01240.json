@@ -1,0 +1,33 @@
+{
+  "id": "01240",
+  "text": "矩形ABCD中，AB=8，BC=12，将矩形纸片折叠，折痕为MN，使点C恰好落在点F处，F在边AB上，连接MN",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "segment(MN)",
+    "on(F, AB)",
+    "on(M, BC)",
+    "on(N, CD)",
+    "fold(C, F, MN)",
+    "length(AB)=8",
+    "length(BC)=12"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01240.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "rectangle",
+      "fold"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "折叠使C落在AB边上的F点，折痕MN"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

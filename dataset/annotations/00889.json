@@ -1,0 +1,35 @@
+{
+  "id": "00889",
+  "text": "在四边形ABCD中，AC=BD=3，E、F、G、H分别是AB、BC、CD、DA的中点，连接EG、FH",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EG)",
+    "segment(FH)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, CD)",
+    "midpoint(H, DA)",
+    "equal(AC, BD)",
+    "length(AC)=3",
+    "length(BD)=3"
+  ],
+  "image_path": "images/00889.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "四边形中点四边形",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "midpoint"
+    ]
+  }
+}

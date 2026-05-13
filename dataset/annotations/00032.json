@@ -1,0 +1,52 @@
+{
+  "id": "00032",
+  "text": "在⊙O中，MN为直径，OE为半径，OE半径为5，AB、CH是⊙O的两条弦，AB⊥OE于点D，CH⊥MN于点K，连接HN、HE，HE与MN交于点P",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(E)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(H)",
+    "point(D)",
+    "point(K)",
+    "point(P)",
+    "circle(O, r=5)",
+    "segment(MN)",
+    "segment(OE)",
+    "segment(AB)",
+    "segment(CH)",
+    "segment(HN)",
+    "segment(HE)",
+    "on(M, circle_O)",
+    "on(N, circle_O)",
+    "on(E, circle_O)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(H, circle_O)",
+    "foot(D, O, AB)",
+    "foot(K, H, MN)",
+    "intersection(P, HE, MN)",
+    "collinear(M, O, N)",
+    "perpendicular(AB, OE)",
+    "perpendicular(CH, MN)",
+    "length(OE)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00032.png",
+  "meta": {
+    "source": "圆的直径与弦的综合问题",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "diameter",
+      "chord",
+      "perpendicular"
+    ]
+  }
+}

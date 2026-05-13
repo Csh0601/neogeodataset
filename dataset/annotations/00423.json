@@ -1,0 +1,38 @@
+{
+  "id": "00423",
+  "text": "圆内接正五边形ABCDE，圆心为O，OA与BE交于点H，AC、AD与BE分别交于点M、N，根据圆与正五边形的对称性，△ABM是等腰三角形且底角等于36°，BM/BN=BN/BE=(√5-1)/2",
+  "dsl": [
+    "point(H)",
+    "point(M)",
+    "point(N)",
+    "circle(O)",
+    "regular_polygon(5, A, B, C, D, E)",
+    "triangle(A, B, M)",
+    "segment(OA)",
+    "segment(BE)",
+    "segment(AC)",
+    "segment(AD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(E, circle_O)",
+    "intersection(H, OA, BE)",
+    "intersection(M, AC, BE)",
+    "intersection(N, AD, BE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00423.png",
+  "meta": {
+    "source": "正五边形与黄金分割",
+    "difficulty": "hard",
+    "tags": [
+      "regular_polygon",
+      "circle",
+      "golden_ratio"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "00954",
+  "text": "在△ABC中，∠ABC和∠ACB的平分线交于点E，过点E作MN平行于BC，交AB于M，交AC于N，BM+CN=9，MN=9",
+  "dsl": [
+    "point(E)",
+    "point(M)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "segment(BE)",
+    "segment(CE)",
+    "segment(MN)",
+    "segment(BM)",
+    "segment(CN)",
+    "on(M, AB)",
+    "on(N, AC)",
+    "on(E, MN)",
+    "angle_bisector(E, A, B, C)",
+    "angle_bisector(E, A, C, B)",
+    "parallel(MN, BC)",
+    "length(MN)=9"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00954.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["triangle", "angle_bisector", "parallel"]
+  }
+}

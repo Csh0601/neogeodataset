@@ -1,0 +1,33 @@
+{
+  "id": "00375",
+  "text": "在平行四边形ABCD中，∠B=60°，AB=10，BC=8，点E在边AB上，连接ED并延长至点F，DF=1/4·DE，以EC、EF为邻边构造平行四边形EFGC，连接EG",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "parallelogram(E, F, G, C)",
+    "segment(ED)",
+    "segment(EG)",
+    "on(E, AB)",
+    "on(F, ED_extended)",
+    "angle(ABC)=60",
+    "length(AB)=10",
+    "length(BC)=8",
+    "ratio(DF, DE)=0.25"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00375.png",
+  "meta": {
+    "source": "平行四边形动点问题",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "moving_point",
+      "ratio"
+    ]
+  }
+}

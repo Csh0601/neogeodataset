@@ -1,0 +1,29 @@
+{
+  "id": "00097",
+  "text": "在△ABC中，∠ABC=90°，AB=2，BC=3，点D在平面上，∠ADB=45°，连接CD，CD=0.8",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(CD)",
+    "length(AB)=2",
+    "length(BC)=3",
+    "length(CD)=0.8",
+    "angle(ADB)=45",
+    "angle(ABC)=90"
+  ],
+  "image_path": "images/00097.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "angle"
+    ]
+  }
+}

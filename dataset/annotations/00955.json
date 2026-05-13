@@ -1,0 +1,43 @@
+{
+  "id": "00955",
+  "text": "在平面直角坐标系中，抛物线y=x^2+6x与x轴交于O和A两点，B为抛物线的顶点，点D的坐标为(t,0)，-3<t<0，连接BD并延长与过O、A、B三点的⊙P相交于点C",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "point(E)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -6, 0)",
+    "parabola(p1, 1, 6, 0)",
+    "circle(P)",
+    "segment(BD)",
+    "segment(AC)",
+    "segment(CE)",
+    "on(D, axis_x)",
+    "on(O, circle_P)",
+    "on(A, circle_P)",
+    "on(B, circle_P)",
+    "on(C, circle_P)",
+    "on(E, axis_x)",
+    "circumcircle(P, O, A, B)",
+    "collinear(B, D, C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00955.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "circle",
+      "tangent"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "00403",
+  "text": "在△ABC中，AB=10，∠CAB=30°，∠ABC=75°",
+  "dsl": [
+    "triangle(A, B, C)",
+    "length(AB)=10",
+    "angle(CAB)=30",
+    "angle(ABC)=75"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00403.png",
+  "meta": {
+    "source": "航海方位角应用",
+    "difficulty": "middle",
+    "tags": ["triangle", "angle", "application"]
+  }
+}

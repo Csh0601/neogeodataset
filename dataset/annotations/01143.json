@@ -1,0 +1,37 @@
+{
+  "id": "01143",
+  "text": "在Rt△ABC中，∠BAC=90°，AB=5，AC=12，P为边BC上一点，PE⊥AB于E，PF⊥AC于F，M为EF中点，连接AM",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(M)",
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(PE)",
+    "segment(PF)",
+    "segment(EF)",
+    "segment(AM)",
+    "on(P, BC)",
+    "foot(E, P, AB)",
+    "foot(F, P, AC)",
+    "midpoint(M, EF)",
+    "perpendicular(PE, AB)",
+    "perpendicular(PF, AC)",
+    "angle(BAC)=90",
+    "length(AB)=5",
+    "length(AC)=12"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01143.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["right_triangle", "perpendicular", "midpoint", "locus"]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "00237",
+  "text": "在三角形ABC中，AB=AC=4，N是BC边中点，D为AN的中点，过点A作BC的平行线交CD的延长线于T，AT=BN，连接BT，BN=CN",
+  "dsl": [
+    "point(N)",
+    "point(T)",
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(BT)",
+    "segment(AT)",
+    "segment(CT)",
+    "midpoint(N, BC)",
+    "midpoint(D, AN)",
+    "intersection(T, AT, CD_extended)",
+    "collinear(C, D, T)",
+    "equal(AB, AC)",
+    "parallel(AT, BC)",
+    "equal(AT, BN)",
+    "equal(BN, CN)",
+    "length(AB)=4",
+    "length(AC)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00237.png",
+  "meta": {
+    "source": "等腰三角形平行线问题",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "parallel",
+      "midpoint"
+    ]
+  }
+}

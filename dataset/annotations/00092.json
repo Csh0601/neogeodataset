@@ -1,0 +1,43 @@
+{
+  "id": "00092",
+  "text": "AB为⊙O的直径，C为⊙O上一点，D为BA延长线上一点且D在圆的外部，∠ACD=∠B，DC为⊙O的切线，线段DF分别交AC、BC于点E、F，∠CEF=45°，⊙O的半径为5",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(F)",
+    "point(E)",
+    "circle(O, r=5)",
+    "segment(DC)",
+    "segment(DF)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(BA)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(F, BC)",
+    "intersection(E, AC, DF)",
+    "tangent(CD, circle_O)",
+    "collinear(A, O, B)",
+    "equal_angle(ACD, ABC)",
+    "angle(CEF)=45",
+    "on_extended(D, BA ,towards=A)"
+  ],
+  "image_path": "images/00092.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "圆的切线",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "angle",
+      "collinear"
+    ]
+  }
+}

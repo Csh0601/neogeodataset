@@ -1,0 +1,31 @@
+{
+  "id": "00601",
+  "text": "在平面直角坐标系中，直线经过A(3,6)、B(0,3)两点，交x轴于点C(-1.5,0)",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(C)",
+    "point_coord(A, 3, 6)",
+    "point_coord(B, 0, 3)",
+    "point_coord(C, -1.5, 0)",
+    "line(l1, A, B)",
+    "on(C, l1)",
+    "segment(AO)",
+    "segment(OC)",
+    "segment(AC)",
+    "collinear(A, B, C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00601.png",
+  "meta": {
+    "source": "一次函数与三角形",
+    "difficulty": "easy",
+    "tags": [
+      "coordinate",
+      "linear_function",
+      "triangle"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "01279",
+  "text": "在四边形ABCD中，AB=AD，BC=DC，∠A=90°，∠C=60°，AB=5√6，连接AC、BD，AC与BD相交于点O",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "intersection(O, AC, BD)",
+    "equal(AB, AD)",
+    "equal(BC, DC)",
+    "perpendicular(AB, AD)",
+    "angle(BCD)=60",
+    "length(AB)=5√6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01279.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "kite",
+      "perpendicular"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "四边形ABCD是风筝形，补充了AB=5√6"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

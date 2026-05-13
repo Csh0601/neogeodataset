@@ -1,0 +1,31 @@
+{
+  "id": "00913",
+  "text": "在平面直角坐标系中，一次函数y=(1/2)x-2的图象与x轴交于点A，与反比例函数y=6/x（x>0）的图象交于点B，且点B的纵坐标为1，过点A作x轴的垂线交反比例函数于点C",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 4, 0)",
+    "point_coord(B, 6, 1)",
+    "point_coord(C, 4, 1.5)",
+    "line_function(l1, 0.5, -2)",
+    "hyperbola(h1, 6)",
+    "on(A, axis_x)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "function_point(B, h1)",
+    "function_point(C, h1)"
+  ],
+  "image_path": "images/00913.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "一次函数与反比例函数",
+    "difficulty": "hard",
+    "tags": ["coordinate", "line_function", "hyperbola"]
+  }
+}

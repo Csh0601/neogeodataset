@@ -1,0 +1,42 @@
+{
+  "id": "00121",
+  "text": "在平面直角坐标系中，抛物线y=x²-x-6经过点A(-3,0)和点B(2,0)，与y轴交于点C(0,-6)，点P是该抛物线上的一点（-1，-4），且位于y轴的左侧，过点P作PD⊥x轴于点D，作PE⊥y轴于点E",
+  "dsl": [
+    "point(P)",
+    "point(D)",
+    "point(E)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "coordinate_system(O)",
+    "point_coord(A, -3, 0)",
+    "point_coord(B, 2, 0)",
+    "point_coord(C, 0, -6)",
+    "point_coord(P, -1, -4)",
+    "parabola(p, 1, -1, -6)",
+    "segment(AB)",
+    "segment(PD)",
+    "segment(PE)",
+    "on(D, axis_x)",
+    "on(E, axis_y)",
+    "function_point(A, p)",
+    "function_point(B, p)",
+    "function_point(P, p)",
+    "perpendicular(PD, axis_x)",
+    "perpendicular(PE, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00121.png",
+  "meta": {
+    "source": "抛物线与坐标系",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "perpendicular"
+    ]
+  }
+}

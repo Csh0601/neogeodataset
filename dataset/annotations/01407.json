@@ -1,0 +1,38 @@
+{
+  "id": "01407",
+  "text": "在等腰直角三角形ABC中，∠BAC=90°，AB=AC，D、E在边BC上，∠DAE=45°，BD=3，CE=4",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(AE)",
+    "on(D, BC)",
+    "on(E, BC)",
+    "isosceles_right(A, B, C)",
+    "angle(DAE)=45",
+    "length(BD)=3",
+    "length(CE)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01407.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "isosceles_right_triangle",
+      "angle",
+      "half_angle_model"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "等腰直角三角形ABC，A在顶部，B在左下，C在右下",
+      "D在E左侧，均在BC上"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

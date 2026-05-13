@@ -1,0 +1,27 @@
+{
+  "id": "00679",
+  "text": "在四边形ABCD中，∠ABC=∠DCB=90°，M是BC的中点，DM平分∠ADC，AM平分∠DAB，AD=AB+CD",
+  "dsl": [
+    "point(M)",
+    "quadrilateral(A, B, C, D)",
+    "segment(AM)",
+    "segment(DM)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(AB)",
+    "segment(CD)",
+    "midpoint(M, BC)",
+    "angle(ABC)=90",
+    "angle(DCB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00679.png",
+  "meta": {
+    "source": "双直角四边形角平分线",
+    "difficulty": "hard",
+    "tags": ["quadrilateral", "right_angle", "midpoint", "bisector"]
+  }
+}

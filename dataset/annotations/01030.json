@@ -1,0 +1,29 @@
+{
+  "id": "01030",
+  "text": "在△ABC中，BD平分∠ABC，∠C=2∠CDB，AB=12，CD=3，△ABC的周长为27",
+  "dsl": [
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(CD)",
+    "on(D, AC)",
+    "equal_angle(ABD, DBC)",
+    "length(AB)=12",
+    "length(CD)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01030.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "angle_bisector"
+    ]
+  }
+}

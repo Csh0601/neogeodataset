@@ -1,0 +1,36 @@
+{
+  "id": "00313",
+  "text": "在矩形ABCD中，E为DC上靠近C的三等分点，把△ADE沿线段AE翻折，使点D恰好落在BC边上的点F，AB=2√3，AD=4，△ABF和△FCE相似",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "rectangle(A, B, C, D)",
+    "segment(AE)",
+    "segment(AF)",
+    "segment(EF)",
+    "segment(EC)",
+    "triangle(A, B, F)",
+    "triangle(A, D, E)",
+    "triangle(F, C, E)",
+    "trisection(E, CD, near=C)",
+    "on(F, BC)",
+    "reflect(D, F, AE)",
+    "similar(ABF, FCE)",
+    "length(AB)=2√3",
+    "length(AD)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00313.png",
+  "meta": {
+    "source": "矩形翻折问题",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "congruent"
+    ]
+  }
+}

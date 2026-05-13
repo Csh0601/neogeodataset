@@ -1,0 +1,39 @@
+{
+  "id": "00648",
+  "text": "在四边形ABCD中，AC=BD，E、F、G、H分别是AB、BC、CD、DA的中点，四边形EFGH是菱形，AC=8",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "quadrilateral(A, B, C, D)",
+    "quadrilateral(E, F, G, H)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(HE)",
+    "segment(EG)",
+    "segment(FH)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, CD)",
+    "midpoint(H, DA)",
+    "equal(AC, BD)",
+    "equal(EF, FG)",
+    "equal(FG, GH)",
+    "equal(GH, HE)",
+    "length(AC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00648.png",
+  "meta": {
+    "source": "四边形中点构成菱形",
+    "difficulty": "middle",
+    "tags": ["quadrilateral", "midpoint", "rhombus"]
+  }
+}

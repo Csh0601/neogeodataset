@@ -1,0 +1,35 @@
+{
+  "id": "00783",
+  "text": "在正方形ABCD中，AB=2，E在AD上，F在DC上，AE=DF，线段AF、BE相交于点P",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(AB)",
+    "segment(AD)",
+    "segment(DC)",
+    "segment(AF)",
+    "segment(BE)",
+    "segment(DP)",
+    "on(E, AD)",
+    "on(F, DC)",
+    "intersection(P, AF, BE)",
+    "equal(AE, DF)",
+    "length(AB)=2"
+  ],
+  "image_path": "images/00783.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "intersection",
+      "minimum"
+    ]
+  }
+}

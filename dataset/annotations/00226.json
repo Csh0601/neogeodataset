@@ -1,0 +1,36 @@
+{
+  "id": "00226",
+  "text": "在四边形ABCD中，AD∥BC，∠ABC=60°，AB=2√3，过点B的⊙O与边AB、BC分别交于点E、F两点，OG⊥BC，垂足为G，OG=1，连接OB、OE、OF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "quadrilateral(A, B, C, D)",
+    "circle(O)",
+    "segment(OG)",
+    "segment(OB)",
+    "segment(OE)",
+    "segment(OF)",
+    "intersection(E, AB, circle_O)",
+    "intersection(F, BC, circle_O)",
+    "foot(G, O, BC)",
+    "parallel(AD, BC)",
+    "angle(ABC)=60",
+    "length(AB)=2√3",
+    "length(OG)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00226.png",
+  "meta": {
+    "source": "平行四边形与圆",
+    "difficulty": "hard",
+    "tags": [
+      "parallelogram",
+      "circle",
+      "perpendicular"
+    ]
+  }
+}

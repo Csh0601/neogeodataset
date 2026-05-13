@@ -1,0 +1,38 @@
+{
+  "id": "00298",
+  "text": "点A、B、D在半径为4的⊙O上，连接AB、AD、OA、OB、OD，∠BAD=20°，BC是⊙O的切线，B为切点，OD的延长线交BC于点C，∠OCB=50°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "point(C)",
+    "circle(O, r=4)",
+    "segment(BC)",
+    "segment(OD)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(AB)",
+    "segment(AD)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(D, circle_O)",
+    "intersection(C, OD_extended, BC)",
+    "tangent(BC, circle_O)",
+    "angle(BAD)=20",
+    "angle(OCB)=50"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00298.png",
+  "meta": {
+    "source": "圆的切线与圆周角",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "inscribed_angle"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "00288",
+  "text": "在梯形ABCD中，DA⊥AB，CD⊥DA，∠B=56°，∠C=124°，AD=DC=5",
+  "dsl": [
+    "trapezoid(A, B, C, D)",
+    "perpendicular(DA, AB)",
+    "perpendicular(CD, DA)",
+    "angle(ABC)=56",
+    "angle(BCD)=124",
+    "length(AD)=5",
+    "length(DC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00288.png",
+  "meta": {
+    "source": "四边形角度计算",
+    "difficulty": "easy",
+    "tags": [
+      "quadrilateral",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

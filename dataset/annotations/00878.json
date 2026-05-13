@@ -1,0 +1,43 @@
+{
+  "id": "00878",
+  "text": "在△ABC中，EH为中位线，将△AEH沿EH折叠，使点A的对称点D落在BC边上，EF、HG分别为等腰△BED和等腰△DHC的底边上的高",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "triangle(A, B, C)",
+    "triangle(A, E, H)",
+    "triangle(B, E, D)",
+    "triangle(D, H, C)",
+    "segment(EH)",
+    "segment(EF)",
+    "segment(HG)",
+    "segment(BD)",
+    "segment(DC)",
+    "midpoint(E, AB)",
+    "midpoint(H, AC)",
+    "on(D, BC)",
+    "on(F, BC)",
+    "on(G, BC)",
+    "fold(A, D, EH)",
+    "parallel(EH, BC)",
+    "perpendicular(EF, BD)",
+    "perpendicular(HG, DC)"
+  ],
+  "image_path": "images/00878.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形折叠成矩形",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

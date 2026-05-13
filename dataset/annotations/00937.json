@@ -1,0 +1,32 @@
+{
+  "id": "00937",
+  "text": "在四边形ABCD中，∠BCD=90°，BD平分∠ABC，AB=6，BC=9，CD=4，四边形ABCD的面积为27+3√7",
+  "dsl": [
+    "quadrilateral(A, B, C, D)",
+    "segment(BD)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "on(D, l1)",
+    "bisect_angle(A, B, C, l1)",
+    "angle(BCD)=90",
+    "length(AB)=6",
+    "length(BC)=9",
+    "length(CD)=4"
+  ],
+  "image_path": "images/00937.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "四边形角平分线与面积",
+    "difficulty": "hard",
+    "tags": [
+      "quadrilateral",
+      "angle_bisector",
+      "perpendicular"
+    ]
+  }
+}

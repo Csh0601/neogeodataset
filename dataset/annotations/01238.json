@@ -1,0 +1,36 @@
+{
+  "id": "01238",
+  "text": "正方形ABCD中，点F是BC边上一点，连接AF，以AF为对角线作正方形AEFG，FG与正方形ABCD的对角线AC相交于点H，连接DG，∠EAB=∠GAD，∠ACB=45°，2AE²=AH·AC，DG⊥LA",
+  "dsl": [
+    "square(A, B, C, D)",
+    "square(A, E, F, G)",
+    "segment(AF)",
+    "segment(AC)",
+    "segment(DG)",
+    "on(F, BC)",
+    "intersection(H, FG, AC)",
+    "equal_angle(EAB, GAD)",
+    "angle(ACB)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01238.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "intersection",
+      "diagonal"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "补充了∠EAB=∠GAD，∠ACB=45°等结论作为已知条件",
+      "AEFG是以AF为对角线的正方形"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

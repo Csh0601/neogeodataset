@@ -1,0 +1,42 @@
+{
+  "id": "00885",
+  "text": "在平面直角坐标系中，直线y=-x+4分别交x轴、y轴于A、C两点，抛物线y=-x^2+mx+4经过点A，且与x轴的另一个交点为B，连接BC，过点C作CD平行于x轴交抛物线于点D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 4, 0)",
+    "point_coord(C, 0, 4)",
+    "line_function(l1, -1, 4)",
+    "parabola(p1, -1, 5, -4)",
+    "segment(BC)",
+    "segment(CD)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "axis_intersection(A, l1, x)",
+    "axis_intersection(C, l1, y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(D, p1)",
+    "parallel(CD, axis_x)"
+  ],
+  "image_path": "images/00885.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "直线与抛物线综合",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line_function",
+      "parallel"
+    ]
+  }
+}

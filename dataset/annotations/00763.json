@@ -1,0 +1,39 @@
+{
+  "id": "00763",
+  "text": "在平面直角坐标系xOy中，直线AB的解析式为y=-3/4x+3，点C是AO上一点且OC=1，点D在线段BO上，连接BC、AD交于点E，∠BED=45°",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 0, 3)",
+    "point_coord(B, 4, 0)",
+    "line_function(l1, -0.75, 3)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(OC)",
+    "segment(OD)",
+    "function_point(A, l1)",
+    "function_point(B, l1)",
+    "on(C, OA)",
+    "on(D, OB)",
+    "intersection(E, BC, AD)",
+    "length(OC)=1",
+    "angle(BED)=45"
+  ],
+  "image_path": "images/00763.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "line", "intersection", "angle"]
+  }
+}

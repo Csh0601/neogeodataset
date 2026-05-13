@@ -1,0 +1,38 @@
+{
+  "id": "00929",
+  "text": "在平面直角坐标系中，抛物线y=-x²+2x+3与x轴交于A、B两点（点A在点B左侧），与y轴交于点C，连接BC，点P是线段BC上方抛物线上一点，过点P作PM⊥BC于点M",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(P)",
+    "point(M)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, 3)",
+    "parabola(p1, -1, 2, 3)",
+    "segment(BC)",
+    "segment(PM)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(P, p1)",
+    "foot(M, P, BC)",
+    "perpendicular(PM, BC)"
+  ],
+  "image_path": "images/00929.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线到直线距离最值",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "perpendicular"]
+  }
+}

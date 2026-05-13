@@ -1,0 +1,35 @@
+{
+  "id": "00766",
+  "text": "在Rt△ABC中，∠ACB=90°，BC=3，AC=4，点D是AB的中点，过点D作DE垂直于AB交BC的延长线于点E，CE=7/8",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "right_triangle(A, B, C, right_at=C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(DE)",
+    "segment(CE)",
+    "midpoint(D, AB)",
+    "on(E, BC_extended)",
+    "perpendicular(DE, AB)",
+    "length(BC)=3",
+    "length(AC)=4",
+    "length(CE)=0.875"
+  ],
+  "image_path": "images/00766.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "right_triangle",
+      "midpoint",
+      "perpendicular",
+      "extension"
+    ]
+  }
+}

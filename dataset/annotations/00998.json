@@ -1,0 +1,31 @@
+{
+  "id": "00998",
+  "text": "在菱形ABCD中，∠A=110°，E、F分别是边AB和BC的中点，EP⊥CD于点P，连接FP，∠FPC=55°",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "parallelogram(A, B, C, D)",
+    "segment(EP)",
+    "segment(FP)",
+    "segment(FC)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "foot(P, E, CD)",
+    "on(P, CD)",
+    "equal(AB, BC)",
+    "perpendicular(EP, CD)",
+    "angle(DAB)=110",
+    "angle(FPC)=55"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00998.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["rhombus", "midpoint", "perpendicular"]
+  }
+}

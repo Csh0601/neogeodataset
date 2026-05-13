@@ -1,0 +1,42 @@
+{
+  "id": "00078",
+  "text": "在边长为4的等边△ABC中，过点C作CD∥AB，CD长度为3，E是AC的中点，连接DE并延长，交AB于点F，交CB的延长线于点G，连接AD、CF，四边形AFCD是平行四边形",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, F, C, D)",
+    "segment(DE)",
+    "segment(AD)",
+    "segment(CF)",
+    "segment(CB)",
+    "midpoint(E, AC)",
+    "on(F, AB)",
+    "equilateral(A, B, C)",
+    "extend(DE, F)",
+    "extend(CB, G)",
+    "collinear(D, E, F)",
+    "collinear(D, E, G)",
+    "collinear(C, B, G)",
+    "parallel(CD, AB)",
+    "length(AB)=4",
+    "length(CD)=3"
+  ],
+  "image_path": "images/00078.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "平行四边形",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "parallelogram",
+      "parallel",
+      "midpoint",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "01175",
+  "text": "在菱形ABCD中，∠A=60°，AB=2，E在AB上，F在BC上，AE=BF，连接EF，DE，DF",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(EF)",
+    "segment(DE)",
+    "segment(DF)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "equal(AE, BF)",
+    "equal(AB, BC)",
+    "equal(BC, CD)",
+    "equal(CD, AD)",
+    "angle(DAB)=60",
+    "length(AB)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01175.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "rhombus",
+      "optimization"
+    ]
+  }
+}

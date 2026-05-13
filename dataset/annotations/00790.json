@@ -1,0 +1,42 @@
+{
+  "id": "00790",
+  "text": "AB是半圆O的直径，点C、D在弧AB上，AD平分∠CAB，AB=10，AC=6，AD=2√10",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "circle(O, r=5)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AD)",
+    "segment(CD)",
+    "segment(BC)",
+    "segment(BD)",
+    "semicircle(O, A, B)",
+    "arc(A, B, circle_O)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "midpoint(O, AB)",
+    "bisect_angle(C, A, B, AD)",
+    "length(AB)=10",
+    "length(AC)=6",
+    "length(AD)=6.3246"
+  ],
+  "image_path": "images/00790.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "diameter",
+      "angle_bisector"
+    ]
+  }
+}

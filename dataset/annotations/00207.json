@@ -1,0 +1,38 @@
+{
+  "id": "00207",
+  "text": "点A、C、E在一条直线上，A和E分别在C的左侧和右侧，AC=CE=8，以C为圆心，AC为半径做圆，点B在弧AC的中点上，过B做圆C的切线端BD，BD的长度为6，连接DC",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "circle(C, r=8)",
+    "segment(AC)",
+    "segment(CE)",
+    "segment(BD)",
+    "segment(DC)",
+    "arc(A, C, circle_C)",
+    "on(B, circle_C)",
+    "collinear(A, C, E)",
+    "equal(AC,CE)",
+    "tangent(BD, circle_C)",
+    "length(AC)=8",
+    "length(CE)=8",
+    "length(BD)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00207.png",
+  "meta": {
+    "source": "三角形测量应用题",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "trigonometry",
+      "application"
+    ]
+  }
+}

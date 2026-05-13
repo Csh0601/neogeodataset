@@ -1,0 +1,44 @@
+{
+  "id": "00850",
+  "text": "在正方形ABCD中，AD=6，点E是对角线AC上一点，连接DE，过点E作EF垂直于ED，连接DF交AC于点G，将三角形EFG沿EF翻折，得到三角形EFM，连接DM，交EF于点N，AF=2",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(M)",
+    "point(N)",
+    "square(A, B, C, D)",
+    "triangle(E, F, G)",
+    "triangle(E, F, M)",
+    "segment(AC)",
+    "segment(DE)",
+    "segment(EF)",
+    "segment(DF)",
+    "segment(DM)",
+    "segment(EM)",
+    "segment(FM)",
+    "on(E, AC)",
+    "on(F, AB)",
+    "intersection(G, DF, AC)",
+    "intersection(N, DM, EF)",
+    "fold(G, M, EF)",
+    "perpendicular(EF, ED)",
+    "length(AD)=6",
+    "length(AF)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00850.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "diagonal",
+      "fold",
+      "perpendicular"
+    ]
+  }
+}

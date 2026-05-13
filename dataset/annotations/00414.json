@@ -1,0 +1,28 @@
+{
+  "id": "00414",
+  "text": "在矩形ABCD中，BD是对角线，AE⊥BD，垂足为E，连接CE，∠ADB=30°，tan∠DEC=√3/2",
+  "dsl": [
+    "point(E)",
+    "rectangle(A, B, C, D)",
+    "segment(BD)",
+    "segment(AE)",
+    "segment(CE)",
+    "foot(E, A, BD)",
+    "perpendicular(AE, BD)",
+    "angle(ADB)=30"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00414.png",
+  "meta": {
+    "source": "矩形对角线与垂线",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "diagonal",
+      "perpendicular"
+    ]
+  }
+}

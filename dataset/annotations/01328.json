@@ -1,0 +1,35 @@
+{
+  "id": "01328",
+  "text": "在平面直角坐标系中，抛物线y=x²-2x-3与x轴交于A、B两点，与y轴交于点C，M为抛物线的顶点，点A在点B的左侧",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, 3, 0)",
+    "point_coord(C, 0, -3)",
+    "point_coord(M, 1, -4)",
+    "parabola(p, 1, -2, -3)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(B, p, x)",
+    "axis_intersection(C, p, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01328.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "parabola",
+      "coordinate_system"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "计算了抛物线与坐标轴交点：A(-1,0), B(3,0), C(0,-3)",
+      "顶点M(1,-4)"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

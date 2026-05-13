@@ -1,0 +1,32 @@
+{
+  "id": "00716",
+  "text": "在△ABC中，AB=AC=6，∠B=30°，E为BC上一点，BE=2EC，DE=DC，∠ADC=60°",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(DE)",
+    "segment(DC)",
+    "segment(BE)",
+    "segment(EC)",
+    "on(E, BC)",
+    "equal(AB, AC)",
+    "equal(DE, DC)",
+    "length(AB)=6",
+    "angle(ABC)=30",
+    "ratio(BE, EC)=2",
+    "angle(ADC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00716.png",
+  "meta": {
+    "source": "等腰三角形内角与等长条件",
+    "difficulty": "hard",
+    "tags": ["triangle", "isosceles", "angle", "equal"]
+  }
+}

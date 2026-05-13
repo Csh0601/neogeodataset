@@ -1,0 +1,40 @@
+{
+  "id": "01415",
+  "text": "在△ABC中，∠ACB=90°，AC=BC，M为BC边上的中点，CD⊥AM于点D，CD的延长线交于点E",
+  "dsl": [
+    "point(M)",
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "segment(AM)",
+    "segment(CD)",
+    "midpoint(M, BC)",
+    "foot(D, C, AM)",
+    "intersection(E, CD_extended, AB)",
+    "equal(AC, BC)",
+    "angle(ACB)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01415.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "triangle",
+      "isosceles_right",
+      "midpoint",
+      "perpendicular",
+      "extension"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "C在顶部，A在左下，B在右下",
+      "M是BC中点，CD垂直于AM，CD延长交AB于E"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

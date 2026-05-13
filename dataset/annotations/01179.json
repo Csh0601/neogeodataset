@@ -1,0 +1,33 @@
+{
+  "id": "01179",
+  "text": "P是等边△ABC内一点，PA=3，PB=5，PC=4",
+  "dsl": [
+    "point(P)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "equilateral(A, B, C)",
+    "length(PA)=3",
+    "length(PB)=5",
+    "length(PC)=4",
+    "inside(P, ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01179.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "interior_point",
+      "area"
+    ]
+  }
+}

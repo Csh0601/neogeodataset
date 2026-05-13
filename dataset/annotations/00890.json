@@ -1,0 +1,25 @@
+{
+  "id": "00890",
+  "text": "在△ABC中，AD垂直于BC，垂足为D，AB+BD=DC，∠B=54°，∠C=27°",
+  "dsl": [
+    "point(D)",
+    "triangle(A, B, C)",
+    "segment(AD)",
+    "segment(BD)",
+    "segment(DC)",
+    "foot(D, A, BC)",
+    "perpendicular(AD, BC)",
+    "angle(ABC)=54",
+    "angle(ACB)=27"
+  ],
+  "image_path": "images/00890.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形高线与角度",
+    "difficulty": "middle",
+    "tags": ["triangle", "perpendicular", "foot", "angle"]
+  }
+}

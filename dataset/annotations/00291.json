@@ -1,0 +1,30 @@
+{
+  "id": "00291",
+  "text": "在平行四边形ABCD中，AB=4,BC=6,点E是BC上靠近B的三等分点，F在AD上靠近D的三等分点，连接BF、DE，四边形BEDF是平行四边形",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "parallelogram(B, E, D, F)",
+    "segment(BF)",
+    "segment(DE)",
+    "trisection(E, BC, near=B)",
+    "trisection(F, AD, near=D)",
+    "length(AB)=4",
+    "length(BC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00291.png",
+  "meta": {
+    "source": "平行四边形三等分点",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "ratio",
+      "parallel"
+    ]
+  }
+}

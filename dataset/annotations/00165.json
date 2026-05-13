@@ -1,0 +1,36 @@
+{
+  "id": "00165",
+  "text": "在矩形ABCD中，AB=2，BC=2√5，E是BC的中点，将△ABE沿AE翻折，点B落在点F处，连结CF，AF=AB=2，AD=2√5，CE=√5",
+  "dsl": [
+    "point(F)",
+    "point(E)",
+    "rectangle(A, B, C, D)",
+    "triangle(A, B, E)",
+    "segment(AE)",
+    "segment(CF)",
+    "segment(EF)",
+    "segment(AF)",
+    "midpoint(E, BC)",
+    "fold(B, F, AE)",
+    "equal(AF, AB)",
+    "length(AB)=2",
+    "length(AF)=2",
+    "length(AD)=2√5",
+    "length(CE)=√5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00165.png",
+  "meta": {
+    "source": "矩形翻折",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "fold",
+      "midpoint",
+      "cosine"
+    ]
+  }
+}

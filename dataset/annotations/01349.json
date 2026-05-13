@@ -1,0 +1,36 @@
+{
+  "id": "01349",
+  "text": "在边长为2√3的等边△ABC中，点D在BC上，点E在AC上，且AE=CD，连接BE、AD，BE与AD相交于点P",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "point(P)",
+    "segment(BE)",
+    "segment(AD)",
+    "on(D, BC)",
+    "on(E, AC)",
+    "intersection(P, BE, AD)",
+    "equilateral(A, B, C)",
+    "equal(AE, CD)",
+    "length(AB)=2√3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01349.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "equilateral",
+      "intersection"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "动点D、E静态化"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

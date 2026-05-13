@@ -1,0 +1,40 @@
+{
+  "id": "00707",
+  "text": "在平面直角坐标系中，直线MN的函数解析式为y=-x+3，M(0,3)在y轴上，N(3,0)在x轴上，点A在线段MN上且AN=2AM，A(1,2)，B点是x轴上一点，△AOB是以OA为腰的等腰三角形",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(M)",
+    "point(N)",
+    "point_coord(M, 0, 3)",
+    "point_coord(N, 3, 0)",
+    "point_coord(A, 1, 2)",
+    "line_function(l, -1, 3)",
+    "segment(MN)",
+    "segment(OA)",
+    "segment(OB)",
+    "on(M, axis_y)",
+    "on(N, axis_x)",
+    "on(A, MN)",
+    "on(B, axis_x)",
+    "on(M, line_l)",
+    "on(N, line_l)",
+    "triangle(A, O, B)",
+    "ratio(AN, AM)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00707.png",
+  "meta": {
+    "source": "直线上定比分点与等腰三角形",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "line",
+      "isosceles"
+    ]
+  }
+}

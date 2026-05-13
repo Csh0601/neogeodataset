@@ -1,0 +1,40 @@
+{
+  "id": "00279",
+  "text": "半径为2的⊙O中，P是圆O外一点，PA、PB是两条切线，PA=3，A、B为切点，线段OP交⊙O于点M，PA=PB，OP⊥AB",
+  "dsl": [
+    "point(P)",
+    "point(A)",
+    "point(B)",
+    "point(M)",
+    "circle(O, r=2)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(OP)",
+    "segment(AB)",
+    "segment(OA)",
+    "segment(OB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "intersection(M, OP, circle_O)",
+    "perpendicular_bisector(OP, AB)",
+    "tangent(PA, circle_O)",
+    "tangent(PB, circle_O)",
+    "equal(PA, PB)",
+    "length(PA)=3",
+    "length(OA)=2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00279.png",
+  "meta": {
+    "source": "圆的切线性质",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "tangent",
+      "perpendicular"
+    ]
+  }
+}

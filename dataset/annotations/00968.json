@@ -1,0 +1,23 @@
+{
+  "id": "00968",
+  "text": "P是正方形ABCD外一点，PA=3，PB=4",
+  "dsl": [
+    "point(P)",
+    "square(A, B, C, D)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "length(PA)=3",
+    "length(PB)=4"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00968.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["square", "distance"]
+  }
+}

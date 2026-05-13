@@ -1,0 +1,32 @@
+{
+  "id": "00358",
+  "text": "在菱形ABCD中，对角线AC、BD相交于点O，H为BC中点，AC=6，BD=8，线段OH的长为5/2",
+  "dsl": [
+    "point(O)",
+    "point(H)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OH)",
+    "midpoint(H, BC)",
+    "intersection(O, AC, BD)",
+    "equal(AB, BC)",
+    "length(AC)=6",
+    "length(BD)=8",
+    "length(OH)=2.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00358.png",
+  "meta": {
+    "source": "菱形对角线与中点",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "diagonal",
+      "midpoint"
+    ]
+  }
+}

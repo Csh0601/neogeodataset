@@ -1,0 +1,31 @@
+{
+  "id": "00050",
+  "text": "在菱形ABCD中，AB=5,∠ABC=60°，点P为线段AC中点，点E为射线BP上一点,BE=1.5BP",
+  "dsl": [
+    "point(P)",
+    "point(E)",
+    "parallelogram(A, B, C, D)",
+    "segment(AC)",
+    "segment(PE)",
+    "ray(B, P)",
+    "midpoint(P, AC)",
+    "on(E, ray_BP)",
+    "equal(AB, BC)",
+    "angle(ABC)=60",
+    "length(AB)=5",
+    "ratio(BE, BP)=1.5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00050.png",
+  "meta": {
+    "source": "菱形与动点",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "moving_point"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "00285",
+  "text": "在△ABC中，B在A的北偏东60°方向，AB=60，BC沿正南方向，BC=90，N是经过A的正北方向的辅助点",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(N)",
+    "triangle(A, B, C)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AN)",
+    "parallel(BC, AN)",
+    "length(AB)=60",
+    "length(BC)=90",
+    "angle(NAB)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00285.png",
+  "meta": {
+    "source": "航海方向角应用题",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "direction_angle",
+      "application"
+    ]
+  }
+}

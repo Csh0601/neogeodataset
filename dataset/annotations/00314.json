@@ -1,0 +1,43 @@
+{
+  "id": "00314",
+  "text": "在⊙O中，半径为4，弦AB的长度为4√3，点C是劣弧AB上的一个点，连接OA,OB,AC,CB,∠COB的大小是60°，点D是弦AC的中点，点E是弦BC的中点，连接DE、OD、OE，∠AOB=120°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "circle(O, r=4)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(DE)",
+    "segment(OD)",
+    "segment(OE)",
+    "arc(A, B, circle_O)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "midpoint(D, AC)",
+    "midpoint(E, BC)",
+    "length(AB)=4√3",
+    "angle(AOB)=120",
+    "angle(COB)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00314.png",
+  "meta": {
+    "source": "圆中弦与中点",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "chord",
+      "midpoint"
+    ]
+  }
+}

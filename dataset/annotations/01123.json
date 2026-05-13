@@ -1,0 +1,38 @@
+{
+  "id": "01123",
+  "text": "在平面直角坐标系xOy中，四边形ABCO为正方形，点A的坐标为(0,5)，B(5,5)，C(5,0)，连接BD",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point_coord(A, 0, 5)",
+    "point_coord(B, 5, 5)",
+    "point_coord(C, 5, 0)",
+    "square(A, B, C, O)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(OA)",
+    "segment(OC)",
+    "segment(BD)",
+    "on(A, axis_y)",
+    "on(O, axis_x)",
+    "on(C, axis_x)",
+    "on(D, OA)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01123.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "square",
+      "distance"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "00914",
+  "text": "在平面直角坐标系中，抛物线C1: y=x^2-2的顶点为A，直线l: y=2x-2与抛物线C1交于A、C两点，与x轴交于点B(1,0)，且OA=2OB，△OAC的面积为4",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, 1, 0)",
+    "point_coord(A, 0, -2)",
+    "parabola(p1, 1, 0, -2)",
+    "line_function(l1, 2, -2)",
+    "triangle(O, A, C)",
+    "on(B, axis_x)",
+    "on(A, axis_y)",
+    "function_point(A, p1)",
+    "function_point(B, l1)",
+    "function_point(A, l1)",
+    "function_point(C, p1)",
+    "function_point(C, l1)",
+    "length(OB)=1",
+    "ratio(OA, OB)=2"
+  ],
+  "image_path": "images/00914.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "抛物线与直线交点面积",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "line_function"
+    ]
+  }
+}

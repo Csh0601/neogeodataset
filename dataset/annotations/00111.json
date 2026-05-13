@@ -1,0 +1,34 @@
+{
+  "id": "00111",
+  "text": "在梯形ABDC中，AB⊥AC，E在AC上，AE=18，EC=6，∠DEC=60°，CD⊥AC，AB=3，连接BE、ED",
+  "dsl": [
+    "point(E)",
+    "trapezoid(A, B, D, C)",
+    "segment(AE)",
+    "segment(BE)",
+    "segment(EC)",
+    "segment(ED)",
+    "on(E, AC)",
+    "perpendicular(AB, AC)",
+    "perpendicular(CD, AC)",
+    "length(AB)=3",
+    "length(AE)=18",
+    "length(EC)=6",
+    "angle(DEC)=60"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00111.png",
+  "meta": {
+    "source": "测量与仰角",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "perpendicular",
+      "angle",
+      "measurement"
+    ]
+  }
+}

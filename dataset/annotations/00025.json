@@ -1,0 +1,39 @@
+{
+  "id": "00025",
+  "text": "在△ABC中，AB=6，AC=BC=5，以BC为直径作⊙O，圆心O是BC的中点，⊙O与AB交于点D，与AC交于点G，过D作⊙O的切线DF，D为切点，DF与CB的延长线交于点E",
+  "dsl": [
+    "point(D)",
+    "point(G)",
+    "point(E)",
+    "point(F)",
+    "circle(O, r=2.5)",
+    "triangle(A, B, C)",
+    "segment(DF)",
+    "midpoint(O, BC)",
+    "on(D, circle_O)",
+    "on(G, circle_O)",
+    "on(D, AB)",
+    "on(G, AC)",
+    "on(E, CB_extended)",
+    "intersection(E, DF, CB_extended)",
+    "tangent(D, circle_O)",
+    "length(AB)=6",
+    "length(AC)=5",
+    "length(BC)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00025.png",
+  "meta": {
+    "source": "三角形与圆的切线问题",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "circle",
+      "tangent",
+      "diameter"
+    ]
+  }
+}

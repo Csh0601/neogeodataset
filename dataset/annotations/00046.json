@@ -1,0 +1,35 @@
+{
+  "id": "00046",
+  "text": "在平面直角坐标系中，抛物线y=2/5(x+5/2)(x-4)与x轴交于点A(4,0)和点C(-5/2,0)，与y轴交于点B(0,-4)，M为OA的中点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(M)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, 4, 0)",
+    "point_coord(C, -5/2, 0)",
+    "point_coord(B, 0, -4)",
+    "parabola(p, 0.4, -0.6, -4)",
+    "segment(OA)",
+    "midpoint(M, OA)",
+    "axis_intersection(A, p, x)",
+    "axis_intersection(C, p, x)",
+    "axis_intersection(B, p, y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00046.png",
+  "meta": {
+    "source": "抛物线与中点",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "midpoint"
+    ]
+  }
+}

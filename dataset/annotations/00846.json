@@ -1,0 +1,23 @@
+{
+  "id": "00846",
+  "text": "在平面直角坐标系中，四边形ABCO是正方形，点B的坐标为(4,4)，直线y=1.5x-2经过正方形，O为坐标原点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(O, 0, 0)",
+    "point_coord(B, 4, 4)",
+    "point_coord(A, 0, 4)",
+    "point_coord(C, 4, 0)",
+    "square(A, B, C, O)",
+    "line_function(l, 1.5, -2)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00846.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "square", "linear_function"]
+  }
+}

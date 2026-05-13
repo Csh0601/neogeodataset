@@ -1,0 +1,40 @@
+{
+  "id": "01256",
+  "text": "正方形ABCD中，点P是对角线AC上一点，连接BP，过P作PQ⊥BP，PQ交CD于Q，连接BQ交AC于G，AP=√2，Q为CD中点",
+  "dsl": [
+    "point(P)",
+    "point(G)",
+    "square(A, B, C, D)",
+    "segment(AC)",
+    "segment(BP)",
+    "segment(PQ)",
+    "segment(BQ)",
+    "on(P, AC)",
+    "intersection(G, BQ, AC)",
+    "midpoint(Q, CD)",
+    "perpendicular(PQ, BP)",
+    "length(AP)=√2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01256.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "square",
+      "perpendicular",
+      "midpoint",
+      "diagonal"
+    ],
+    "annotated_by": "annotator-3",
+    "supplements": [
+      "P在对角线AC上，PQ⊥BP交CD于Q",
+      "G是BQ与AC的交点"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

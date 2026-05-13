@@ -1,0 +1,33 @@
+{
+  "id": "00461",
+  "text": "点A、B、C、D共面，CD⊥AD，AB=52，AD=72，CD=52，∠CBD=53°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AD)",
+    "segment(BC)",
+    "perpendicular(CD, AD)",
+    "length(AB)=52",
+    "length(AD)=72",
+    "length(CD)=52",
+    "angle(CBD)=53"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00461.png",
+  "meta": {
+    "source": "斜坡测量楼高",
+    "difficulty": "hard",
+    "tags": [
+      "trigonometry",
+      "application",
+      "slope"
+    ]
+  }
+}

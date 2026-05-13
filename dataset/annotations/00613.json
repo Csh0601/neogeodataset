@@ -1,0 +1,27 @@
+{
+  "id": "00613",
+  "text": "点C在线段BD上，且AB⊥BD，DE⊥BD，AC⊥CE，BC=DE，AB=CD",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "collinear(B, C, D)",
+    "perpendicular(AB, BD)",
+    "perpendicular(DE, BD)",
+    "perpendicular(AC, CE)",
+    "equal(BC, DE)",
+    "equal(AB, CD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00613.png",
+  "meta": {
+    "source": "垂直与相等",
+    "difficulty": "middle",
+    "tags": ["perpendicular", "collinear", "equal"]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00796",
+  "text": "在梯形ABCD中，AD平行于BC，E、F分别是AB、CD的中点，EF是梯形的中位线，角ABC的平分线与角DCB的平分线相交于EF上的一点P，EF=3",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(P)",
+    "trapezoid(A, B, C, D)",
+    "segment(EF)",
+    "segment(BP)",
+    "segment(CP)",
+    "midpoint(E, AB)",
+    "midpoint(F, DC)",
+    "on(P, EF)",
+    "parallel(AD, BC)",
+    "bisector(BP, ABC)",
+    "bisector(CP, DCB)",
+    "length(EF)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00796.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["trapezoid", "angle_bisector", "midline"]
+  }
+}

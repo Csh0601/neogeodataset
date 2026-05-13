@@ -1,0 +1,30 @@
+{
+  "id": "01025",
+  "text": "在平面直角坐标系中，A(-2,0)，B(3,0)，点C在y轴正半轴上，∠ACB=45°，C在y轴上",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 3, 0)",
+    "segment(AC)",
+    "segment(BC)",
+    "segment(AB)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "angle(ACB)=45"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01025.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "angle",
+      "y_axis"
+    ]
+  }
+}

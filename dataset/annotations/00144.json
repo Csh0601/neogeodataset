@@ -1,0 +1,35 @@
+{
+  "id": "00144",
+  "text": "在矩形ABCD中，对角线AC、BD交于点O，AB=6，BC=8，过点O作OE⊥AC，交AD于点E，过点E作EF⊥BD，垂足为F",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(O)",
+    "rectangle(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(OE)",
+    "segment(EF)",
+    "foot(F, E, BD)",
+    "intersection(O, AC, BD)",
+    "intersection(E, OE, AD)",
+    "perpendicular(OE, AC)",
+    "perpendicular(EF, BD)",
+    "length(AB)=6",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00144.png",
+  "meta": {
+    "source": "矩形与垂直",
+    "difficulty": "middle",
+    "tags": [
+      "rectangle",
+      "diagonal",
+      "perpendicular"
+    ]
+  }
+}

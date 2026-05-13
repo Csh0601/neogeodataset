@@ -1,0 +1,43 @@
+{
+  "id": "00765",
+  "text": "在平面直角坐标系xOy中，抛物线y=-0.5x²+2x+3与y轴交于点C，与x轴交于A、B两点，A在B的左侧，A(-2,0)，线段BC的解析式为y=-0.5x+3，过点A作AD平行于BC交抛物线于点D，点E为线段BC上方抛物线上一点，连接CE、EB、BD、DC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point_coord(A, -2, 0)",
+    "point_coord(B, 6, 0)",
+    "point_coord(C, 0, 3)",
+    "parabola(p1, -0.5, 2, 3)",
+    "line_function(l1, -0.5, 3)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(AD)",
+    "segment(CE)",
+    "segment(EB)",
+    "segment(BD)",
+    "segment(DC)",
+    "function_point(A, p1)",
+    "function_point(B, p1)",
+    "function_point(C, p1)",
+    "function_point(D, p1)",
+    "function_point(E, p1)",
+    "axis_intersection(A, p1, x)",
+    "axis_intersection(B, p1, x)",
+    "axis_intersection(C, p1, y)",
+    "parallel(AD, BC)"
+  ],
+  "image_path": "images/00765.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "line", "parallel", "quadrilateral"]
+  }
+}

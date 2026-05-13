@@ -1,0 +1,39 @@
+{
+  "id": "00523",
+  "text": "点O是半圆圆心，BE是半圆的直径，点A、D在半圆上，且AD∥BO，∠ABO=60°，AB=8，过点D作DC⊥BE于点C",
+  "dsl": [
+    "point(B)",
+    "point(E)",
+    "point(A)",
+    "point(D)",
+    "point(C)",
+    "circle(O)",
+    "segment(AD)",
+    "segment(BO)",
+    "segment(AB)",
+    "segment(DC)",
+    "on(A, circle_O)",
+    "on(D, circle_O)",
+    "foot(C, D, BE)",
+    "parallel(AD, BO)",
+    "perpendicular(DC, BE)",
+    "collinear(B, O, E)",
+    "angle(ABO)=60",
+    "length(AB)=8",
+    "shaded(triangle_ABD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00523.png",
+  "meta": {
+    "source": "半圆与平行弦",
+    "difficulty": "middle",
+    "tags": [
+      "semicircle",
+      "parallel",
+      "shaded"
+    ]
+  }
+}

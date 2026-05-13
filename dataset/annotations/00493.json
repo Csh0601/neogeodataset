@@ -1,0 +1,36 @@
+{
+  "id": "00493",
+  "text": "在△ABC中，AB=BC，以△ABC的边AB为直径作⊙O，交AC于点D，过点D作DE⊥BC，垂足为点E，DE是⊙O的切线，⊙O的半径为5，AC=6√10，DE的长为3",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "circle(O, r=5)",
+    "segment(AB)",
+    "segment(DE)",
+    "on(D, AC)",
+    "on(D, circle_O)",
+    "foot(E, D, BC)",
+    "tangent(D, circle_O)",
+    "equal(AB, BC)",
+    "perpendicular(DE, BC)",
+    "collinear(A, O, B)",
+    "length(AC)=18.974",
+    "length(DE)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00493.png",
+  "meta": {
+    "source": "等腰三角形直径与切线",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_triangle",
+      "circle",
+      "diameter",
+      "tangent"
+    ]
+  }
+}

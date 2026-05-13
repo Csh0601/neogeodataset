@@ -1,0 +1,29 @@
+{
+  "id": "00433",
+  "text": "两个直角三角形ABC与DEF，∠F=30°，∠C=45°，AB与DE交于点G，EF∥BC，∠EGB=105°",
+  "dsl": [
+    "point(G)",
+    "right_triangle(A, B, C, right_at=A)",
+    "right_triangle(D, E, F, right_at=D)",
+    "intersection(G, AB, DE)",
+    "parallel(EF, BC)",
+    "angle(ACB)=45",
+    "angle(DFE)=30",
+    "angle(DEF)=60",
+    "angle(EGB)=105"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00433.png",
+  "meta": {
+    "source": "三角板摆放与平行线",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "parallel",
+      "angle"
+    ]
+  }
+}

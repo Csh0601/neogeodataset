@@ -1,0 +1,37 @@
+{
+  "id": "00927",
+  "text": "点C、D在线段AB上，△PCD是等边三角形，且∠APB=120°，△ACP∽△PDB",
+  "dsl": [
+    "point(C)",
+    "point(D)",
+    "point(P)",
+    "triangle(A, C, P)",
+    "triangle(P, D, B)",
+    "segment(AB)",
+    "segment(PA)",
+    "segment(PB)",
+    "segment(PC)",
+    "segment(PD)",
+    "segment(CD)",
+    "on(C, AB)",
+    "on(D, AB)",
+    "equilateral(P, C, D)",
+    "similar(ACP, PDB)",
+    "angle(APB)=120"
+  ],
+  "image_path": "images/00927.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "等边三角形子母型相似",
+    "difficulty": "hard",
+    "tags": [
+      "triangle",
+      "equilateral",
+      "similar",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00077",
+  "text": "在四边形ABCD中，AB=6，AD=9，∠ABC=60°，点M在边AB中点，点N在边AD三等分点中靠近A的点上，连接MN，以MN为边作等边△MNP，点P在四边形ABCD内部",
+  "dsl": [
+    "point(M)",
+    "point(N)",
+    "point(P)",
+    "quadrilateral(A, B, C, D)",
+    "triangle(M, N, P)",
+    "segment(MN)",
+    "midpoint(M, AB)",
+    "trisection(N, AD, near=A)",
+    "equal(MN, NP)",
+    "equal(NP, PM)",
+    "length(AB)=6",
+    "length(AD)=9",
+    "angle(ABC)=60",
+    "inside(P, quadrilateral_ABCD)"
+  ],
+  "image_path": "images/00077.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "四边形",
+    "difficulty": "middle",
+    "tags": [
+      "quadrilateral",
+      "equal",
+      "angle"
+    ]
+  }
+}

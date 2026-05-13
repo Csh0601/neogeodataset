@@ -1,0 +1,35 @@
+{
+  "id": "01334",
+  "text": "以Rt△ABC的斜边BC为一边，在△ABC的同侧作正方形BCEF，对角线交于点O，连接AO，AB=4，AO=4√2",
+  "dsl": [
+    "point(O)",
+    "square(B, C, E, F)",
+    "segment(BE)",
+    "segment(CF)",
+    "segment(AO)",
+    "intersection(O, BE, CF)",
+    "right_triangle(A, B, C, right_at=A)",
+    "length(AB)=4",
+    "length(AO)=4√2"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01334.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "square",
+      "diagonal"
+    ],
+    "annotated_by": "agent-4",
+    "supplements": [
+      "AC长度可由几何关系求得"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

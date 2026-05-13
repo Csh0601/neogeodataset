@@ -1,0 +1,44 @@
+{
+  "id": "01259",
+  "text": "∠AOB=90°，OC平分∠AOB，以C为顶点作∠DCE=90°，CD交OA于点D，CE交OB于点E，OC=3",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "ray(O, A)",
+    "ray(O, B)",
+    "segment(OC)",
+    "segment(CD)",
+    "segment(CE)",
+    "on(D, OA)",
+    "on(E, OB)",
+    "equal_angle(AOC, COB)",
+    "angle(AOB)=90",
+    "angle(DCE)=90",
+    "length(OC)=3"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01259.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "angle_bisector",
+      "right_angle",
+      "ray"
+    ],
+    "annotated_by": "agent-5",
+    "supplements": [
+      "OC平分∠AOB，∠DCE=90°以C为顶点",
+      "图1场景"
+    ]
+  },
+  "validated": true,
+  "needs_review": false
+}

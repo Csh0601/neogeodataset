@@ -1,0 +1,30 @@
+{
+  "id": "00363",
+  "text": "点O是正方形ABCD的中心，在正方形内部作一点E（异于点O），使得EB=EC，连接EB、EC、EO，∠BEO=∠CEO",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "square(A, B, C, D)",
+    "segment(EB)",
+    "segment(EC)",
+    "segment(EO)",
+    "intersection(O, AC, BD)",
+    "equal(EB, EC)",
+    "equal_angle(BEO, CEO)",
+    "inside(E, square_ABCD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00363.png",
+  "meta": {
+    "source": "正方形中心与等距点",
+    "difficulty": "middle",
+    "tags": [
+      "square",
+      "center",
+      "equal_distance"
+    ]
+  }
+}

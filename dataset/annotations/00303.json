@@ -1,0 +1,36 @@
+{
+  "id": "00303",
+  "text": "在平面直角坐标中，在X轴的点A、B、C对应的横坐标分别为0、2、4，做矩形BCDE, 其中BE长度为8，将线段CA绕点C按顺时针方向旋转，点A落在矩形BCDE的边BE上时记为点A1，连接CA1",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(A1)",
+    "point(D)",
+    "point(E)",
+    "point_coord(A, 0, 0)",
+    "point_coord(B, 2, 0)",
+    "point_coord(C, 4, 0)",
+    "rectangle(B, C, D, E)",
+    "segment(CA)",
+    "segment(CA1)",
+    "rotate_to(A1, source=A, center=C, target=BE)",
+    "length(CA)=4",
+    "length(BE)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00303.png",
+  "meta": {
+    "source": "尺规旋转与矩形",
+    "difficulty": "middle",
+    "tags": [
+      "rotation",
+      "rectangle",
+      "number_line"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "00449",
+  "text": "△ABC内接于⊙O，∠B=60°，CD是⊙O的直径，点P是CD延长线上一点，且AP=AC，PA是⊙O的切线，PD=√5，⊙O的直径为2√5",
+  "dsl": [
+    "point(D)",
+    "point(P)",
+    "circle(O)",
+    "triangle(A, B, C)",
+    "segment(CD)",
+    "segment(AP)",
+    "segment(AC)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "on(D, circle_O)",
+    "on(P, CD_extended)",
+    "tangent(A, circle_O)",
+    "equal(AP, AC)",
+    "collinear(C, O, D)",
+    "angle(ABC)=60",
+    "length(PD)=2.236"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00449.png",
+  "meta": {
+    "source": "圆内接三角形与切线",
+    "difficulty": "hard",
+    "tags": [
+      "circle",
+      "inscribed_triangle",
+      "tangent",
+      "diameter"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "00818",
+  "text": "AB平行于CD，AE平行于FD，AE、FD分别交BC于点G、H，F在AB上，E在CD上",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "segment(AB)",
+    "segment(CD)",
+    "segment(AE)",
+    "segment(FD)",
+    "segment(BC)",
+    "on(F, AB)",
+    "on(E, CD)",
+    "intersection(G, AE, BC)",
+    "intersection(H, FD, BC)",
+    "parallel(AB, CD)",
+    "parallel(AE, FD)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00818.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["parallel", "intersection", "proportion"]
+  }
+}

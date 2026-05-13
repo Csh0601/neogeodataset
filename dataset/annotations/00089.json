@@ -1,0 +1,26 @@
+{
+  "id": "00089",
+  "text": "在Rt△ABC中，∠ACB=90°，点D在AC中点，∠DBC=∠A，AC=4，BC=3连接BD",
+  "dsl": [
+    "segment(BD)",
+    "midpoint(D, AC)",
+    "right_triangle(A, B, C, right_at=C)",
+    "equal_angle(DBC, BAC)",
+    "angle(ACB)=90",
+    "length(AC)=4",
+    "length(BC)=3"
+  ],
+  "image_path": "images/00089.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "三角形",
+    "difficulty": "easy",
+    "tags": [
+      "triangle",
+      "angle"
+    ]
+  }
+}

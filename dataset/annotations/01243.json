@@ -1,0 +1,35 @@
+{
+  "id": "01243",
+  "text": "矩形ABCD中，E为边AB上一点，将△ADE沿DE折叠，使点A的对应点F恰好落在边BC上，连接AF，AF交DE于点N，连接BN，BF·AD=15，tan∠BNF=√5/2",
+  "dsl": [
+    "rectangle(A, B, C, D)",
+    "triangle(A, D, E)",
+    "segment(DE)",
+    "segment(AF)",
+    "segment(BN)",
+    "on(E, AB)",
+    "on(F, BC)",
+    "intersection(N, AF, DE)",
+    "fold(A, F, DE)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01243.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "intersection"
+    ],
+    "annotated_by": "annotator-2",
+    "supplements": [
+      "BF·AD=15和tan∠BNF=√5/2为求解条件，未直接转为DSL约束"
+    ]
+  },
+  "validated": false,
+  "needs_review": true
+}

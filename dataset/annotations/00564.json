@@ -1,0 +1,31 @@
+{
+  "id": "00564",
+  "text": "在△ABC中，∠ABC=90°，∠BAC=30°，BC=1，将△ABC绕点A按逆时针方向旋转90°后得到△AB'C'，阴影部分面积为(π-√3)/4",
+  "dsl": [
+    "point(B_prime)",
+    "point(C_prime)",
+    "triangle(A, B, C)",
+    "triangle(A, B_prime, C_prime)",
+    "segment(BB_prime)",
+    "segment(CC_prime)",
+    "rotate(B_prime, source=B, center=A, angle=90)",
+    "rotate(C_prime, source=C, center=A, angle=90)",
+    "angle(ABC)=90",
+    "angle(BAC)=30",
+    "length(BC)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00564.png",
+  "meta": {
+    "source": "三角形旋转",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "rotation",
+      "shaded"
+    ]
+  }
+}

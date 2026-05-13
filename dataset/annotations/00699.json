@@ -1,0 +1,37 @@
+{
+  "id": "00699",
+  "text": "在菱形ABCD中，∠B=60°，E为AB的中点，将△AED沿DE翻折得到△GED，射线DG交BC于点F，AD=2，BF=1",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "parallelogram(A, B, C, D)",
+    "triangle(A, E, D)",
+    "triangle(G, E, D)",
+    "segment(DE)",
+    "ray(D, G)",
+    "segment(BF)",
+    "midpoint(E, AB)",
+    "on(F, BC)",
+    "fold(A, G, DE)",
+    "collinear(D, G, F)",
+    "equal(AB, BC)",
+    "angle(ABC)=60",
+    "length(AD)=2",
+    "length(BF)=1"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00699.png",
+  "meta": {
+    "source": "菱形折叠与射线交点",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "fold",
+      "midpoint"
+    ]
+  }
+}

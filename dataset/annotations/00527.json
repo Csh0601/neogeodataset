@@ -1,0 +1,36 @@
+{
+  "id": "00527",
+  "text": "矩形ABCD纸板中，顺次连接各边中点E、F、G、H得到菱形EFGH，再顺次连接菱形各边中点得到一个小矩形",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "point(G)",
+    "point(H)",
+    "rectangle(A, B, C, D)",
+    "rhombus(E, F, G, H)",
+    "segment(EF)",
+    "segment(FG)",
+    "segment(GH)",
+    "segment(HE)",
+    "midpoint(E, AB)",
+    "midpoint(F, BC)",
+    "midpoint(G, CD)",
+    "midpoint(H, DA)",
+    "shaded(quadrilateral_EFGH)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00527.png",
+  "meta": {
+    "source": "矩形中点菱形",
+    "difficulty": "easy",
+    "tags": [
+      "rectangle",
+      "midpoint",
+      "rhombus",
+      "shaded"
+    ]
+  }
+}

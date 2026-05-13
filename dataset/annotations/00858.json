@@ -1,0 +1,45 @@
+{
+  "id": "00858",
+  "text": "在平面直角坐标系中，A、B、C为坐标轴上的三个点，且OA=OB=OC=6，过点A作线段AD交线段BC于点D，交y轴于点E，△ABD的面积为18，过点C作CF垂直于AD，交线段AB于点F",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point_coord(O, 0, 0)",
+    "point_coord(A, -6, 0)",
+    "point_coord(B, 6, 0)",
+    "point_coord(C, 0, 6)",
+    "triangle(A, B, D)",
+    "segment(AD)",
+    "segment(BC)",
+    "segment(AB)",
+    "segment(CF)",
+    "on(A, axis_x)",
+    "on(B, axis_x)",
+    "on(C, axis_y)",
+    "intersection(D, AD, BC)",
+    "on(E, AD)",
+    "on(E, axis_y)",
+    "foot(F, C, AD)",
+    "perpendicular(CF, AD)",
+    "length(OA)=6",
+    "length(OB)=6",
+    "length(OC)=6"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00858.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": [
+      "coordinate",
+      "triangle",
+      "perpendicular",
+      "intersection"
+    ]
+  }
+}

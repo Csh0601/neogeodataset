@@ -1,0 +1,37 @@
+{
+  "id": "01297",
+  "text": "在Rt△ABC中，∠ACB=90°，AC=6，BC=8，AD是∠BAC的平分线，P在AD上，Q在AC上，连接PC、PQ",
+  "dsl": [
+    "point(P)",
+    "point(Q)",
+    "segment(AD)",
+    "segment(PC)",
+    "segment(PQ)",
+    "on(D, BC)",
+    "on(P, AD)",
+    "on(Q, AC)",
+    "right_triangle(A, B, C, right_at=C)",
+    "bisector(AD, BAC)",
+    "length(AC)=6",
+    "length(BC)=8"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01297.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "right_triangle",
+      "angle_bisector"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "动点P、Q静态化"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "01316",
+  "text": "在直角坐标系中，点A的坐标为(1,4)，点B的坐标为(3,0)，点C在y轴上，连接AC、BC",
+  "dsl": [
+    "coordinate_system(O)",
+    "point_coord(A, 1, 4)",
+    "point_coord(B, 3, 0)",
+    "segment(AC)",
+    "segment(BC)",
+    "on(C, axis_y)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01316.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "medium",
+    "tags": [
+      "coordinate_system",
+      "point_coord",
+      "y_axis"
+    ],
+    "annotated_by": "agent-3",
+    "supplements": [
+      "坐标系中A(1,4)在第一象限上方，B(3,0)在x轴正半轴，C在y轴上"
+    ]
+  },
+  "validated": false,
+  "needs_review": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "00244",
+  "text": "在边长为4的菱形ABCD中，将对角线AC分别向两端延长到点E和F，使得AE=CF=0.5AC，连接DE、DF、BE、BF，四边形BEDF是菱形",
+  "dsl": [
+    "parallelogram(A, B, C, D)",
+    "parallelogram(B, E, D, F)",
+    "segment(AC)",
+    "equal(AB, BC)",
+    "equal(BE, ED)",
+    "ratio(AE, AC)=0.5",
+    "ratio(CF, AC)=0.5",
+    "length(AB)=4",
+    "on_extended(E, CA, towards=A)",
+    "on_extended(F, AC, towards=C)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00244.png",
+  "meta": {
+    "source": "菱形对角线延长",
+    "difficulty": "middle",
+    "tags": [
+      "rhombus",
+      "diagonal",
+      "extension"
+    ]
+  }
+}

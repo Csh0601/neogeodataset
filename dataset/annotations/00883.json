@@ -1,0 +1,30 @@
+{
+  "id": "00883",
+  "text": "在梯形ABCD中，AB平行于CD，AC、BD相交于点O，AC=5，BD=12，E、F分别是AD、BC的中点，中位线EF的长为13/2",
+  "dsl": [
+    "point(O)",
+    "point(E)",
+    "point(F)",
+    "trapezoid(A, B, C, D)",
+    "segment(AC)",
+    "segment(BD)",
+    "segment(EF)",
+    "intersection(O, AC, BD)",
+    "midpoint(E, AD)",
+    "midpoint(F, BC)",
+    "parallel(AB, CD)",
+    "length(AC)=5",
+    "length(BD)=12",
+    "length(EF)=6.5"
+  ],
+  "image_path": "images/00883.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "梯形对角线交点",
+    "difficulty": "middle",
+    "tags": ["trapezoid", "intersection", "diagonal"]
+  }
+}

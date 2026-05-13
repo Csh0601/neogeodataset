@@ -1,0 +1,34 @@
+{
+  "id": "00532",
+  "text": "OC是∠AOB的角平分线，直线DE∥OB，∠DOC=52°，∠AOD=64°",
+  "dsl": [
+    "point(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "line(DE)",
+    "segment(OA)",
+    "segment(OB)",
+    "segment(OC)",
+    "angle_bisector(C, A, O, B)",
+    "parallel(DE, OB)",
+    "angle(DOC)=52",
+    "angle(AOD)=64"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00532.png",
+  "meta": {
+    "source": "角平分线与平行线",
+    "difficulty": "easy",
+    "tags": [
+      "bisector",
+      "parallel",
+      "angle"
+    ]
+  }
+}

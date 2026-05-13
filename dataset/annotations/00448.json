@@ -1,0 +1,30 @@
+{
+  "id": "00448",
+  "text": "在平行四边形ABCD中，E为AB边上的中点，连接DE并延长，交CB的延长线于点F，AD=BF，平行四边形ABCD的面积为32，四边形EBCD的面积为24",
+  "dsl": [
+    "point(E)",
+    "point(F)",
+    "parallelogram(A, B, C, D)",
+    "quadrilateral(E, B, C, D)",
+    "segment(DE)",
+    "segment(BF)",
+    "on(F, CB_extended)",
+    "midpoint(E, AB)",
+    "collinear(D, E, F)",
+    "equal(AD, BF)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00448.png",
+  "meta": {
+    "source": "平行四边形中点延长",
+    "difficulty": "middle",
+    "tags": [
+      "parallelogram",
+      "midpoint",
+      "area"
+    ]
+  }
+}

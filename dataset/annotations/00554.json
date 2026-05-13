@@ -1,0 +1,32 @@
+{
+  "id": "00554",
+  "text": "在Rt△ABC中，∠ACB=90°，将△ABC绕点C顺时针旋转得到△DEC，点D落在线段AB上，连接BE，BE=BD，tan∠ABC=√2-1",
+  "dsl": [
+    "point(D)",
+    "point(E)",
+    "triangle(A, B, C)",
+    "triangle(D, E, C)",
+    "segment(BE)",
+    "segment(BD)",
+    "segment(DC)",
+    "on(D, AB)",
+    "rotate(D, source=A, center=C, angle=-90)",
+    "rotate(E, source=B, center=C, angle=-90)",
+    "equal(BE, BD)",
+    "angle(ACB)=90",
+    "tan(ABC)=0.414"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00554.png",
+  "meta": {
+    "source": "直角三角形旋转",
+    "difficulty": "middle",
+    "tags": [
+      "triangle",
+      "rotation"
+    ]
+  }
+}

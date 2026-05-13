@@ -1,0 +1,30 @@
+{
+  "id": "00051",
+  "text": "在等腰△ABC中，AB=AC=5，点D在AC上，BD=BC=AD，∠BAC=36°，连接BD",
+  "dsl": [
+    "point(D)",
+    "segment(BD)",
+    "segment(AD)",
+    "segment(DC)",
+    "on(D, AC)",
+    "isosceles(A, B, C)",
+    "equal(BD, BC)",
+    "equal(BC, AD)",
+    "angle(BAC)=36",
+    "length(AB)=5"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00051.png",
+  "meta": {
+    "source": "等腰三角形与等长线段",
+    "difficulty": "middle",
+    "tags": [
+      "isosceles",
+      "equal_segments",
+      "angle"
+    ]
+  }
+}

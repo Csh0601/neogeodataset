@@ -1,0 +1,48 @@
+{
+  "id": "00177",
+  "text": "在平面直角坐标系中，O为坐标原点，MN垂直于x轴，M、N的横坐标均为-2，点D的坐标为(0,4)，点E的坐标为(-3,0)，以MN为对称轴作△ODE的轴对称图形△ABC，其中A、B、C分别是E、D、O的对应点，点A的坐标为(-1,0)，点B的坐标为(-4,2)，点C的坐标为(-4,0)，对称轴MN与线段DE相交于点F，点B恰好落在反比例函数y=-8/x的图象上，点A为OE的三等分点中靠近O的点",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(N)",
+    "point(M)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "point(F)",
+    "point_coord(D, 0, 4)",
+    "point_coord(E, -3, 0)",
+    "point_coord(A, -1, 0)",
+    "point_coord(B, -4, 2)",
+    "point_coord(C, -4, 0)",
+    "point_coord(O, 0, 0)",
+    "hyperbola(h, -8)",
+    "triangle(O, D, E)",
+    "triangle(A, B, C)",
+    "segment(MN)",
+    "intersection(F, DE ,AB)",
+    "trisection(A, OE , near=O)",
+    "function_point(B, h)",
+    "reflect(B, D, MN)",
+    "reflect(C, O, MN)",
+    "reflect(A, E, MN)",
+    "perpendicular(MN, axis_x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00177.png",
+  "meta": {
+    "source": "对称与反比例函数",
+    "difficulty": "hard",
+    "needs_review": true,
+    "tags": [
+      "coordinate",
+      "hyperbola",
+      "symmetry",
+      "area"
+    ]
+  }
+}

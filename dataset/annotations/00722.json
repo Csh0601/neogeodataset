@@ -1,0 +1,32 @@
+{
+  "id": "00722",
+  "text": "在平面直角坐标系xOy中，抛物线y=-x^2+bx+c与一直线交于A(-1,0)和C(2,3)两点，与y轴交于点N，抛物线顶点为D",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(C)",
+    "point(N)",
+    "point(D)",
+    "point_coord(A, -1, 0)",
+    "point_coord(C, 2, 3)",
+    "parabola(p1, -1, 2, 3)",
+    "line_function(l1, 1, 1)",
+    "segment(AC)",
+    "function_point(A, p1)",
+    "function_point(C, p1)",
+    "function_point(A, l1)",
+    "function_point(C, l1)",
+    "axis_intersection(N, p1, y)",
+    "axis_intersection(A, p1, x)"
+  ],
+  "image_path": "images/00722.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "middle",
+    "tags": ["coordinate", "parabola", "line"]
+  }
+}

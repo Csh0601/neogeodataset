@@ -1,0 +1,37 @@
+{
+  "id": "00360",
+  "text": "BC∥DE，且BC<DE，AD=BC=4，AB+DE=10，AE/AC的值为5/3",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "segment(BC)",
+    "segment(DE)",
+    "segment(AD)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(AE)",
+    "parallel(BC, DE)",
+    "collinear(E, A, B)",
+    "collinear(D, A, C)",
+    "length(AD)=4",
+    "length(BC)=4",
+    "ratio(AE, AC)=1.667"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00360.png",
+  "meta": {
+    "source": "平行线与比例",
+    "difficulty": "middle",
+    "tags": [
+      "parallel",
+      "ratio",
+      "similar"
+    ]
+  }
+}

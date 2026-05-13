@@ -1,0 +1,29 @@
+{
+  "id": "00061",
+  "text": "在△ABC中，∠ACB=90°，AC=7，BC=9，点M是△ABC内部一点，连接AM、BM、CM，CM=3",
+  "dsl": [
+    "point(M)",
+    "triangle(A, B, C)",
+    "segment(AM)",
+    "segment(BM)",
+    "segment(CM)",
+    "angle(ACB)=90",
+    "length(AC)=7",
+    "length(BC)=9",
+    "length(CM)=3",
+    "inside(M, triangle_ABC)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00061.png",
+  "meta": {
+    "source": "直角三角形内点问题",
+    "difficulty": "hard",
+    "tags": [
+      "right_triangle",
+      "interior_point"
+    ]
+  }
+}

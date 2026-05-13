@@ -1,0 +1,41 @@
+{
+  "id": "00451",
+  "text": "在矩形ABCD中，AB=√3+2，AD=√3，把AD沿AE折叠，使点D恰好落在AB边上的D'处，再将△AED'绕点E顺时针旋转α，得到△A'ED''，使得EA'恰好经过BD'的中点F，A'D''交AB于点G，连接AA'，A'F的长度是√6-2，弧D'D''的长度是5√3π/12，△A'AF≅△A'EG，△AA'F∽△EGF",
+  "dsl": [
+    "point(E)",
+    "point(D_prime)",
+    "point(A_prime)",
+    "point(D_dprime)",
+    "point(F)",
+    "point(G)",
+    "rectangle(A, B, C, D)",
+    "triangle(A, E, D)",
+    "triangle(E, G, F)",
+    "segment(AE)",
+    "segment(AA_prime)",
+    "segment(A_primeF)",
+    "on(E, DC)",
+    "on(D_prime, AB)",
+    "on(G, AB)",
+    "midpoint(F, BD_prime)",
+    "reflect(D_prime, D, AE)",
+    "rotate(A_prime, source=A, center=E, angle=-60)",
+    "rotate(D_dprime, source=D_prime, center=E, angle=-60)",
+    "length(AB)=3.732",
+    "length(AD)=1.732"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00451.png",
+  "meta": {
+    "source": "矩形折叠与旋转",
+    "difficulty": "hard",
+    "tags": [
+      "rectangle",
+      "fold",
+      "rotation"
+    ]
+  }
+}

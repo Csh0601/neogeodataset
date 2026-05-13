@@ -1,0 +1,33 @@
+{
+  "id": "00828",
+  "text": "在平面直角坐标系中，直线y=x+4与x轴、y轴分别交于点A和点C，抛物线y=x^2+kx+k-1过点A和点C，抛物线与x轴的另一交点是B",
+  "dsl": [
+    "coordinate_system(O)",
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "line_function(l, 1, 4)",
+    "parabola(f, 1, 4, 3)",
+    "segment(AB)",
+    "segment(AC)",
+    "segment(BC)",
+    "function_point(A, l)",
+    "function_point(C, l)",
+    "axis_intersection(A, l, x)",
+    "axis_intersection(C, l, y)",
+    "function_point(A, f)",
+    "function_point(C, f)",
+    "function_point(B, f)",
+    "axis_intersection(B, f, x)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00828.png",
+  "meta": {
+    "source": "auto_annotated",
+    "difficulty": "hard",
+    "tags": ["coordinate", "parabola", "linear_function"]
+  }
+}

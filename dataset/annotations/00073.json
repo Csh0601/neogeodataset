@@ -1,0 +1,35 @@
+{
+  "id": "00073",
+  "text": "在三角形AOB中，∠AOB=40°，AO=6,OB=8,点C在边OA中点，作CD⊥OB垂足为D，DE∥OA，E在边AB上，∠EDB=40°，∠ACD=130°",
+  "dsl": [
+    "point(C)",
+    "point(D)",
+    "point(E)",
+    "triangle(A, O, B)",
+    "segment(CD)",
+    "segment(DE)",
+    "midpoint(C, OA)",
+    "foot(D, C, OB)",
+    "on(E, AB)",
+    "parallel(DE, OA)",
+    "angle(EDB)=40",
+    "angle(ACD)=130",
+    "angle(AOB)=40",
+    "length(AO)=6",
+    "length(OB)=8"
+  ],
+  "image_path": "images/00073.png",
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "meta": {
+    "source": "几何综合",
+    "difficulty": "hard",
+    "tags": [
+      "parallel",
+      "perpendicular",
+      "angle"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00495",
+  "text": "A、B、C是半径为1的⊙O上的三个点，AB=√2，∠CAB=30°，∠ABC=105°",
+  "dsl": [
+    "point(A)",
+    "point(B)",
+    "point(C)",
+    "circle(O, r=1)",
+    "segment(AB)",
+    "segment(BC)",
+    "segment(CA)",
+    "segment(OA)",
+    "segment(OB)",
+    "on(A, circle_O)",
+    "on(B, circle_O)",
+    "on(C, circle_O)",
+    "length(AB)=1.414",
+    "angle(CAB)=30",
+    "angle(ABC)=105"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00495.png",
+  "meta": {
+    "source": "圆上三点角度",
+    "difficulty": "middle",
+    "tags": [
+      "circle",
+      "inscribed_angle"
+    ]
+  }
+}

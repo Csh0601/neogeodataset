@@ -1,0 +1,38 @@
+{
+  "id": "00122",
+  "text": "在平面直角坐标系中，抛物线y=-1/4x²+x+3经过点C(6,0)，顶点为B，对称轴x=2与x轴相交于点A，D为线段BC的中点，连接BC,AB",
+  "dsl": [
+    "point(C)",
+    "point(A)",
+    "point(B)",
+    "point(D)",
+    "coordinate_system(O)",
+    "point_coord(C, 6, 0)",
+    "point_coord(A, 2, 0)",
+    "point_coord(B, 2, 4)",
+    "point_coord(D, 4, 2)",
+    "parabola(p, -0.25, 1, 3)",
+    "segment(BC)",
+    "segment(AC)",
+    "segment(AB)",
+    "segment(BD)",
+    "midpoint(D, BC)",
+    "function_point(C, p)",
+    "function_point(B, p)"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/00122.png",
+  "meta": {
+    "source": "抛物线与对称轴",
+    "difficulty": "middle",
+    "tags": [
+      "coordinate",
+      "parabola",
+      "midpoint",
+      "symmetry"
+    ]
+  }
+}

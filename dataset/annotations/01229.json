@@ -1,0 +1,31 @@
+{
+  "id": "01229",
+  "text": "在等腰直角三角形ADC中，∠ADC=90°，AD=4，E是AD的中点，以DE为边作正方形DEFG，连接AG、CE，将正方形DEFG绕点D顺时针旋转角α（0°<α<90°）",
+  "dsl": [
+    "square(D, E, F, G)",
+    "segment(AG)",
+    "segment(CE)",
+    "midpoint(E, AD)",
+    "isosceles_right(A, D, C)",
+    "length(AD)=4",
+    "angle(ADC)=90"
+  ],
+  "geometry": {
+    "points": {},
+    "constraints": []
+  },
+  "image_path": "images/01229.png",
+  "meta": {
+    "source": "new_image_batch",
+    "difficulty": "hard",
+    "tags": [
+      "isosceles_right",
+      "square",
+      "rotation"
+    ],
+    "annotated_by": "agent-2",
+    "supplements": []
+  },
+  "validated": true,
+  "needs_review": false
+}
